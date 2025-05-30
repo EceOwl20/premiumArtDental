@@ -72,7 +72,7 @@ export default function TreatmentCarousel() {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     align: "start",
     containScroll: "trimSnaps",
-    loop: false,
+    loop: true,
   });
 
   const scrollPrev = useCallback(
@@ -85,71 +85,73 @@ export default function TreatmentCarousel() {
   );
 
   return (
-    <section className="py-16 px-4 md:px-8 lg:px-16 bg-black/80">
+    <section className="flex max-w-screen bg-black/80 items-center justify-center py-10">
+      <div className="flex flex-col w-[90%] md:w-[85%] lg:w-[90%]">
       <h2 className="text-4xl font-marcellus text-white mb-8">Tedavilerimiz</h2>
 
-      <div className="relative">
-        {/* Sol ok */}
-        <button
-          onClick={scrollPrev}
-          className="absolute left-0 top-1/2 z-20 -translate-y-1/2 bg-lagoBlack2 hover:bg-lagoBlack p-2 rounded-md transition"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-6 h-6 text-white"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
-          </svg>
-        </button>
+<div className="relative">
+  {/* Sol ok */}
+  <button
+    onClick={scrollPrev}
+    className="absolute -left-[4%] top-1/2 z-20 -translate-y-1/2 bg-lagoBlack2 hover:bg-lagoBlack p-2 rounded-md transition"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="w-6 h-6 text-white"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 19l-7-7 7-7" />
+    </svg>
+  </button>
 
-        {/* Carousel viewport */}
-        <div className="embla overflow-hidden" ref={emblaRef}>
-          <div className="embla__container flex gap-6">
-            {treatments.map(({ title, description, Icon }, idx) => (
-              <div
-                key={idx}
-                className="embla__slide flex-shrink-0 w-[80%] sm:w-1/2 md:w-1/3 lg:w-1/4"
-              >
-                <div className="h-full bg-lagoGray/10 border rounded-xl p-6 flex flex-col">
-                  {/* Icon renklerini Tailwind ile kontrol ediyoruz */}
-                  <Icon className="w-12 h-12 mb-4 text-white" />
-                  <h3 className="font-jost text-white text-xl mb-2">{title}</h3>
-                  <p className="font-jost text-white text-sm flex-grow">
-                    {description}
-                  </p>
-                  <Link
-                    href={`/tedavi/${title
-                      .toLowerCase()
-                      .replace(/\s+/g, "-")}`}
-                  >
-                    <div className="mt-4 inline-block border border-lagoGold text-white font-jost uppercase text-sm py-2 px-4 rounded hover:bg-lagoGold hover:text-black hover:bg-white transition">
-                      Detaylı Bilgi
-                    </div>
-                  </Link>
-                </div>
+  {/* Carousel viewport */}
+  <div className="embla overflow-hidden" ref={emblaRef}>
+    <div className="embla__container flex gap-6">
+      {treatments.map(({ title, description, Icon }, idx) => (
+        <div
+          key={idx}
+          className="embla__slide flex-shrink-0 w-[80%] sm:w-1/2 md:w-1/3 lg:w-1/4"
+        >
+          <div className="h-full bg-lagoGray/10 border rounded-xl p-6 flex flex-col">
+            {/* Icon renklerini Tailwind ile kontrol ediyoruz */}
+            <Icon className="w-12 h-12 mb-4 text-white" />
+            <h3 className="font-jost text-white text-xl mb-2">{title}</h3>
+            <p className="font-jost text-white text-sm flex-grow">
+              {description}
+            </p>
+            <Link
+              href={`/tedavi/${title
+                .toLowerCase()
+                .replace(/\s+/g, "-")}`}
+            >
+              <div className="mt-4 inline-block border border-lagoGold text-white font-jost uppercase text-sm py-2 px-4 rounded hover:bg-lagoGold hover:text-black hover:bg-white transition">
+                Detaylı Bilgi
               </div>
-            ))}
+            </Link>
           </div>
         </div>
+      ))}
+    </div>
+  </div>
 
-        {/* Sağ ok */}
-        <button
-          onClick={scrollNext}
-          className="absolute right-0 top-1/2 z-20 -translate-y-1/2 bg-lagoBlack2 hover:bg-lagoBlack p-2 rounded-md transition"
-        >
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            className="w-6 h-6 text-white"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor"
-          >
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
-          </svg>
-        </button>
+  {/* Sağ ok */}
+  <button
+    onClick={scrollNext}
+    className="absolute -right-[4%] top-1/2 z-20 -translate-y-1/2 bg-lagoBlack2 hover:bg-lagoBlack p-2 rounded-md transition"
+  >
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      className="w-6 h-6 text-white"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke="currentColor"
+    >
+      <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
+    </svg>
+  </button>
+</div>
       </div>
     </section>
   );
