@@ -4,8 +4,9 @@
     font-family: 'Lora', sans-serif;
   }
   
+  /* baslıklar roboto */
   .font-roboto {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif; 
   }
 
   .font-raleway {
@@ -121,6 +122,14 @@
   .animate-slide-in-right {
     animation: slideInRight 0.8s ease-out forwards;
   }
+
+
+  .embla__container {
+  display: flex;
+}
+.embla__slide {
+  position: relative;
+}
   
   
   

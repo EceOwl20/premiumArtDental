@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <header className="fixed inset-x-0 top-0 z-50">
       {/* Arka plan resmi */}
-      <div className="flex relative h-20 md:h-28 lg:h-32 bg-black/30 backdrop-blur-sm max-w-screen items-center justify-center">
+      <div className="flex relative h-20 md:h-28 lg:h-32 bg-black/30 backdrop-blur-sm max-w-screen items-center justify-center border-b border-[#d9b740]">
      
         {/* Koyu yarı saydam katman + blur */}
         <div className="absolute flex items-center justify-between w-[90%] lg:w-[80%] lg:min-w-[1295px]">

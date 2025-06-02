@@ -58,7 +58,7 @@ export default function SlideSection() {
           başlangıç yapın.
         </p>
         <Link href="/randevu">
-          <div className="inline-block bg-lagoBlack hover:bg-lagoBlack2 text-white font-jost uppercase py-3 rounded-lg transition">
+          <div className="inline-block bg-[#10271a] hover:bg-lagoBlack2 text-white font-jost capitalize transition px-[10px] py-[4px] lg:px-[24px] lg:py-[10px]">
             Hemen Randevu Oluştur
           </div>
         </Link>
