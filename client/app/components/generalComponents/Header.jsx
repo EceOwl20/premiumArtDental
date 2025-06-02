@@ -6,7 +6,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 // Proje dizinindeki resimler
-import logo from "@/public/images/logo/logowhite.png";           // Dent Laracity logosu
+import logo from "@/public/images/logo/logowhite.png";       
 // import trFlag from "@/public/flags/tr.png";     // Türk bayrağı
 
 export default function Header() {
@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <header className="fixed inset-x-0 top-0 z-50">
       {/* Arka plan resmi */}
-      <div className="flex relative h-20 md:h-28 lg:h-32 bg-black/30 backdrop-blur-sm max-w-screen items-center justify-center">
+      <div className="flex relative h-20 md:h-28 lg:h-32 bg-black/30 backdrop-blur-sm max-w-screen items-center justify-center border-b-[0.5px] border-[#d9b740]">
      
         {/* Koyu yarı saydam katman + blur */}
         <div className="absolute flex items-center justify-between w-[90%] lg:w-[80%] lg:min-w-[1295px]">
@@ -23,7 +23,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/">
             <div className="flex items-center">
-              <Image src={logo} alt="Dent Laracity" width={50} height={50} />
+              <Image src={logo} alt="Dent" width={50} height={50} />
               <span className="ml-2 text-white font-marcellus text-md md:text-lg">
               Premium Art Dental
               </span>

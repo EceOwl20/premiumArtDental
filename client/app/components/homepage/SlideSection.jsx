@@ -40,25 +40,16 @@ export default function SlideSection() {
           Mükemmel Gülüşler, Kusursuz Dokunuşlar!
         </h2>
         <p className="font-jost">
-          Bir gülüş, fark edilmenin en zarif yoludur. Özgüvenle gülümsediğinizde,
-          kapılar açılır, insanlar size daha yakın hisseder ve{" "}
-          <strong>siz, bulunduğunuz her ortamda ışıldarsınız</strong>. Ama ya
-          gülüşünüz sizi yansıtmıyorsa?
+         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas mollitia consequuntur voluptate perferendis? Modi, magnam eos molestiae inventore dolorum consequuntur ut nesciunt earum unde amet obcaecati, voluptatem suscipit omnis facilis.
         </p>
         <p className="font-jost">
-          Bir fotoğraf çekilirken dudaklarınızı sıkıyor musunuz? Kahkaha
-          atarken elinizi ağzınıza götürüyor musunuz?{" "}
-          <strong>Gülüşünüzü saklamak zorunda değilsiniz.</strong> Dent
-          Laracity olarak, sizi kısıtlayan tüm endişeleri geride bırakmanız için
-          buradayız.
+         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores delectus odio voluptates dolorum quidem voluptatem animi repudiandae quas! Placeat magni distinctio ex autem veritatis rerum molestias eum obcaecati, laboriosam molestiae?
         </p>
         <p className="font-jost">
-          Siz, gülüşünüzle hatırlanmayı hak ediyorsunuz.{" "}
-          <strong>Kendinizi ifade etmekten korkmayın.</strong> Şimdi yeni bir
-          başlangıç yapın.
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates a dolore repudiandae temporibus, necessitatibus natus fuga doloribus minima quaerat. Porro, commodi ea aperiam beatae natus quis suscipit odit qui et?
         </p>
         <Link href="/randevu">
-          <div className="inline-block bg-lagoBlack hover:bg-lagoBlack2 text-white font-jost uppercase py-3 rounded-lg transition">
+          <div className="inline-block bg-[#10271a] hover:bg-lagoBlack2 text-white font-jost capitalize transition px-[10px] py-[4px] lg:px-[24px] lg:py-[10px]">
             Hemen Randevu Oluştur
           </div>
         </Link>

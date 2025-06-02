@@ -9,7 +9,7 @@ export default function HeroBanner() {
       {/* Video arka plan */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
-        src="/videos/deneme.mp4"     /* public/videos/banner.mp4 olarak yerleştirin */
+        src="/videos/deneme.mp4"     
         autoPlay
         loop
         muted
@@ -48,7 +48,7 @@ export default function HeroBanner() {
 
           {/* Çağrı butonu */}
           <Link href="/services" className="opacity-0 animate-slide-up delay-1400">
-            <div className="inline-block bg-lagoBlack hover:bg-lagoBlack2 text-white font-jost uppercase text-sm sm:text-base rounded-lg transition">
+            <div className="inline-block bg-lagoBlack hover:bg-lagoBlack2 text-white bg-[#d9b740] px-[10px] py-[4px] lg:px-[24px] lg:py-[10px] font-jost capitalize text-sm md:text-base lg:text-[17px] transition">
               Sunduğumuz Hizmetler
             </div>
           </Link>

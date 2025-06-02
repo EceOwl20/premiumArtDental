@@ -1,6 +1,8 @@
 import {Lora,Roboto, Raleway } from "next/font/google";
 import "./globals.css";
 import Header from "./components/generalComponents/Header";
+import Footer from "./components/generalComponents/Footer";
+import SocialSidebar from "./components/generalComponents/SocialSidebar";
 
 const lora = Lora({
   variable: "--font-lora",
@@ -31,6 +33,8 @@ export default function RootLayout({ children }) {
       >
         <Header/>
         {children}
+        <SocialSidebar/>
+        <Footer/>
       </body>
     </html>
   );
