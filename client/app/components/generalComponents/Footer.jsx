@@ -67,7 +67,7 @@ export default function Footer() {
 
         {/* Telif Hakkı Metni */}
         <p className="text-sm font-jost text-gray-500">
-          PremiumArtDental © {new Date().getFullYear()} • 
+          PremiumArtDental © {new Date().getFullYear()} • Powered by AlphaAshley
         </p>
       </div>
     </footer>

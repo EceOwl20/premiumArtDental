@@ -124,6 +124,27 @@
   }
 
 
+.delay-200 {
+  animation-delay: 0.2s;
+}
+/* 0.4s gecikme */
+.delay-400 {
+  animation-delay: 0.4s;
+}
+/* 1s gecikme */
+.delay-1000 {
+  animation-delay: 1s;
+}
+/* 1.2s gecikme */
+.delay-1200 {
+  animation-delay: 1.2s;
+}
+/* 1.4s gecikme */
+.delay-1400 {
+  animation-delay: 1.4s;
+}
+
+
   .embla__container {
   display: flex;
 }

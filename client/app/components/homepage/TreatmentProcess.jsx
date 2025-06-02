@@ -117,8 +117,7 @@ export default function TreatmentProcess() {
             <FaClipboardList className="text-[#d9b740] w-12 h-12 mb-4" />
             <h3 className="font-jost text-xl text-white mb-2">Ücretsiz Ön Görüşme</h3>
             <p className="font-jost text-white text-sm">
-              Güncel panoramik röntgen ve diş fotoğraflarınızı bize 
-              gönderebilirseniz uzman doktorumuz durumunuzu değerlendirecektir.
+             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ea molestiae ducimus voluptatem eligendi illum debitis. Officia optio itaque recusandae magni iusto libero, pariatur consectetur voluptate error, sequi reiciendis maiores.
             </p>
           </div>
 
@@ -130,8 +129,7 @@ export default function TreatmentProcess() {
             <FaPlane className="text-[#d9b740] w-12 h-12 mb-4" />
             <h3 className="font-jost text-xl text-white mb-2">Seyahat ve Konaklama</h3>
             <p className="font-jost text-white text-sm">
-              Size gönderilen tedavi planından memnun kalmanız halinde 
-              seyahat planlamanızı yapabilirsiniz.
+             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto soluta iure ipsa voluptatum. Dolor blanditiis, quibusdam exercitationem iste omnis totam ipsam assumenda repellat consequuntur vitae temporibus accusantium officiis earum neque!
             </p>
           </div>
 
@@ -143,7 +141,7 @@ export default function TreatmentProcess() {
             <FaUmbrellaBeach className="text-[#d9b740] w-12 h-12 mb-4" />
             <h3 className="font-jost text-xl text-white mb-2">Tatilinizin Tadını Çıkarın</h3>
             <p className="font-jost text-white text-sm">
-              Uzman doktorlar eşliğinde tedavi görürken tatilinizin tadını bu cennette çıkarabilirsiniz.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nihil eos aspernatur modi, tempore beatae soluta, ex dicta pariatur nesciunt voluptatum? Laudantium, iste? Placeat magni itaque incidunt. Earum, fuga facere!
             </p>
           </div>
         </div>

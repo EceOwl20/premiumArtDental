@@ -10,69 +10,71 @@ import trustpilot from "../../../public/images/logos/trustpilot.png"
 
 const trustpilotReviews = [
   {
-    name: "Nikki Thomas",
-    date: "13/03/2025",
+    name: "Nikki Lorem",
+    date: "17/03/2023",
     rating: 5,
-    text: `Oradaki insanlar ve kapıdan giren herkese gösterilen genel ilgi gerçekten harikaydı. 
-            İlk iletişime geçtiğim andan itibaren, ön bürodaki harika kızlar (teşekkürler Sıdıka!) 
-            ve ardından bana atanan sevcan koordinatörüm (çok teşekkür ederim Ekin! 😊) ile.`,
+    text: `Curabitur sit amet mauris quis turpis euismod feugiat. Nulla
+           facilisi. Aliquam erat volutpat. Cras dignissim quam sed
+           risus pellentesque venenatis.`,
   },
   {
-    name: "Mr Colin Gilbert",
-    date: "28/03/2025",
+    name: "Mr Colin Lorem",
+    date: "24/03/2024",
     rating: 5,
-    text: `Baştan sona kusursuz bir deneyimdi. 24 adet zirkonyum kaplama yaptırdım. 
-            Tedavi son derece profesyoneldi ve süreç boyunca her konuda bilgilendirildim. 
-            Tüm ekip ihtiyaçlarımı çok iyi anladı ve çok iyi İngilizce konuşuyorlardı. 
-            Ekip son derece sıcakkanlıydı.`,
+    text: `Curabitur sit amet mauris quis turpis euismod feugiat. Nulla
+           facilisi. Aliquam erat volutpat. Cras dignissim quam sed
+           risus pellentesque venenatis.`,
   },
   {
-    name: "Aimee Lawrence",
-    date: "29/09/2024",
+    name: "Aimee Lorem",
+    date: "01/09/2024",
     rating: 5,
-    text: `Her yönüyle mükemmel. Öncelikle, VAY CANINA. Dişçi fobim var ve 10 yıl aşkındır 
-            hiç dişçiye gitmemiştim. Laracity ile WhatsApp üzerinden iletişime geçtiğim andan 
-            kliniğe veda ettiğim son güne kadar iletişim ve profesyonellik gerçekten harikaydı. 
-            Adeta bir aile ortamı.`,
+    text: `Curabitur sit amet mauris quis turpis euismod feugiat. Nulla
+           facilisi. Aliquam erat volutpat. Cras dignissim quam sed
+           risus pellentesque venenatis.`,
   },
   {
-    name: "Krassy Nanov",
-    date: "10/05/2025",
+    name: "Krassy Lorem",
+    date: "10/05/2024",
     rating: 5,
-    text: `Dünya Standartlarında 5 Yıldızlı Tedavi ve Misafirperverlik. Antalya’daki Laracity 
-            Kliniği’ndeki diş tedavimden yeni döndük. Söyleyebileceğim tek şey; yaşadığım en olumlu deneyimlerden 
-            biri olduğudur. 6 ay önce implantlarımı yerleştirmek için gitmiştim ve şimdi tedavi süreçlerim tamamlandı. 
-            Minnettarım.`,
+    text: `Curabitur sit amet mauris quis turpis euismod feugiat. Nulla
+           facilisi. Aliquam erat volutpat. Cras dignissim quam sed
+           risus pellentesque venenatis.`,
   },
 ];
 
 const googleReviews = [
   {
-    name: "Emma Johnson",
-    date: "05/04/2025",
+    name: "Emma Lorem",
+    date: "05/04/2022",
     rating: 5,
-    text: `Harika bir deneyimdi! Doktorlar çok ilgili ve cana yakındı. Tedavi sürecim sorunsuz geçti.`,
+    text: `Curabitur sit amet mauris quis turpis euismod feugiat. Nulla
+           facilisi. Aliquam erat volutpat. Cras dignissim quam sed
+           risus pellentesque venenatis.`,
   },
   {
-    name: "Liam Smith",
-    date: "22/01/2025",
+    name: "Liam Lorem",
+    date: "22/012/2023",
     rating: 4.5,
-    text: `Personel yardımsever ve profesyoneldi. Türkiye’ye gelmeden tüm adımları WhatsApp üzerinden 
-           detaylıca öğrendik. Kesinlikle tavsiye ederim.`,
+    text: `Curabitur sit amet mauris quis turpis euismod feugiat. Nulla
+           facilisi. Aliquam erat volutpat. Cras dignissim quam sed
+           risus pellentesque venenatis.`,
   },
   {
-    name: "Sophia Brown",
-    date: "15/12/2024",
+    name: "Sophia Lorem",
+    date: "15/02/2024",
     rating: 5,
-    text: `Fiyat performans oranı muhteşem. Konaklama ve tedavi paketi gerçekten her şeyi kapsıyor. 
-           Bayan doktorlar güler yüzlü ve işlerinde uzman.`,
+    text: `Curabitur sit amet mauris quis turpis euismod feugiat. Nulla
+           facilisi. Aliquam erat volutpat. Cras dignissim quam sed
+           risus pellentesque venenatis.`,
   },
   {
-    name: "Noah Davis",
-    date: "30/10/2024",
+    name: "Noah Lorem",
+    date: "30/10/2023",
     rating: 4,
-    text: `Şeffaf ve net bir süreç vardı. Başarı oranı ve ekip uyumu beni etkiledi. 
-           Tatilimi de çok güzel geçirdim.`,
+    text: `Curabitur sit amet mauris quis turpis euismod feugiat. Nulla
+           facilisi. Aliquam erat volutpat. Cras dignissim quam sed
+           risus pellentesque venenatis.`,
   },
 ];
 
