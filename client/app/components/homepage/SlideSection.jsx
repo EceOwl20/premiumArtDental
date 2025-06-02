@@ -48,8 +48,7 @@ export default function SlideSection() {
         <p className="font-jost">
           Bir fotoğraf çekilirken dudaklarınızı sıkıyor musunuz? Kahkaha
           atarken elinizi ağzınıza götürüyor musunuz?{" "}
-          <strong>Gülüşünüzü saklamak zorunda değilsiniz.</strong> Dent
-          Laracity olarak, sizi kısıtlayan tüm endişeleri geride bırakmanız için
+          <strong>Gülüşünüzü saklamak zorunda değilsiniz.</strong> Premium Art Dental olarak, sizi kısıtlayan tüm endişeleri geride bırakmanız için
           buradayız.
         </p>
         <p className="font-jost">

@@ -42,10 +42,10 @@ export default function LogoCarousel() {
   );
 
   return (
-    <section className="relative bg-black/80 py-4">
+    <section className="relative bg-black/80 py-4 flex iems-center justify-center">
       {/* 1) Carousel viewport */}
-      <div className="embla overflow-hidden" ref={emblaRef}>
-        <div className="embla__container flex items-center gap-8 px-8 border-b">
+      <div className="embla overflow-hidden border-b border-[#10271a] w-[90%] rounded-lg" ref={emblaRef}>
+        <div className="embla__container flex items-center gap-8 px-8 ">
           {logos.map((logo, idx) => (
             <div
               key={idx}
@@ -64,8 +64,8 @@ export default function LogoCarousel() {
       </div>
 
       {/* 2) Sol ve sağ “fade” (karartma) overlayleri */}
-      <div className="pointer-events-none absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-black/80 to-transparent" />
-      <div className="pointer-events-none absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-black/80 to-transparent" />
+      <div className="pointer-events-none absolute inset-y-0 left-[5%] w-24 bg-gradient-to-r from-black/80 to-transparent rounded-lg shadow-xl" />
+      <div className="pointer-events-none absolute inset-y-0 right-[5%] w-24 bg-gradient-to-l from-black/80 to-transparent rounded-lg shadow-xl" />
 
 
     </section>

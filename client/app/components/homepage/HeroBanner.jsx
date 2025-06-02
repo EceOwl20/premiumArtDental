@@ -9,7 +9,7 @@ export default function HeroBanner() {
       {/* Video arka plan */}
       <video
         className="absolute top-0 left-0 w-full h-full object-cover"
-        src="/videos/deneme.mp4"     /* public/videos/banner.mp4 olarak yerleştirin */
+        src="/videos/deneme.mp4"     
         autoPlay
         loop
         muted
