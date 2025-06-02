@@ -5,6 +5,7 @@ import TreatmentCarousel from "./components/homepage/TreatmentCarousel";
 import LogoCarousel from "./components/homepage/LogoCarousel";
 import VideoCarousel from "./components/homepage/VideoCarousel";
 import TreatmentProcess from "./components/homepage/TreatmentProcess";
+import ReviewsCarousel from "./components/homepage/ReviewCarousel";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
      <LogoCarousel/>
      <VideoCarousel/>
      <TreatmentProcess/>
+     <ReviewsCarousel/>
     </div>
   );
 }

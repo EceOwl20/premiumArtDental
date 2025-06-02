@@ -5,6 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import logo from "../../../public/images/logo/logowhite.png"
+import { MdEmail } from "react-icons/md";
 
 export default function Footer() {
   return (
@@ -25,13 +26,10 @@ export default function Footer() {
           <ul className="space-y-4">
             {/* Telefon ve e-posta satırı 1 */}
             <li className="flex items-center gap-3">
-              <FaPhoneAlt className="w-5 h-5 text-[var(--lago-gold)]" />
+              <MdEmail className="w-6 h-6 text-[var(--lago-gold)]" />
               <div className="flex flex-col">
-                <Link href="tel:+901234567890">
-                  <div className="hover:underline">+90 (123) 456 78 90</div>
-                </Link>
                 <Link href="/">
-                  <div className="hover:underline font-jost text-sm">info@premiumartdental.com</div>
+                  <div className="hover:underline font-jost text-[16px]">info@premiumartdental.com</div>
                 </Link>
               </div>
             </li>
