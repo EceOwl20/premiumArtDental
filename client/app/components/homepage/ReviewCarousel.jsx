@@ -121,10 +121,10 @@ export default function ReviewsCarousel() {
   const currentReviews = activeTab === "trust" ? trustpilotReviews : googleReviews;
 
   return (
-    <section className="bg-black/80 text-white py-16">
+    <section className="bg-[#050a30] text-white py-16">
       <div className="container mx-auto px-4 md:px-8 lg:px-16">
         {/* Başlık */}
-        <h2 className="text-4xl font-marcellus mb-2">Hasta Yorumları</h2>
+        <h2 className="text-3xl lg:text-4xl font-marcellus mb-2">Hasta Yorumları</h2>
         <p className="font-jost text-base mb-8 max-w-2xl">
           Gerçek hastalar, gerçek sonuçlar. <br />
           Memnuniyetlerini paylaşan hastalarımızın yorumlarıyla tanışın!

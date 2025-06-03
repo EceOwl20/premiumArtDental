@@ -65,16 +65,16 @@ export default function BlogCarousel() {
   }, [emblaApi]);
 
   return (
-    <section className="bg-black/80 text-white py-16">
+    <section className="bg-[#10271a] text-white py-10 lg:py-16">
       <div className="container mx-auto px-4 md:px-8 lg:px-16">
         {/* Başlık ve Tüm Yazılar Butonu */}
         <div className="flex items-center justify-between mb-8">
           <div>
-            <h2 className="text-4xl font-roboto">Blog Yazıları</h2>
+            <h2 className="text-3xl lg:text-4xl font-roboto">Blog Yazıları</h2>
             <div className="h-px bg-gray-700 mt-2 w-24" />
           </div>
           <Link href="/blog">
-            <div className="border border-[var(--premiumgold)] text-[var(--premiumgold)] px-4 py-2 rounded-md hover:bg-[var(--premiumgold)] hover:text-black transition flex items-center gap-1">
+            <div className="border border-[var(--premiumgold)] text-[var(--premiumgold)] px-4 py-2 rounded-md hover:bg-[var(--premiumgold)] hover:text-black transition flex items-center gap-1 text-[14px] lg:text-[18px]">
               Tüm Yazılar <span>→</span>
             </div>
           </Link>
@@ -104,7 +104,7 @@ export default function BlogCarousel() {
                 >
                   <div className="bg-[var(--lago-gray)] border border-gray-700 rounded-xl overflow-hidden flex flex-col h-full">
                     {/* Resim */}
-                    <div className="relative h-40 overflow-hidden group">
+                    <div className="relative h-32 md:h-40 overflow-hidden group">
                       <img
                         src={post.img}
                         alt={post.title}
@@ -114,11 +114,11 @@ export default function BlogCarousel() {
                       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.3),transparent)] opacity-0 group-hover:opacity-50 transition-opacity duration-500" />
                     </div>
                     {/* İçerik */}
-                    <div className="p-6 flex flex-col flex-grow">
+                    <div className="p-3 lg:p-6 flex flex-col flex-grow">
                       <h3 className="font-raleway font-semibold text-lg mb-2">
                         {post.title}
                       </h3>
-                      <p className="font-raleway text-sm text-gray-300 flex-grow mb-4">
+                      <p className="font-raleway text-sm text-gray-300 flex-grow mb-2 lg:mb-4">
                         {post.text}
                       </p>
                       <Link href={`/blog/${idx + 1}`}>

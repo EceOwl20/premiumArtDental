@@ -27,11 +27,11 @@ export default function SlideSection() {
   return (
     <section
       ref={ref}
-      className="bg-black text-white py-16 max-w-screen flex flex-col md:flex-row items-center gap-8 justify-center"
+      className="bg-[#050a30] text-white py-16 max-w-screen flex flex-col md:flex-row items-center gap-8 justify-center"
     >
       {/* SOLDAN KAYAN METİN BLOĞU */}
       <div
-        className={`md:w-1/2 space-y-4 w-[90%] lg:w-[35%] ${
+        className={`md:w-1/2 space-y-4 w-[90%] lg:w-[35%] text-[14px] text-[16px] ${
           inView ? "animate-slide-in-left" : "opacity-0"
         }`}
         style={{ animationDelay: "0.3s" }}
@@ -49,7 +49,7 @@ export default function SlideSection() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates a dolore repudiandae temporibus, necessitatibus natus fuga doloribus minima quaerat. Porro, commodi ea aperiam beatae natus quis suscipit odit qui et?
         </p>
         <Link href="/randevu">
-          <div className="inline-block bg-[#10271a] hover:bg-lagoBlack2 text-white font-jost capitalize transition px-[10px] py-[4px] lg:px-[24px] lg:py-[10px]">
+          <div className="inline-block bg-[#10271a] hover:bg-lagoBlack2 text-white font-jost capitalize transition px-[12px] py-[6px] lg:px-[24px] lg:py-[10px]">
             Hemen Randevu Oluştur
           </div>
         </Link>

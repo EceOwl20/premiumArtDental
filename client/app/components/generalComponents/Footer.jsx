@@ -11,7 +11,7 @@ export default function Footer() {
   return (
     <footer className="bg-black text-white border-t-[0.5px] border-[#d9b740]">
       {/* Üst Bölüm: Logo / İletişim / Adres */}
-      <div className="container mx-auto px-4 md:px-8 lg:px-16 py-12 flex flex-col md:flex-row items-start md:items-center justify-between gap-[8%]">
+      <div className="container mx-auto px-4 md:px-8 lg:px-16 py-12 flex flex-col md:flex-row items-center justify-between gap-6 lg:gap-[8%]">
         {/* 1) Logo Sütunu */}
         <div className="flex-shrink-0 flex items-center space-x-4">
           <Image src={logo} alt="Premiumart" width={40} height={40} />
@@ -20,13 +20,12 @@ export default function Footer() {
 
         {/* Dikey ayırıcı (büyük ekranlarda) */}
         <div className="hidden md:block h-12 border-l border-gray-700" />
-
         {/* 2) İletişim Bilgileri Sütunu */}
         <div className="flex-1">
-          <ul className="space-y-4">
+          <ul className="space-y-2 lg:space-y-4">
             {/* Telefon ve e-posta satırı 1 */}
             <li className="flex items-center gap-3">
-              <MdEmail className="w-6 h-6 text-[var(--lago-gold)]" />
+              <MdEmail className="w-6 h-6 text-[var(--premiumgold]"/>
               <div className="flex flex-col">
                 <Link href="/">
                   <div className="hover:underline font-jost text-[16px]">info@premiumartdental.com</div>

@@ -49,7 +49,7 @@ export default function ClinicSection() {
         </div>
 
         {/* SAĞ KISIM: İstatistik Kartları */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8">
+        <div className="grid grid-cols-2  gap-8">
           {stats.map((stat, idx) => (
             <div
               key={idx}

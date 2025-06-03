@@ -68,7 +68,7 @@ export default function FounderMessage() {
           {/* Randevu Butonu */}
           <button
             type="button"
-            className="mt-4 inline-flex items-center gap-2 border border-[#d9b740] text-[#d9b740] hover:bg-[#d9b740] hover:text-black font-jost font-semibold uppercase px-6 py-3 rounded-md transition"
+            className="mt-4 inline-flex items-center gap-2 border border-[#d9b740] text-[#d9b740] hover:bg-[#d9b740] hover:text-black font-jost font-semibold uppercase px-5 py-2 lg:px-6 lg:py-3 rounded-md transition text-[14px] lg:text-[18px]"
           >
             <FaPhoneAlt />
             Randevu Oluştur

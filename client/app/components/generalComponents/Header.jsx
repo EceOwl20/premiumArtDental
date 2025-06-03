@@ -32,7 +32,7 @@ export default function Header() {
 
           {/* Desktop navigasyon */}
           <nav className="hidden md:flex items-center text-center lg:space-x-3 xl:space-x-7 text-white font-jost uppercase text-sm xl:text-[16px]">
-            {["Kurumsal","Tedaviler","Ekibimiz","Doktorlar","Blog","Galeri","İletişim"].map((item, i) => (
+            {["Kurumsal","Tedaviler","Ekibimiz","Doktorlar","Blog","Galeri","Iletisim"].map((item, i) => (
               <span key={item} className="flex items-center">
                 <Link href={`/${item.toLowerCase()}`}>
                   <div className="px-2 hover:underline">{item}</div>
@@ -84,7 +84,7 @@ export default function Header() {
       {/* Mobil menü */}
       {mobileOpen && (
         <div className="md:hidden bg-black/60 backdrop-blur-sm px-4 py-4 space-y-4 text-white font-jost uppercase">
-          {["Kurumsal","Tedaviler","Ekibimiz","Doktorlar","Blog","Galeri","İletişim"].map((item) => (
+          {["Kurumsal","Tedaviler","Ekibimiz","Doktorlar","Blog","Galeri","Iletisim"].map((item) => (
             <Link key={item} href={`/${item.toLowerCase()}`}>
               <div
                 onClick={() => setMobileOpen(false)}

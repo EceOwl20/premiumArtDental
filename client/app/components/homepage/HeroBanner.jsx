@@ -30,14 +30,14 @@ export default function HeroBanner() {
         <div className="container w-[53%] ml-[13%]">
           {/* Küçük başlık */}
           <h4
-            className="font-jost text-white text-sm uppercase mb-2
+            className="font-jost text-white text-[12px] lg:text-sm uppercase mb-2
                        opacity-0 animate-slide-down delay-200">
            Premium Art Dental Ağız ve Diş Sağlığı Polikliniği
           </h4>
 
           {/* Ana başlık */}
           <h1
-            className="font-marcellus text-white text-3xl sm:text-4xl md:text-5xl lg:text-6xl leading-tight mb-4
+            className="font-marcellus text-white text-[28px] sm:text-4xl md:text-5xl lg:text-6xl leading-tight mb-4
                        opacity-0 animate-slide-down delay-400">
             En yeni teknolojilerle ağrısız, konforlu ve hızlı çözümler!
           </h1>
@@ -48,13 +48,13 @@ export default function HeroBanner() {
           {/* Açıklama */}
           <p
             className="font-jost text-white max-w-lg mb-6
-                       opacity-0 animate-slide-up delay-1200">
+                       opacity-0 animate-slide-up delay-1200 text-[12px] lg:text-[14px]">
             Konfor, hız ve güvenliği bir araya getiriyoruz. Modern cihazlarla desteklenen tedavi süreçlerimizle, gülümsemek artık çok daha kolay.
           </p>
 
           {/* Çağrı butonu */}
           <Link href="/services" className="opacity-0 animate-slide-up delay-1400">
-            <div className="inline-block bg-lagoBlack hover:bg-lagoBlack2 text-white bg-[#d9b740] px-[10px] py-[4px] lg:px-[24px] lg:py-[10px] font-jost capitalize text-sm md:text-base lg:text-[17px] transition">
+            <div className="inline-block bg-lagoBlack hover:bg-lagoBlack2 text-white bg-[#d9b740] px-[12px] py-[6px] lg:px-[24px] lg:py-[10px] font-jost capitalize text-base lg:text-[17px] transition">
               Sunduğumuz Hizmetler
             </div>
           </Link>

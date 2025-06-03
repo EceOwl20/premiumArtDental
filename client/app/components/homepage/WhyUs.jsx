@@ -7,7 +7,7 @@ import img1 from "../../../public/images/patient.jpg"
 
 export default function WhyUs() {
   return (
-    <section className="bg-black/80 text-white py-16">
+    <section className="bg-[#050a30] text-white py-16">
       <div className="container mx-auto px-4 md:px-8 lg:px-16 flex flex-col lg:flex-row items-center gap-8">
         {/* Sol: Görsel */}
         <div className="w-full lg:w-1/2">
@@ -23,7 +23,7 @@ export default function WhyUs() {
         {/* Sağ: Metin ve Liste */}
         <div className="w-full lg:w-1/2 space-y-6">
           {/* Başlık */}
-          <h2 className="text-4xl font-roboto">
+          <h2 className="text-3xl lg:text-4xl font-roboto">
             Neden Premium Art Dental&nbsp;?
           </h2>
 

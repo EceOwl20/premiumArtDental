@@ -71,19 +71,19 @@ export default function TeamCarousel() {
   }, [emblaApi]);
 
   return (
-    <section className="bg-black/80 text-white py-16">
+    <section className="bg-[#050a30] text-white py-16">
       <div className="container mx-auto px-4 md:px-8 lg:px-16">
         {/* Başlık ve Açıklama */}
-        <div className="flex items-center justify-between mb-8">
+        <div className="flex items-center justify-between mb-8 relative">
           <div>
-            <h2 className="text-4xl font-roboto mb-2">Ekibimiz</h2>
+            <h2 className="text-3xl lg:text-4xl font-roboto mb-2">Ekibimiz</h2>
             <p className="font-raleway text-gray-300">
               Sizlere en iyi hizmeti sunmak için çalışan güçlü bir ekibiz! Sağlıklı, konforlu ve güvenilir bir deneyim için her zaman yanınızdayız.
             </p>
           </div>
           <Link href="/team">
-            <div className="border border-[var(--premiumgold)] text-[var(--premiumgold)] px-4 py-2 rounded-md hover:bg-[var(--premiumgold)] hover:text-black transition flex items-center gap-1">
-              Tüm Ekibimiz <span className="ml-1"><GoArrowUpRight size={30}/></span>
+            <div className="absolute right-0 -top-2 lg:flex border border-[var(--premiumgold)] text-[var(--premiumgold)] px-4 py-2 rounded-md hover:bg-[var(--premiumgold)] hover:text-black transition flex items-center gap-1 text-[14px] lg:text-[18px]">
+              Tüm Ekibimiz <span className="ml-1"><GoArrowUpRight size={30} className="hidden lg:flex"/> <GoArrowUpRight size={20} className="flex lg:hidden"/></span>
             </div>
           </Link>
         </div>

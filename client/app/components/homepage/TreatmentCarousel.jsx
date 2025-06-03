@@ -98,9 +98,9 @@ export default function TreatmentCarousel() {
   }, [emblaApi]);
 
   return (
-    <section className="flex max-w-screen bg-black/80 items-center justify-center py-10">
+    <section className="flex max-w-screen bg-[#050a30] items-center justify-center py-10">
       <div className="flex flex-col w-[90%] md:w-[85%] lg:w-[90%] max-w-[1300px]">
-      <h2 className="text-4xl lg:text-[45px] font-roboto text-white mb-8">Tedavilerimiz</h2>
+      <h2 className="text-3xl md:text-4xl lg:text-[45px] font-roboto text-white mb-6 lg:mb-8">Tedavilerimiz</h2>
 <div className="relative ">
   {/* Sol ok */}
   <button
@@ -127,7 +127,7 @@ export default function TreatmentCarousel() {
             {/* Icon renklerini Tailwind ile kontrol ediyoruz */}
             <Icon className="w-12 h-12 mb-4 text-white" />
             <h3 className="font-jost text-white text-xl mb-2">{title}</h3>
-            <p className="font-jost text-white text-sm flex-grow">
+            <p className="font-jost text-white text-sm flex-grow line-clamp-4 lg:line-clamp-6">
               {description}
             </p>
             <Link

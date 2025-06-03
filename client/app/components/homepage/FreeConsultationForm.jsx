@@ -52,7 +52,7 @@ export default function FreeConsultationForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="w-full max-w-[1200px] bg-black/80 rounded-xl p-6 flex flex-col lg:flex-row items-center gap-6 shadow-lg"
+      className="w-full max-w-[1200px] bg-[#10271a] rounded-xl p-6 flex flex-col lg:flex-row items-center gap-6 shadow-lg"
     >
       {/* Soldaki Başlık ve Açıklama */}
       <div className="flex-1 text-white space-y-2">
