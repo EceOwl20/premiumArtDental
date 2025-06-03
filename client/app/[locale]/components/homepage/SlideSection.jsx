@@ -3,7 +3,7 @@
 import { useRef, useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import img from "../../../public/images/smile.jpg"
+import img from "../../../../public/images/smile.jpg"
 
 export default function SlideSection() {
   const ref = useRef(null);

@@ -4,7 +4,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
-import logo from "../../../public/images/logo/logowhite.png"
+import logo from "../../../../public/images/logo/logowhite.png"
 import { MdEmail } from "react-icons/md";
 
 export default function Footer() {

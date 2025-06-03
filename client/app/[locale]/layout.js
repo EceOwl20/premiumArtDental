@@ -1,5 +1,5 @@
 import {Lora,Roboto, Raleway } from "next/font/google";
-import "./globals.css";
+import "../globals.css";
 import Header from "./components/generalComponents/Header";
 import Footer from "./components/generalComponents/Footer";
 import SocialSidebar from "./components/generalComponents/SocialSidebar";

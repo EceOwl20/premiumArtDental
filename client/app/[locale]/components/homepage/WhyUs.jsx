@@ -3,7 +3,7 @@
 
 import Image from "next/image";
 import { FaCheck } from "react-icons/fa";
-import img1 from "../../../public/images/patient.jpg"
+import img1 from "../../../../public/images/patient.jpg"
 
 export default function WhyUs() {
   return (

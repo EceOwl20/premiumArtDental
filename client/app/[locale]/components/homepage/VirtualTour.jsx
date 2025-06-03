@@ -3,7 +3,7 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import img1 from "../../../public/images/patient3.jpg";
+import img1 from "../../../../public/images/patient3.jpg";
 
 export default function VirtualTour() {
   return (

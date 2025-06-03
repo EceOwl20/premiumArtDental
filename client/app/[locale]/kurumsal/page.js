@@ -1,6 +1,6 @@
 import React from 'react'
 import Banner from '../components/subpages/Banner'
-import img1 from "../../public/images/patient.jpg"
+import img1 from "../../../public/images/patient.jpg"
 import FounderMessage from '../components/subpages/FounderMessage'
 import ClinicSection from '../components/subpages/ClinicSection'
 import TeamCarousel from '../components/homepage/TeamCarousel'
