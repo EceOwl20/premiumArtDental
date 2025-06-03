@@ -174,7 +174,7 @@ export default function ReviewsCarousel() {
                 <div
                   key={idx}
                   className="embla__slide flex-shrink-0 w-[calc(80%-24px)] 
-                             sm:w-[calc(50%-24px)] md:w-[calc(33.3%-24px)] lg:w-[calc(25%-24px)]"
+                             sm:w-[calc(50%-24px)] md:w-[calc(40.5%-24px)] lg:w-[calc(33.3%-24px)] xl:w-[calc(25%-24px)]"
                 >
                   <div className="bg-white rounded-xl shadow-lg p-6 flex flex-col h-full">
                     {/* Yıldızlar + tarih */}

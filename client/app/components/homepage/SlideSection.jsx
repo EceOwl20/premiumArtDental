@@ -27,11 +27,11 @@ export default function SlideSection() {
   return (
     <section
       ref={ref}
-      className="bg-[#050a30] text-white py-16 max-w-screen flex flex-col md:flex-row items-center gap-8 justify-center"
+      className="bg-[#050a30] text-white py-10 lg:py-16 max-w-screen flex flex-col md:flex-row items-center gap-4 lg:gap-8 justify-center"
     >
       {/* SOLDAN KAYAN METİN BLOĞU */}
       <div
-        className={`md:w-1/2 space-y-4 w-[90%] lg:w-[35%] text-[14px] text-[16px] ${
+        className={`md:w-[48%] space-y-4 w-[90%] lg:w-[45%] text-[14px] lg:text-[16px] ${
           inView ? "animate-slide-in-left" : "opacity-0"
         }`}
         style={{ animationDelay: "0.3s" }}
@@ -57,7 +57,7 @@ export default function SlideSection() {
 
       {/* SAĞDAN KAYAN GÖRSEL BLOĞU */}
       <div
-        className={`md:w-1/2 w-[90%] lg:w-[40%] ${
+        className={`md:w-[40%] w-[80%] sm:w-[70%] lg:w-[40%] ${
           inView ? "animate-slide-in-right" : "opacity-0"
         }`}
         style={{ animationDelay: "0.5s" }}

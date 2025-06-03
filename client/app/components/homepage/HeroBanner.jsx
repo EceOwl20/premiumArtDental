@@ -19,8 +19,7 @@ export default function HeroBanner() {
       <img
       src="https://placehold.co/1900x1000"
       alt="Hero Banner"
-     
-      className="object-cover"
+      className="object-cover h-full w-full"
       />
 
       {/* Koyu overlay */}

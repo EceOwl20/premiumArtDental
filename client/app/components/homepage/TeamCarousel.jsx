@@ -3,55 +3,23 @@
 
 import { useCallback, useEffect } from "react";
 import useEmblaCarousel from "embla-carousel-react";
-import Image from "next/image";
 import Link from "next/link";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { GoArrowUpRight } from "react-icons/go";
 
 const teamMembers = [
-  {
-    name: "Dr. Lorem Ipsum",
-    role: "Kurucu Diş Hekimi",
-    img: "https://placehold.co/300x400?text=Hello+World",
-  },
-  {
-    name: "Dr. Dolor Sit",
-    role: "Ortodontist",
-    img: "https://placehold.co/300x400?text=Hello+World",
-  },
-  {
-    name: "Dr. Amet Consectetur",
-    role: "Diş Hekimi",
-    img: "https://placehold.co/300x400?text=Hello+World",
-  },
-  {
-    name: "Dr. Adipiscing Elit",
-    role: "Hijyen Personeli",
-    img: "https://placehold.co/300x400?text=Hello+World",
-  },
-    {
-    name: "Dr. Lorem Ipsum",
-    role: "Kurucu Diş Hekimi",
-    img: "https://placehold.co/300x400?text=Hello+World",
-  },
-  {
-    name: "Dr. Dolor Sit",
-    role: "Ortodontist",
-    img: "https://placehold.co/300x400?text=Hello+World",
-  },
-  {
-    name: "Dr. Amet Consectetur",
-    role: "Diş Hekimi",
-    img: "https://placehold.co/300x400?text=Hello+World",
-  },
-  {
-    name: "Dr. Adipiscing Elit",
-    role: "Hijyen Personeli",
-    img: "https://placehold.co/300x400?text=Hello+World",
-  },
+  { name: "Dr. Lorem Ipsum", role: "Kurucu Diş Hekimi", img: "https://placehold.co/300x400?text=Hello+World" },
+  { name: "Dr. Dolor Sit", role: "Ortodontist",         img: "https://placehold.co/300x400?text=Hello+World" },
+  { name: "Dr. Amet Consectetur", role: "Diş Hekimi",    img: "https://placehold.co/300x400?text=Hello+World" },
+  { name: "Dr. Adipiscing Elit",    role: "Hijyen Personeli", img: "https://placehold.co/300x400?text=Hello+World" },
+  { name: "Dr. Lorem Lorem",        role: "Diş Hekimi",    img: "https://placehold.co/300x400?text=Hello+World" },
+  { name: "Dr. Dolor Dolor",        role: "Ortodontist",   img: "https://placehold.co/300x400?text=Hello+World" },
+  { name: "Dr. Amet Amet",          role: "Diş Hekimi",    img: "https://placehold.co/300x400?text=Hello+World" },
+  { name: "Dr. Adipiscing Adipiscing",role:"Diş Hekimi",  img: "https://placehold.co/300x400?text=Hello+World" },
 ];
 
 export default function TeamCarousel() {
+  // loop: true olduğu için Embla, başa ve sona clone slide ekliyor
   const [emblaRef, emblaApi] = useEmblaCarousel({
     align: "start",
     containScroll: "trimSnaps",
@@ -61,29 +29,32 @@ export default function TeamCarousel() {
   const scrollPrev = useCallback(() => emblaApi && emblaApi.scrollPrev(), [emblaApi]);
   const scrollNext = useCallback(() => emblaApi && emblaApi.scrollNext(), [emblaApi]);
 
-  // Optional: autoplay every 5 seconds
+  // İsteğe bağlı: 5 saniyede bir otomatik kaydırma
   useEffect(() => {
     if (!emblaApi) return;
-    const timer = setInterval(() => {
-      emblaApi.scrollNext();
-    }, 5000);
+    const timer = setInterval(() => emblaApi.scrollNext(), 5000);
     return () => clearInterval(timer);
   }, [emblaApi]);
 
   return (
     <section className="bg-[#050a30] text-white py-16">
       <div className="container mx-auto px-4 md:px-8 lg:px-16">
-        {/* Başlık ve Açıklama */}
+        {/* Başlık ve "Tüm Ekibimiz" butonu */}
         <div className="flex items-center justify-between mb-8 relative">
           <div>
-            <h2 className="text-3xl lg:text-4xl font-roboto mb-2">Ekibimiz</h2>
-            <p className="font-raleway text-gray-300">
-              Sizlere en iyi hizmeti sunmak için çalışan güçlü bir ekibiz! Sağlıklı, konforlu ve güvenilir bir deneyim için her zaman yanınızdayız.
+            <h2 className="text-[28px] lg:text-4xl font-roboto mb-2">Ekibimiz</h2>
+            <p className="font-raleway text-gray-300 text-[14px] lg:text-[18px]">
+              Sizlere en iyi hizmeti sunmak için çalışan güçlü bir ekibiz!
+              Sağlıklı, konforlu ve güvenilir bir deneyim için her zaman yanınızdayız.
             </p>
           </div>
           <Link href="/team">
-            <div className="absolute right-0 -top-2 lg:flex border border-[var(--premiumgold)] text-[var(--premiumgold)] px-4 py-2 rounded-md hover:bg-[var(--premiumgold)] hover:text-black transition flex items-center gap-1 text-[14px] lg:text-[18px]">
-              Tüm Ekibimiz <span className="ml-1"><GoArrowUpRight size={30} className="hidden lg:flex"/> <GoArrowUpRight size={20} className="flex lg:hidden"/></span>
+            <div className="absolute right-0 -top-2 lg:flex border border-[var(--premiumgold)] text-[var(--premiumgold)] px-2 py-1 lg:px-4 lg:py-2 rounded-md hover:bg-[var(--premiumgold)] hover:text-black transition flex items-center gap-1 text-[14px] lg:text-[18px]">
+              Tüm Ekibimiz{" "}
+              <span className="ml-1">
+                <GoArrowUpRight size={30} className="hidden lg:flex" />{" "}
+                <GoArrowUpRight size={20} className="flex lg:hidden" />
+              </span>
             </div>
           </Link>
         </div>
@@ -99,12 +70,26 @@ export default function TeamCarousel() {
           </button>
 
           {/* Embla viewport */}
-          <div className="embla overflow-hidden " ref={emblaRef}>
-            <div className="embla__container flex gap-6 lg:gap-10">
+          <div ref={emblaRef} className="embla overflow-hidden">
+            {/*
+              Önemli: Burada `gap-6` (1.5rem) boşluk ve
+              `px-3` (0.75rem *her iki tarafta*) ekliyoruz.
+              - px-3: Klon ile gerçek slayt arasında boşluk bırakacak.
+              - gap-6: Her slayt arasındaki boşluğu koruyacak.
+              Slide genişliğini de gap kadar çıkarıyoruz: 
+              w-[calc(25%-1.5rem)] örneği, çünkü 1.5rem = gap-6.
+            */}
+            <div className="embla__container flex gap-6 px-3">
               {teamMembers.map((member, idx) => (
                 <div
                   key={idx}
-                  className="embla__slide flex-shrink-0 w-[calc(80%-24px)] sm:w-[calc(50%-24px)] md:w-[calc(33.3%-24px)] lg:w-[calc(25%-24px)]"
+                  className="
+                    embla__slide flex-shrink-0
+                    w-[calc(80%-1.5rem)]       /* küçük ekran: 1 slayt genişliği %80 - gap */
+                    sm:w-[calc(50%-1.5rem)]   /* sm: 2 slayt, her bir %50 - gap */
+                    md:w-[calc(33.333%-1.5rem)] /* md: 3 slayt, her bir %33.333 - gap */
+                    lg:w-[calc(25%-1.5rem)]    /* lg: 4 slayt, her bir %25 - gap */
+                  "
                 >
                   <div className="bg-[var(--lago-gray)] overflow-hidden group">
                     <div className="relative overflow-hidden">
@@ -115,7 +100,7 @@ export default function TeamCarousel() {
                         height={400}
                         className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
                       />
-                      {/* Hover Gradient Overlay */}
+                      {/* Hover efekti: ortadan başlayıp kenarlara açılan yarı saydam beyaz gradient */}
                       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.3),transparent)] opacity-0 group-hover:opacity-60 transition-opacity duration-500" />
                     </div>
                     <div className="p-4">

@@ -90,7 +90,7 @@ export default function TreatmentProcess() {
   };
 
   return (
-    <div className="bg-[#050a30] py-16 text-white">
+    <div className="bg-[#050a30] py-10 lg:py-16 text-white">
       {/* ---------------------- */}
       {/* TEDAVİ SÜRECİ BAŞLIĞI + BUTON */}
       {/* ---------------------- */}
@@ -98,7 +98,7 @@ export default function TreatmentProcess() {
         <div className="flex flex-col lg:flex-row items-center justify-between mb-8 gap-2 lg:gap-0">
           <h2 className="text-[32px] md:text-4xl lg:text-[44px] font-bold font-roboto">Tedavi Süreci</h2>
           <Link href="/planlama">
-            <div className="flex items-center gap-2 border border-[#d9b740] text-[#d9b740] px-4 py-2 rounded-md hover:bg-[#d9b740] hover:text-black transition text-[14px] md:text-[16px] lg:text-[18px] font-lora">
+            <div className="flex items-center gap-2 border border-[#d9b740] text-[#d9b740]  px-2 py-1 lg:px-4 lg:py-2 rounded-md hover:bg-[#d9b740] hover:text-black transition text-[14px] md:text-[16px] lg:text-[18px] font-lora">
               Tedavinizi Planlayın
               <GoArrowUpRight size={20} className="flex lg:hidden"/>
               <GoArrowUpRight size={30} className="hidden lg:flex"/>
@@ -153,20 +153,18 @@ export default function TreatmentProcess() {
       {/* ---------------------- */}
       <div 
         ref={statsRef} 
-        className="container mx-auto px-4 md:px-8 lg:px-16"
+        className="container mx-auto px-4 md:px-2 xl:px-16"
       >
-        <div className="bg-gradient-to-r from-[var(--premiumdarkblue)] to-[var(--premiumdarkgreen)] rounded-xl p-6 flex flex-col md:flex-row items-center text-center md:text-left justify-between w-full">
+        <div className="bg-gradient-to-r from-[var(--premiumdarkblue)] to-[var(--premiumdarkgreen)] rounded-xl p-6 flex flex-col sm:grid sm:grid-cols-2 md:flex md:flex-row items-center text-center md:text-left justify-between w-full gap-5 sm:gap-2">
           
           {/* 1. Kolon */}
-          <div className="flex items-center mr-[3%] gap-8">
+          <div className="flex items-center mr-[3%] gap-4 xl:gap-8">
             <div className="text-4xl md:text-5xl lg:text-[64px] font-roboto text-[#d9b740]">
               {formatNumber(experience)}
             </div>
               <div className="hidden md:block border-l border-[#10271a] h-16" />
             <div className="font-raleway text-white text-sm md:text-[18px] lg:text-[24px]">Yıllık Deneyim</div>
-          </div>
-          
-        
+          </div>  
 
           {/* 2. Kolon */}
           <div className="flex items-center mr-[3%] gap-8">
@@ -178,7 +176,7 @@ export default function TreatmentProcess() {
           </div>
 
           {/* 3. Kolon */}
-          <div className="flex items-center mr-[3%] gap-8">
+          <div className="flex items-center md:mr-[3%] gap-8 col-span-2 justify-center">
             <div className="text-4xl md:text-5xl lg:text-[64px] font-roboto text-[#d9b740]">
               {formatNumber(countries)}
             </div>

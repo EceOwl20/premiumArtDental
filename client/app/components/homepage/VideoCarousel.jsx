@@ -32,7 +32,7 @@ export default function VideoCarousel() {
   return (
     <section className="bg-[#050a30] py-8 lg:py-16 text-white">
       {/* Başlık ve açıklama */}
-      <div className="container mx-auto px-4 md:px-8 lg:px-16">
+      <div className="container mx-auto px-4 md:px-8 lg:px-16 max-w-[1400px]">
         <h2 className="text-3xl lg:text-4xl font-marcellus mb-4">Hasta Videoları</h2>
         <p className="font-jost mb-8 max-w-2xl">
           Kliniğimizde tedavi gören hastalarımızın deneyimlerini izleyin. <br />
@@ -41,7 +41,7 @@ export default function VideoCarousel() {
       </div>
 
       {/* Carousel kapsayıcı: genişlik %80, ortada hizalı */}
-      <div className="relative w-4/5 mx-auto">
+      <div className="relative w-4/5 mx-auto max-w-[1400px]">
         {/* Önceki ok tuşu */}
         <button
           onClick={scrollPrev}
@@ -65,13 +65,13 @@ export default function VideoCarousel() {
               <div
                 key={idx}
                 className="embla__slide flex-shrink-0 
-                           w-[60vw] sm:w-[50vw] md:w-[40vw] lg:w-[30vw] xl:w-[25vw] min-h-[300px] md:min-h-[400px] lg:min-h-[550px]
+                           w-[60vw] sm:w-[50vw] md:w-[40vw] lg:w-[30vw] xl:w-[25vw] max-w-[380px] min-h-[300px] md:min-h-[400px] xl:min-h-[550px]
                            rounded-xl overflow-hidden"
               >
                 {/* 16:9 oranında responsive iframe */}
                 <div className="relative w-full pb-[56.25%]">
                   <iframe
-                    className="absolute inset-0 w-full h-full object-cover rounded-xl min-h-[300px] md:min-h-[400px] lg:min-h-[550px]"
+                    className="absolute inset-0 w-full h-full object-cover rounded-xl min-h-[300px] md:min-h-[400px] xl:min-h-[550px]"
                     src={`https://www.youtube.com/embed/${videoId}?rel=0`}
                     title={`Hasta videosu ${idx + 1}`}
                     frameBorder="0"

@@ -16,7 +16,7 @@ export default function Home() {
   return (
     <div className="flex flex-col overflow-x-hidden">
      <HeroBanner/>
-          <div className="hidden lg:flex absolute inset-x-0 top-[80vh] justify-center px-4">
+          <div className="hidden lg:flex absolute inset-x-0 lg:top-[75vh] xl:top-[80vh] justify-center px-4">
         {/* Burada top değeriyle formu yukarıdan konumlandırabilirsiniz */}
         <FreeConsultationForm />
       </div>

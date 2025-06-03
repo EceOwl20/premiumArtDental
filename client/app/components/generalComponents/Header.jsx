@@ -15,7 +15,7 @@ export default function Header() {
   return (
     <header className="fixed inset-x-0 top-0 z-50">
       {/* Arka plan resmi */}
-      <div className="flex relative h-20 md:h-28 lg:h-32 bg-black/30 backdrop-blur-sm max-w-screen items-center justify-center border-b-[0.5px] border-[#d9b740]">
+      <div className="flex relative h-20 md:h-28 lg:h-32 bg-[#050a30]/30 backdrop-blur-sm max-w-screen items-center justify-center border-b-[0.5px] border-[#d9b740]">
      
         {/* Koyu yarı saydam katman + blur */}
         <div className="absolute flex items-center justify-between w-[90%] lg:w-[80%] lg:min-w-[1295px]">
@@ -24,14 +24,14 @@ export default function Header() {
           <Link href="/">
             <div className="flex items-center">
               <Image src={logo} alt="Dent" width={50} height={50} />
-              <span className="ml-2 text-white font-marcellus text-md md:text-lg">
+              <span className="ml-2 text-white font-marcellus text-md lg:text-lg">
               Premium Art Dental
               </span>
             </div>
           </Link>
 
           {/* Desktop navigasyon */}
-          <nav className="hidden md:flex items-center text-center lg:space-x-3 xl:space-x-7 text-white font-jost uppercase text-sm xl:text-[16px]">
+          <nav className="hidden lg:flex items-center text-center lg:space-x-3 xl:space-x-7 text-white font-jost uppercase text-sm xl:text-[16px]">
             {["Kurumsal","Tedaviler","Ekibimiz","Doktorlar","Blog","Galeri","Iletisim"].map((item, i) => (
               <span key={item} className="flex items-center">
                 <Link href={`/${item.toLowerCase()}`}>
@@ -43,7 +43,7 @@ export default function Header() {
           </nav>
 
           {/* Sağ taraf: dil seçici + hamburger */}
-          <div className="flex items-center space-x-3">
+          <div className="flex items-center space-x-3 md:space-x-6">
             {/* Dil seçici (masaüstü) */}
             <button className="hidden md:flex items-center gap-1 text-white text-sm font-jost">
               {/* <Image src={trFlag} alt="Türkçe" width={20} height={14} /> */}
@@ -61,7 +61,7 @@ export default function Header() {
             {/* Hamburger (mobil) */}
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
-              className="md:hidden focus:outline-none"
+              className="lg:hidden focus:outline-none"
             >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -83,12 +83,12 @@ export default function Header() {
 
       {/* Mobil menü */}
       {mobileOpen && (
-        <div className="md:hidden bg-black/60 backdrop-blur-sm px-4 py-4 space-y-4 text-white font-jost uppercase">
+        <div className="lg:hidden bg-[#050a30]/50 backdrop-blur-sm px-4 py-4 space-y-4 text-white font-jost uppercase">
           {["Kurumsal","Tedaviler","Ekibimiz","Doktorlar","Blog","Galeri","Iletisim"].map((item) => (
             <Link key={item} href={`/${item.toLowerCase()}`}>
               <div
                 onClick={() => setMobileOpen(false)}
-                className="block py-1 hover:underline"
+                className="block py-2 md:py-3 hover:underline"
               >
                 {item}
               </div>

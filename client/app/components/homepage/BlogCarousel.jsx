@@ -74,7 +74,7 @@ export default function BlogCarousel() {
             <div className="h-px bg-gray-700 mt-2 w-24" />
           </div>
           <Link href="/blog">
-            <div className="border border-[var(--premiumgold)] text-[var(--premiumgold)] px-4 py-2 rounded-md hover:bg-[var(--premiumgold)] hover:text-black transition flex items-center gap-1 text-[14px] lg:text-[18px]">
+            <div className="border border-[var(--premiumgold)] text-[var(--premiumgold)]  px-2 py-1 lg:px-4 lg:py-2 rounded-md hover:bg-[var(--premiumgold)] hover:text-black transition flex items-center gap-1 text-[14px] lg:text-[18px]">
               Tüm Yazılar <span>→</span>
             </div>
           </Link>
@@ -100,7 +100,7 @@ export default function BlogCarousel() {
                              w-[calc(80%-24px)] 
                              sm:w-[calc(50%-24px)] 
                              md:w-[calc(33.3%-24px)] 
-                             lg:w-[calc(25%-24px)]"
+                             xl:w-[calc(25%-24px)]"
                 >
                   <div className="bg-[var(--lago-gray)] border border-gray-700 rounded-xl overflow-hidden flex flex-col h-full">
                     {/* Resim */}
