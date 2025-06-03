@@ -1,6 +1,7 @@
 // components/Header.jsx
 "use client";
-
+import { useTranslations } from 'next-intl';
+import LangSwitcher from '@/LangSwitcher';
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
@@ -45,8 +46,8 @@ export default function Header() {
           {/* Sağ taraf: dil seçici + hamburger */}
           <div className="flex items-center space-x-3 md:space-x-6">
             {/* Dil seçici (masaüstü) */}
-            <button className="hidden md:flex items-center gap-1 text-white text-sm font-jost">
-              {/* <Image src={trFlag} alt="Türkçe" width={20} height={14} /> */}
+            <LangSwitcher/>
+            {/* <button className="hidden md:flex items-center gap-1 text-white text-sm font-jost">
               Türkçe
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -57,7 +58,7 @@ export default function Header() {
               >
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
               </svg>
-            </button>
+            </button> */}
             {/* Hamburger (mobil) */}
             <button
               onClick={() => setMobileOpen(!mobileOpen)}
