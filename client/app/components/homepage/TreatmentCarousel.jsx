@@ -21,49 +21,49 @@ const treatments = [
   {
     title: "Dolgu Tedavisi",
     description:
-      "Restoratif diş tedavisi veya bilinen adıyla dolgu en çok kullanılan diş tedavisi yöntemlerinden biridir. Dişler, vücutta yer alan en önemli yapılardan biridir; iyi bakım yapılmadığı takdirde çürük oluşur.",
+      "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, perspiciatis mollitia magni modi temporibus culpa. Perferendis exercitationem repellat fugiat sed dignissimos, voluptatem possimus beatae molestiae cum tenetur. Dolores, eaque? Provident.",
     Icon: FaTooth,
   },
   {
     title: "Ortodonti",
     description:
-      "Ortodonti halk arasında diş teli tedavisi olarak bilinir; erken yaşlarda meydana gelen veya tedavide geç kalındığı için ileri yaşlarda görülen diş bozukluklarının tedavisini içerir.",
+      "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, perspiciatis mollitia magni modi temporibus culpa. Perferendis exercitationem repellat fugiat sed dignissimos, voluptatem possimus beatae molestiae cum tenetur. Dolores, eaque? Provident.",
     Icon: FaTeethOpen,
   },
   {
     title: "Diş Eti Hastalıkları Tedavisi",
     description:
-      "Sağlıklı dişeti açık pembe renklidir ve dişi sıkıca sarar. Ağızda çürük bulunmasa bile, dişi kötü durumda olması ilerleyen süreçlerde dişin kaybına neden olabilir.",
+      "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, perspiciatis mollitia magni modi temporibus culpa. Perferendis exercitationem repellat fugiat sed dignissimos, voluptatem possimus beatae molestiae cum tenetur. Dolores, eaque? Provident.",
     Icon: FaSmileBeam,
   },
   {
     title: "Çocuk Diş Hekimliği (Pedodonti)",
     description:
-      "Çocukların bebeklik dönemlerinden itibaren ağız ve diş sağlığı ile ilgilenen diş hekimliği dalına Pedodonti denilmektedir.",
+      "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, perspiciatis mollitia magni modi temporibus culpa. Perferendis exercitationem repellat fugiat sed dignissimos, voluptatem possimus beatae molestiae cum tenetur. Dolores, eaque? Provident.",
     Icon: FaChild,
   },
   {
     title: "İmplant Tedavisi",
     description:
-      "Eksik dişlerin yerine titanyum vidalar yerleştirerek destek sağlar; kemik entegrasyonu ile uzun ömürlü ve estetik çözümler sunar.",
+      "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, perspiciatis mollitia magni modi temporibus culpa. Perferendis exercitationem repellat fugiat sed dignissimos, voluptatem possimus beatae molestiae cum tenetur. Dolores, eaque? Provident.",
     Icon: FaBone,
   },
   {
     title: "Kanal Tedavisi",
     description:
-      "Dişin sinir dokusunda oluşan enfeksiyonları temizleyip dolgu veya kuronla kapatarak dişi kurtarma işlemidir.",
+      "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, perspiciatis mollitia magni modi temporibus culpa. Perferendis exercitationem repellat fugiat sed dignissimos, voluptatem possimus beatae molestiae cum tenetur. Dolores, eaque? Provident.",
     Icon: FaStethoscope,
   },
   {
     title: "Estetik Diş Hekimliği",
     description:
-      "Gülüş tasarımı, porselen lamineler, bonding gibi yöntemlerle dişlerin form ve rengini iyileştirerek estetik bir görünüm kazandırır.",
+      "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, perspiciatis mollitia magni modi temporibus culpa. Perferendis exercitationem repellat fugiat sed dignissimos, voluptatem possimus beatae molestiae cum tenetur. Dolores, eaque? Provident.",
     Icon: FaPaintBrush,
   },
   {
     title: "Diş Beyazlatma",
     description:
-      "Ofis tipi veya ev tipi uygulamalarla dişlerin üzerindeki lekeler giderilip ışıltılı bir beyazlık sağlanır.",
+      "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, perspiciatis mollitia magni modi temporibus culpa. Perferendis exercitationem repellat fugiat sed dignissimos, voluptatem possimus beatae molestiae cum tenetur. Dolores, eaque? Provident.",
     Icon: FaMagic,
   },
 ];
@@ -158,6 +158,7 @@ export default function TreatmentCarousel() {
       <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
     </svg>
   </button>
+
 </div>
       </div>
     </section>

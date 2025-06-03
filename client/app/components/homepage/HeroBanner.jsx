@@ -7,18 +7,24 @@ export default function HeroBanner() {
   return (
     <section className="relative w-full h-[92vh] overflow-hidden">
       {/* Video arka plan */}
-      <video
+      {/* <video
         className="absolute top-0 left-0 w-full h-full object-cover"
         src="/videos/deneme.mp4"     
         autoPlay
         loop
         muted
         playsInline
+      /> */}
+
+      <img
+      src="https://placehold.co/1000x600"
+      alt="Hero Banner"
+     
+      className="object-cover"
       />
 
       {/* Koyu overlay */}
       <div className="absolute inset-0 bg-black/60"></div>
-
       {/* İçerik */}
       <div className="absolute inset-0 flex items-center mt-[4%]">
         <div className="container w-[53%] ml-[13%]">

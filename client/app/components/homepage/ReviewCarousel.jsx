@@ -6,7 +6,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import { FaStar, FaChevronLeft, FaChevronRight, FaGoogle, FaStarHalfAlt } from "react-icons/fa";
 import Link from "next/link";
 import Image from "next/image";
-import trustpilot from "../../../public/images/logos/trustpilot.png"
+import trustpilot from "../../../public/images/trustpilot.png"
 
 const trustpilotReviews = [
   {
