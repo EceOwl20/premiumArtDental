@@ -28,7 +28,6 @@ export default function Home() {
      <ReviewsCarousel/>
      <WhyUs/>
      <TeamCarousel/>
-     <VirtualTour/>
      <BlogCarousel/>
     </div>
   );

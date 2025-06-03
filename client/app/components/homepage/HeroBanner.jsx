@@ -17,7 +17,7 @@ export default function HeroBanner() {
       /> */}
 
       <img
-      src="https://placehold.co/1000x600"
+      src="https://placehold.co/1900x1000"
       alt="Hero Banner"
      
       className="object-cover"

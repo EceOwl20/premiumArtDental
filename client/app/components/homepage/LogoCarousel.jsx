@@ -42,7 +42,7 @@ export default function LogoCarousel() {
   );
 
   return (
-    <section className="relative bg-black/80 py-4 flex iems-center justify-center">
+    <section className="relative bg-black/80 py-4 lg:py-10 flex iems-center justify-center">
       {/* 1) Carousel viewport */}
       <div className="embla overflow-hidden border-b border-[#10271a] w-[90%] rounded-lg" ref={emblaRef}>
         <div className="embla__container flex items-center gap-8 px-8 ">
