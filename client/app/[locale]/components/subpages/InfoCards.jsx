@@ -27,7 +27,7 @@ export default function InfoCards() {
           {/* Bilgi Kutusu */}
           <div className="w-full bg-gray-900 rounded-md px-4 py-3 mt-auto">
             <p className="text-sm leading-snug text-gray-200 text-center">
-              Çağlayan, Barınaklar Blv. No:19/A<br />
+              <br />
               Muratpaşa/Antalya
             </p>
           </div>
@@ -46,13 +46,13 @@ export default function InfoCards() {
           {/* Alt metin */}
           <div className="flex items-center text-sm font-jost mb-4 text-gray-300">
             <HiPhone className="mr-2 text-base" />
-            +90 (242) 505 88 98
+            +90 (123) 456 78 90
           </div>
 
           {/* Bilgi Kutusu */}
           <div className="w-full bg-gray-900 rounded-md px-4 py-3 mt-auto space-y-2">
             <p className="text-sm text-gray-200">
-              Whatsapp +90 (532) 411 33 98
+              Whatsapp +90 (123) 456 78 90
             </p>
             <p className="text-sm text-gray-200">Mail: info@premiumartdental.com</p>
           </div>
