@@ -1,4 +1,4 @@
-// components/WhyDentLaracity.jsx
+
 "use client";
 
 import Image from "next/image";
@@ -12,8 +12,8 @@ export default function WhyUs() {
         {/* Sol: Görsel */}
         <div className="w-full lg:w-1/2">
           <Image
-            src={img1}   // public/images/why-dent-laracity.jpg
-            alt="Neden Dent Laracity"
+            src={img1} 
+            alt="Neden Premium Art Dental"
             width={800}
             height={600}
             className="w-full h-auto rounded-xl object-cover"

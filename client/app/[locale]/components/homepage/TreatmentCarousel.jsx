@@ -122,7 +122,7 @@ export default function TreatmentCarousel() {
       {treatments.map(({ title, description, Icon }, idx) => (
         <div
           key={idx}
-          className="embla__slide flex-shrink-0 w-[calc(80%-24px)] sm:w-[calc(50%-24px)]  md:w-[calc(33.3%-24px)]">
+          className="embla__slide flex-shrink-0 w-[calc(80%-24px)] sm:w-[calc(50%-24px)]  md:w-[calc(40%-24px)] lg:w-[calc(33.3%-24px)]">
           <div className="h-full bg-lagoGray/10 border border-[#383838] hover:border-[#d9b740] rounded-xl shadow-xl p-6 flex flex-col">
             {/* Icon renklerini Tailwind ile kontrol ediyoruz */}
             <Icon className="w-12 h-12 mb-4 text-white" />

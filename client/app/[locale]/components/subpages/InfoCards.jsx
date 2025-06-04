@@ -54,7 +54,7 @@ export default function InfoCards() {
             <p className="text-sm text-gray-200">
               Whatsapp +90 (532) 411 33 98
             </p>
-            <p className="text-sm text-gray-200">Mail: info@dentlaracity.com</p>
+            <p className="text-sm text-gray-200">Mail: info@premiumartdental.com</p>
           </div>
         </div>
 

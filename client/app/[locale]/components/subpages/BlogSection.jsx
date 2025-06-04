@@ -14,13 +14,13 @@ const leftPosts = [
   {
     title: "Full Çene İmplant ve Protez Arasındaki Fark Nedir?",
     excerpt:
-      "Tüm dişlerini kaybetmiş bireylerin karşısına genellikle iki seçenek çıkar: Hareketli protezler veya full çene implant tedavisi. Her iki yöntem de eksik dişlerin yerini doldurmayı amaçlasa da, konfor, estetik ve uzun vadeli başarı açısından aralarında büyük farklar vardır. Antalya’da modern diş tedavilerini başarıyla uygulayan Dent Laracity olarak, sizin için bu iki…",
+      "Tüm dişlerini kaybetmiş bireylerin karşısına genellikle iki seçenek çıkar: Hareketli protezler veya full çene implant tedavisi. Her iki yöntem de eksik dişlerin yerini doldurmayı amaçlasa da, konfor, estetik ve uzun vadeli başarı açısından aralarında büyük farklar vardır. Antalya’da modern diş tedavilerini başarıyla uygulayan Premium Art Dental olarak, sizin için bu iki…",
     img: "https://placehold.co/300x200?text=Protez",
   },
   {
     title: "Dişsiz Hastalar İçin Kalıcı Çözüm",
     excerpt:
-      "Tüm dişlerini kaybetmiş olmak, sadece estetik açıdan değil; beslenme, konuşma ve özgüven üzerinde de ciddi etkiler yaratabilir. Ancak günümüzde diş hekimliği, dişsiz hastalar için artık kalıcı ve konforlu bir çözüm sunuyor: Full Ağız İmplant Tedavisi. Dent Laracity olarak Antalya’daki hastalarımıza, yaşam kalitelerini artıracak bu gelişmiş tedavi yöntemini en güncel teknoloji…",
+      "Tüm dişlerini kaybetmiş olmak, sadece estetik açıdan değil; beslenme, konuşma ve özgüven üzerinde de ciddi etkiler yaratabilir. Ancak günümüzde diş hekimliği, dişsiz hastalar için artık kalıcı ve konforlu bir çözüm sunuyor: Full Ağız İmplant Tedavisi. Premium Art Dental olarak Antalya’daki hastalarımıza, yaşam kalitelerini artıracak bu gelişmiş tedavi yöntemini en güncel teknoloji…",
     img: "https://placehold.co/300x200?text=Dişsiz",
   },
   {
@@ -32,13 +32,13 @@ const leftPosts = [
   {
     title: "Diş Eti Hastalıklarında Erken Müdahale",
     excerpt:
-      "Diş eti hastalıkları, genellikle ilerlediğinde diş kaybına kadar gidebilen önemli rahatsızlıklardır. Diş eti çekilmesi, diş eti iltihabı (gingivitis) ve periodontit gibi durumlar, zamanında müdahale edilmediğinde daha ciddi cerrahi işlemleri gerektirebilir. Düzenli check‐up’larla diş eti sağlığınızı kontrol altında tutabilir, böylece hem ağrı hissini hem de estetik kaybı önleyebilirsiniz. Dent Laracity olarak erken teşhis…",
+      "Diş eti hastalıkları, genellikle ilerlediğinde diş kaybına kadar gidebilen önemli rahatsızlıklardır. Diş eti çekilmesi, diş eti iltihabı (gingivitis) ve periodontit gibi durumlar, zamanında müdahale edilmediğinde daha ciddi cerrahi işlemleri gerektirebilir. Düzenli check‐up’larla diş eti sağlığınızı kontrol altında tutabilir, böylece hem ağrı hissini hem de estetik kaybı önleyebilirsiniz. Premium Art Dental olarak erken teşhis…",
     img: "https://placehold.co/300x200?text=Diş+Eti",
   },
   {
     title: "Estetik Gülüş Tasarımının İncelikleri",
     excerpt:
-      "Estetik gülüş tasarımı, sadece dişlerin beyaz veya düzgün olması demek değildir. Yüzün genel hatları, dudak yapısı, diş eti çizgileri, dişlerin boyutları ve konumları bütünsel olarak değerlendirilir. Kişiye özel hazırlanan CAD/CAM destekli diş kaplamaları, ortodontik düzeltmeler ve lazer tedavileri ile “hayalinizdeki gülüşe” ulaşmanız artık mümkün. Dent Laracity, ileri teknoloji ve uzman ekibiyle sizi hayalinizdeki…",
+      "Estetik gülüş tasarımı, sadece dişlerin beyaz veya düzgün olması demek değildir. Yüzün genel hatları, dudak yapısı, diş eti çizgileri, dişlerin boyutları ve konumları bütünsel olarak değerlendirilir. Kişiye özel hazırlanan CAD/CAM destekli diş kaplamaları, ortodontik düzeltmeler ve lazer tedavileri ile “hayalinizdeki gülüşe” ulaşmanız artık mümkün. Premium Art Dental, ileri teknoloji ve uzman ekibiyle sizi hayalinizdeki…",
     img: "https://placehold.co/300x200?text=Gülüş",
   },
 ];

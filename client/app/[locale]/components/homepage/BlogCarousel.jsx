@@ -99,7 +99,8 @@ export default function BlogCarousel() {
                   className="embla__slide flex-shrink-0 
                              w-[calc(80%-24px)] 
                              sm:w-[calc(50%-24px)] 
-                             md:w-[calc(33.3%-24px)] 
+                             md:w-[calc(40%-24px)] 
+                             lg:w-[calc(33.3%-24px)] 
                              xl:w-[calc(25%-24px)]"
                 >
                   <div className="bg-[var(--lago-gray)] border border-gray-700 rounded-xl overflow-hidden flex flex-col h-full">
@@ -115,10 +116,10 @@ export default function BlogCarousel() {
                     </div>
                     {/* İçerik */}
                     <div className="p-3 lg:p-6 flex flex-col flex-grow">
-                      <h3 className="font-raleway font-semibold text-lg mb-2">
+                      <h3 className="font-raleway font-semibold text-lg mb-1 lg:mb-2">
                         {post.title}
                       </h3>
-                      <p className="font-raleway text-sm text-gray-300 flex-grow mb-2 lg:mb-4">
+                      <p className="font-raleway text-sm text-gray-300 flex-grow mb-1 lg:mb-4">
                         {post.text}
                       </p>
                       <Link href={`/blog/${idx + 1}`}>

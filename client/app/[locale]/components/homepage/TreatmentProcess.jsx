@@ -95,7 +95,7 @@ export default function TreatmentProcess() {
       {/* TEDAVİ SÜRECİ BAŞLIĞI + BUTON */}
       {/* ---------------------- */}
       <div className="container mx-auto px-4 md:px-8 lg:px-16 mb-12">
-        <div className="flex flex-col lg:flex-row items-center justify-between mb-8 gap-2 lg:gap-0">
+        <div className="flex flex-col md:flex-row items-center justify-between mb-8 gap-2 lg:gap-0">
           <h2 className="text-[32px] md:text-4xl lg:text-[44px] font-bold font-roboto">Tedavi Süreci</h2>
           <Link href="/planlama">
             <div className="flex items-center gap-2 border border-[#d9b740] text-[#d9b740]  px-2 py-1 lg:px-4 lg:py-2 rounded-md hover:bg-[#d9b740] hover:text-black transition text-[14px] md:text-[16px] lg:text-[18px] font-lora">
@@ -114,10 +114,10 @@ export default function TreatmentProcess() {
         {/* ---------------------- */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           {/* Adım 1 */}
-          <div className="flex-1 border border-[#242424] hover:border-[#d9b740] rounded-lg px-6 py-12 flex flex-col items-center text-center font-raleway">
+          <div className="flex-1 border border-[#242424] hover:border-[#d9b740] rounded-lg px-6 py-6 lg:py-12 flex flex-col items-center text-center font-raleway">
             <FaClipboardList className="text-[#d9b740] w-12 h-12 mb-4" />
             <h3 className="font-jost text-xl text-white mb-2">Ücretsiz Ön Görüşme</h3>
-            <p className="font-jost text-white text-sm">
+            <p className="font-jost text-white text-sm line-clamp-6">
              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ea molestiae ducimus voluptatem eligendi illum debitis. Officia optio itaque recusandae magni iusto libero, pariatur consectetur voluptate error, sequi reiciendis maiores.
             </p>
           </div>
@@ -126,10 +126,10 @@ export default function TreatmentProcess() {
           <MdArrowForwardIos className="text-[#d9b740] hidden lg:flex w-16 h-16 md:mt-0 mt-4" />
 
           {/* Adım 2 */}
-          <div className="flex-1 border border-[#242424] hover:border-[#d9b740]  rounded-lg px-6 py-12 flex flex-col items-center text-center">
+          <div className="flex-1 border border-[#242424] hover:border-[#d9b740]  rounded-lg px-6 py-6 lg:py-12 flex flex-col items-center text-center">
             <FaPlane className="text-[#d9b740] w-12 h-12 mb-4" />
             <h3 className="font-jost text-xl text-white mb-2">Seyahat ve Konaklama</h3>
-            <p className="font-jost text-white text-sm">
+            <p className="font-jost text-white text-sm line-clamp-6">
              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto soluta iure ipsa voluptatum. Dolor blanditiis, quibusdam exercitationem iste omnis totam ipsam assumenda repellat consequuntur vitae temporibus accusantium officiis earum neque!
             </p>
           </div>
@@ -138,10 +138,10 @@ export default function TreatmentProcess() {
           <MdArrowForwardIos className="text-[#d9b740] hidden lg:flex w-16 h-16 md:mt-0 mt-4" />
 
           {/* Adım 3 */}
-          <div className="flex-1 border border-[#242424] hover:border-[#d9b740]  rounded-lg px-6 py-12 flex flex-col items-center text-center">
+          <div className="flex-1 border border-[#242424] hover:border-[#d9b740]  rounded-lg px-6 py-6 lg:py-12 flex flex-col items-center text-center">
             <FaUmbrellaBeach className="text-[#d9b740] w-12 h-12 mb-4" />
             <h3 className="font-jost text-xl text-white mb-2">Tatilinizin Tadını Çıkarın</h3>
-            <p className="font-jost text-white text-sm">
+            <p className="font-jost text-white text-sm line-clamp-6">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nihil eos aspernatur modi, tempore beatae soluta, ex dicta pariatur nesciunt voluptatum? Laudantium, iste? Placeat magni itaque incidunt. Earum, fuga facere!
             </p>
           </div>

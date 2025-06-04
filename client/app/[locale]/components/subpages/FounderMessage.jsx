@@ -14,7 +14,7 @@ export default function FounderMessage() {
           <div className="w-full lg:w-[90%] rounded-xl overflow-hidden shadow-lg">
             <Image
               src="/images/clinic.jpg"           // → Kendi klinik fotoğrafınızın yolu
-              alt="Dent Laracity Clinic Görseli"
+              alt="Premium Ant Dental Clinic"
               width={800}
               height={600}
               className="w-full h-auto object-cover"
@@ -24,8 +24,8 @@ export default function FounderMessage() {
           {/* Küçük Kurucu Görseli (Büyük görselin üzerinde overlap) */}
           <div className="absolute bottom-0 right-0 lg:right-[-4rem] lg:bottom-[-2rem] w-48 h-64 lg:w-64 lg:h-80 rounded-xl overflow-hidden shadow-2xl">
             <Image
-              src="/images/founder.jpg"         // → Kendi kurucu fotoğrafınızın yolu
-              alt="Kurucu Dr. Ahmet Erdoğan"
+              src="/images/founder.jpg"         
+              alt="Dr. Lorem Lorem"
               width={400}
               height={500}
               className="w-full h-full object-cover"

@@ -8,7 +8,7 @@ export default function VideoCarousel() {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     align: "start",
     containScroll: "trimSnaps",
-    loop: false,
+    loop: true,
   });
 
   const scrollPrev = useCallback(
