@@ -30,7 +30,7 @@ export default function VideoCarousel() {
   ];
 
   return (
-    <section className="bg-[#050a30] py-8 lg:py-16 text-white">
+    <section className=" py-8 lg:py-16 text-[#050a30]">
       {/* Başlık ve açıklama */}
       <div className="container mx-auto px-4 md:px-8 lg:px-16 max-w-[1400px]">
         <h2 className="text-3xl lg:text-4xl font-marcellus mb-4">Hasta Videoları</h2>
@@ -45,11 +45,11 @@ export default function VideoCarousel() {
         {/* Önceki ok tuşu */}
         <button
           onClick={scrollPrev}
-          className="absolute -left-12 top-1/2 z-20 -translate-y-1/2 bg-lagoBlack2 hover:bg-lagoBlack p-2 rounded-md transition"
+          className="absolute -left-12 top-1/2 z-20 -translate-y-1/2 bg-black hover:bg-black p-2 rounded-md transition"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-6 h-6 text-white"
+            className="w-6 h-6 text-[#050a30]"
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"
@@ -87,11 +87,11 @@ export default function VideoCarousel() {
         {/* Sonraki ok tuşu */}
         <button
           onClick={scrollNext}
-          className="absolute -right-12 top-1/2 z-20 -translate-y-1/2 bg-lagoBlack2 hover:bg-lagoBlack p-2 rounded-md transition"
+          className="absolute -right-12 top-1/2 z-20 -translate-y-1/2 bg-black hover:bg-black p-2 rounded-md transition"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className="w-6 h-6 text-white"
+            className="w-6 h-6 text-[#050a30] "
             fill="none"
             viewBox="0 0 24 24"
             stroke="currentColor"

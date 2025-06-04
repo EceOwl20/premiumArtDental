@@ -12,7 +12,7 @@ export default function InfoCards() {
         <div className="flex-1  border border-gray-800 rounded-xl p-6 lg:p-10 flex flex-col items-center">
           {/* İkon */}
           <div className="mb-4">
-            <HiLocationMarker className="text-[#d9b740] text-4xl" />
+            <HiLocationMarker className="text-[#e29c2d] text-4xl" />
           </div>
 
           {/* Başlık */}
@@ -37,7 +37,7 @@ export default function InfoCards() {
         <div className="flex-1 border border-gray-800 rounded-xl p-6 lg:p-10 flex flex-col items-center">
           {/* İkon */}
           <div className="mb-4">
-            <HiPhone className="text-[#d9b740] text-4xl" />
+            <HiPhone className="text-[#e29c2d] text-4xl" />
           </div>
 
           {/* Başlık */}
@@ -62,7 +62,7 @@ export default function InfoCards() {
         <div className="flex-1  border border-gray-800 rounded-xl p-6 lg:p-10 flex flex-col items-center">
           {/* İkon */}
           <div className="mb-4">
-            <HiClock className="text-[#d9b740] text-4xl" />
+            <HiClock className="text-[#e29c2d] text-4xl" />
           </div>
 
           {/* Başlık */}

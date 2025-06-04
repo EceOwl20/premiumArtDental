@@ -52,7 +52,7 @@ export default function FreeConsultationForm() {
   return (
     <form
       onSubmit={handleSubmit}
-      className="w-full max-w-[1200px] bg-[#10271a] rounded-xl p-6 flex flex-col lg:flex-row items-center gap-6 shadow-lg"
+      className="w-full max-w-[1200px] bg-[#2c744b] rounded-xl p-6 flex flex-col lg:flex-row items-center gap-6 shadow-lg"
     >
       {/* Soldaki Başlık ve Açıklama */}
       <div className="flex-1 text-white space-y-2">
@@ -73,15 +73,15 @@ export default function FreeConsultationForm() {
           value={name}
           onChange={(e) => setName(e.target.value)}
           placeholder="Adınız & Soyadınız"
-          className="w-full sm:w-[45%] bg-white/10 text-white placeholder-gray-300 font-jost rounded-md px-4 py-2 lg:py-3 focus:outline-none focus:ring-2 focus:ring-[var(--lago-gold)]"
+          className="w-full sm:w-[45%] bg-white text-[#2c744b] placeholder-[#2c744b] font-jost  rounded-md px-4 py-2 lg:py-3 focus:outline-none focus:ring-2 focus:ring-[var(--premiumgold)]"
         />
 
         {/* Telefon numarası */}
-        <div className="relative w-full sm:w-[50%]">
+        <div className="relative w-full sm:w-[50%] ">
           <select
             value={countryCode}
             onChange={(e) => setCountryCode(e.target.value)}
-            className="absolute left-0 top-0 h-full bg-transparent pl-3 pr-8 text-white text-sm appearance-none focus:outline-none"
+            className="absolute left-0 top-0 h-full pl-3 pr-8 text-[#2c744b] text-sm appearance-none focus:outline-none"
           >
             <option value="+90">🇹🇷 +90</option>
             <option value="+1">🇺🇸 +1</option>
@@ -94,7 +94,7 @@ export default function FreeConsultationForm() {
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
             placeholder="Telefon Numaranız"
-            className="w-full bg-white/10 text-white placeholder-gray-300 font-jost rounded-md pl-16 pr-9 py-2 lg:py-3 focus:outline-none focus:ring-2 focus:ring-[var(--lago-gold)]"
+            className="w-full bg-white text-[#2c744b] placeholder-[#2c744b] font-jost rounded-md  pl-16 pr-9 py-2 lg:py-3 focus:outline-none focus:ring-2 focus:ring-[var(--premiumgold)]"
           />
         </div>
       </div>
@@ -102,7 +102,7 @@ export default function FreeConsultationForm() {
       {/* Gönder Butonu */}
       <button
         type="submit"
-        className="self-stretch lg:self-auto bg-[#d9b740] hover:bg-yellow-600 text-white font-jost uppercase px-10 py-3 rounded-sm transition"
+        className="self-stretch lg:self-auto bg-[#e29c2d] hover:bg-yellow-600 text-white font-jost uppercase px-10 py-3 rounded-sm transition"
       >
         Beni Arayın
       </button>

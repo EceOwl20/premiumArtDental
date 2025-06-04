@@ -2,5 +2,29 @@
     "LocaleSwitcher": {
       "label": "Sprache ändern",
       "locale": "{locale, select, en {EN} tr {TR} ru {RU} de {DE} other {Unbekannt}}"
-    }
+    },
+
+          "OurTeam":{
+    "header":"Unser Team",
+    "span":"Startseite » Unser Team",
+    "text1":"In der Premium Art Dental Klinik sind wir stolz auf unser hochqualifiziertes Team von Zahnmedizinern mit über 25 Jahren kombinierter Erfahrung. Unser engagiertes Personal ist auf alle Bereiche der Zahnmedizin spezialisiert und stellt sicher, dass wir eine umfassende, erstklassige Versorgung anbieten, die individuell auf die Bedürfnisse jedes Patienten zugeschnitten ist.",
+    "text2":"Wir haben außerdem mehrsprachige Patientenkoordination, die Sie in Ihrer Sprache unterstützt und so für eine klare Kommunikation und einen reibungslosen Ablauf während Ihrer gesamten Behandlung sorgt. Mit unserem fachkundigen und einfühlsamen Team können Sie sicher sein, dass Sie in den besten Händen sind."
+  },
+
+   "OurClinic": {
+    "header": "Unsere Klinik",
+    "text1": "Willkommen in der Premium Art Dental Clinic, gelegen in der wunderschönen Region Kemer, wo wir Ihnen ein außergewöhnliches Zahnerlebnis bieten.",
+    "text2": "In unseren geräumigen, komfortablen Räumlichkeiten, ausgestattet mit modernster Technik, bieten unsere Zahnärzte mit über 25 Jahren Erfahrung individuell auf Ihre Bedürfnisse abgestimmte Behandlungen an.",
+    "text3": "Für Ihre Bequemlichkeit bieten wir Hoteltransfers und komfortable Ruhebereiche. Unsere Lage ermöglicht einfachen Zugang zu atemberaubenden Sehenswürdigkeiten wie Olympos, den Stränden von Çıralı und den Ruinen von Phaselis, sodass Sie neben Ihrer Zahnbehandlung einen entspannten Urlaub genießen können. Erleben Sie herausragende Betreuung und die schönen Lächeln, die Sie in der Premium Art Dental Clinic erwarten!"
+  },
+
+    "AboutUs": {
+    "header": "Über uns",
+       "span":"Startseite » Unternehmen",
+    "text1": "Willkommen in der Premium Art Dental Clinic, gelegen in der wunderschönen Region Kemer in Antalya und geleitet vom engagierten Ehepaar Dr. Kıvanç Özkaral und Dr. Firuzan Özkaral. Unsere Klinik wurde gegründet mit dem Ziel, Zahnmedizin als Kunst zu betrachten, neueste Technologie einzusetzen und mitfühlende Fürsorge zu bieten – alles, um außergewöhnliche Lächeln zu schaffen.",
+    "text2": "In einer geräumigen und modernen Einrichtung bieten wir eine Vielzahl fortschrittlicher zahnmedizinischer Leistungen, die mit der neuesten Technologie ausgestattet sind, um ein komfortables und effektives Behandlungserlebnis zu gewährleisten. Mit über einem Jahrzehnt Erfahrung im zahnmedizinischen Bereich haben wir stolz Tausende von Patienten aus mehr als 30 Ländern behandelt. Jeder Patient wird als individuelle Person behandelt, und wir sind bestrebt, allen Besuchern ein warmes und einladendes Umfeld zu bieten.",
+    "text3": "Die Wahl einer Zahnbehandlung im Ausland kann überwältigend wirken, daher legen wir besonderen Wert auf Transparenz und offene Kommunikation. Unsere Klinik arbeitet nach den höchsten internationalen Standards, um Ihre Sicherheit und Zufriedenheit zu garantieren. Ob Sie kosmetische Verbesserungen oder vollständige Zahnsanierungen wünschen, wir planen jede Behandlung sorgfältig nach Ihren persönlichen Bedürfnissen und Wünschen.",
+    "text4": "Die Lage unserer Klinik in einer Region, die reich an natürlicher Schönheit und Geschichte ist, eignet sich perfekt für alle, die Entspannung und Zahnversorgung suchen. Mit atemberaubenden Zielen wie Olympos, Çıralı und Phaselis in der Nähe können Sie eine Vielzahl von Aktivitäten genießen, während Sie Ihr Lächeln perfektionieren.",
+    "text5": "In der Premium Art Dental Clinic ist es unser Ziel, Ihnen nicht nur ein strahlendes Lächeln zu schenken, sondern auch sicherzustellen, dass Sie sich während Ihres gesamten Aufenthalts bei uns geschätzt und gut aufgehoben fühlen. Wir laden Sie ein, Teil unserer Familie glücklicher und gesunder Lächeln zu werden – denn Sie verdienen nur das Beste. Entdecken Sie Ihr Selbstvertrauen wieder und lassen Sie uns Ihnen helfen, das Lächeln zu erreichen, von dem Sie schon immer geträumt haben. Denken Sie daran: „Kunst, die Sie tragen können: Ihr Lächeln.“"
+  }
 }

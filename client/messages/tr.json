@@ -2,5 +2,31 @@
     "LocaleSwitcher": {
       "label": "Dili Değiştir",
       "locale": "{locale, select, en {EN} tr {TR} ru {RU} de {DE} other {Bilinmeyen}}"
-    }
+    },
+
+      "OurTeam":{
+    "header":"Ekibimiz",
+    "span":"Anasayfa » Ekibimiz",
+    "text1":"Premium Art Dental Clinic’te, 25 yılı aşkın deneyime sahip uzman bir diş hekimi kadrosuna sahip olmaktan gurur duyuyoruz. Disiplinin her alanında uzmanlaşan ekibimiz, her hastanın benzersiz ihtiyaçlarına uygun kapsamlı ve kaliteli bakım sunar.",
+    "text2":"Ayrıca, dilinizde yardımcı olabilecek çok dilli hasta koordinatörlerimiz bulunmaktadır. Bu sayede, tedavi süreciniz boyunca net iletişim ve sorunsuz bir deneyim garantisi sağlıyoruz. Bilgili ve şefkatli ekibimizle, uzman ellere teslim olduğunuzdan emin olabilirsiniz."
+  },
+
+  "OurClinic": {
+    "header": "Kliniğimiz",
+    "text1": "Premium Art Dental Clinic'e hoş geldiniz, güzel Kemer bölgesinde yer alan kliniğimizde olağanüstü bir diş deneyimi sunuyoruz.",
+    "text2": "Geniş, konforlu bir ortamda, son teknoloji ile donatılmış tesisimizde hizmet vermekteyiz. 25 yıldan fazla deneyimi olan diş hekimleri ile, ihtiyaçlarınıza göre kişiselleştirilmiş bakım sunuyoruz.",
+    "text3": "Size kolaylık sağlamak için otel transferleri ve konforlu dinlenme alanları sunuyoruz. Klinik konumumuz, Olympos, Çıralı plajları ve Phaselis harabeleri gibi muhteşem yerlere kolay erişim imkânı tanıyor, böylece diş sağlığınızla birlikte rahat bir tatilin tadını çıkarabilirsiniz. Premium Art Dental Clinic'te olağanüstü bakımın ve sizleri bekleyen güzel gülüşlerin keyfini çıkarın!"
+  },
+
+    "AboutUs":{
+    "header": "Hakkımızda",
+        "span":"Anasayfa » Kurumsal",
+    "text1":"Premium Art Dental Clinic'e, güzel Kemer bölgesinde, Antalya'da hoş geldiniz. Kliniğimiz, özverili karı-koca ekibi olan Dt. Kivanc Ozkaral ve Dt. Firuzan Ozkaral tarafından yönetilmektedir. Kliniğimiz, diş hekimliğinde sanatçılık, son teknoloji ve şefkatli bakım ilkeleri üzerine kurulmuştur; tüm bunlar, olağanüstü gülüşler yaratmayı amaçlamaktadır.",
+    "text2":"Geniş ve modern bir tesiste yer alan kliniğimiz, konforlu ve etkili bir tedavi deneyimi sağlamak için en son teknolojiyle donatılmış çeşitli ileri düzey diş hizmetleri sunmaktadır. On yılı aşkın bir deneyime sahip olan kliniğimiz, Birleşik Krallık ve Almanya da dahil olmak üzere 30'dan fazla ülkeden binlerce hastayı gururla tedavi etmiştir. Her hasta, benzersiz bir birey olarak ele alınmakta ve gelen herkes için sıcak, samimi bir ortam sunmaktayız.",
+    "text3":"Yurt dışında diş bakımını seçmek zorlayıcı olabilir; bu nedenle şeffaflık ve açık iletişimi öncelikli kılıyoruz. Kliniğimiz, güvenliğiniz ve memnuniyetinizin garantisi için en yüksek uluslararası standartlar altında işlemektedir. Estetik diş tedavileri veya tam ağız restorasyonlarıyla ilgileniyorsanız, her tedaviyi bireysel ihtiyaç ve isteklerinize uygun bir şekilde titizlikle planlıyoruz.",
+    "text4":"Doğal güzellikler ve tarihi zenginlikler yönünden zengin bir bölgede yer alan kliniğimiz, hem rahatlama hem de diş bakımı arayanlar için mükemmel bir konumdadır. Olympos, Çıralı ve Phaselis gibi muhteşem destinasyonlarla çevrili olmamız sayesinde, gülüşünüzü geliştirirken çeşitli aktivitelerin tadını çıkarabilirsiniz.",
+    "text5":"Premium Art Dental Clinic'te amacımız sadece size muhteşem bir gülüş sunmak değil, aynı zamanda yolculuğunuz boyunca değerli ve önemsenmiş hissetmenizi sağlamaktır. Mutlu ve sağlıklı gülüşler ailesine katılmanızı içtenlikle davet ediyoruz—çünkü siz en iyisini hak ediyorsunuz. Güveninizi yeniden keşfedin ve her zaman hayalini kurduğunuz gülüşe bizimle ulaşın. Unutmayın, 'Gülüşünüz, üzerinizde taşıyacağınız bir sanat.'"
+  }
+
+
 }

@@ -88,7 +88,7 @@ export default function ServicesGrid() {
               </p>
 
               {/* “Detaylı Bilgi” Butonu */}
-              <button className="mt-auto inline-block self-start border border-[#d9b740] text-[#d9b740] rounded-md  px-2 py-1 lg:px-4 lg:py-2 text-sm hover:bg-[#d9b740] hover:text-black transition">
+              <button className="mt-auto inline-block self-start border border-[#e29c2d] text-[#e29c2d] rounded-md  px-2 py-1 lg:px-4 lg:py-2 text-sm hover:bg-[#e29c2d] hover:text-black transition">
                 Detaylı Bilgi
               </button>
             </div>

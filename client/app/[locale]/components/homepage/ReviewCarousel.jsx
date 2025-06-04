@@ -121,10 +121,10 @@ export default function ReviewsCarousel() {
   const currentReviews = activeTab === "trust" ? trustpilotReviews : googleReviews;
 
   return (
-    <section className="bg-[#050a30] text-white py-16">
+    <section className=" text-[#050a30] py-16">
       <div className="container mx-auto px-4 md:px-8 lg:px-16">
         {/* Başlık */}
-        <h2 className="text-3xl lg:text-4xl font-marcellus mb-2">Hasta Yorumları</h2>
+        <h2 className="text-3xl lg:text-4xl font-marcellus mb-2 text-[#be231d]">Hasta Yorumları</h2>
         <p className="font-jost text-base mb-8 max-w-2xl">
           Gerçek hastalar, gerçek sonuçlar. <br />
           Memnuniyetlerini paylaşan hastalarımızın yorumlarıyla tanışın!
@@ -135,7 +135,7 @@ export default function ReviewsCarousel() {
           <button
             className={`px-4 py-2 font-jost ${
               activeTab === "trust"
-                ? "border-b-2 border-[var(--lago-gold)] text-[var(--lago-gold)]"
+                ? "border-b-2 border-[var(--premiumgold)] text-[var(--premiumgold)]"
                 : "text-gray-400 hover:text-white"
             }`}
             onClick={() => setActiveTab("trust")}
@@ -145,7 +145,7 @@ export default function ReviewsCarousel() {
           <button
             className={`px-4 py-2 font-jost ${
               activeTab === "google"
-                ? "border-b-2 border-[var(--lago-gold)] text-[var(--lago-gold)]"
+                ? "border-b-2 border-[var(--premiumgold)] text-[var(--premiumgold)]"
                 : "text-gray-400 hover:text-white"
             }`}
             onClick={() => setActiveTab("google")}
@@ -159,7 +159,7 @@ export default function ReviewsCarousel() {
           {/* Sol ok */}
           <button
             onClick={scrollPrev}
-            className="absolute -left-8 top-1/2 z-20 -translate-y-1/2 bg-lagoBlack2 hover:bg-lagoBlack p-2 rounded-md transition"
+            className="absolute -left-8 top-1/2 z-20 -translate-y-1/2 bg-black hover:bg-black p-2 rounded-md transition"
           >
             <FaChevronLeft className="w-6 h-6 text-white" />
           </button>
@@ -228,7 +228,7 @@ export default function ReviewsCarousel() {
           {/* Sağ ok */}
           <button
             onClick={scrollNext}
-            className="absolute -right-8 top-1/2 z-20 -translate-y-1/2 bg-lagoBlack2 hover:bg-lagoBlack p-2 rounded-md transition"
+            className="absolute -right-8 top-1/2 z-20 -translate-y-1/2 bg-black hover:bg-black p-2 rounded-md transition"
           >
             <FaChevronRight className="w-6 h-6 text-white" />
           </button>

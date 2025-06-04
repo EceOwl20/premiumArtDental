@@ -2,5 +2,29 @@
     "label": "Change language",
     "locale": "{locale, select, en {EN} tr {TR} ru {RU} de {DE} other {Unknown}}"
   
+  },
+
+  "OurTeam":{
+    "header":"Our Team",
+     "span":"Home » Our Team",
+    "text1":"At Premium Art Dental Clinic, we pride ourselves on our highly skilled team of dental professionals with over 25 years of combined experience. Our dedicated staff specializes in all areas of dentistry, ensuring that we provide comprehensive, top-quality care tailored to each patient's unique needs.",
+    "text2":"We also have multilingual patient coordinators available to assist you in your language, guaranteeing clear communication and a seamless experience throughout your treatment journey. With our knowledgeable and compassionate team, you can trust that you are in expert hands."
+  },
+
+   "OurClinic": {
+    "header": "Our Clinic",
+    "text1": "Welcome to Premium Art Dental Clinic, located in the beautiful Kemer region of Antalya. We offer an exceptional dental experience in a spacious, comfortable environment equipped with state-of-the-art technology.",
+    "text2": "With a team of over 25 years of experience dental professionals, we provide personalized care tailored to your needs. To ensure your convenience, we offer hotel transfers and comfortable relaxation areas.",
+    "text3": "Our prime location allows easy access to stunning attractions like Olympos, Çıralı beaches, and Phaselis ruins, making it easy to enjoy both dental care and a relaxing holiday. Experience exceptional care and discover the beautiful smiles that await you at Premium Art Dental Clinic!"
+  },
+
+  "AboutUs":{
+    "header": "About Us",
+     "span":"Home » Corporate",
+    "text1":"Welcome to Premium Art Dental Clinic, located in the beautiful Kemer region of Antalya and helmed by the dedicated husband-and-wife team, Dt. Kivanc Ozkaral and Dt. Firuzan Ozkaral. Our clinic was founded on the principles of artistry in dentistry, cutting-edge technology, and compassionate care, all designed to create exceptional smiles.",
+    "text2":"Nestled in a spacious and modern facility, we offer an array of advanced dental services equipped with the latest technology to ensure a comfortable and effective treatment experience. With more than a decade of experience in the dental field, we have proudly treated thousands of patients from over 30 countries. Each patient is treated as a unique individual, and we are committed to ensuring a warm, welcoming environment for everyone who visits us.",
+    "text3":"Choosing dental care abroad can feel overwhelming, which is why we prioritize transparency and open communication. Our clinic operates under the highest international standards to guarantee your safety and satisfaction. Whether you are interested in cosmetic enhancements or complete dental restorations, we meticulously plan each treatment tailored to your specific needs and desires.",
+    "text4":"Situated in a region rich in natural beauty and history, our clinic is perfectly positioned for those seeking both relaxation and dental care. With stunning destinations like Olympos, Çıralı, and Phaselis nearby, you can enjoy a variety of activities while you enhance your smile. ",
+    "text5":"At Premium Art Dental Clinic, our goal is not only to provide you with a stunning smile but also to ensure you feel valued and cared for throughout your journey with us. We invite you to join our family of happy and healthy smiles—because you deserve nothing but the best. Rediscover your confidence and let us help you achieve the smile you've always dreamed of. Remember, 'Art you can wear: your smile.'"
   }
 }

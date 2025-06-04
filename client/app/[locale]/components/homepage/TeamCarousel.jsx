@@ -6,6 +6,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import Link from "next/link";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { GoArrowUpRight } from "react-icons/go";
+import { useTranslations } from 'next-intl';
 
 const teamMembers = [
   { name: "Dr. Lorem Ipsum", role: "Kurucu Diş Hekimi", img: "https://placehold.co/300x400?text=Hello+World" },
@@ -19,6 +20,7 @@ const teamMembers = [
 ];
 
 export default function TeamCarousel() {
+     const t = useTranslations('OurTeam');
   // loop: true olduğu için Embla, başa ve sona clone slide ekliyor
   const [emblaRef, emblaApi] = useEmblaCarousel({
     align: "start",
@@ -37,15 +39,15 @@ export default function TeamCarousel() {
   }, [emblaApi]);
 
   return (
-    <section className="bg-[#050a30] text-white py-16">
+    <section className=" text-[#050a30] py-16">
       <div className="container mx-auto px-4 md:px-8 lg:px-16">
         {/* Başlık ve "Tüm Ekibimiz" butonu */}
         <div className="flex items-center justify-between mb-8 relative">
           <div>
-            <h2 className="text-[28px] lg:text-4xl font-roboto mb-2">Ekibimiz</h2>
-            <p className="font-raleway text-gray-300 text-[14px] lg:text-[18px]">
-              Sizlere en iyi hizmeti sunmak için çalışan güçlü bir ekibiz!
-              Sağlıklı, konforlu ve güvenilir bir deneyim için her zaman yanınızdayız.
+            <h2 className="text-[28px] lg:text-4xl font-roboto mb-2">{t("header")}</h2>
+            <p className="font-raleway text-[#050a30] text-[14px] lg:text-[18px]">
+              {t("text1")}
+                {t("text2")}
             </p>
           </div>
           <Link href="/team">
@@ -64,7 +66,7 @@ export default function TeamCarousel() {
           {/* Sol ok */}
           <button
             onClick={scrollPrev}
-            className="absolute left-0 top-1/2 z-20 -translate-y-1/2 bg-lagoBlack2 hover:bg-lagoBlack p-2 rounded-md transition"
+            className="absolute left-0 top-1/2 z-20 -translate-y-1/2 bg-black hover:bg-black p-2 rounded-md transition"
           >
             <FaChevronLeft className="w-6 h-6 text-white" />
           </button>
@@ -116,7 +118,7 @@ export default function TeamCarousel() {
           {/* Sağ ok */}
           <button
             onClick={scrollNext}
-            className="absolute right-0 top-1/2 z-20 -translate-y-1/2 bg-lagoBlack2 hover:bg-lagoBlack p-2 rounded-md transition"
+            className="absolute right-0 top-1/2 z-20 -translate-y-1/2 bg-black hover:bg-black p-2 rounded-md transition"
           >
             <FaChevronRight className="w-6 h-6 text-white" />
           </button>

@@ -64,7 +64,7 @@ export default function BlogSection() {
           {leftPosts.map((post, idx) => (
             <div
               key={idx}
-              className="border border-[#d9b740] rounded-xl overflow-hidden flex flex-col lg:flex-row bg-gray-900"
+              className="border border-[#e29c2d] rounded-xl overflow-hidden flex flex-col lg:flex-row bg-gray-900"
             >
               {/* Görsel Alanı */}
               <div className="w-full lg:w-[35%] h-[200px] relative">
@@ -96,7 +96,7 @@ export default function BlogSection() {
 
         {/* ─────────── SAĞ TARAF (Son Yazılar) ─────────── */}
         <div className="w-full lg:w-[30%]">
-          <div className="border border-[#d9b740] rounded-xl bg-[#10271a] p-6">
+          <div className="border border-[#e29c2d] rounded-xl bg-[#2c744b] p-6">
             <h4 className="text-xl font-marcellus mb-4 text-center">
               Son Yazılar
             </h4>

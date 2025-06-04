@@ -27,7 +27,7 @@ export default function SlideSection() {
   return (
     <section
       ref={ref}
-      className="bg-[#050a30] text-white py-10 lg:py-16 max-w-screen flex flex-col md:flex-row items-center gap-4 lg:gap-8 justify-center"
+      className=" text-[#050a30] py-10 lg:py-16  flex flex-col md:flex-row items-center gap-4 lg:gap-8 justify-center max-w-[1500px]"
     >
       {/* SOLDAN KAYAN METİN BLOĞU */}
       <div
@@ -36,7 +36,7 @@ export default function SlideSection() {
         }`}
         style={{ animationDelay: "0.3s" }}
       >
-        <h2 className="font-marcellus text-3xl lg:text-4xl">
+        <h2 className="font-marcellus text-3xl lg:text-4xl text-[#1f84d2]">
           Mükemmel Gülüşler, Kusursuz Dokunuşlar!
         </h2>
         <p className="font-jost">
@@ -49,7 +49,7 @@ export default function SlideSection() {
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates a dolore repudiandae temporibus, necessitatibus natus fuga doloribus minima quaerat. Porro, commodi ea aperiam beatae natus quis suscipit odit qui et?
         </p>
         <Link href="/randevu">
-          <div className="inline-block bg-[#10271a] hover:bg-lagoBlack2 text-white font-jost capitalize transition px-[12px] py-[6px] lg:px-[24px] lg:py-[10px]">
+          <div className="inline-block bg-[#2c744b] hover:bg-black text-white font-jost capitalize transition px-[12px] py-[6px] lg:px-[24px] lg:py-[10px]">
             Hemen Randevu Oluştur
           </div>
         </Link>

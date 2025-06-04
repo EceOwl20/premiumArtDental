@@ -3,8 +3,10 @@
 
 import useCounter from "../../hooks/useCounter";
 import Image from "next/image";
+import { useTranslations } from 'next-intl';
 
 export default function ClinicSection() {
+    const t = useTranslations('OurClinic');
   // Her bir istatistik için sayacı çalıştırıyoruz
   const experienceYears = useCounter(10, 1000);       // 10+ Yıllık Deneyim
   const visitorCountries = useCounter(30, 1000);      // 30+ Farklı Ülkeden Ziyaretçi
@@ -31,19 +33,19 @@ export default function ClinicSection() {
 
           {/* Başlık */}
           <h2 className="text-3xl lg:text-4xl font-marcellus font-bold">
-            Kliniğimiz
+           {t("header")}
           </h2>
 
           {/* Paragraflar */}
           <div className="space-y-4 text-sm lg:text-base font-jost leading-relaxed">
             <p>
-             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minus molestias autem voluptatum temporibus minima placeat illo sint quia neque mollitia. Quae in placeat nobis? Cum, perferendis! Ullam nostrum quae commodi.
+                {t("text1")}
             </p>
             <p>
-              Quae in placeat nobis? Cum, perferendis! Ullam nostrum quae commodi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur nam, repellendus est, quis vitae maxime, officia cumque perferendis magni nesciunt facere. Eius eveniet molestiae dolorum magni alias illum voluptate possimus.
+              {t("text2")}
             </p>
             <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nihil, ipsa a, fuga optio reprehenderit dignissimos ullam quos totam dolorem adipisci doloribus. Et ea commodi eum iure, labore optio deserunt voluptatibus.
+             {t("text3")}
             </p>
           </div>
         </div>
@@ -56,7 +58,7 @@ export default function ClinicSection() {
               className="flex flex-col items-center justify-center space-y-2"
             >
               {/* Hızlıca sayan sayı */}
-              <div className="text-4xl lg:text-5xl font-marcellus text-[#d9b740]">
+              <div className="text-4xl lg:text-5xl font-marcellus text-[#e29c2d]">
                 {stat.value.toLocaleString()}<span className="text-2xl">+</span>
               </div>
               {/* Açıklama */}

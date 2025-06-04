@@ -14,7 +14,7 @@ import FreeConsultationForm from "./components/homepage/FreeConsultationForm";
 
 export default function Home() {
   return (
-    <div className="flex flex-col overflow-x-hidden">
+    <div className="flex flex-col overflow-x-hidden items-center justify-center">
      <HeroBanner/>
           <div className="hidden lg:flex absolute inset-x-0 lg:top-[75vh] xl:top-[80vh] justify-center px-4">
         {/* Burada top değeriyle formu yukarıdan konumlandırabilirsiniz */}

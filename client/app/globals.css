@@ -14,9 +14,11 @@
   }
 
 :root {
+    --premiumblue: #1f84d2;
     --premiumdarkblue: #050a30;
-    --premiumgold:   #d9b740;
-    --premiumdarkgreen:   #10271a;
+    --premiumgold:   #e29c2d;
+    --premiumgreen:   #2c744b;
+    --premiumred:   #be231d;
   }
 
 /* 1. Başlığın yukarıdan gelmesi için */

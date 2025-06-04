@@ -17,7 +17,7 @@ export default function VirtualTour() {
             <p>360° sanal tur ile tedavi alanlarımızı adım adım inceleyin.</p>
           </div>
           <Link href="https://premiumartdental.com/360-tour" passHref>
-            <div className="inline-block bg-[#d9b740] hover:bg-yellow-600 text-text font-raleway uppercase py-3 px-6 transition">
+            <div className="inline-block bg-[#e29c2d] hover:bg-yellow-600 text-text font-raleway uppercase py-3 px-6 transition">
               360° Sanal Klinik Turu İçin Tıklayın
             </div>
           </Link>

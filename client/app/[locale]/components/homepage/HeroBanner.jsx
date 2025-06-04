@@ -23,7 +23,7 @@ export default function HeroBanner() {
       />
 
       {/* Koyu overlay */}
-      <div className="absolute inset-0 bg-black/60"></div>
+      <div className="absolute inset-0 bg-black/30"></div>
       {/* İçerik */}
       <div className="absolute inset-0 flex items-center mt-[4%]">
         <div className="container w-[53%] ml-[13%]">
@@ -53,7 +53,7 @@ export default function HeroBanner() {
 
           {/* Çağrı butonu */}
           <Link href="/services" className="opacity-0 animate-slide-up delay-1400">
-            <div className="inline-block bg-lagoBlack hover:bg-lagoBlack2 text-white bg-[#d9b740] px-[12px] py-[6px] lg:px-[24px] lg:py-[10px] font-jost capitalize text-base lg:text-[17px] transition">
+            <div className="inline-block hover:bg-white text-white bg-[#e29c2d] hover:text-[#e29c2d] px-[12px] py-[6px] lg:px-[24px] lg:py-[10px] font-jost capitalize text-base lg:text-[17px] transition">
               Sunduğumuz Hizmetler
             </div>
           </Link>

@@ -5,7 +5,7 @@ import { FaWhatsapp, FaInstagram, FaFacebookF, FaYoutube } from "react-icons/fa"
 
 export default function SocialSidebar() {
   return (
-    <div className="fixed right-0 top-1/2 z-50 flex -translate-y-1/2 flex-col items-center space-y-4 bg-[#050a30] p-2 md:p-4 rounded-lg">
+    <div className="fixed right-0 top-1/2 z-50 flex -translate-y-1/2 flex-col items-center space-y-4 bg-[#2c744b] p-2 md:p-4 rounded-lg">
       {/* WhatsApp */}
       <Link href="/"
       // href="https://wa.me/901234567890"

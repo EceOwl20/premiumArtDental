@@ -9,7 +9,7 @@ import { MdEmail } from "react-icons/md";
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-white border-t-[0.5px] border-[#d9b740]">
+    <footer className="bg-[#050a30] text-white border-t-[0.5px] border-[#e29c2d]">
       {/* Üst Bölüm: Logo / İletişim / Adres */}
       <div className="container mx-auto px-4 md:px-8 lg:px-16 py-12 flex flex-col md:flex-row items-center justify-between gap-6 lg:gap-[8%]">
         {/* 1) Logo Sütunu */}
@@ -25,7 +25,7 @@ export default function Footer() {
           <ul className="space-y-2 lg:space-y-4">
             {/* Telefon ve e-posta satırı 1 */}
             <li className="flex items-center gap-3">
-              <MdEmail className="w-6 h-6 text-[var(--premiumgold]"/>
+              <MdEmail className="w-6 h-6 text-[#2c744b]"/>
               <div className="flex flex-col">
                 <Link href="/">
                   <div className="hover:underline font-jost text-[16px]">info@premiumartdental.com</div>
@@ -34,7 +34,7 @@ export default function Footer() {
             </li>
             {/* Telefon 2 */}
             <li className="flex items-center gap-3">
-              <FaPhoneAlt className="w-5 h-5 text-[var(--lago-gold)]" />
+              <FaPhoneAlt className="w-5 h-5 text-[var(--premiumgold)]" />
               <Link href="tel:+901234567890">
                 <div className="hover:underline">+90 (123) 456 78 90</div>
               </Link>

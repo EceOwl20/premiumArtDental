@@ -5,11 +5,14 @@ import FounderMessage from '../components/subpages/FounderMessage'
 import ClinicSection from '../components/subpages/ClinicSection'
 import TeamCarousel from '../components/homepage/TeamCarousel'
 import LogoCarousel from '../components/homepage/LogoCarousel'
+import { useTranslations } from 'next-intl';
 
 const page = () => {
+      const t = useTranslations('AboutUs');
+
   return (
     <div className='overflow-x-hidden'>
-      <Banner  header="Kurumsal" text="Anasayfa » Kurumsal" img={img1}/>
+      <Banner  header={t("header")} text={t("span")} img={img1}/>
       <FounderMessage/>
       <ClinicSection/>
       <TeamCarousel/>

@@ -65,7 +65,7 @@ export default function BlogCarousel() {
   }, [emblaApi]);
 
   return (
-    <section className="bg-[#10271a] text-white py-10 lg:py-16">
+    <section className="bg-[#2c744b] text-white py-10 lg:py-16 w-screen">
       <div className="container mx-auto px-4 md:px-8 lg:px-16">
         {/* Başlık ve Tüm Yazılar Butonu */}
         <div className="flex items-center justify-between mb-8">
@@ -85,7 +85,7 @@ export default function BlogCarousel() {
           {/* Sol Ok */}
           <button
             onClick={scrollPrev}
-            className="absolute left-0 top-1/2 z-20 -translate-y-1/2 bg-lagoBlack2 hover:bg-lagoBlack p-2 rounded-md transition"
+            className="absolute left-0 top-1/2 z-20 -translate-y-1/2 bg-black hover:bg-black p-2 rounded-md transition"
           >
             <FaChevronLeft className="w-6 h-6 text-white" />
           </button>
@@ -103,7 +103,7 @@ export default function BlogCarousel() {
                              lg:w-[calc(33.3%-24px)] 
                              xl:w-[calc(25%-24px)]"
                 >
-                  <div className="bg-[var(--lago-gray)] border border-gray-700 rounded-xl overflow-hidden flex flex-col h-full">
+                  <div className="bg-white border border-gray-700 rounded-xl overflow-hidden flex flex-col h-full">
                     {/* Resim */}
                     <div className="relative h-32 md:h-40 overflow-hidden group">
                       <img
@@ -119,11 +119,11 @@ export default function BlogCarousel() {
                       <h3 className="font-raleway font-semibold text-lg mb-1 lg:mb-2">
                         {post.title}
                       </h3>
-                      <p className="font-raleway text-sm text-gray-300 flex-grow mb-1 lg:mb-4">
+                      <p className="font-raleway text-sm text-[#050a30] flex-grow mb-1 lg:mb-4">
                         {post.text}
                       </p>
                       <Link href={`/blog/${idx + 1}`}>
-                        <div className="mt-auto inline-block border border-[var(--premiumgold)] text-[var(--premiumgold)] font-raleway uppercase text-sm py-2 px-4 rounded hover:bg-[var(--premiumgold)] hover:text-black transition">
+                        <div className="mt-auto inline-block border border-[var(--premiumgold)] text-[var(--premiumgold)] font-raleway uppercase text-sm py-2 px-4 rounded hover:bg-[var(--premiumgold)] hover:text-white transition">
                           Detaylı Bilgi
                         </div>
                       </Link>
@@ -137,7 +137,7 @@ export default function BlogCarousel() {
           {/* Sağ Ok */}
           <button
             onClick={scrollNext}
-            className="absolute right-0 top-1/2 z-20 -translate-y-1/2 bg-lagoBlack2 hover:bg-lagoBlack p-2 rounded-md transition"
+            className="absolute right-0 top-1/2 z-20 -translate-y-1/2 bg-black hover:bg-white p-2 rounded-md transition"
           >
             <FaChevronRight className="w-6 h-6 text-white" />
           </button>
