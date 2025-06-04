@@ -140,7 +140,7 @@ export default function TreatmentCarousel() {
                     </p>
 
                     <Link href={`/tedavi/${title.toLowerCase().replace(/\s+/g, "-")}`}>
-                      <div className="mt-4 inline-block border border-[#e29c2d] text-[#050a30] font-jost uppercase text-sm py-2 px-4 rounded hover:bg-lagoGold hover:text-black hover:bg-[#050a30] transition">
+                      <div className="mt-4 inline-block border border-[#e29c2d] text-[#e29c2d] font-jost uppercase text-sm py-2 px-4 rounded hover:bg-lagoGold hover:text-black hover:bg-white transition">
                         Detaylı Bilgi
                       </div>
                     </Link>
