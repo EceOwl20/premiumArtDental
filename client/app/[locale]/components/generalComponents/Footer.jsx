@@ -5,7 +5,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import logo from "../../../../public/images/logo/logowhite.png"
-import { MdEmail } from "react-icons/md";
+import { MdEmail, MdLocationPin } from "react-icons/md";
 
 export default function Footer() {
   return (
@@ -15,7 +15,10 @@ export default function Footer() {
         {/* 1) Logo Sütunu */}
         <div className="flex-shrink-0 flex items-center space-x-4">
           <Image src={logo} alt="Premiumart" width={40} height={40} />
-          <span className="text-xl lg:text-[24px] font-marcellus">Premium Art Dental</span>
+          <span className="text-xl lg:text-[24px] font-marcellus bg-gradient-to-r from-[#1f84d2] via-[#2c744b] via-[#700079] via-[#c1005c] to-[#e46c59] bg-clip-text text-transparent">
+  Premium Art Dental
+</span>
+
         </div>
 
         {/* Dikey ayırıcı (büyük ekranlarda) */}
@@ -46,9 +49,10 @@ export default function Footer() {
         <div className="hidden md:block h-12 border-l border-gray-700" />
 
         {/* 3) Adres Sütunu */}
-        <div className="flex-1">
-          <p className="font-jost">
-             Muratpaşa/Antalya
+        <div className="flex items-center gap-3">
+           <MdLocationPin className="w-6 h-6 text-[#1f84d2]"/>
+          <p className="font-jost text-[#ffffff]">
+             Kemer / Antalya
           </p>
         </div>
       </div>

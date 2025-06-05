@@ -19,24 +19,24 @@ export default function Header() {
       <div className="flex relative h-20 md:h-28 lg:h-32 bg-[#050a30] backdrop-blur-sm max-w-screen items-center justify-center border-b-[0.5px] border-[#e29c2d]">
      
         {/* Koyu yarı saydam katman + blur */}
-        <div className="absolute flex items-center justify-between w-[90%] lg:w-[80%] lg:min-w-[1295px]">
+        <div className="absolute flex items-center justify-between w-[90%] lg:w-[90%] lg:min-w-[1295px]">
           
           {/* Logo */}
           <Link href="/">
             <div className="flex items-center">
               <Image src={logo} alt="Dent" width={50} height={50} />
-              <span className="ml-2 text-white font-marcellus text-md lg:text-lg">
+              <span className="ml-2 font-marcellus text-md lg:text-lg xl:text-[22px] bg-gradient-to-r from-[#1f84d2] via-[#2c744b] via-[#700079] via-[#c1005c] to-[#e46c59] bg-clip-text text-transparent">
               Premium Art Dental
               </span>
             </div>
           </Link>
 
           {/* Desktop navigasyon */}
-          <nav className="hidden lg:flex items-center text-center lg:space-x-3 xl:space-x-7 text-white font-jost uppercase text-sm xl:text-[16px]">
+          <nav className="hidden lg:flex items-center text-center lg:space-x-3 xl:space-x-7 text-white font-jost uppercase text-sm xl:text-[16px] font-roboto">
             {["Kurumsal","Tedaviler","Ekibimiz","Doktorlar","Blog","Galeri","Iletisim"].map((item, i) => (
               <span key={item} className="flex items-center">
                 <Link href={`/${item.toLowerCase()}`}>
-                  <div className="px-2 hover:underline">{item}</div>
+                  <div className="px-2 hover:bg-gradient-to-r hover:from-[#1f84d2] via-[#2c744b] via-[#700079] via-[#c1005c] to-[#e46c59] bg-clip-text hover:text-transparent">{item}</div>
                 </Link>
                 {i < 6 && <span className="text-white ml-3 xl:ml-5">|</span>}
               </span>
@@ -89,7 +89,7 @@ export default function Header() {
             <Link key={item} href={`/${item.toLowerCase()}`}>
               <div
                 onClick={() => setMobileOpen(false)}
-                className="block py-2 md:py-3 hover:underline"
+                className="block py-2 md:py-3 "
               >
                 {item}
               </div>

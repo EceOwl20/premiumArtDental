@@ -58,14 +58,14 @@ const treatments = [
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, perspiciatis mollitia magni modi temporibus culpa.…",
     Icon: FaStethoscope,
-    color: "#d64292",
+    color: "#c1005c",
   },
   {
     title: "Estetik Diş Hekimliği",
     description:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis, perspiciatis mollitia magni modi temporibus culpa.…",
     Icon: FaPaintBrush,
-    color: "#6f42c1",
+    color: "#700079",
   },
   {
     title: "Diş Beyazlatma",

@@ -28,7 +28,7 @@ export default function InfoCards() {
           <div className="w-full bg-gray-900 rounded-md px-4 py-3 mt-auto">
             <p className="text-sm leading-snug text-gray-200 text-center">
               <br />
-              Muratpaşa/Antalya
+              Kemer/Antalya
             </p>
           </div>
         </div>

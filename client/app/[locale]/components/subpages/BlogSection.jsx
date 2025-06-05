@@ -6,65 +6,60 @@ import Image from "next/image";
 
 const leftPosts = [
   {
-    title: "Alt ve Üst Çene İmplantlarında Nelere Dikkat Edilmeli?",
+    title: "Diş İmplantı ve Diş Köprüsü: Sizin İçin Hangi Tedavi Daha Uygun?",
     excerpt:
-      "Alt ve Üst Çene İmplantlarında Nelere Dikkat Edilmeli? Diş kaybı, hem estetik görünümü hem de günlük yaşam kalitesini olumsuz etkileyen önemli bir problemdir. Günümüzde diş implantları, bu soruna en doğal ve kalıcı çözüm olarak öne çıkıyor. Ancak başarılı bir implant tedavisi için özellikle alt ve üst çene uygulamalarında bazı kritik…",
+      "Eksik dişlerin yerine yeni diş yaptırmak söz konusu olduğunda, diş implantları ve diş köprüleri en çok tercih edilen iki seçenektir. Her ikisi de etkili çözümler sunar, ancak ihtiyaçlarınıza en uygun olanı seçebilmek için aralarındaki farkları ve avantajları bilmek önemlidir. Premium Art Dental Clinic olarak, bu blog yazısında diş implantları ve diş köprülerini karşılaştırıyor, özelliklerini, avantajlarını ve dikkat edilmesi gereken noktaları sizinle paylaşıyoruz.",
     img: "https://placehold.co/300x200?text=Implant",
   },
   {
-    title: "Full Çene İmplant ve Protez Arasındaki Fark Nedir?",
+    title: "Diş İmplantları Yaşam Kalitenizi Nasıl Artırır?",
     excerpt:
-      "Tüm dişlerini kaybetmiş bireylerin karşısına genellikle iki seçenek çıkar: Hareketli protezler veya full çene implant tedavisi. Her iki yöntem de eksik dişlerin yerini doldurmayı amaçlasa da, konfor, estetik ve uzun vadeli başarı açısından aralarında büyük farklar vardır. Antalya’da modern diş tedavilerini başarıyla uygulayan Premium Art Dental olarak, sizin için bu iki…",
+      "Eksik dişlerinizi tamamlamak ve gülüşünüzü güzelleştirmek söz konusu olduğunda, diş implantları dünya genelinde milyonlarca hasta için en çok tercih edilen çözüm haline gelmiştir. Premium Art Dental Clinic olarak Türkiye’de en son diş teknolojilerini kullanarak yüksek kaliteli implant tedavileri sunuyoruz. Bu sayede implant tedavileri artık hem daha erişilebilir hem de daha uygun maliyetlidir.",
     img: "https://placehold.co/300x200?text=Protez",
   },
   {
-    title: "Dişsiz Hastalar İçin Kalıcı Çözüm",
+    title: "Yurt Dışından Gelen Hastalar İçin Adım Adım Diş Tedavisi Süreci (Türkiye Rehberi)",
     excerpt:
-      "Tüm dişlerini kaybetmiş olmak, sadece estetik açıdan değil; beslenme, konuşma ve özgüven üzerinde de ciddi etkiler yaratabilir. Ancak günümüzde diş hekimliği, dişsiz hastalar için artık kalıcı ve konforlu bir çözüm sunuyor: Full Ağız İmplant Tedavisi. Premium Art Dental olarak Antalya’daki hastalarımıza, yaşam kalitelerini artıracak bu gelişmiş tedavi yöntemini en güncel teknoloji…",
+      "Diş tedavinizi uygun fiyatlarla, yüksek kaliteyle ve tatil fırsatıyla birleştirmek ister misiniz? Türkiye, son yıllarda dental turizm alanında dünyanın en çok tercih edilen ülkelerinden biri haline geldi. Antalya/Kemer’deki Premium Art Diş Kliniğimiz, yurt dışından gelen hastalarımıza özel planlanmış VIP bir süreç sunuyoruz. Bu yazımızda, Türkiye’de diş tedavisi görmek isteyen yabancı hastalar için adım adım süreci anlatıyoruz. Böylece aklınızdaki tüm soru işaretleri netleşmiş olacak.",
     img: "https://placehold.co/300x200?text=Dişsiz",
   },
   {
-    title: "Sedasyonlu İmplant Tedavisinin Avantajları",
+    title: "Diş Eti Hastalıkları ve Türkiye’de Periodontal Tedavi Seçenekleri",
     excerpt:
-      "Sedasyon, diş tedavileri sırasında ortaya çıkabilecek olan ağrı, korku veya mide bulantısını ortadan kaldırmak amacıyla kullanılan bir tekniktir. Sedasyonlu implant tedavisi sayesinde hasta hem konforlu bir süreç yaşar hem de uzun süreli, kalıcı diş çözümlerine daha kolay erişir. Özellikle diş fobisi olan hastalar için sedasyonlu yöntemler, işlemi çok daha rahat ve stres…",
+      "Diş sağlığı sadece dişlerin değil, diş etlerinin de sağlıklı olmasını gerektirir. Diş eti hastalıkları, çoğu zaman fark edilmeden ilerleyen ancak zamanında tedavi edilmezse diş kaybına yol açabilen ciddi sorunlardır. Kliniğimizde bu hastalıkların tedavisinde hem ileri teknoloji hem de uzmanlıkla donatılmış modern ekipmanlar mevcuttur. Antalya/Kemer’de bulunan Premium Art Diş Kliniği olarak, yurt dışından gelen hastalarımıza özel diş eti tedavi çözümleri sunuyor, sağlıklı ve estetik bir gülüşe kavuşmalarına yardımcı oluyoruz. Bu yazımızda diş eti hastalıklarını, belirtilerini ve Türkiye’deki tedavi seçeneklerini adım adım açıklıyoruz.",
     img: "https://placehold.co/300x200?text=Sedasyon",
   },
   {
-    title: "Diş Eti Hastalıklarında Erken Müdahale",
+    title: "Gülüş Tasarımı (Smile Makeover) ile Yeni Bir Başlangıç: Diş Estetiği Türkiye’de",
     excerpt:
-      "Diş eti hastalıkları, genellikle ilerlediğinde diş kaybına kadar gidebilen önemli rahatsızlıklardır. Diş eti çekilmesi, diş eti iltihabı (gingivitis) ve periodontit gibi durumlar, zamanında müdahale edilmediğinde daha ciddi cerrahi işlemleri gerektirebilir. Düzenli check‐up’larla diş eti sağlığınızı kontrol altında tutabilir, böylece hem ağrı hissini hem de estetik kaybı önleyebilirsiniz. Premium Art Dental olarak erken teşhis…",
+      "Gülüş tasarımı, diş estetiği ve gülüş estetiği gibi terimler, son yıllarda hem estetik kaygılarla hem de işlevsel gereksinimlerle gündeme gelmiştir. Türkiye'de gülüş tasarımı, her geçen gün daha fazla hastamız tarafından tercih edilmektedir. Bu yazımızda, gülüş tasarımı tedavisi, diş estetiği tedavileri ve gülüş tasarımı Türkiye hakkındaki tüm merak edilenleri ayrıntılı şekilde ele alıyoruz. Ayrıca, diş estetiği fiyatları, gülüş tasarımı süreci ve Türkiye’deki Premium Art Diş Kliniğimizdeki gülüş tasarımı ile ilgili en iyi diş hekimleri hakkında bilgi vereceğiz.",
     img: "https://placehold.co/300x200?text=Diş+Eti",
   },
   {
-    title: "Estetik Gülüş Tasarımının İncelikleri",
+    title: "Diş İmplantı Tedavisi ile Sağlıklı ve Kalıcı Gülüşler: Premium Art Dental Clinic’te Profesyonel Hizmet",
     excerpt:
-      "Estetik gülüş tasarımı, sadece dişlerin beyaz veya düzgün olması demek değildir. Yüzün genel hatları, dudak yapısı, diş eti çizgileri, dişlerin boyutları ve konumları bütünsel olarak değerlendirilir. Kişiye özel hazırlanan CAD/CAM destekli diş kaplamaları, ortodontik düzeltmeler ve lazer tedavileri ile “hayalinizdeki gülüşe” ulaşmanız artık mümkün. Premium Art Dental, ileri teknoloji ve uzman ekibiyle sizi hayalinizdeki…",
+      "Diş kaybı estetik ve fonksiyonel açıdan önemli bir problem olabilir. Günümüzde, kaybolan dişlerin yerine konulması için en etkili çözümlerden biri diş implantıdır. Türkiye, özellikle Antalya gibi turistik bölgelerde dental turizm açısından popüler bir destinasyon haline gelmiştir. Premium Art Dental Clinic, hem yerli hem de yabancı hastalarına en kaliteli diş implantı tedavisi hizmetini sunmaktadır. Bu yazımızda, diş implantı tedavisi, dental implant, tedavi süreci, avantajları ve Premium Art Dental Clinic’te neden tercih edilmesi gerektiğini ayrıntılı şekilde ele alıyoruz.",
     img: "https://placehold.co/300x200?text=Gülüş",
   },
 ];
 
 const sidebarPosts = [
-  "Çekilen Dişin Yerine Ne Zaman İmplant Yapılır?",
-  "Implant’ta Neden 3 Ay Beklenir?",
-  "Diş Tedavisi Sonrası Nelere Dikkat Edilmelidir?",
-  "Estetik Diş Hekimliğinde En Yeni Trendler",
-  "Full Ağız İmplant Tedavisi Nedir?",
-  "Diş Taşı Temizliği Ne Sıklıkla Yapılmalı?",
-  "Gülüş Tasarımı Kimlere Yapılabilir?",
-  "Implant Tedavisi Sonrası İyileşme Süreci?",
-  "Diş Beyazlatma Sonrası Dikkat Edilmesi Gerekenler",
+  "All-on-4 ve All-on-6 İmplantlar ",
+  "Diş Tedaviniz İçin Neden Antalya En İyi Tercih? – 5 Neden",
+  "Diş İmplantı Fiyatları Ne Kadar?",
+  "Diş İmplantı Güvenli mi?"
 ];
 
 export default function BlogSection() {
   return (
-    <section className="bg-black text-white py-16 px-4 lg:px-20">
+    <section className=" text-[#050a30] py-16 px-4 lg:px-20">
       <div className="max-w-[1200px] mx-auto flex flex-col lg:flex-row gap-10">
         {/* ─────────── SOL TARAF (Gönderi Kartları) ─────────── */}
         <div className="flex-1 space-y-8">
           {leftPosts.map((post, idx) => (
             <div
               key={idx}
-              className="border border-[#e29c2d] rounded-xl overflow-hidden flex flex-col lg:flex-row bg-gray-900"
+              className="border border-[#e29c2d] rounded-xl overflow-hidden flex flex-col lg:flex-row "
             >
               {/* Görsel Alanı */}
               <div className="w-full lg:w-[35%] h-[200px] relative">
@@ -79,14 +74,14 @@ export default function BlogSection() {
               {/* Metin İçeriği */}
               <div className="p-6 flex flex-col justify-between">
                 <div>
-                  <h3 className="text-2xl font-marcellus mb-3">
+                  <h3 className="text-2xl font-marcellus mb-3 text-[#be231d]">
                     {post.title}
                   </h3>
-                  <p className="text-sm font-jost text-gray-300 mb-4">
+                  <p className="text-sm font-jost mb-4 text-[#050a30] line-clamp-4">
                     {post.excerpt}
                   </p>
                 </div>
-                <button className="self-start border border-white text-white px-5 py-2 rounded-md hover:bg-white hover:text-black transition">
+                <button className="self-start border border-white text-[#050a30] px-5 py-2 rounded-md hover:bg-white hover:text-gray-300 transition">
                   Devamını Oku
                 </button>
               </div>
@@ -97,7 +92,7 @@ export default function BlogSection() {
         {/* ─────────── SAĞ TARAF (Son Yazılar) ─────────── */}
         <div className="w-full lg:w-[30%]">
           <div className="border border-[#e29c2d] rounded-xl bg-[#2c744b] p-6">
-            <h4 className="text-xl font-marcellus mb-4 text-center">
+            <h4 className="text-xl font-marcellus mb-4 text-center text-[#e29c2d]">
               Son Yazılar
             </h4>
             <ul className="space-y-2">

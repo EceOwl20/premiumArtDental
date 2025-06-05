@@ -22,7 +22,7 @@ export default function ClinicSection() {
   ];
 
   return (
-    <section className="bg-black text-white py-16 px-4 lg:px-20">
+    <section className="bg-[#2c744b] text-white py-16 px-4 lg:px-20">
       <div className="max-w-[1200px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10">
         {/* SOL KISIM: Başlık + Paragraflar */}
         <div className="space-y-6">

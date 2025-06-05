@@ -44,7 +44,7 @@ export default function TeamCarousel() {
         {/* Başlık ve "Tüm Ekibimiz" butonu */}
         <div className="flex items-center justify-between mb-8 relative">
           <div>
-            <h2 className="text-[28px] lg:text-4xl font-roboto mb-2">{t("header")}</h2>
+            <h2 className="text-[28px] lg:text-4xl font-roboto mb-2 text-[#c1005c]">{t("header")}</h2>
             <p className="font-raleway text-[#050a30] text-[14px] lg:text-[18px]">
               {t("text1")}
                 {t("text2")}

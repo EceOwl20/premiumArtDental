@@ -7,7 +7,7 @@ import img1 from "../../../../public/images/patient.jpg"
 
 export default function WhyUs() {
   return (
-    <section className=" text-[#2c744b] py-16">
+    <section className=" text-[#1f84d2] py-16">
       <div className="container mx-auto px-4 md:px-8 lg:px-16 flex flex-col lg:flex-row items-center gap-8">
         {/* Sol: Görsel */}
         <div className="w-full lg:w-1/2">
