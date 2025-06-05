@@ -15,7 +15,7 @@ export default function Footer() {
         {/* 1) Logo Sütunu */}
         <div className="flex-shrink-0 flex items-center space-x-4">
           <Image src={logo} alt="Premiumart" width={40} height={40} />
-          <span className="text-xl lg:text-[24px] font-marcellus bg-gradient-to-r from-[#1f84d2] via-[#2c744b] via-[#700079] via-[#c1005c] to-[#e46c59] bg-clip-text text-transparent">
+          <span className="text-xl lg:text-[24px] font-roboto bg-gradient-to-r from-[#1f84d2] via-[#2c744b] via-[#700079] via-[#c1005c] to-[#e46c59] bg-clip-text text-transparent">
   Premium Art Dental
 </span>
 

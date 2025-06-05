@@ -124,7 +124,7 @@ export default function ReviewsCarousel() {
     <section className=" text-[#050a30] py-16">
       <div className="container mx-auto px-4 md:px-8 lg:px-16">
         {/* Başlık */}
-        <h2 className="text-3xl lg:text-4xl font-marcellus mb-2 text-[#be231d]">Hasta Yorumları</h2>
+        <h2 className="text-3xl lg:text-4xl font-roboto mb-2 text-[#be231d]">Hasta Yorumları</h2>
         <p className="font-jost text-base mb-8 max-w-2xl">
           Gerçek hastalar, gerçek sonuçlar. <br />
           Memnuniyetlerini paylaşan hastalarımızın yorumlarıyla tanışın!

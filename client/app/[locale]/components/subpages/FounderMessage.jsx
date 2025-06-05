@@ -44,7 +44,7 @@ export default function FounderMessage() {
           </div>
 
           {/* Başlık */}
-          <h2 className="text-3xl lg:text-4xl font-marcellus font-bold">
+          <h2 className="text-3xl lg:text-4xl font-roboto font-bold">
            {t("header")}
           </h2>
 
@@ -70,7 +70,7 @@ export default function FounderMessage() {
           {/* Randevu Butonu */}
           <button
             type="button"
-            className="mt-4 inline-flex items-center gap-2 border border-[#e29c2d] text-[#e29c2d] hover:bg-[#e29c2d] hover:text-black font-jost font-semibold uppercase px-5 py-2 lg:px-6 lg:py-3 rounded-md transition text-[14px] lg:text-[18px]"
+            className="mt-4 inline-flex items-center gap-2 border border-[#e29c2d] text-[#e29c2d] hover:bg-[#e29c2d] hover:text-white font-jost font-semibold uppercase px-5 py-2 lg:px-6 lg:py-3 rounded-md transition text-[14px] lg:text-[18px]"
           >
             <FaPhoneAlt />
             Randevu Oluştur

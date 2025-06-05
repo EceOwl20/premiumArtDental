@@ -32,7 +32,7 @@ export default function ClinicSection() {
           </span>
 
           {/* Başlık */}
-          <h2 className="text-3xl lg:text-4xl font-marcellus font-bold">
+          <h2 className="text-3xl lg:text-4xl font-roboto font-bold">
            {t("header")}
           </h2>
 
@@ -58,7 +58,7 @@ export default function ClinicSection() {
               className="flex flex-col items-center justify-center space-y-2"
             >
               {/* Hızlıca sayan sayı */}
-              <div className="text-4xl lg:text-5xl font-marcellus text-[#e29c2d]">
+              <div className="text-4xl lg:text-5xl font-roboto text-[#e29c2d]">
                 {stat.value.toLocaleString()}<span className="text-2xl">+</span>
               </div>
               {/* Açıklama */}

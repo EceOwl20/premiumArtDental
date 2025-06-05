@@ -36,7 +36,7 @@ export default function HeroBanner() {
 
           {/* Ana başlık */}
           <h1
-            className="font-marcellus text-white text-[28px] sm:text-4xl md:text-5xl lg:text-6xl leading-tight mb-4
+            className="font-roboto text-white text-[28px] sm:text-4xl md:text-5xl lg:text-6xl leading-tight mb-4
                        opacity-0 animate-slide-down delay-400">
             En yeni teknolojilerle ağrısız, konforlu ve hızlı çözümler!
           </h1>

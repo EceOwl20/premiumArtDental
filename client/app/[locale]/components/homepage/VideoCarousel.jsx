@@ -33,7 +33,7 @@ export default function VideoCarousel() {
     <section className=" py-8 lg:py-16 text-[#050a30]">
       {/* Başlık ve açıklama */}
       <div className="container mx-auto px-4 md:px-8 lg:px-16 max-w-[1400px]">
-        <h2 className="text-3xl lg:text-4xl font-marcellus mb-4 text-[#2c744b]">Hasta Videoları</h2>
+        <h2 className="text-3xl lg:text-4xl font-roboto mb-4 text-[#2c744b]">Hasta Videoları</h2>
         <p className="font-jost mb-8 max-w-2xl">
           Kliniğimizde tedavi gören hastalarımızın deneyimlerini izleyin. <br />
           Her bir video, sunduğumuz kaliteli hizmetin ve güvenin bir yansımasıdır.

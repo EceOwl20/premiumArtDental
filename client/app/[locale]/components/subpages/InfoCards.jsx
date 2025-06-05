@@ -16,7 +16,7 @@ export default function InfoCards() {
           </div>
 
           {/* Başlık */}
-          <h3 className="text-xl font-marcellus mb-2">Lokasyon</h3>
+          <h3 className="text-xl font-roboto mb-2">Lokasyon</h3>
 
           {/* Alt metin / link */}
           <div className="flex items-center text-sm font-jost mb-4 text-gray-300 hover:text-white transition cursor-pointer">
@@ -41,7 +41,7 @@ export default function InfoCards() {
           </div>
 
           {/* Başlık */}
-          <h3 className="text-xl font-marcellus mb-2">Ücretsiz Muayene</h3>
+          <h3 className="text-xl font-roboto mb-2">Ücretsiz Muayene</h3>
 
           {/* Alt metin */}
           <div className="flex items-center text-sm font-jost mb-4 text-gray-300">
@@ -66,7 +66,7 @@ export default function InfoCards() {
           </div>
 
           {/* Başlık */}
-          <h3 className="text-xl font-marcellus mb-2">Çalışma Saatleri</h3>
+          <h3 className="text-xl font-roboto mb-2">Çalışma Saatleri</h3>
 
           {/* Alt metin / link */}
           <div className="flex items-center text-sm font-jost mb-4 text-gray-300 hover:text-white transition cursor-pointer">

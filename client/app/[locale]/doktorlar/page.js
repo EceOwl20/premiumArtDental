@@ -2,7 +2,7 @@ import React from 'react'
 import Banner from '../components/subpages/Banner'
 import TeamCarousel from '../components/homepage/TeamCarousel'
 
-const page = () => {
+const Page = () => {
   return (
     <div>
       <Banner header="Doktorlar" text="Anasayfa » Doktorlar"/>
@@ -11,4 +11,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

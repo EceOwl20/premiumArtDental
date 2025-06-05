@@ -25,7 +25,7 @@ export default function Header() {
           <Link href="/">
             <div className="flex items-center">
               <Image src={logo} alt="Dent" width={50} height={50} />
-              <span className="ml-2 font-marcellus text-md lg:text-lg xl:text-[22px] bg-gradient-to-r from-[#1f84d2] via-[#2c744b] via-[#700079] via-[#c1005c] to-[#e46c59] bg-clip-text text-transparent">
+              <span className="ml-2 font-roboto text-md lg:text-lg xl:text-[22px] bg-gradient-to-r from-[#1f84d2] via-[#2c744b] via-[#700079] via-[#c1005c] to-[#e46c59] bg-clip-text text-transparent">
               Premium Art Dental
               </span>
             </div>

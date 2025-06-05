@@ -7,7 +7,7 @@ import TeamCarousel from '../components/homepage/TeamCarousel'
 import LogoCarousel from '../components/homepage/LogoCarousel'
 import { useTranslations } from 'next-intl';
 
-const page = () => {
+const Page = () => {
       const t = useTranslations('AboutUs');
 
   return (
@@ -21,4 +21,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

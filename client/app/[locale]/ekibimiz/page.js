@@ -3,7 +3,7 @@ import Banner from '../components/subpages/Banner'
 import TeamCarousel from '../components/homepage/TeamCarousel'
 import { useTranslations } from 'next-intl';
 
-const page = () => {
+const Page = () => {
     const t = useTranslations('OurTeam');
 
   return (
@@ -14,4 +14,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

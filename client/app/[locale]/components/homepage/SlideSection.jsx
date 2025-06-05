@@ -36,7 +36,7 @@ export default function SlideSection() {
         }`}
         style={{ animationDelay: "0.3s" }}
       >
-        <h2 className="font-marcellus text-3xl lg:text-4xl text-[#1f84d2]">
+        <h2 className="font-roboto text-3xl lg:text-4xl text-[#1f84d2]">
           Mükemmel Gülüşler, Kusursuz Dokunuşlar!
         </h2>
         <p className="font-jost">

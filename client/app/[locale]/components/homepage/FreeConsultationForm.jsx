@@ -56,7 +56,7 @@ export default function FreeConsultationForm() {
     >
       {/* Soldaki Başlık ve Açıklama */}
       <div className="flex-1 text-white space-y-2">
-        <h3 className="text-xl lg:text-2xl font-marcellus">
+        <h3 className="text-xl lg:text-2xl font-roboto">
           Ücretsiz Danışmanlık Alın!
         </h3>
         <p className="text-sm font-jost text-gray-300">
