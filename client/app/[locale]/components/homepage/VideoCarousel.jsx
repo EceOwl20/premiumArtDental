@@ -30,18 +30,18 @@ export default function VideoCarousel() {
   ];
 
   return (
-    <section className=" py-8 lg:py-16 text-[#050a30]">
+    <section className=" py-8 lg:py-16 text-[#050a30] max-w-screen">
       {/* Başlık ve açıklama */}
       <div className="container mx-auto px-4 md:px-8 lg:px-16 max-w-[1400px]">
-        <h2 className="text-3xl lg:text-4xl font-roboto mb-4 text-[#2c744b]">Hasta Videoları</h2>
-        <p className="font-jost mb-8 max-w-2xl">
+        <h2 className="text-[26px] md:text-3xl lg:text-4xl font-roboto mb-4 text-[#2c744b]">Hasta Videoları</h2>
+        <p className="font-jost mb-5 lg:mb-8 max-w-2xl text-[12px] md:text-[14px] lg:text-[16px]">
           Kliniğimizde tedavi gören hastalarımızın deneyimlerini izleyin. <br />
           Her bir video, sunduğumuz kaliteli hizmetin ve güvenin bir yansımasıdır.
         </p>
       </div>
 
       {/* Carousel kapsayıcı: genişlik %80, ortada hizalı */}
-      <div className="relative w-4/5 mx-auto max-w-[1500px]">
+      <div className="relative w-[90%] lg:w-4/5 mx-auto max-w-[1500px]">
         {/* Önceki ok tuşu */}
         <button
           onClick={scrollPrev}
@@ -65,7 +65,7 @@ export default function VideoCarousel() {
               <div
                 key={idx}
                 className="embla__slide flex-shrink-0 
-                           w-[60vw] sm:w-[50vw] md:w-[40vw] lg:w-[30vw] xl:w-[25vw] max-w-[380px] min-h-[300px] md:min-h-[400px] xl:min-h-[550px]
+                           w-[65vw] sm:w-[40vw] md:w-[35vw] lg:w-[30vw] xl:w-[25vw] max-w-[380px] min-h-[300px] md:min-h-[400px] xl:min-h-[550px]
                            rounded-xl overflow-hidden"
               >
                 {/* 16:9 oranında responsive iframe */}

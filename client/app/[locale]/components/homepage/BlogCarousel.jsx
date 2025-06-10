@@ -71,10 +71,10 @@ export default function BlogCarousel() {
         <div className="flex items-center justify-between mb-8">
           <div>
             <h2 className="text-3xl lg:text-4xl font-roboto">Blog Yazıları</h2>
-            <div className="h-px bg-gray-700 mt-2 w-24" />
+            <div className="h-px bg-white mt-2 w-24" />
           </div>
           <Link href="/blog">
-            <div className="border border-[var(--premiumgold)] text-[var(--premiumgold)]  px-2 py-1 lg:px-4 lg:py-2 rounded-md hover:bg-[var(--premiumgold)] hover:text-black transition flex items-center gap-1 text-[14px] lg:text-[18px]">
+            <div className="border border-white text-white px-2 py-1 lg:px-4 lg:py-2 rounded-md hover:bg-[var(--premiumgold)] hover:text-black transition flex items-center gap-1 text-[14px] lg:text-[18px]">
               Tüm Yazılar <span>→</span>
             </div>
           </Link>
@@ -97,7 +97,7 @@ export default function BlogCarousel() {
                 <div
                   key={idx}
                   className="embla__slide flex-shrink-0 
-                             w-[calc(80%-24px)] 
+                             w-[calc(75%-24px)] 
                              sm:w-[calc(50%-24px)] 
                              md:w-[calc(40%-24px)] 
                              lg:w-[calc(33.3%-24px)] 
@@ -123,7 +123,7 @@ export default function BlogCarousel() {
                         {post.text}
                       </p>
                       <Link href={`/blog/${idx + 1}`}>
-                        <div className="mt-auto inline-block border border-[var(--premiumgold)] text-[var(--premiumgold)] font-raleway uppercase text-sm py-2 px-4 rounded hover:bg-[var(--premiumgold)] hover:text-white transition">
+                        <div className="mt-auto inline-block border border-[#2c744b] text-[#2c744b] font-raleway uppercase text-sm py-2 px-4 rounded hover:bg-[var(--premiumgold)] hover:text-white transition">
                           Detaylı Bilgi
                         </div>
                       </Link>

@@ -27,7 +27,7 @@ const logos = [
 export default function LogoCarousel() {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     loop: true,
-    align: "center",
+    align: "start",
     containScroll: "trimSnaps",
   });
 
@@ -37,8 +37,8 @@ export default function LogoCarousel() {
   return (
     <section className="relative bg-gradient-to-r from-[#38b2ac] to-[#1f84d2] py-4 lg:py-10 flex items-center justify-center w-screen">
       {/* Carousel viewport */}
-      <div className="embla overflow-hidden w-full rounded-lg" ref={emblaRef}>1f84d2
-        <div className="embla__container flex items-center gap-8 px-8">
+      <div className="embla overflow-hidden w-full rounded-lg" ref={emblaRef}>
+        <div className="embla__container flex items-center gap-0 lg:gap-8 px-8">
           {logos.map((logo, idx) => (
             <div
               key={idx}
@@ -57,8 +57,8 @@ export default function LogoCarousel() {
       </div>
 
       {/* Sol ve sağ “fade” overlayleri */}
-      <div className="pointer-events-none absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-black/80 to-transparent rounded-lg shadow-xl" />
-      <div className="pointer-events-none absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-black/80 to-transparent rounded-lg shadow-xl" />
+      {/* <div className="pointer-events-none absolute inset-y-0 left-0 w-24 bg-gradient-to-r from-black/80 to-transparent rounded-lg shadow-xl" />
+      <div className="pointer-events-none absolute inset-y-0 right-0 w-24 bg-gradient-to-l from-black/80 to-transparent rounded-lg shadow-xl" /> */}
     </section>
   );
 }

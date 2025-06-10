@@ -121,11 +121,11 @@ export default function ReviewsCarousel() {
   const currentReviews = activeTab === "trust" ? trustpilotReviews : googleReviews;
 
   return (
-    <section className=" text-[#050a30] py-16">
+    <section className=" text-[#050a30] py-16 max-w-screen">
       <div className="container mx-auto px-4 md:px-8 lg:px-16">
         {/* Başlık */}
-        <h2 className="text-3xl lg:text-4xl font-roboto mb-2 text-[#be231d]">Hasta Yorumları</h2>
-        <p className="font-jost text-base mb-8 max-w-2xl">
+        <h2 className="text-[26px] md:text-3xl lg:text-4xl font-roboto mb-2 text-[#be231d]">Hasta Yorumları</h2>
+        <p className="font-jost text-[14px] text-base mb-8 max-w-2xl">
           Gerçek hastalar, gerçek sonuçlar. <br />
           Memnuniyetlerini paylaşan hastalarımızın yorumlarıyla tanışın!
         </p>
@@ -173,10 +173,10 @@ export default function ReviewsCarousel() {
               {currentReviews.map((review, idx) => (
                 <div
                   key={idx}
-                  className="embla__slide flex-shrink-0 w-[calc(80%-24px)] 
+                  className="embla__slide flex-shrink-0 w-[calc(62%-24px)] 
                              sm:w-[calc(50%-24px)] md:w-[calc(40.5%-24px)] lg:w-[calc(33.3%-24px)] xl:w-[calc(25%-24px)]"
                 >
-                  <div className="bg-white rounded-xl shadow-lg p-6 flex flex-col h-full">
+                  <div className="bg-white rounded-xl shadow-lg p-4 lg:p-6 flex flex-col h-full">
                     {/* Yıldızlar + tarih */}
                     <div className="flex items-center justify-between mb-4">
                       <div className="flex items-center space-x-1">
@@ -193,11 +193,11 @@ export default function ReviewsCarousel() {
                       <span className="text-sm text-gray-500">{review.date}</span>
                     </div>
                     {/* İsim */}
-                    <h3 className="font-jost font-semibold text-lg text-black mb-2">
+                    <h3 className="font-jost font-semibold text-[16px] lg:text-lg text-black mb-2">
                       {review.name}
                     </h3>
                     {/* Yorum metni */}
-                    <p className="font-jost text-gray-700 text-sm flex-grow mb-4">
+                    <p className="font-jost text-gray-700 text-[12px] lg:text-sm flex-grow mb-4">
                       {review.text}
                     </p>
                     {/* Kaynak ikonu + kaynak adı */}

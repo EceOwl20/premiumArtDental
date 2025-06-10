@@ -84,7 +84,7 @@ export default function Header() {
 
       {/* Mobil menü */}
       {mobileOpen && (
-        <div className="lg:hidden bg-[#050a30]/50 backdrop-blur-sm px-4 py-4 space-y-4 text-white font-jost uppercase">
+        <div className="lg:hidden bg-[#050a30]/90 backdrop-blur-sm px-4 py-4 space-y-4 bg-gradient-to-r from-[#1f84d2] via-[#2c744b] via-[#700079] via-[#c1005c] to-[#e46c59] bg-clip-text text-transparent font-jost uppercase">
           {["Kurumsal","Tedaviler","Ekibimiz","Doktorlar","Blog","Galeri","Iletisim"].map((item) => (
             <Link key={item} href={`/${item.toLowerCase()}`}>
               <div
@@ -96,10 +96,6 @@ export default function Header() {
             </Link>
           ))}
           {/* Mobil dil seçici */}
-          <div className="flex items-center gap-2 pt-2 border-t border-white/30">
-            {/* <Image src={trFlag} alt="Türkçe" width={20} height={14} /> */}
-            <span>Türkçe</span>
-          </div>
         </div>
       )}
     </header>

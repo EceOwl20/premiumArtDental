@@ -6,18 +6,14 @@ import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 
-const sidebarPosts = [
-  "All-on-4 ve All-on-6 İmplantlar",
-  "Diş Tedaviniz İçin Neden Antalya En İyi Tercih? – 5 Neden",
-  "Diş İmplantı Fiyatları Ne Kadar?",
-  "Diş İmplantı Güvenli mi?",
-];
-
 export default function BlogSection() {
   const t1 = useTranslations("Blog1");
   const t2 = useTranslations("Blog2");
   const t3 = useTranslations("Blog3");
   const t4 = useTranslations("Blog4");
+  const t5 = useTranslations("Blog5");
+  const t6 = useTranslations("Blog6");
+  const t7 = useTranslations("Blog7");
 
   // çeviri fonksiyonlarını bir diziye alıyoruz
   const translators = [t1, t2, t3, t4];
@@ -47,13 +43,34 @@ export default function BlogSection() {
       excerpt: t4("text1"),
       img: "https://placehold.co/300x200?text=Sedasyon",
     },
+
+    {
+      title: t5("header"),
+      slug: t5("slug"),
+      excerpt: t5("text1"),
+      img: "https://placehold.co/300x200?text=Sedasyon",
+    },
+
+    {
+      title: t6("header"),
+      slug: t6("slug"),
+      excerpt: t6("text1"),
+      img: "https://placehold.co/300x200?text=Sedasyon",
+    }
   ];
 
+  const sidebarPosts = [
+ t7("header"),
+  "Diş Tedaviniz İçin Neden Antalya En İyi Tercih? – 5 Neden",
+  "Diş İmplantı Fiyatları Ne Kadar?",
+  "Diş İmplantı Güvenli mi?",
+];
+
   return (
-    <section className="text-[#050a30] py-16 px-4 lg:px-20">
+    <section className="text-[#050a30] py-8 lg:py-16 px-4 lg:px-20">
       <div className="max-w-[1200px] mx-auto flex flex-col lg:flex-row gap-10">
         {/* ─── SOL TARAF (Gönderi Kartları) ─── */}
-        <div className="flex-1 space-y-8">
+        <div className="flex-1 space-y-6 lg:space-y-8">
           {leftPosts.map((post) => (
             <div
               key={post.slug}
@@ -66,17 +83,17 @@ export default function BlogSection() {
                   className="object-cover w-full h-full"
                 />
               </div>
-              <div className="p-6 flex flex-col justify-between">
+              <div className="px-4 py-2 lg:p-6 flex flex-col justify-between">
                 <div>
-                  <h3 className="text-2xl font-roboto mb-3 text-[#be231d]">
+                  <h3 className="text-[18px] md:text-[20px] lg:text-2xl font-roboto mb-1 lg:mb-3 text-[#be231d]">
                     {post.title}
                   </h3>
-                  <p className="text-sm font-jost mb-4 text-[#050a30] line-clamp-4">
+                  <p className="text-[12px] lg:text-sm font-jost mb-1 lg:mb-4 text-[#050a30] line-clamp-2 lg:line-clamp-4">
                     {post.excerpt}
                   </p>
                 </div>
                 <Link href={`/blog/${post.slug}`}>
-                  <div className="self-start border border-white text-[#050a30] px-5 py-2 rounded-md hover:bg-white hover:text-gray-300 transition">
+                  <div className="self-start border text-[14px] lg:text-[16px] border-white text-[#050a30] pr-5 lg:px-5 py-2 rounded-md hover:bg-white hover:text-gray-300 transition">
                     Devamını Oku
                   </div>
                 </Link>
@@ -88,7 +105,7 @@ export default function BlogSection() {
         {/* ─── SAĞ TARAF (Son Yazılar) ─── */}
         <div className="w-full lg:w-[30%]">
           <div className="border border-[#e29c2d] rounded-xl bg-[#2c744b] p-6">
-            <h4 className="text-xl font-roboto mb-4 text-center text-[#e29c2d]">
+            <h4 className="text-xl font-roboto mb-4 text-center text-[#050a30]">
               Son Yazılar
             </h4>
             <ul className="space-y-2">
@@ -110,7 +127,7 @@ export default function BlogSection() {
                       />
                     </div>
                     <Link href={`/blog/${slug}`}>
-                      <div className="text-sm font-jost text-white">
+                      <div className="text-sm font-jost text-white line-clamp-2">
                         {title}
                       </div>
                     </Link>

@@ -7,10 +7,10 @@ import img1 from "../../../../public/images/patient.jpg"
 
 export default function WhyUs() {
   return (
-    <section className=" text-[#1f84d2] py-16">
+    <section className=" text-[#1f84d2] py-8 lg:py-16">
       <div className="container mx-auto px-4 md:px-8 lg:px-16 flex flex-col lg:flex-row items-center gap-8">
         {/* Sol: Görsel */}
-        <div className="w-full lg:w-1/2">
+        <div className="w-[80%] md:w-[70%] lg:w-1/2">
           <Image
             src={img1} 
             alt="Neden Premium Art Dental"
@@ -21,14 +21,14 @@ export default function WhyUs() {
         </div>
 
         {/* Sağ: Metin ve Liste */}
-        <div className="w-full lg:w-1/2 space-y-6">
+        <div className="w-full lg:w-1/2 space-y-4 lg:space-y-6">
           {/* Başlık */}
-          <h2 className="text-3xl lg:text-4xl font-roboto">
+          <h2 className="text-[26px] md:text-3xl lg:text-4xl font-roboto">
             Neden Premium Art Dental&nbsp;?
           </h2>
 
           {/* Paragraflar */}
-          <div className="space-y-4 font-raleway text-base text-gray-800">
+          <div className="space-y-2 lg:space-y-4 font-raleway text-[14px] lg:text-base text-gray-800">
             <p>
            Premium Art Dental, en son dijital teknolojiyle donatılmış kliniğinde
               ağrısız ve hızlı tedavi çözümleri sunar. Uzman hekim kadromuz, her hastanın
@@ -46,29 +46,29 @@ export default function WhyUs() {
           </div>
 
           {/* Özellik Listesi */}
-           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 font-raleway">
+           <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 lg:gap-4 font-raleway">
             <div className="flex items-start gap-3">
-              <FaCheck className="text-[var(--premiumgold)] w-6 h-6 flex-shrink-0 mt-1" />
+              <FaCheck className="text-[var(--premiumgold)] w-4 h-4 md:w-6 md:h-6 flex-shrink-0 mt-1" />
               <span className="font-jost font-semibold">Kişiye Özel Tedavi Planı</span>
             </div>
             <div className="flex items-start gap-3">
-              <FaCheck className="text-[var(--premiumgold)] w-6 h-6 flex-shrink-0 mt-1" />
+              <FaCheck className="text-[var(--premiumgold)]  w-4 h-4 md:w-6 md:h-6 flex-shrink-0 mt-1" />
               <span className="font-jost font-semibold">Dijital Görüntüleme Sistemleri</span>
             </div>
             <div className="flex items-start gap-3">
-              <FaCheck className="text-[var(--premiumgold)] w-6 h-6 flex-shrink-0 mt-1" />
+              <FaCheck className="text-[var(--premiumgold)]  w-4 h-4 md:w-6 md:h-6 flex-shrink-0 mt-1" />
               <span className="font-jost font-semibold">Ağrısız Sedasyon Seçenekleri</span>
             </div>
             <div className="flex items-start gap-3">
-              <FaCheck className="text-[var(--premiumgold)] w-6 h-6 flex-shrink-0 mt-1" />
+              <FaCheck className="text-[var(--premiumgold)]  w-4 h-4 md:w-6 md:h-6 flex-shrink-0 mt-1" />
               <span className="font-jost font-semibold">Hızlı ve Konforlu Operasyon</span>
             </div>
             <div className="flex items-start gap-3">
-              <FaCheck className="text-[var(--premiumgold)] w-6 h-6 flex-shrink-0 mt-1" />
+              <FaCheck className="text-[var(--premiumgold)]  w-4 h-4 md:w-6 md:h-6 flex-shrink-0 mt-1" />
               <span className="font-jost font-semibold">Uluslararası Standartlarda Hijyen</span>
             </div>
             <div className="flex items-start gap-3">
-              <FaCheck className="text-[var(--premiumgold)] w-6 h-6 flex-shrink-0 mt-1" />
+              <FaCheck className="text-[var(--premiumgold)] w-4 h-4 md:w-6 md:h-6 flex-shrink-0 mt-1" />
               <span className="font-jost font-semibold">Tedavi Sonrası Uzun Dönem Takip</span>
             </div>
           </div>

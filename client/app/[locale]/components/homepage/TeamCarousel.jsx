@@ -39,7 +39,7 @@ export default function TeamCarousel() {
   }, [emblaApi]);
 
   return (
-    <section className=" text-[#050a30] py-16">
+    <section className=" text-[#050a30] py-8 lg:py-16 max-w-screen">
       <div className="container mx-auto px-4 md:px-8 lg:px-16">
         {/* Başlık ve "Tüm Ekibimiz" butonu */}
         <div className="flex items-center justify-between mb-8 relative">
@@ -87,7 +87,7 @@ export default function TeamCarousel() {
                   key={idx}
                   className="
                     embla__slide flex-shrink-0
-                    w-[calc(80%-1.5rem)]       /* küçük ekran: 1 slayt genişliği %80 - gap */
+                    w-[calc(75%-1.5rem)]       /* küçük ekran: 1 slayt genişliği %80 - gap */
                     sm:w-[calc(50%-1.5rem)]   /* sm: 2 slayt, her bir %50 - gap */
                     md:w-[calc(33.333%-1.5rem)] /* md: 3 slayt, her bir %33.333 - gap */
                     lg:w-[calc(25%-1.5rem)]    /* lg: 4 slayt, her bir %25 - gap */
@@ -100,7 +100,7 @@ export default function TeamCarousel() {
                         alt={member.name}
                         width={300}
                         height={400}
-                        className="w-full h-auto object-cover transition-transform duration-500 group-hover:scale-110"
+                        className="w-full h-auto max-h-[400px] object-cover transition-transform duration-500 group-hover:scale-110"
                       />
                       {/* Hover efekti: ortadan başlayıp kenarlara açılan yarı saydam beyaz gradient */}
                       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.3),transparent)] opacity-0 group-hover:opacity-60 transition-opacity duration-500" />

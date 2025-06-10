@@ -97,7 +97,7 @@ export default function TreatmentCarousel() {
   return (
     <section className="flex max-w-screen items-center justify-center py-10">
       <div className="flex flex-col w-[90%] md:w-[85%] lg:w-[90%] max-w-[1300px]">
-        <h2 className="text-3xl md:text-4xl lg:text-[45px] font-roboto text-[#1f84d2] mb-6 lg:mb-8">
+        <h2 className="text-[26px] md:text-4xl lg:text-[45px] font-roboto text-[#1f84d2] mb-6 lg:mb-8">
           Tedavilerimiz
         </h2>
         <div className="relative">
@@ -123,24 +123,24 @@ export default function TreatmentCarousel() {
               {treatments.map(({ title, description, Icon, color }, idx) => (
                 <div
                   key={idx}
-                  className="embla__slide flex-shrink-0 w-[calc(80%-24px)] sm:w-[calc(50%-24px)] md:w-[calc(40%-24px)] lg:w-[calc(33.3%-24px)]"
+                  className="embla__slide flex-shrink-0 w-[calc(90%-34px)] sm:w-[calc(50%-24px)] md:w-[calc(40%-24px)] lg:w-[calc(33.3%-24px)]"
                 >
-                  <div className="h-full bg-lagoGray/10 border border-[#383838] hover:border-[#e29c2d] rounded-xl shadow-xl p-6 flex flex-col">
+                  <div className="h-full bg-lagoGray/10 border border-[#383838] hover:border-[#e29c2d] rounded-xl shadow-xl p-4 md:p-6 flex flex-col">
                     {/* İkonu dinamik renkte gösteriyoruz */}
-                    <Icon className="w-12 h-12 mb-4" style={{ color: color }} />
+                    <Icon className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 mb-4 flex lg:hidden" style={{ color: color }} />
 
                     {/* Başlığı dinamik renkte gösteriyoruz */}
-                    <h3 className="font-jost text-xl mb-2" style={{ color: color }}>
+                    <h3 className="font-jost text-[18px] md:text-xl mb-2" style={{ color: color }}>
                       {title}
                     </h3>
 
                     {/* Açıklama */}
-                    <p className="font-jost text-[#050a30] text-sm flex-grow line-clamp-4 lg:line-clamp-6">
+                    <p className="font-jost text-[#050a30] text-[12px] md:text-sm flex-grow line-clamp-4 lg:line-clamp-6">
                       {description}
                     </p>
 
                     <Link href={`/tedavi/${title.toLowerCase().replace(/\s+/g, "-")}`}>
-                      <div className="mt-4 inline-block border border-[#e29c2d] text-[#e29c2d] font-jost uppercase text-sm py-2 px-4 rounded hover:bg-lagoGold hover:text-black hover:bg-white transition">
+                      <div className="mt-2 lg:mt-4 inline-block border border-[#e29c2d] text-[#e29c2d] font-jost uppercase text-[12px] md:text-sm py-2 px-4 rounded hover:bg-lagoGold hover:text-black hover:bg-white transition">
                         Detaylı Bilgi
                       </div>
                     </Link>

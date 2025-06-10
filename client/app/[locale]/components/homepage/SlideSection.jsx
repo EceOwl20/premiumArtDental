@@ -31,12 +31,12 @@ export default function SlideSection() {
     >
       {/* SOLDAN KAYAN METİN BLOĞU */}
       <div
-        className={`md:w-[48%] space-y-4 w-[90%] lg:w-[45%] text-[14px] lg:text-[16px] ${
+        className={`md:w-[48%] space-y-4 w-[90%] lg:w-[45%] text-[12px] md:text-[14px] lg:text-[16px] ${
           inView ? "animate-slide-in-left" : "opacity-0"
         }`}
         style={{ animationDelay: "0.3s" }}
       >
-        <h2 className="font-roboto text-3xl lg:text-4xl text-[#1f84d2]">
+        <h2 className="font-roboto text-[26px] md:text-3xl lg:text-4xl text-[#1f84d2]">
           Mükemmel Gülüşler, Kusursuz Dokunuşlar!
         </h2>
         <p className="font-jost">
@@ -57,7 +57,7 @@ export default function SlideSection() {
 
       {/* SAĞDAN KAYAN GÖRSEL BLOĞU */}
       <div
-        className={`md:w-[40%] w-[80%] sm:w-[70%] lg:w-[40%] ${
+        className={`md:w-[40%] w-[86%] sm:w-[70%] mt-2 lg:w-[40%] ${
           inView ? "animate-slide-in-right" : "opacity-0"
         }`}
         style={{ animationDelay: "0.5s" }}
