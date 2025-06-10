@@ -44,6 +44,8 @@ export default async function RootLayout({ children, params }) {
       setRequestLocale(locale)
        const messages = await getMessages();
 
+       
+
   return (
     <html lang={locale}>
       <body

@@ -2,19 +2,17 @@
 "use client";
 
 import React from "react";
-import { useParams } from "next/navigation";
-import { useLocale } from "next-intl"; // ← next-intl’den useLocale’ü import edin
+import { useParams, useRouter } from "next/navigation";
+import { useLocale } from "next-intl";
 import Banner from "../../components/subpages/Banner";
 import IntroductionSec from "../components/IntroductionSec";
 import ListSec from "../components/ListSec";
-
-// Dört dildeki JSON dosyalarınızı import edin
 import trData from "@/messages/tr.json";
 import enData from "@/messages/en.json";
 import deData from "@/messages/de.json";
 import ruData from "@/messages/ru.json";
 
-// Gelen locale’a göre doğru JSON’u döndüren yardımcı fonksiyon
+// locale'a göre JSON'u döndüren
 function getLocaleData(locale) {
   switch (locale) {
     case "en":
@@ -24,23 +22,25 @@ function getLocaleData(locale) {
     case "ru":
       return ruData;
     default:
-      return trData; // Varsayılan: Türkçe
+      return trData;
   }
 }
 
 export default function BlogDetailPage() {
-  const params = useParams();      // { slug: "..." }
-  const locale = useLocale();      // next-intl’den gelen aktif dil (örneğin "tr", "en", "de", "ru")
+  const params = useParams();       // { slug: "..." }
+  const router = useRouter();
+  const locale = useLocale();       // "tr" | "en" | "de" | "ru"
+
+  // 1) Şu anki dilin JSON'u
   const data = getLocaleData(locale);
 
-  // JSON içindeki tüm BlogN objelerini diziye dönüştür:
-  const allPosts = Object.values(data);
+  // 2) JSON'un BlogN anahtarını bul
+  const matchedKey = Object.keys(data).find(
+    (key) => data[key].slug === params.slug
+  );
 
-  // URL’den gelen slug’a göre eşleşeni bul:
-  const matchedPost = allPosts.find((post) => post.slug === params.slug);
-
-  // Hiç eşleşme yoksa 404 benzeri bir ekran gösterelim:
-  if (!matchedPost) {
+  // 3) Eğer bulamadıysan 404
+  if (!matchedKey) {
     return (
       <main className="flex justify-center items-center h-screen">
         <h1 className="text-2xl font-semibold">Yazı bulunamadı</h1>
@@ -48,22 +48,53 @@ export default function BlogDetailPage() {
     );
   }
 
-  // Eşleşen nesne matchedPost, içinde:
-  // matchedPost.header, matchedPost.text1, matchedPost.ListSec1, ListSec2, ListSec3, ListSec4, BlogConclusion…
+  const matchedPost = data[matchedKey];
+
+  // 4) Dil değiştirme fonksiyonu - DÜZELTİLDİ
+  const changeLocale = (newLocale) => {
+    const newData = getLocaleData(newLocale);
+    
+    // Aynı blog anahtarı (matchedKey) ile yeni dildeki slug'ı al
+    const newSlug = newData[matchedKey]?.slug;
+    
+    // Eğer yeni dilde bu blog yoksa, ana blog sayfasına yönlendir
+    if (!newSlug) {
+      router.push(`/${newLocale}/blog`);
+      return;
+    }
+    
+    // Doğru slug ile yönlendir
+    router.push(`/${newLocale}/blog/${newSlug}`);
+  };
 
   return (
     <div className="flex flex-col gap-[30px] lg:gap-[60px] pb-10 lg:pb-20">
-      {/* ─────────── Banner ─────────── */}
+      {/* Dil değiştirici */}
+      <div className="flex justify-end space-x-2">
+        {["tr", "en", "de", "ru"].map((loc) => (
+          <button
+            key={loc}
+            className={`px-3 py-1 rounded ${
+              loc === locale ? "bg-gray-800 text-white" : "bg-gray-200 text-black"
+            }`}
+            onClick={() => changeLocale(loc)}
+          >
+            {loc.toUpperCase()}
+          </button>
+        ))}
+      </div>
+
+      {/* Banner */}
       <Banner header={matchedPost.header} text="" />
 
-      {/* ─────────── IntroductionSec ─────────── */}
+      {/* IntroductionSec */}
       <IntroductionSec
         header={matchedPost.header}
         text1={matchedPost.text1}
         text2={matchedPost.text2 ?? ""}
       />
 
-      {/* ─────────── ListSec 1 ─────────── */}
+      {/* ListSec 1 */}
       <ListSec
         header={matchedPost.ListSec1.header}
         span={matchedPost.ListSec1.text}
@@ -74,7 +105,7 @@ export default function BlogDetailPage() {
         ]}
       />
 
-      {/* ─────────── ListSec 2 ─────────── */}
+      {/* ListSec 2 */}
       <ListSec
         header={matchedPost.ListSec2.header}
         span={matchedPost.ListSec2.text}
@@ -85,7 +116,7 @@ export default function BlogDetailPage() {
         ]}
       />
 
-      {/* ─────────── ListSec 3 ─────────── */}
+      {/* ListSec 3 */}
       <ListSec
         header={matchedPost.ListSec3.header}
         span={matchedPost.ListSec3.text}
@@ -95,7 +126,7 @@ export default function BlogDetailPage() {
         ]}
       />
 
-      {/* ─────────── ListSec 4 (varsa göster) ─────────── */}
+      {/* ListSec 4 (varsa) */}
       {matchedPost.ListSec4 && (
         <ListSec
           header={matchedPost.ListSec4.header}
@@ -109,7 +140,7 @@ export default function BlogDetailPage() {
         />
       )}
 
-      {/* Eğer BlogConclusion’u da ayrı bir bileşenle göstermek isterseniz: */}
+      {/* BlogConclusion (varsa) */}
       {/* <ConclusionSec text={matchedPost.BlogConclusion.text} /> */}
     </div>
   );

@@ -20,7 +20,7 @@
 
     "AboutUs":{
     "header": "Hakkımızda",
-        "span":"Anasayfa » Kurumsal",
+    "span":"Anasayfa » Kurumsal",
     "text1":"Premium Art Dental Clinic'e, güzel Kemer bölgesinde, Antalya'da hoş geldiniz. Kliniğimiz, özverili karı-koca ekibi olan Dt. Kivanc Ozkaral ve Dt. Firuzan Ozkaral tarafından yönetilmektedir. Kliniğimiz, diş hekimliğinde sanatçılık, son teknoloji ve şefkatli bakım ilkeleri üzerine kurulmuştur; tüm bunlar, olağanüstü gülüşler yaratmayı amaçlamaktadır.",
     "text2":"Geniş ve modern bir tesiste yer alan kliniğimiz, konforlu ve etkili bir tedavi deneyimi sağlamak için en son teknolojiyle donatılmış çeşitli ileri düzey diş hizmetleri sunmaktadır. On yılı aşkın bir deneyime sahip olan kliniğimiz, Birleşik Krallık ve Almanya da dahil olmak üzere 30'dan fazla ülkeden binlerce hastayı gururla tedavi etmiştir. Her hasta, benzersiz bir birey olarak ele alınmakta ve gelen herkes için sıcak, samimi bir ortam sunmaktayız.",
     "text3":"Yurt dışında diş bakımını seçmek zorlayıcı olabilir; bu nedenle şeffaflık ve açık iletişimi öncelikli kılıyoruz. Kliniğimiz, güvenliğiniz ve memnuniyetinizin garantisi için en yüksek uluslararası standartlar altında işlemektedir. Estetik diş tedavileri veya tam ağız restorasyonlarıyla ilgileniyorsanız, her tedaviyi bireysel ihtiyaç ve isteklerinize uygun bir şekilde titizlikle planlıyoruz.",
@@ -33,7 +33,7 @@
     "header": "Diş İmplantı ve Diş Köprüsü: Sizin İçin Hangi Tedavi Daha Uygun?",
      "slug": "dis-implant-ve-dis-koprusu-sizin-icin-hangi-tedavi-daha-uygun",
     "text1": "Eksik dişlerin yerine yeni diş yaptırmak söz konusu olduğunda, diş implantları ve diş köprüleri en çok tercih edilen iki seçenektir. Her ikisi de etkili çözümler sunar, ancak ihtiyaçlarınıza en uygun olanı seçebilmek için aralarındaki farkları ve avantajları bilmek önemlidir. Premium Art Dental Clinic olarak, bu blog yazısında diş implantları ve diş köprülerini karşılaştırıyor, özelliklerini, avantajlarını ve dikkat edilmesi gereken noktaları sizinle paylaşıyoruz.",
-      "ListSec1": {
+    "ListSec1": {
     "header": "Türkiye’de Diş Köprüsü Tedavisi",
     "text": "Diş köprüleri, bir ya da birden fazla eksik dişin oluşturduğu boşluğu kapatmak için kullanılan protezlerdir. Diş köprüsü tedavisinde dikkat edilmesi gereken bazı önemli noktalar şunlardır:",
     "list1_header": "Diş Tedavi Süreci",
