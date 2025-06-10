@@ -73,7 +73,7 @@ export default function FreeConsultationForm() {
           value={name}
           onChange={(e) => setName(e.target.value)}
           placeholder="Adınız & Soyadınız"
-          className="w-full sm:w-[45%] bg-white text-[#2c744b] placeholder-[#2c744b] font-jost  rounded-md px-4 py-2 lg:py-3 focus:outline-none focus:ring-2 focus:ring-[var(--premiumgold)]"
+          className="w-full sm:w-[45%] bg-white text-[#2c744b] placeholder-[#2c744b] placeholder:text-[14px] lg:placeholder:text-[16px] font-jost  rounded-md px-4 py-2 lg:py-3 focus:outline-none focus:ring-2 focus:ring-[var(--premiumgold)]"
         />
 
         {/* Telefon numarası */}
@@ -94,7 +94,7 @@ export default function FreeConsultationForm() {
             value={phone}
             onChange={(e) => setPhone(e.target.value)}
             placeholder="Telefon Numaranız"
-            className="w-full bg-white text-[#2c744b] placeholder-[#2c744b] font-jost rounded-md  pl-16 pr-9 py-2 lg:py-3 focus:outline-none focus:ring-2 focus:ring-[var(--premiumgold)]"
+            className="w-full bg-white text-[#2c744b] placeholder-[#2c744b] placeholder:text-[14px] lg:placeholder:text-[16px] font-jost rounded-md  pl-16 pr-9 py-2 lg:py-3 focus:outline-none focus:ring-2 focus:ring-[var(--premiumgold)]"
           />
         </div>
       </div>
@@ -102,7 +102,7 @@ export default function FreeConsultationForm() {
       {/* Gönder Butonu */}
       <button
         type="submit"
-        className="self-stretch lg:self-auto bg-[#e29c2d] hover:bg-yellow-600 text-white font-jost uppercase px-10 py-3 rounded-sm transition"
+        className="self-stretch lg:self-auto bg-[#e29c2d] hover:bg-yellow-600 text-white font-jost uppercase px-10 py-2 lg:py-3 rounded-sm transition text-[14px] lg:text-[16px]"
       >
         Beni Arayın
       </button>

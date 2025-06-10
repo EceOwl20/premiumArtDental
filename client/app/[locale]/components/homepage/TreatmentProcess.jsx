@@ -114,10 +114,10 @@ export default function TreatmentProcess() {
         {/* ---------------------- */}
         <div className="flex flex-col md:flex-row items-center justify-between gap-4 text-[#050a30]">
           {/* Adım 1 */}
-          <div className="flex-1 border border-[#242424] hover:border-[#e29c2d] rounded-lg px-6 py-6 lg:py-12 flex flex-col items-center text-center font-raleway">
+          <div className="flex-1 border border-[#242424] hover:border-[#e29c2d] max-h-[300px] rounded-lg px-6 py-6 lg:py-12 flex flex-col items-center text-center font-raleway">
             <FaClipboardList className="text-[#c1005c] w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 mb-4" />
-            <h3 className="font-jost text-[18px] lg:text-xl mb-2">Ücretsiz Ön Görüşme</h3>
-            <p className="font-jost text-[12px] md:text-[14px] lg:text-[16px] line-clamp-6">
+            <h3 className="font-roboto text-[18px] lg:text-xl mb-2">Ücretsiz Ön Görüşme</h3>
+            <p className="font-raleway text-[12px] md:text-[14px] lg:text-[16px] line-clamp-6">
              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ea molestiae ducimus voluptatem eligendi illum debitis. Officia optio itaque recusandae magni iusto libero, pariatur consectetur voluptate error, sequi reiciendis maiores.
             </p>
           </div>
@@ -126,10 +126,10 @@ export default function TreatmentProcess() {
           <MdArrowForwardIos className="text-[#c1005c] hidden lg:flex w-16 h-16 md:mt-0 mt-4" />
 
           {/* Adım 2 */}
-          <div className="flex-1 border border-[#242424] hover:border-[#e29c2d]  rounded-lg px-6 py-6 lg:py-12 flex flex-col items-center text-center">
+          <div className="flex-1 border border-[#242424] hover:border-[#e29c2d] max-h-[300px] rounded-lg px-6 py-6 lg:py-12 flex flex-col items-center text-center">
             <FaPlane className="text-[#c1005c] w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 mb-4" />
-            <h3 className="font-jost text-[18px] lg:text-xl mb-2">Seyahat ve Konaklama</h3>
-            <p className="font-jost text-[12px] md:text-[14px] lg:text-[16px] line-clamp-6">
+            <h3 className="font-roboto text-[18px] lg:text-xl mb-2">Seyahat ve Konaklama</h3>
+            <p className="font-raleway text-[12px] md:text-[14px] lg:text-[16px] line-clamp-6">
              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto soluta iure ipsa voluptatum. Dolor blanditiis, quibusdam exercitationem iste omnis totam ipsam assumenda repellat consequuntur vitae temporibus accusantium officiis earum neque!
             </p>
           </div>
@@ -138,10 +138,10 @@ export default function TreatmentProcess() {
           <MdArrowForwardIos className="text-[#c1005c] hidden lg:flex w-16 h-16 md:mt-0 mt-4" />
 
           {/* Adım 3 */}
-          <div className="flex-1 border border-[#242424] hover:border-[#e29c2d]  rounded-lg px-6 py-6 lg:py-12 flex flex-col items-center text-center">
+          <div className="flex-1 border border-[#242424] hover:border-[#e29c2d] rounded-lg px-6 py-6 lg:py-12 flex flex-col items-center text-center">
             <FaUmbrellaBeach className="text-[#c1005c] w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12  mb-4" />
-            <h3 className="font-jost text-[18px] lg:text-xl mb-2">Tatilinizin Tadını Çıkarın</h3>
-            <p className="font-jost   text-sm line-clamp-6">
+            <h3 className="font-roboto text-[18px] lg:text-xl mb-2">Tatilinizin Tadını Çıkarın</h3>
+            <p className="font-raleway   text-sm line-clamp-6">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nihil eos aspernatur modi, tempore beatae soluta, ex dicta pariatur nesciunt voluptatum? Laudantium, iste? Placeat magni itaque incidunt. Earum, fuga facere!
             </p>
           </div>

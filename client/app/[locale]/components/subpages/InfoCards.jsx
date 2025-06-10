@@ -6,20 +6,20 @@ import { FiChevronRight } from "react-icons/fi";
 
 export default function InfoCards() {
   return (
-    <section className=" text-white py-16 px-4 lg:px-20">
+    <section className=" text-white px-4 lg:px-20 pb-10 lg:pb-16">
       <div className="max-w-[1400px] mx-auto flex flex-col md:flex-row gap-6">
         {/* ──────────── Lokasyon Kartı ──────────── */}
         <div className="flex-1  border border-gray-800 rounded-xl p-6 lg:p-10 flex flex-col items-center">
           {/* İkon */}
           <div className="mb-4">
-            <HiLocationMarker className="text-[#e29c2d] text-4xl" />
+            <HiLocationMarker className="text-[#c1005c] text-4xl" />
           </div>
 
           {/* Başlık */}
           <h3 className="text-xl font-roboto mb-2 text-[#1f84d2]">Lokasyon</h3>
 
           {/* Alt metin / link */}
-          <div className="flex items-center text-sm font-jost mb-4 text-[#1f84d2] hover:text-white transition cursor-pointer">
+          <div className="flex items-center text-sm font-jost mb-4 text-[#1f84d2] hover:text-[#c1005c] transition cursor-pointer">
             <FiChevronRight className="mr-1" />
             Google Maps ile Göster
           </div>
@@ -37,7 +37,7 @@ export default function InfoCards() {
         <div className="flex-1 border border-gray-800 rounded-xl p-6 lg:p-7 lg:min-w-[320px] flex flex-col items-center">
           {/* İkon */}
           <div className="mb-4">
-            <HiPhone className="text-[#e29c2d] text-4xl" />
+            <HiPhone className="text-[#c1005c] text-4xl" />
           </div>
 
           {/* Başlık */}
@@ -62,7 +62,7 @@ export default function InfoCards() {
         <div className="flex-1  border border-gray-800 rounded-xl p-6 lg:p-10 flex flex-col items-center">
           {/* İkon */}
           <div className="mb-4">
-            <HiClock className="text-[#e29c2d] text-4xl" />
+            <HiClock className="text-[#c1005c] text-4xl" />
           </div>
 
           {/* Başlık */}

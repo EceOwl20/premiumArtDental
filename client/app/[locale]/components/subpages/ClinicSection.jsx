@@ -58,7 +58,7 @@ export default function ClinicSection() {
               className="flex flex-col items-center justify-center space-y-2"
             >
               {/* Hızlıca sayan sayı */}
-              <div className="text-4xl lg:text-5xl font-roboto text-[#e29c2d]">
+              <div className="text-4xl lg:text-5xl font-roboto text-[#ddde64]">
                 {stat.value.toLocaleString()}<span className="text-2xl">+</span>
               </div>
               {/* Açıklama */}

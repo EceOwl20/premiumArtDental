@@ -27,7 +27,7 @@ export default function SlideSection() {
   return (
     <section
       ref={ref}
-      className=" text-[#050a30] py-10 lg:py-16  flex flex-col md:flex-row items-center gap-4 lg:gap-8 justify-center max-w-[1500px]"
+      className=" text-[#050a30] py-10 lg:py-20  flex flex-col md:flex-row items-center gap-4 lg:gap-8 justify-center max-w-[1500px]"
     >
       {/* SOLDAN KAYAN METİN BLOĞU */}
       <div

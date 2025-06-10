@@ -14,6 +14,7 @@ export default function BlogSection() {
   const t5 = useTranslations("Blog5");
   const t6 = useTranslations("Blog6");
   const t7 = useTranslations("Blog7");
+  const t8 = useTranslations("Blog8");
 
   // çeviri fonksiyonlarını bir diziye alıyoruz
   const translators = [t1, t2, t3, t4];
@@ -61,7 +62,7 @@ export default function BlogSection() {
 
   const sidebarPosts = [
  t7("header"),
-  "Diş Tedaviniz İçin Neden Antalya En İyi Tercih? – 5 Neden",
+ t8("header"),
   "Diş İmplantı Fiyatları Ne Kadar?",
   "Diş İmplantı Güvenli mi?",
 ];
@@ -76,7 +77,7 @@ export default function BlogSection() {
               key={post.slug}
               className="border border-[#e29c2d] rounded-xl overflow-hidden flex flex-col lg:flex-row"
             >
-              <div className="w-full lg:w-[35%] h-[200px] relative">
+              <div className="w-full lg:w-[35%] h-[140px] lg:h-[200px] relative">
                 <img
                   src={post.img}
                   alt={post.title}
@@ -93,7 +94,7 @@ export default function BlogSection() {
                   </p>
                 </div>
                 <Link href={`/blog/${post.slug}`}>
-                  <div className="self-start border text-[14px] lg:text-[16px] border-white text-[#050a30] pr-5 lg:px-5 py-2 rounded-md hover:bg-white hover:text-gray-300 transition">
+                  <div className="self-start border text-[14px] lg:text-[16px] border-white text-[#1f84d2] pr-5 lg:px-5 py-2 rounded-md hover:bg-white hover:text-gray-300 transition">
                     Devamını Oku
                   </div>
                 </Link>
@@ -104,8 +105,8 @@ export default function BlogSection() {
 
         {/* ─── SAĞ TARAF (Son Yazılar) ─── */}
         <div className="w-full lg:w-[30%]">
-          <div className="border border-[#e29c2d] rounded-xl bg-[#2c744b] p-6">
-            <h4 className="text-xl font-roboto mb-4 text-center text-[#050a30]">
+          <div className="rounded-xl bg-[#2c744b] p-6">
+            <h4 className="text-xl font-roboto mb-4 text-center text-[#ddde64]">
               Son Yazılar
             </h4>
             <ul className="space-y-2">
@@ -115,7 +116,7 @@ export default function BlogSection() {
                 return (
                   <li
                     key={idx}
-                    className="flex items-center space-x-3 p-2 rounded-md hover:bg-gray-800 transition"
+                    className="flex items-center space-x-3 p-2 rounded-md hover:bg-[#ddde64] transition"
                   >
                     <div className="w-10 h-10 bg-gray-700 rounded-md overflow-hidden flex-shrink-0">
                       <img
