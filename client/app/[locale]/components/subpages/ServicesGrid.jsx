@@ -126,7 +126,7 @@ const services = [
 ];
 
   return (
-    <section className="bg-white text-white py-16 px-4 lg:px-20">
+    <section className="bg-white text-white py-16 px-4 lg:px-20 ">
       <div className="max-w-[1500px] mx-auto">
         <h2 className="text-3xl lg:text-4xl font-roboto font-bold mb-8">
           Kliniğimizin Hizmetleri
@@ -160,7 +160,7 @@ const services = [
 
               {/* “Detaylı Bilgi” Butonu */}
               <Link href={item.link} className="mt-auto inline-block self-start border border-white text-white rounded-md px-2 py-1 lg:px-4 lg:py-2 text-sm hover:bg-white hover:text-black transition">
-                Detaylı Bilgi
+            {t("buttonText")}
               </Link>
             </div>
           ))}

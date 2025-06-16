@@ -4,7 +4,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
-import logo from "../../../../public/images/logo/logowhite.png"
+import logo from "../../../../public/images/logo/dental1.png"
 import { MdEmail, MdLocationPin } from "react-icons/md";
 
 export default function Footer() {
@@ -14,10 +14,10 @@ export default function Footer() {
       <div className="container mx-auto px-4 md:px-8 lg:px-16 py-12 flex flex-col md:flex-row items-center justify-between gap-6 lg:gap-[8%]">
         {/* 1) Logo Sütunu */}
         <div className="flex-shrink-0 flex items-center space-x-4">
-          <Image src={logo} alt="Premiumart" width={40} height={40} />
-          <span className="text-xl lg:text-[24px] font-roboto bg-gradient-to-r from-[#1f84d2] via-[#2c744b] via-[#700079] via-[#c1005c] to-[#e46c59] bg-clip-text text-transparent">
+          <Image src={logo} alt="Premiumart" width={180} height={140} />
+          {/* <span className="text-xl lg:text-[24px] font-roboto bg-gradient-to-r from-[#1f84d2] via-[#2c744b] via-[#700079] via-[#c1005c] to-[#e46c59] bg-clip-text text-transparent">
   Premium Art Dental
-</span>
+</span> */}
 
         </div>
 
@@ -30,8 +30,8 @@ export default function Footer() {
             <li className="flex items-center gap-3">
               <MdEmail className="w-6 h-6 text-[#2c744b]"/>
               <div className="flex flex-col">
-                <Link href="/">
-                  <div className="hover:underline font-jost text-[16px]">info@premiumartdental.com</div>
+                <Link href="mailto:info@premiumartdental.com">
+                  <div className="hover:underline font-jost text-[16px] bg-gradient-to-r from-[#1f84d2] via-[#2c744b] via-[#700079] via-[#c1005c] to-[#e46c59] bg-clip-text text-transparent">info@premiumartdental.com</div>
                 </Link>
               </div>
             </li>
@@ -39,7 +39,7 @@ export default function Footer() {
             <li className="flex items-center gap-3">
               <FaPhoneAlt className="w-5 h-5 text-[var(--premiumgold)]" />
               <Link href="tel:+902428146010">
-                <div className="hover:underline">+90 242 814 60 10</div>
+                <div className="hover:underline ">+90 242 814 60 10</div>
               </Link>
             </li>
 
@@ -58,7 +58,7 @@ export default function Footer() {
         {/* 3) Adres Sütunu */}
         <div className="flex items-center gap-3">
            <MdLocationPin className="w-6 h-6 text-[#1f84d2]"/>
-          <p className="font-jost text-[#ffffff]">
+          <p className="font-jost bg-gradient-to-r from-[#1f84d2] via-[#2c744b] via-[#700079] via-[#c1005c] to-[#e46c59] bg-clip-text text-transparent">
             Yeni mahalle, Akdeniz Cd. 94/A Kemer/Antalya
           </p>
         </div>

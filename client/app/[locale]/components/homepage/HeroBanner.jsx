@@ -53,7 +53,17 @@ export default function HeroBanner() {
 
           {/* Çağrı butonu */}
           <Link href="/services" className="opacity-0 animate-slide-up delay-1400">
-            <div className="inline-block hover:bg-white text-white bg-[#e29c2d] hover:text-[#e29c2d] px-[12px] py-[6px] lg:px-[24px] lg:py-[10px] font-jost capitalize text-[14px] lg:text-[17px] transition">
+            <div className="inline-block  bg-gradient-to-r
+    from-[#1f84d2]
+    via-[#2c744b]
+    via-[#700079]
+    via-[#c1005c]
+    to-[#e46c59]
+    text-white
+    font-semibold
+
+
+    rounded hover:bg-white  bg hover:text-[#700079] px-[12px] py-[6px] lg:px-[24px] lg:py-[10px] font-jost capitalize text-[14px] lg:text-[17px] transition">
               Sunduğumuz Hizmetler
             </div>
           </Link>

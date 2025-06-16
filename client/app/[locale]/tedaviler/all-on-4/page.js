@@ -3,8 +3,10 @@
 
 import Link from "next/link";
 import Banner from "../../components/subpages/Banner";
+import { useTranslations } from "next-intl";
 
 const page = () => {
+  const t = useTranslations("Allon4")
 
      const otherTreatments = [
     { title: "All-on-6 İmplantlar", slug: "all-on-6-implants" },
@@ -26,83 +28,69 @@ const page = () => {
       {/* Soldaki İçerik */}
       <div className="w-full lg:w-[70%] space-y-8">
         <h1 className="text-3xl lg:text-4xl font-bold">
-          All-on-4 Dental Implants
+         {t("header1")}
         </h1>
 
         <p className="text-base leading-relaxed">
-          All-on-4 dental implant treatment is a practical and cost-effective full
-          jaw restoration method designed for patients who have lost all their
-          teeth. In this method, only 4 implants are placed to support a full
-          fixed prosthesis, providing a faster and less invasive solution
-          compared to traditional implant treatments.
+         {t("text1")}
         </p>
 
         <h2 className="text-2xl font-semibold">
-          What Is All-on-4 Dental Implant Treatment?
+         {t("header2")}
         </h2>
         <p className="text-base leading-relaxed">
-          The All-on-4 technique involves placing 4 strategically positioned
-          implants into the jawbone, onto which a fixed dental bridge is
-          attached. Two implants are placed vertically, while the other two are
-          angled to maximize contact with the existing bone. This often
-          eliminates the need for bone grafting.
+        {t("text2")}
         </p>
 
-        <h3 className="text-xl font-semibold">Key Features</h3>
+        <h3 className="text-xl font-semibold">{t("header3")}</h3>
         <ul className="list-disc list-inside space-y-2">
-          <li>Fixed teeth solution with fewer implants</li>
-          <li>Minimal or no need for bone grafting</li>
-          <li>Faster procedure and healing time</li>
+          <li>{t("list1")}</li>
+          <li>{t("list2")}</li>
+          <li>{t("list3")}</li>
         </ul>
 
         <h3 className="text-xl font-semibold">
-          Who Is a Suitable Candidate for All-on-4?
+         {t("header4")}
         </h3>
         <ul className="list-disc list-inside space-y-2">
-          <li>Individuals who have lost all teeth in the upper or lower jaw</li>
-          <li>Patients with limited bone volume but sufficient jawbone for implant support</li>
-          <li>Those who want to regain fixed teeth in a short period</li>
-          <li>People seeking a cost-effective full jaw restoration</li>
-          <li>Individuals who no longer wish to use removable dentures</li>
+          <li>{t("list4")}</li>
+          <li>{t("list5")}</li>
+          <li>{t("list6")}</li>
+          <li>{t("list7")}</li>
+          <li>{t("list8")}</li>
         </ul>
 
         <h3 className="text-xl font-semibold">
-          Advantages of All-on-4 Treatment
+         {t("header5")}
         </h3>
         <ul className="list-disc list-inside space-y-2">
-          <li>Quick Results: Temporary fixed teeth can often be fitted the same day</li>
-          <li>Less Invasive Procedure: Only 4 implants are needed to restore an entire arch</li>
-          <li>Bone Graft Usually Not Required: Angled implant placement reduces or eliminates the need</li>
-          <li>Budget-Friendly: More affordable than full-mouth traditional implants</li>
-          <li>Natural Look and Function: High aesthetic results and restored chewing ability</li>
+          <li>{t("list9")}</li>
+          <li>{t("list10")}</li>
+          <li>{t("list11")}</li>
+          <li>{t("list12")}</li>
+          <li>{t("list13")}</li>
         </ul>
 
         <h3 className="text-xl font-semibold">
-          How Does the Treatment Process Work in Antalya?
+          {t("header6")}
         </h3>
         <ol className="list-decimal list-inside space-y-2">
           <li>
-            <strong>Free Online Consultation:</strong> A personalized treatment
-            plan is prepared after detailed analysis using a 3D jaw scan.
+            {t("list14")}
           </li>
           <li>
-            <strong>First Visit to Antalya (5–7 Days):</strong> 4 implants are
-            placed; temporary fixed teeth fitted same day; healing begins.
+            {t("list15")}
           </li>
           <li>
-            <strong>Healing Period (3–4 Months):</strong> Implants fully
-            integrate with the bone (osseointegration).
+             {t("list16")}
           </li>
           <li>
-            <strong>Second Visit (4–5 Days):</strong> Permanent zirconium teeth
-            are placed; final checks completed.
+             {t("list17")}
           </li>
         </ol>
 
         <p className="mt-4 text-base">
-          Contact us today for your individual price quote and detailed treatment
-          plan. Enjoy world-class dental care and an unforgettable holiday in
-          Antalya!
+           {t("text3")}
         </p>
       </div>
 

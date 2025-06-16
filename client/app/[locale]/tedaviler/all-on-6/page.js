@@ -1,8 +1,11 @@
 import React from 'react'
 import Banner from '../../components/subpages/Banner'
 import Link from 'next/link';
+import { useTranslations } from "next-intl";
 
 const page = () => {
+   const t = useTranslations("Allon4")
+
      const otherTreatments = [
     { title: "All-on-4 İmplantlar", slug: "all-on-4-dental-implants" },
     { title: "Dental Implants", slug: "dental-implants" },
@@ -23,18 +26,18 @@ const page = () => {
       {/* Soldaki İçerik */}
       <div className="w-full lg:w-[70%] space-y-8">
         <h1 className="text-3xl lg:text-4xl font-bold">
-          All-on-6 İmplant Tedavisi Nedir?
+        {t("header1")}
         </h1>
 
         <p className="text-base leading-relaxed">
-          All-on-6 yöntemi, çeneye 6 adet implant yerleştirilerek tüm dişlerin sabit bir protezle yeniden yapılandırılmasını sağlar. Bu sayede hareketli protez kullanımına gerek kalmaz ve çene kemiği korunur.
+          {t("text1")}
         </p>
 
-        <h2 className="text-2xl font-semibold">Öne Çıkan Özellikler</h2>
+        <h2 className="text-2xl font-semibold">  {t("header2")}</h2>
         <ul className="list-disc list-inside space-y-2">
-          <li>Çene kemiğini destekler, kemik erimesini önler.</li>
-          <li>Yüksek stabilite ve dayanıklılık sağlar.</li>
-          <li>Uzun ömürlü ve doğal görünümlü sabit diş çözümü sunar.</li>
+          <li>  {t("list1")}</li>
+          <li>{t("list2")}.</li>
+          <li>{t("list3")}</li>
         </ul>
 
         <h2 className="text-2xl font-semibold">Kimler All-on-6 İçin Uygundur?</h2>
