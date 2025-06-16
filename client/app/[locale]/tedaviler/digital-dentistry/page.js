@@ -6,7 +6,7 @@ import { useTranslations } from "next-intl";
 import React from 'react'
 import Banner from '../../components/subpages/Banner'
 
-const page = () => {
+const Page = () => {
     const t = useTranslations("DigitalDentistry")
      const otherTreatments = [
    { title: "All-on-4 İmplantlar", slug: "all-on-4-dental-implants" },
@@ -76,4 +76,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

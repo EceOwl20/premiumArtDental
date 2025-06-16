@@ -43,7 +43,7 @@ const page = () => {
           structural imperfections of teeth. They are ideal for restoring broken,
           cracked, discolored, or misshapen teeth. The porcelain material is applied
           to the front surface of the tooth, delivering a natural look while also
-          preserving the tooth's function.
+          preserving the tooths function.
         </p>
 
         <p className="text-base leading-relaxed">

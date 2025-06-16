@@ -1,7 +1,10 @@
+"use client";
+
+import Link from "next/link";
 import React from 'react'
 import Banner from '../../components/subpages/Banner'
 
-const page = () => {
+const age = () => {
       const otherTreatments = [
     { title: "All-on-4 İmplantlar", slug: "all-on-4-dental-implants" },
     { title: "All-on-6 İmplant Tedavisi", slug: "all-on-6-implant-treatment" },

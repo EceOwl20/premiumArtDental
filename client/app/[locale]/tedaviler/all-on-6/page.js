@@ -3,7 +3,7 @@ import Banner from '../../components/subpages/Banner'
 import Link from 'next/link';
 import { useTranslations } from "next-intl";
 
-const page = () => {
+const Page = () => {
    const t = useTranslations("Allon4")
 
      const otherTreatments = [
@@ -107,4 +107,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
