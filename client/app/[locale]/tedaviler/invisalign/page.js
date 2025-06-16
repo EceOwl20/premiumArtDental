@@ -4,7 +4,7 @@ import Link from "next/link";
 import React from 'react'
 import Banner from '../../components/subpages/Banner'
 
-const age = () => {
+const Page = () => {
       const otherTreatments = [
     { title: "All-on-4 İmplantlar", slug: "all-on-4-dental-implants" },
     { title: "All-on-6 İmplant Tedavisi", slug: "all-on-6-implant-treatment" },
@@ -125,4 +125,4 @@ const age = () => {
   )
 }
 
-export default page
+export default Page
