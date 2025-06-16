@@ -38,8 +38,15 @@ export default function Footer() {
             {/* Telefon 2 */}
             <li className="flex items-center gap-3">
               <FaPhoneAlt className="w-5 h-5 text-[var(--premiumgold)]" />
-              <Link href="tel:+901234567890">
-                <div className="hover:underline">+90 (123) 456 78 90</div>
+              <Link href="tel:+902428146010">
+                <div className="hover:underline">+90 242 814 60 10</div>
+              </Link>
+            </li>
+
+             <li className="flex items-center gap-3">
+              <FaPhoneAlt className="w-5 h-5 text-[#c1005c]" />
+              <Link href="tel:+905538146010">
+                <div className="hover:underline">+90 553 814 60 10</div>
               </Link>
             </li>
           </ul>
@@ -52,7 +59,7 @@ export default function Footer() {
         <div className="flex items-center gap-3">
            <MdLocationPin className="w-6 h-6 text-[#1f84d2]"/>
           <p className="font-jost text-[#ffffff]">
-             Kemer / Antalya
+            Yeni mahalle, Akdeniz Cd. 94/A Kemer/Antalya
           </p>
         </div>
       </div>
