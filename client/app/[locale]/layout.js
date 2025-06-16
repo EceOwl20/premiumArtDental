@@ -49,7 +49,7 @@ export default async function RootLayout({ children, params }) {
   return (
     <html lang={locale}>
       <body
-        className={`${lora.variable} ${roboto.variable} ${raleway.variable} antialiased`}
+        className={`${lora.variable} ${roboto.variable} ${raleway.variable} antialiased `}
       >
          <NextIntlClientProvider locale={locale} messages={messages}>
         <Header/>

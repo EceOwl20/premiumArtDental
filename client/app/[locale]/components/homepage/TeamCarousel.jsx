@@ -51,7 +51,7 @@ export default function TeamCarousel() {
             </p>
           </div>
           <Link href="/team">
-            <div className="absolute right-0 -top-2 lg:flex border border-[var(--premiumgold)] text-[var(--premiumgold)] px-2 py-1 lg:px-4 lg:py-2 rounded-md hover:bg-[var(--premiumgold)] hover:text-black transition flex items-center gap-1 text-[14px] lg:text-[18px]">
+            <div className="absolute right-0 -top-2 lg:flex border border-[#c1005c] text-[#c1005c] px-2 py-1 lg:px-4 lg:py-2 rounded-md hover:bg-[#c1005c] hover:text-white transition flex items-center gap-1 text-[14px] lg:text-[18px]">
               Tüm Ekibimiz{" "}
               <span className="ml-1">
                 <GoArrowUpRight size={30} className="hidden lg:flex" />{" "}

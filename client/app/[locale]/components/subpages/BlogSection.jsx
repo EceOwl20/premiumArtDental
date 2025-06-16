@@ -5,6 +5,17 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
+import img1 from "../../../../public/images/tedaviler/Allon4.png"
+import img2 from "../../../../public/images/tedaviler/Allon6.png"
+import img3 from "../../../../public/images/tedaviler/beyazlatma.png"
+import img4 from "../../../../public/images/tedaviler/digitaldentistry.png"
+import img5 from "../../../../public/images/tedaviler/disimplant.png"
+import img6 from "../../../../public/images/tedaviler/emaxkaplama.png"
+import img7 from "../../../../public/images/tedaviler/invisalign.png"
+import img8 from "../../../../public/images/tedaviler/laminakaplama.png"
+import img9 from "../../../../public/images/tedaviler/periodontoloji.png"
+import img10 from "../../../../public/images/tedaviler/porselenkaplama.png"
+import img11 from "../../../../public/images/tedaviler/zirkonyumkaplama.png"
 
 export default function BlogSection() {
   const t1 = useTranslations("Blog1");
@@ -24,39 +35,39 @@ export default function BlogSection() {
       title: t1("header"),
       slug: t1("slug"),
       excerpt: t1("text1"),
-      img: "https://placehold.co/300x200?text=Implant",
+      img: img5,
     },
     {
       title: t2("header"),
       slug: t2("slug"),
       excerpt: t2("text1"),
-      img: "https://placehold.co/300x200?text=Protez",
+      img: img2,
     },
     {
       title: t3("header"),
       slug: t3("slug"),
       excerpt: t3("text1"),
-      img: "https://placehold.co/300x200?text=Dişsiz",
+      img: img3,
     },
     {
       title: t4("header"),
       slug: t4("slug"),
       excerpt: t4("text1"),
-      img: "https://placehold.co/300x200?text=Sedasyon",
+      img: img9,
     },
 
     {
       title: t5("header"),
       slug: t5("slug"),
       excerpt: t5("text1"),
-      img: "https://placehold.co/300x200?text=Sedasyon",
+      img: img8,
     },
 
     {
       title: t6("header"),
       slug: t6("slug"),
       excerpt: t6("text1"),
-      img: "https://placehold.co/300x200?text=Sedasyon",
+      img: img1,
     }
   ];
 
@@ -77,8 +88,10 @@ export default function BlogSection() {
               key={post.slug}
               className="border border-[#e29c2d] rounded-xl overflow-hidden flex flex-col lg:flex-row"
             >
-              <div className="w-full lg:w-[35%] h-[140px] lg:h-[200px] relative">
-                <img
+              <div className="w-full lg:w-[95%] h-[140px] lg:h-[280px] relative">
+                <Image
+                width={post.width}
+                height={post.height}
                   src={post.img}
                   alt={post.title}
                   className="object-cover w-full h-full"
@@ -119,11 +132,11 @@ export default function BlogSection() {
                     className="flex items-center space-x-3 p-2 rounded-md hover:bg-[#ddde64] transition"
                   >
                     <div className="w-10 h-10 bg-gray-700 rounded-md overflow-hidden flex-shrink-0">
-                      <img
-                        src={`https://placehold.co/100x100?text=Img${idx + 1}`}
+                      <Image
+                        src={img9}
                         alt={title}
-                        width={40}
-                        height={40}
+                        width={50}
+                        height={50}
                         className="object-cover"
                       />
                     </div>

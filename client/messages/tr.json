@@ -422,5 +422,211 @@
     "BlogConclusion": {
       "text": "Premium Art Dental Clinic olarak size sadece bir tedavi değil — gerçekten unutulmaz bir deneyim sunmayı hedefliyoruz. Antalya'dan sadece yepyeni bir gülümsemeyle değil, aynı zamanda yenilenmiş ve tazelenmiş hissederek ayrılacaksınız. Antalya'da diş yolculuğunuza başlamaya ve aynı zamanda güzel bir tatil geçirmeye hazır mısınız? Ücretsiz konsültasyon ve kişiselleştirilmiş tedavi planı için bugün bizimle iletişime geçin."
     }
+  },
+
+  "Treatment":{
+    "treatment1": "All on 4 İmplantlar",
+  "treatment2": "All on 6 İmplantlar",
+  "treatment3": "Diş İmplantları (Diş implantlarının avantajları, kullanım alanları, süreç)",
+  "treatment4": "Dijital Diş Hekimliği (avantajları, süreç kolaylığı, CAD/CAM, tarayıcılar, uygulama alanları)",
+  "treatment5": "Diş Beyazlatma (Lazer diş beyazlatma, avantajları, ne için yapılır)",
+  "treatment6": "Lamine Kaplamalar",
+  "treatment7": "Periodontoloji (Detertraj, küretaj, lazer diş eti tedavisi, diş eti cerrahisi, gummy smile düzeltme)",
+  "treatment8": "Porselen Kaplamalar",
+  "treatment9": "Zirkonyum Kaplamalar",
+  "treatment10": "E-max Kaplamalar (hangi dişlere uygulanabilir, süreç)",
+    "buttonText": "Detaylı Bilgi"
+
+  },
+
+  "Allon4":{
+    "header1": "All-on-4 Diş İmplantları",
+  "text1": "All-on-4 diş implantı tedavisi, dişlerini tamamen kaybetmiş hastalar için tasarlanmış pratik ve maliyet-etkin bir tam çene restorasyon yöntemidir. Bu yöntemde sabit bir protezi desteklemek için yalnızca 4 implant yerleştirilir ve geleneksel implant tedavilerine kıyasla daha hızlı ve daha az invaziv bir çözüm sunar.",
+  "header2": "All-on-4 Diş İmplant Tedavisi Nedir?",
+  "text2": "All-on-4 tekniğinde, çene kemiğine stratejik olarak konumlandırılmış 4 implant yerleştirilir ve üzerine sabit bir diş köprüsü tutturulur. İki implant dikey, diğer ikisi ise mevcut kemikle maksimum temas sağlamak için açılı yerleştirilir. Bu genellikle kemik grefti ihtiyacını ortadan kaldırır.",
+  "header3": "Ana Özellikler",
+  "list1": "Daha az implantla sabit diş çözümü",
+  "list2": "Kemik grefti ihtiyacı minimal veya yok",
+  "list3": "Daha hızlı işlem ve iyileşme süresi",
+  "header4": "Kimler İçin Uygundur?",
+  "list4": "Üst veya alt çenedeki tüm dişlerini kaybetmiş kişiler",
+  "list5": "Kemik hacmi sınırlı ancak implant desteği için yeterli çene kemiğine sahip hastalar",
+  "list6": "Kısa sürede sabit dişlere kavuşmak isteyenler",
+  "list7": "Maliyet-etkin tam çene restorasyonu arayanlar",
+  "list8": "Çıkarılabilir protez kullanmak istemeyen bireyler",
+  "header5": "All-on-4 Tedavisinin Avantajları",
+  "list9": "Hızlı Sonuçlar: Geçici sabit dişler genellikle aynı gün takılabilir",
+  "list10": "Daha Az İnvaziv İşlem: Tam bir kavis restorasyonu için yalnızca 4 implant gerekir — çoğu durumda ek cerrahi yok",
+  "list11": "Genellikle Kemik Grefti Gerekmez: Açılı implant yerleştirme kemik grefti ihtiyacını azaltır veya ortadan kaldırır",
+  "list12": "Bütçe Dostu: Tam ağız geleneksel implantlara kıyasla daha uygun fiyatlı bir alternatiftir",
+  "list13": "Doğal Görünüm ve Fonksiyon: Yüksek estetik sonuç ve çiğneme fonksiyonunun geri kazanılması",
+  "header6": "Antalya’da Tedavi Süreci Nasıl İşliyor?",
+  "list14": "Ücretsiz Online Danışma: 3D çene taramasıyla detaylı analiz sonrası kişiye özel tedavi planı hazırlanır",
+  "list15": "Antalya’ya İlk Ziyaret (5–7 Gün): 4 implant çene kemiğine yerleştirilir; Geçici sabit dişler aynı gün takılır; İyileşme süreci başlar",
+  "list16": "İyileşme Dönemi (3–4 Ay): İmplantlar kemikle tamamen bütünleşir (osseointegrasyon)",
+  "list17": "İkinci Ziyaret (4–5 Gün): Kalıcı zirkonyum dişler yerleştirilir; Son kontroller tamamlanır",
+  "text3": "Bireysel fiyat teklifiniz ve detaylı tedavi planınız için bugün bizimle iletişime geçin. Antalya’da dünya standartlarında diş bakımı ve unutulmaz bir tatil sizi bekliyor!"
+  },
+
+  "Allon6":{
+    "header1": "All-on-6 İmplant Tedavisi Nedir?",
+  "text1": "All-on-6 yöntemi, çeneye 6 adet implant yerleştirilerek tüm dişlerin sabit bir protezle yeniden yapılandırılmasını sağlar. Bu sayede hareketli protez kullanımına gerek kalmaz ve çene kemiği korunur.",
+  "header2": "Öne Çıkan Özellikler",
+  "list1": "Çene kemiğini destekler, kemik erimesini önler.",
+  "list2": "Yüksek stabilite ve dayanıklılık sağlar.",
+  "list3": "Uzun ömürlü ve doğal görünümlü sabit diş çözümü sunar.",
+  "header3": "Kimler All-on-6 İçin Uygundur?",
+  "list4": "Üst veya alt çenesinde tüm dişlerini kaybetmiş hastalar",
+  "list5": "Hareketli protezlerinden memnun olmayan kişiler",
+  "list6": "Kemik hacmi yeterli veya greft sonrası uygun hale gelmiş hastalar",
+  "list7": "Ağız fonksiyonlarını (çiğneme, konuşma) en üst seviyeye çıkarmak isteyenler",
+  "list8": "Estetik bir gülüşe kalıcı şekilde sahip olmak isteyenler",
+  "header4": "All-on-6 Tedavisinin Avantajları",
+  "list9": "Sabit Dişler: Geçici protezler dahil süreç boyunca sabit diş kullanımı sağlanır.",
+  "list10": "Doğal Görünüm: Porselen veya zirkonyum kaplamalar sayesinde estetik sonuç elde edilir.",
+  "list11": "Kemik Kaybını Önler: İmplantlar çene kemiğini uyarır, erimeyi durdurur.",
+  "list12": "Uzun Ömürlü Çözüm: Düzenli bakım ile ömür boyu garantili implantlardır.",
+  "list13": "Güvenli ve Konforlu Süreç: Lokal anestezi ile ağrısız uygulama, hızlı iyileşme dönemi.",
+  "header5": "Tedavi Süreci Nasıl İlerler?",
+  "list14": "Ücretsiz Online Danışmanlık: Size özel detaylı tedavi planı hazırlanır. 3D çene tomografisi ile analiz yapılır.",
+  "list15": "İlk Antalya Ziyareti (5–7 Gün): 6 adet implant çeneye yerleştirilir; geçici sabit diş takılır; iyileşme süreci başlatılır.",
+  "list16": "İyileşme Süreci (3–6 Ay): İmplantlar kemikle tamamen kaynaşır.",
+  "list17": "İkinci Ziyaret (4–5 Gün): Kalıcı zirkonyum dişler takılır; son kontroller yapılır.",
+  "text2": "Kendi tedavi planınızı öğrenmek için bizimle iletişime geçin. Antalya’da hem sağlığınıza kavuşun hem tatilin keyfini çıkarın!"
+  },
+
+  "DentalImplants":{
+    "header1": "Diş İmplantları",
+  "text1": "Diş implantları, eksik dişlerin yerine geçmek için modern diş hekimliğinde en güvenilir ve kalıcı çözümlerden biridir. Titanyumdan üretilen implantlar, çene kemiğiyle mükemmel şekilde bütünleşerek stabil ve uzun ömürlü bir çözüm sunar. Eksik dişlerin estetik ve fonksiyonel yönlerini geri kazandırmak için en etkili tedavi yöntemidir.",
+  "text2": "Diş implantlarının en büyük avantajı, doğal dişler gibi fonksiyon görme yetenekleridir. Diğer protez türlerine göre daha dayanıklı, uzun ömürlü ve estetik açıdan üstündür. Ayrıca implantlar çene kemiğini uyararak kemik kaybını önler ve zamanla kemik erimesini durdurur. Bu sayede daha çekici bir gülüşe kavuşurken çiğneme fonksiyonunu da geri kazanırsınız.",
+  "header2": "Diş İmplantlarının Avantajları",
+  "list1": "Doğal Görünüm ve Fonksiyon: Diş implantları doğal dişler gibi görünür ve işlev görür, estetik ve fonksiyonel mükemmellik sağlar.",
+  "list2": "Uzun Vadeli Çözüm: Uygun bakım ile diş implantları yıllarca sağlıklı ve dayanıklı kalır.",
+  "list3": "Kemik Kaybını Önler: İmplantlar çene kemiğiyle kaynaşarak kemik kaybını durdurur ve çene yapısını korur.",
+  "list4": "Konfor ve Stabilite: Diğer protezlerin aksine implantlar stabil ve konforludur, konuşma veya yemek sırasında kaymayı engeller.",
+  "list5": "Çevreleyen Dişlere Zarar Vermez: İmplantlar doğrudan çene kemiğine yerleştirilir, yanındaki dişlere zarar vermeden sağlam diş yapısını korur.",
+  "header3": "Diş İmplantlarının Uygulama Alanları",
+  "list6": "Tek diş kaybı.",
+  "list7": "Birden fazla diş kaybı.",
+  "list8": "Tam dişsizlik için protez stabilizasyonu.",
+  "list9": "Çürüme, kırık veya şekil bozukluğu olan dişlerin restorasyonu.",
+   "text3": "Premium Art Dental Clinic’te, son teknoloji ekipman, deneyimli uzmanlar ve kişiye özel tedavi planlarıyla diş implantı tedavileri gerçekleştiriyoruz. Tedavi süreciniz boyunca konforunuz için Antalya’da otel konaklaması ve VIP transfer hizmetleri sunuyoruz."
+  },
+
+  "DigitalDentistry":{
+      "header1": "Dijital Diş Hekimliği",
+  "text1": "Dijital diş hekimliği, diş tedavi süreçlerine teknolojiyi entegre eden modern bir yaklaşımdır. Bu yöntem tedavi sürecini daha hızlı, daha hassas ve daha konforlu hale getirirken, diş bakım kalitesini de artırır. Geleneksel yöntemlere kıyasla dijital diş hekimliği daha az invaziv olup, tedavi sürecinin planlamadan uygulamaya kadar tüm aşamalarını dijital araçlar ve yazılımlar kullanarak dijitalleştirir.",
+  "header2": "Dijital Diş Hekimliğinin Avantajları:",
+  "list1": "Yüksek Hassasiyet: Dijital tarayıcılar ve 3B görüntüleme teknolojileri dişlerinizi yüksek hassasiyetle tarayıp ayrıntılı dijital modeller oluşturur. Bu, tedavi sürecindeki hata payını en aza indirir.",
+  "list2": "Daha Hızlı ve Etkili Sonuçlar: Dijital sistemler tedavileri daha hızlı ve doğru planlamamızı sağlar, tedavi süresini kısaltır ve hastaların sonuçları daha çabuk görmesine imkân tanır.",
+  "list3": "Konforlu Tedavi Süreci: Dijital diş hekimliği, ağrısız ve daha az invaziv işlemler sunarak hastalar için daha rahat bir deneyim sağlar.",
+  "list4": "Daha Az Radyasyon: Dijital röntgenler geleneksel filmlere göre çok daha az radyasyon yayar. Bu, hasta güvenliğini artırır ve çevre dostu bir yaklaşım sunar.",
+  "list5": "Kişiselleştirilmiş Tedavi: Dijital diş hekimliği, her hastanın benzersiz diş yapısına uygun tedavi planları oluşturulmasına olanak tanır. Bu, daha etkili ve kişiye özel çözümler ortaya çıkarır.",
+  "list6": "Daha Az Zaman Harcayan: Dijital ağız taramaları daha hızlı ve konforlu olduğundan tedavi sürelerini kısaltır.",
+  "header3": "Dijital Diş Hekimliğinin Uygulama Alanları:",
+  "list7": "Dijital röntgenler ve 3B tarama",
+  "list8": "Dijital ölçüm ve tasarım sistemleri (CAD/CAM)",
+  "list9": "Dijital planlama ve simülasyon teknolojileri",
+  "list10": "Robotik diş tedavileri",
+  "list11": "Lazer diş tedavileri",
+  "list12": "Dijital protezler (dijital olarak tasarlanan ve üretilen diş protezleri)",
+  "text2": "Premium Art Dental Clinic’te en son dijital diş hekimliği cihazları kullanılarak her hastaya özel yüksek hassasiyetli tedavi planları sunuyoruz. Dijital diş hekimliği ile tedavi süreciniz daha hızlı, daha güvenli ve daha konforlu olacak. Ayrıca Antalya kliniğimizde VIP transfer hizmetleri ve lüks otel konaklama seçeneklerimizle tedavi süreciniz boyunca yanınızdayız."
+  },
+
+  "TeethWhitening":{
+     "header1": "Lazerle Diş Beyazlatma",
+  "text1": "Lazerle diş beyazlatma, diş estetiği alanında en hızlı ve en etkili modern tedavi yöntemlerinden biridir. Lazer teknolojisi kullanılarak gerçekleştirilen bu beyazlatma işlemi, dişlerinizin doğal beyazlığını geri kazandırırken uzun ömürlü ve kalıcı sonuçlar sunar. Lazer ışığı, beyazlatma jeliyle etkileşime girerek dişleri derinlemesine beyazlatır ve üstün sonuçlar elde edilmesini sağlar.",
+  "header2": "Lazerle Diş Beyazlatmanın Avantajları",
+  "list1": "Hızlı Sonuçlar: Lazer beyazlatma çok kısa sürede uygulanabilir ve genellikle tek seans içinde istenen beyazlık seviyesine ulaşılmasını sağlar.",
+  "list2": "Daha Az Hassasiyet: Geleneksel beyazlatma yöntemlerine kıyasla lazer uygulaması, daha az diş hassasiyeti ile daha konforlu bir iyileşme süreci sunar.",
+  "list3": "Daha Etkili: Lazer ışığı, beyazlatma jeli ile etkileşime girerek daha derin ve kalıcı bir beyazlatma etkisi sağlar.",
+  "list4": "Güvenli ve Kontrollü: Lazer teknolojisi, diş minesine zarar vermeden hassas uygulama yapılmasına imkân tanır.",
+  "header3": "Ne İçin Kullanılır?",
+  "text2": "Dişin dış tabakası mine olarak adlandırılır. Doğal diş rengi, ışığın mineden yansıması ve altında yer alan dentin ile birleşmesi sonucu oluşur. Genetik faktörler mine kalınlığını ve pürüzsüzlüğünü etkiler. İnce mine, dentinin renginin daha fazla görünmesine izin verir.",
+  "text3": "Mine üzerinde her gün ince bir tabaka (pelikül) oluşur ve lekeleri hapseder. Diş minesi ayrıca lekeleri tutabilen gözeneklere sahiptir.",
+  "header4": "Lekelenme Nedenleri",
+  "list5": "Tütün kullanımı",
+  "list6": "Kahve, kola, çay ve kırmızı şarap gibi koyu renkli içeceklerin tüketimi",
+  "list7": "Yetersiz ağız bakımı",
+  "list8": "Yaşlanma: Mine incelirken dentin zamanla koyulaşır",
+  "text4": "Premium Art Dental Clinic’te en yeni lazerle diş beyazlatma teknolojilerini kullanarak kişiye özel çözümler sunuyoruz. Lazerle beyazlatma işlemi, dişlerinizin doğal parlaklığını geri kazandırır ve gülüşünüze taze, sağlıklı bir görünüm kazandırır."
+  },
+
+  "LaminateVeneers":{
+    "header1": "Lamine Kaplamalar",
+  "text1": "Kaplamalar, diş estetiği alanında en sık kullanılan ve etkili tedavilerden biridir. Bu ince porselen kaplamalar dişlerin ön yüzeyine uygulanır. Kaplamalar, renk bozuklukları, şekil düzensizlikleri, çatlaklar ve dişler arasındaki boşluklar gibi estetik sorunları etkili bir şekilde çözerek mükemmel bir gülüş sağlar.",
+  "text2": "Kaplamaların en büyük avantajlarından biri, minimal mine kaldırımı ile uygulanabilmeleri ve böylece dişin doğal yapısının korunmasıdır. Bu sayede tedavi diğer işlemlere kıyasla çok daha az invazivdir. Kaplamalar, dişlerin estetik görünümünü iyileştirirken aynı zamanda güç ve dayanıklılık da kazandırır.",
+  "text3": "Premium Art Dental Clinic’te, her hastaya özel lamine kaplama tasarımları sunuyoruz. Kliniğimizde en son dijital ölçüm cihazları ve 3B tasarım sistemleri kullanılarak kusursuz uyum ve estetik sonuçlar elde ediyoruz. Kaplamalar sayesinde hem fonksiyonel diş sağlığınızı korur hem de kusursuz bir gülüşe sahip olabilirsiniz.",
+  "text4": "Tedavi süreciniz boyunca konforunuzu ön planda tutarak Antalya’da otel konaklaması ve VIP transfer hizmetleri sağlıyoruz. Deneyimli diş hekimlerimiz ve profesyonel ekibimiz, hayalinizdeki gülüşü gerçeğe dönüştürmek için yanınızda."
+  },
+
+  "Periodontology":{
+    "header1": "Periodontology (Gum Diseases and Treatments)",
+  "text1": "Periodontology is the branch of dentistry focused on maintaining the health of the supporting structures around the teeth—especially the gums and jawbone—and treating diseases affecting these tissues. Gum diseases often progress silently, and without early diagnosis, they can eventually lead to tooth loss.",
+  "text2": "The most common periodontal conditions include gingivitis (gum inflammation) and periodontitis (advanced gum disease). Symptoms such as bleeding gums, persistent bad breath, swelling, gum recession, and loose teeth may all be warning signs of these issues.",
+  "header2": "Our Periodontal Treatments",
+  "list1": "Scaling and Root Planing (Deep Cleaning): Removal of plaque and tartar buildup on the teeth and below the gumline to prevent inflammation.",
+  "list2": "Root Surface Smoothing (Curettage): Deep cleaning of gum pockets to remove harmful bacteria and promote healing of the gums.",
+  "list3": "Laser Gum Therapy: A minimally invasive, painless treatment with faster healing and no bleeding.",
+  "list4": "Gum Surgery: In advanced cases, procedures such as gum contouring, bone grafting, or flap surgery may be necessary.",
+  "list5": "Aesthetic Gum Treatments (Gummy Smile Correction): Reshaping excessive gum tissue to achieve a more balanced and attractive smile.",
+  "text3": "Throughout all treatments, we use pain-free techniques, state-of-the-art technology, and personalized planning to ensure the highest level of comfort for our patients. During your stay in Antalya, we provide luxury hotel accommodation and VIP transfer services between the airport and the clinic.",
+  "text4": "Thanks to our experienced periodontology specialists, we don’t just treat your gums—we help restore and protect your overall oral health. Because a healthy smile starts with healthy gums."
+  },
+
+  "PorcelainCrowns":{
+    "header1": "Porselen Kaplamalar",
+  "text1": "Metal alt yapılı porselen kaplamalar, porselen tabakasının altına dayanıklılık ve destek sağlamak amacıyla biyouyumlu metal alaşımların yerleştirildiği bir restorasyon türüdür. Diş hekimliğinde özel olarak tasarlanan bu alaşımlar, diş ve çevre dokularla yüksek uyum gösterir. Metal destekli porselen kaplamalar, yaygın kullanılan ve uzun ömürlü en dayanıklı kron tiplerinden biridir. Hassas üretildiklerinde hem dayanıklılık hem de estetik açıdan tatmin edici sonuçlar sunar ve maliyet-etkin bir çözümdür.",
+  "text2": "Porselen kaplamalar, dişlerin estetik ve yapısal kusurlarını düzeltmek için sıklıkla tercih edilir. Kırık, çatlak, renk bozukluğu veya şekil bozukluğu olan dişlerin restorasyonunda idealdir. Porselen, dişin ön yüzeyine uygulanarak doğal bir görünüm sunarken işlevselliği de korur.",
+  "text3": "Premium Art Dental Clinic’te tüm porselen kaplamalar, gelişmiş 3B tasarım teknolojileri ve dijital ağız içi tarayıcılar kullanılarak kişiye özel üretilir. Bu sayede mükemmel uyum ve doğal gülüşünüzle uyumlu sonuçlar elde edilir. Tedavi süreciniz boyunca konforunuz bizim önceliğimizdir.",
+  "text4": "Antalya kliniğimizdeki ziyaretiniz süresince lüks otel konaklaması ve VIP transfer hizmetleri sunuyoruz. Deneyimli diş hekimlerimiz, yüz hatlarınıza ve beklentilerinize uygun en ideal gülüş tasarımını gerçekleştirir. Premium Art’da estetik mükemmeliyet ve dental sağlığı bir araya getirerek özgüvenle gülümsemenize yardımcı oluyoruz."
+  },
+
+  "ZirconiumCrowns":{
+     "header1": "Zirkonyum Kaplamalar",
+  "text1": "Zirkonyum kaplamalar, modern diş hekimliğinde estetik çekicilik ve fonksiyonel dayanıklılığı bir arada sunan en çok tercih edilen çözümler arasındadır. Metal destekli kronların aksine zirkonyum biyo-uyumludur ve zamanla diş eti sınırında kararmayı önleyerek diş etleriyle sorunsuz bütünleşir. Işığı geçiren yapısı sayesinde doğal diş görünümünü yakından taklit eder ve yüksek estetikli, gerçekçi bir sonuç sağlar.",
+  "text2": "Zirkonyum kaplamalar, renk bozukluğu, kırık veya şekil bozukluğu olan dişlerin restorasyonunda veya eski dolgu malzemelerinin yerine geçmede idealdir. Yüksek aşınma direncine sahiptir, uzun ömürlüdür ve düşük ısıl iletkenlikleri sayesinde diş hassasiyetine neden olmaz.",
+  "text3": "Premium Art Dental Clinic’te, zirkonyum kaplamaları diş yapınıza özel olarak tasarlamak için en son dijital tarama sistemleri ve CAD/CAM teknolojisi kullanıyoruz. Mükemmel uyum, maksimum konfor ve doğal bir görünüm sağlamayı hedefliyoruz. Tedaviniz boyunca konforunuz ve rahatınız için Antalya’daki konaklamada otel hizmetleri ve VIP transfer imkânları sunuyoruz.",
+  "text4": "Yüksek deneyime sahip diş hekimlerimizle, hem estetik açıdan güzel hem de sağlıklı ve doğal bir gülüş tasarlıyoruz. Premium Art Dental Clinic’te, yalnızca estetik sonuçlar değil, uzun süreli memnuniyet, güven ve üstün kalite sunmaya kararlıyız."
+  },
+
+  "EmaxCrowns":{
+      "header1": "E-max Kaplamalar",
+  "text1": "E-max kaplamalar son yıllarda popülerlik kazanmış, estetik ve fonksiyonel restorasyonlar sunan tedavi yöntemidir. Lityum disilikat seramikten üretilen E-max, son derece estetik ve son derece dayanıklı bir malzemedir. Doğal diş yapısına olağanüstü benzerlik ve ışığı mükemmel yansıtma özelliğiyle öne çıkar. E-max kaplamalar, estetik kaygıları olan hastalar için ideal bir çözüm sunarken dişlerin dayanıklılığını da artırır.",
+  "text2": "E-max kaplamalar, hem dişsel hem de estetik açıdan çok yönlü avantajlar sağlar. Şekil bozuklukları, renklenme, çatlaklar veya aşınma gibi sorunlar bu kaplamalarla etkili ve kalıcı olarak giderilebilir. Diğer kron türlerinin aksine, E-max daha az diş dokusu çıkarımı gerektirir ve doğal diş yapısını korur.",
+  "header2": "Hangi Dişler İçin Uygundur?",
+  "list1": "Estetik iyileştirme gerektiren çoklu restorasyona sahip dişler",
+  "list2": "Koruyucu mine tabakasında deformasyonu veya eksikliği olan dişler",
+  "list3": "Aşınma nedeniyle görünümünü kaybetmiş dişler",
+  "list4": "Kanal tedavisi sonrası renk değiştirmiş dişler",
+  "list5": "Yaşlanma, devitalizasyon, florozis veya tetrasiklin kaynaklı renk değişiklikleri olan dişler",
+  "list6": "Travma veya çürük nedeniyle kırılmış dişler",
+  "list7": "Çarpık dişler",
+  "list8": "Sarılaşmış dişler (küçük azı dişleri dahil)",
+  "text3": "Premium Art Dental Clinic’te her hastaya özel dijital ölçüm cihazları ve 3B tasarım teknolojisi kullanarak kişiye özel E-max kaplamalar oluşturuyoruz. Bu sayede mükemmel uyum, doğal estetik ve uzun ömürlü sonuçlar elde edilir. Tedavi süreciniz boyunca konforunuz için Antalya’da otel konaklaması ve VIP transfer hizmetleri sunuyoruz."
+  },
+
+  "Invisalign":{
+     "header1": "Invisalign Tedavisi Nedir?",
+  "text1": "Şeffaf plak (Invisalign) tedavisi, diş sıkışıklığını düzeltmek için bugün en estetik ve konforlu yöntemlerden biridir. Bu modern ortodontik çözüm, geleneksel metal diş tellerinin yerini almıştır. Kliniğimizde, dişlerinizi ideal pozisyonlarına kademeli olarak hareket ettiren özel yapılmış şeffaf alignerlarla bu tedaviyi sunuyoruz.",
+  "header2": "Invisalign Tedavisi Kimler İçin Uygundur?",
+  "list1": "Sıkışık, aralıklı (diastema) veya düzensiz dişlere sahip bireyler",
+  "list2": "Isırma problemleri (açık kapanış, derin kapanış, çapraz kapanış) yaşayan hastalar",
+  "list3": "Görünür metal teller takmak istemeyen yetişkinler ve gençler",
+  "list4": "Tedavi süresince alignerlarını kolayca çıkarma esnekliğini isteyen kişiler",
+  "header3": "Invisalign Tedavisinin Avantajları",
+  "list5": "Estetik: Şeffaf alignerlar neredeyse görünmez, sosyal ortamlarda güvenle gülümsemenizi sağlar",
+  "list6": "Konforlu: Düz yüzeyleri diş etlerini tahriş veya zarar riskini azaltır",
+  "list7": "Çıkarılabilir: Yemek veya diş fırçalama sırasında alignerları kolayca çıkarabilirsiniz",
+  "list8": "Özel Üretim: 3D dijital tarayıcılarla dişlerinize tam uyumlu hazırlanır",
+  "list9": "Hızlı Sonuç: Hafif ve orta vakalarda geleneksel tellerden daha kısa sürede etkili sonuç sağlar",
+  "header4": "Premium Art Dental Clinic'te Invisalign Süreci Nasıl İşler?",
+  "list10": "Ücretsiz Danışma & Dijital Tarama: Dişleriniz detaylı analiz için dijital olarak taranır",
+  "list11": "Tedavi Planı Hazırlığı: Tedavi sonrası dişlerinizin nasıl görüneceğini gösteren kişiye özel 3D simülasyon oluşturulur",
+  "list12": "Aligner Üretimi: Invisalign merkezinde kişiye özel aligner seti hazırlanır",
+  "list13": "Aligner Kullanımı: Her aligner 1–2 hafta boyunca günde 20–22 saat takılır",
+  "list14": "Kontroller: Yaklaşık her 6–8 haftada bir klinik kontroller yapılır",
+  "list15": "Tedavi Sonu: İstenen sonuç elde edildiğinde, dişlerin stabilitesini korumak için retainer verilir",
+  "text2": "Tedavi süresince konforunuz için Antalya kliniğimizde otel konaklaması ve VIP transfer hizmetleri sunuyoruz. Uzman diş hekimleri ekibimizle doğal ve sağlıklı bir gülüş tasarlamanıza yardımcı oluyoruz."
   }
 }

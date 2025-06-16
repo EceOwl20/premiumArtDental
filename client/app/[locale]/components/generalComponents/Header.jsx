@@ -5,29 +5,28 @@ import LangSwitcher from '@/LangSwitcher';
 import { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
-
 // Proje dizinindeki resimler
-import logo from "@/public/images/logo/logowhite.png";       
+import logo from "@/public/images/logo/dental1.png";       
 // import trFlag from "@/public/flags/tr.png";     // Türk bayrağı
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
-    <header className="fixed inset-x-0 top-0 z-50">
+    <header className="fixed inset-x-0 top-0 z-50 ">
       {/* Arka plan resmi */}
       <div className="flex relative h-20 md:h-28 lg:h-32 bg-[#050a30] backdrop-blur-sm max-w-screen items-center justify-center border-b-[0.5px] border-[#e29c2d]">
      
         {/* Koyu yarı saydam katman + blur */}
-        <div className="absolute flex items-center justify-between w-[90%] lg:w-[90%] lg:min-w-[1295px]">
+        <div className="absolute flex items-center justify-between w-[90%] lg:w-[94%] lg:min-w-[1295px]">
           
           {/* Logo */}
           <Link href="/">
             <div className="flex items-center">
-              <Image src={logo} alt="Dent" width={50} height={50} />
-              <span className="ml-2 font-roboto text-md lg:text-lg xl:text-[22px] bg-gradient-to-r from-[#1f84d2] via-[#2c744b] via-[#700079] via-[#c1005c] to-[#e46c59] bg-clip-text text-transparent">
+              <Image src={logo} alt="Dent" width={180} height={80} />
+              {/* <span className="ml-2 font-roboto text-md lg:text-lg xl:text-[22px] bg-gradient-to-r from-[#1f84d2] via-[#2c744b] via-[#700079] via-[#c1005c] to-[#e46c59] bg-clip-text text-transparent">
               Premium Art Dental
-              </span>
+              </span> */}
             </div>
           </Link>
 

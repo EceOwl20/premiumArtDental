@@ -4,7 +4,7 @@ import ServicesGrid from '../components/subpages/ServicesGrid'
 
 const page = () => {
   return (
-    <div>
+    <div className='flex flex-col max-w-screen'>
       <Banner header="Tedaviler" text="Anasayfa » Tedaviler" /> 
       <ServicesGrid/>
     </div>

@@ -74,7 +74,7 @@ export default function BlogCarousel() {
             <div className="h-px bg-white mt-2 w-24" />
           </div>
           <Link href="/blog">
-            <div className="border border-white text-white px-2 py-1 lg:px-4 lg:py-2 rounded-md hover:bg-[var(--premiumgold)] hover:text-black transition flex items-center gap-1 text-[14px] lg:text-[18px]">
+            <div className="border border-white text-white px-2 py-1 lg:px-4 lg:py-2 rounded-md hover:bg-white hover:text-black transition flex items-center gap-1 text-[14px] lg:text-[18px]">
               Tüm Yazılar <span>→</span>
             </div>
           </Link>
@@ -123,7 +123,7 @@ export default function BlogCarousel() {
                         {post.text}
                       </p>
                       <Link href={`/blog/${idx + 1}`}>
-                        <div className="mt-auto inline-block border border-[#2c744b] text-[#2c744b] font-raleway uppercase text-sm py-2 px-4 rounded hover:bg-[var(--premiumgold)] hover:text-white transition">
+                        <div className="mt-auto inline-block border border-[#2c744b] text-[#2c744b] font-raleway uppercase text-sm py-2 px-4 rounded hover:bg-[#2c744b] hover:text-white transition">
                           Detaylı Bilgi
                         </div>
                       </Link>
@@ -137,7 +137,7 @@ export default function BlogCarousel() {
           {/* Sağ Ok */}
           <button
             onClick={scrollNext}
-            className="absolute right-0 top-1/2 z-20 -translate-y-1/2 bg-black hover:bg-white p-2 rounded-md transition"
+            className="absolute right-0 top-1/2 z-20 -translate-y-1/2 bg-black  p-2 rounded-md transition"
           >
             <FaChevronRight className="w-6 h-6 text-white" />
           </button>
