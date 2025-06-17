@@ -6,7 +6,7 @@ import Link from "next/link";import React from 'react'
 import Banner from '../../components/subpages/Banner'
 import { useTranslations } from "next-intl";
 
-const page = () => {
+const Page = () => {
    const t = useTranslations("LaminateVeneers")
 
     const otherTreatments = [
@@ -67,4 +67,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

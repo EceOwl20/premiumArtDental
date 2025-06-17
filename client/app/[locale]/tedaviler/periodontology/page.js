@@ -6,7 +6,7 @@ import React from 'react'
 import Banner from '../../components/subpages/Banner'
 import { useTranslations } from "next-intl";
 
-const page = () => {
+const Page = () => {
    const t = useTranslations("Periodontology")
 
      const otherTreatments = [
@@ -85,4 +85,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
