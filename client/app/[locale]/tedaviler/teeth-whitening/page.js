@@ -4,8 +4,11 @@
 import Link from "next/link";
 import React from 'react'
 import Banner from '../../components/subpages/Banner'
+import { useTranslations } from "next-intl";
 
 const page = () => {
+    const t = useTranslations("TeethWhitening")
+    
      const otherTreatments = [
     { title: "All-on-4 İmplantlar", slug: "all-on-4-dental-implants" },
     { title: "All-on-6 İmplant Tedavisi", slug: "all-on-6-implant-treatment" },
@@ -21,87 +24,60 @@ const page = () => {
 
   return (
     <div>
-      <Banner header="Teeth Whitening"/>
+      <Banner header={t("header1")}/>
        <section className="flex flex-col lg:flex-row gap-8 px-4 py-16 max-w-[1200px] mx-auto">
       {/* Soldaki içerik (%70) */}
       <div className="w-full lg:w-[70%] space-y-8">
         <h1 className="text-3xl lg:text-4xl font-bold">
-          Laser Teeth Whitening
+          {t("header1")}
         </h1>
 
         <p className="text-base leading-relaxed">
-          Laser teeth whitening is one of the fastest and most effective modern
-          treatment methods in the field of dental aesthetics. Using laser
-          technology, this whitening procedure restores the natural whiteness
-          of your teeth while providing long-lasting and permanent results. The
-          laser light interacts with the whitening gel to deeply whiten the
-          teeth, offering superior outcomes.
+        {t("text1")}
         </p>
 
         <h2 className="text-2xl font-semibold">
-          Advantages of Laser Teeth Whitening:
+         {t("header2")}
         </h2>
         <ul className="list-disc list-inside space-y-2">
           <li>
-            <strong>Fast Results:</strong> Laser whitening can be applied in a
-            very short time and typically achieves the desired level of
-            whiteness in a single session.
+            {t("list1")}
           </li>
           <li>
-            <strong>Less Sensitivity:</strong> Compared to traditional whitening
-            methods, laser treatment leads to less tooth sensitivity, providing
-            a more comfortable post-treatment experience.
+           {t("list2")}
           </li>
           <li>
-            <strong>More Effective:</strong> The laser light interacts with the
-            whitening gel to provide a deep, lasting effect, delivering more
-            permanent and effective results.
+           {t("list3")}
           </li>
           <li>
-            <strong>Safe and Controlled:</strong> Laser technology allows for
-            precise application without harming the teeth, ensuring the
-            protection of the enamel.
+            {t("list4")}
           </li>
         </ul>
 
-        <h2 className="text-2xl font-semibold">What Is It Used For?</h2>
+        <h2 className="text-2xl font-semibold">{t("header3")}</h2>
         <p className="text-base leading-relaxed">
-          The outer layer of a tooth is called the enamel. The color of natural
-          teeth is the result of light reflecting off the enamel and combining
-          with the underlying dentin. Genetics influence the thickness and
-          smoothness of the enamel. Thinner enamel allows more of the dentin’s
-          color to show through. Smoother or rougher enamel can also affect the
-          light reflection and, consequently, the color of the teeth.
+          {t("text2")}
         </p>
         <p className="text-base leading-relaxed">
-          A thin layer (pellicle) forms on the enamel every day and traps
-          stains. Tooth enamel also contains pores that can hold stains.
+         {t("text3")}
         </p>
 
         <h2 className="text-2xl font-semibold">
-          Common Causes of Staining:
+          {t("header4")}
         </h2>
         <ul className="list-disc list-inside space-y-2">
-          <li>Tobacco use</li>
-          <li>Drinking dark-colored beverages like coffee, cola, tea, and red wine</li>
-          <li>Poor dental care</li>
-          <li>Aging, as enamel thins and dentin darkens over time</li>
+          <li>{t("list5")}</li>
+          <li>{t("list6")}</li>
+          <li>{t("list7")}</li>
+          <li>{t("list8")}</li>
         </ul>
 
         <p className="text-base leading-relaxed">
-          Internal stains, known as intrinsic stains, are also possible. For
-          example, excessive fluoride exposure during childhood development can
-          cause intrinsic staining. Other causes include tetracycline
-          antibiotics taken during pregnancy or early childhood, and dental
-          trauma.
+        {t("text5")}
         </p>
 
         <p className="mt-4 text-base leading-relaxed">
-          At Premium Art Dental Clinic, we offer personalized solutions using
-          the latest technology in laser teeth whitening treatments. The
-          whitening process, powered by laser light, restores your teeth’s
-          natural brightness and gives your smile a fresh and healthy
-          appearance.
+          {t("text4")}
         </p>
       </div>
 

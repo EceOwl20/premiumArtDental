@@ -23,7 +23,7 @@ const Page = () => {
 
   return (
     <div>
-      <Banner header="Digital Dentistry"/>
+      <Banner header={t("header1")}/>
         <section className="flex flex-col lg:flex-row gap-8 px-4 py-16 max-w-[1200px] mx-auto">
       {/* Sol sütun: içerik %70 */}
       <div className="w-full lg:w-[70%] space-y-8">

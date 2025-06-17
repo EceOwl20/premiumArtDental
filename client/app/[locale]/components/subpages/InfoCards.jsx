@@ -3,6 +3,7 @@
 
 import { HiLocationMarker, HiPhone, HiClock } from "react-icons/hi";
 import { FiChevronRight } from "react-icons/fi";
+import Link from "next/link";
 
 export default function InfoCards() {
   return (
@@ -28,7 +29,7 @@ export default function InfoCards() {
           <div className="w-full rounded-md px-4 py-3 mt-auto">
             <p className="text-sm leading-snug text-[#1f84d2] text-center">
               <br />
-              Kemer/Antalya
+             Yeni mahalle, Akdeniz Cd. 94/A Kemer/Antalya
             </p>
           </div>
         </div>
@@ -44,15 +45,15 @@ export default function InfoCards() {
           <h3 className="text-xl font-roboto mb-2 text-[#1f84d2]">Ücretsiz Muayene</h3>
 
           {/* Alt metin */}
-          <div className="flex items-center text-sm font-jost mb-4 text-[#1f84d2]">
+          <Link href="tel:+902428146010" className="flex items-center text-sm font-jost mb-4 text-[#1f84d2] hover:text-[#c1005c]">
             <HiPhone className="mr-2 text-base" />
-            +90 (123) 456 78 90
-          </div>
+            +90 242 814 60 10
+          </Link>
 
           {/* Bilgi Kutusu */}
           <div className="w-full rounded-md px-4 py-3 mt-auto space-y-2 text-center">
             <p className="text-sm text-[#1f84d2]">
-              Whatsapp +90 (123) 456 78 90
+              Whatsapp +90 553 814 60 10
             </p>
             <p className="text-sm text-[#1f84d2]">Mail: info@premiumartdental.com</p>
           </div>
@@ -69,7 +70,7 @@ export default function InfoCards() {
           <h3 className="text-xl font-roboto mb-2 text-[#1f84d2]">Çalışma Saatleri</h3>
 
           {/* Alt metin / link */}
-          <div className="flex items-center text-sm font-jost mb-4 text-[#1f84d2] hover:text-white transition cursor-pointer">
+          <div className="flex items-center text-sm font-jost mb-4 text-[#1f84d2] hover:text-[#c1005c] transition cursor-pointer">
             <FiChevronRight className="mr-1" />
             Randevu Oluştur
           </div>

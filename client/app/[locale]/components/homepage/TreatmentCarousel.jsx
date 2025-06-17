@@ -95,7 +95,7 @@ const treatments = [
       t9("text1"),
          Icon: FaPaintBrush,
      color: "#38b2ac",
-       link:"/tedaviler/porcelaiin-crowns"
+       link:"/tedaviler/porcelain-crowns"
    },
      {
       title: t("treatment9"),

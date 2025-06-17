@@ -4,8 +4,11 @@
 
 import Link from "next/link";import React from 'react'
 import Banner from '../../components/subpages/Banner'
+import { useTranslations } from "next-intl";
 
 const page = () => {
+   const t = useTranslations("LaminateVeneers")
+
     const otherTreatments = [
     { title: "All-on-4 İmplantlar", slug: "all-on-4-dental-implants" },
     { title: "All-on-6 İmplant Tedavisi", slug: "all-on-6-implant-treatment" },
@@ -20,38 +23,26 @@ const page = () => {
   
   return (
     <div>
-      <Banner header="Laminate Veneers"/>
+      <Banner header={t("header1")}/>
         <section className="flex flex-col lg:flex-row gap-8 px-4 py-16 max-w-[1200px] mx-auto">
       {/* Soldaki içerik (%70) */}
       <div className="w-full lg:w-[70%] space-y-8">
-        <h1 className="text-3xl lg:text-4xl font-bold">Laminate Veneers</h1>
+        <h1 className="text-3xl lg:text-4xl font-bold">{t("header1")}</h1>
 
         <p className="text-base leading-relaxed">
-          Veneers are one of the most commonly used and effective treatments in the field of dental
-          aesthetics. These thin porcelain shells are specially applied to the front surface of the
-          teeth. Veneers provide an excellent solution for patients concerned with aesthetics,
-          effectively addressing issues such as discoloration, shape irregularities, cracks, and gaps
-          between teeth.
+          {t("text1")}
         </p>
 
         <p className="text-base leading-relaxed">
-          One of the greatest advantages of veneers is their ability to be applied with minimal enamel
-          removal, preserving the natural structure of the tooth. This makes the treatment process
-          minimally invasive compared to other procedures. Veneers not only enhance the aesthetic
-          appearance of the teeth but also add strength and durability to them.
+         {t("text2")}
         </p>
 
         <p className="text-base leading-relaxed">
-          At Premium Art Dental Clinic, we offer personalized veneer designs tailored to each patient.
-          Our clinic uses the latest digital measurement devices and 3D design systems, ensuring perfect
-          fit and aesthetic results. With veneers, you can achieve a flawless smile while maintaining the
-          functional health of your teeth.
+          {t("text3")}
         </p>
 
         <p className="text-base leading-relaxed">
-          Throughout your treatment process, we prioritize your comfort by offering hotel accommodation
-          and VIP transfer services in Antalya. Our experienced dentists and professional team are here to
-          turn your dream smile into reality.
+         {t("text4")}
         </p>
       </div>
 

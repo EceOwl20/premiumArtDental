@@ -26,6 +26,8 @@ export default function BlogSection() {
   const t6 = useTranslations("Blog6");
   const t7 = useTranslations("Blog7");
   const t8 = useTranslations("Blog8");
+  const t9 = useTranslations("Blog9");
+  const t10 = useTranslations("Blog10");
 
   // çeviri fonksiyonlarını bir diziye alıyoruz
   const translators = [t1, t2, t3, t4];
@@ -74,8 +76,8 @@ export default function BlogSection() {
   const sidebarPosts = [
  t7("header"),
  t8("header"),
-  "Diş İmplantı Fiyatları Ne Kadar?",
-  "Diş İmplantı Güvenli mi?",
+ t9("header"),
+ t10("header"),
 ];
 
   return (

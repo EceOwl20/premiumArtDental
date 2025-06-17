@@ -96,7 +96,7 @@ const services = [
      t9("text1"),
      img: img10,
     color: "#38b2ac",
-      link:"/tedaviler/porcelaiin-crowns"
+      link:"/tedaviler/porcelain-crowns"
   },
     {
      title: t("treatment9"),

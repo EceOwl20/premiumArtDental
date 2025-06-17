@@ -4,8 +4,11 @@
 import Link from "next/link";
 import React from 'react'
 import Banner from '../../components/subpages/Banner'
+import { useTranslations } from "next-intl";
 
 const page = () => {
+   const t = useTranslations("Periodontology")
+
      const otherTreatments = [
     { title: "All-on-4 İmplantlar", slug: "all-on-4-dental-implants" },
     { title: "All-on-6 İmplant Tedavisi", slug: "all-on-6-implant-treatment" },
@@ -20,63 +23,47 @@ const page = () => {
   
   return (
     <div>
-      <Banner header="Periodontology"/>
+      <Banner header={t("header1")}/>
        <section className="flex flex-col lg:flex-row gap-8 px-4 py-16 max-w-[1200px] mx-auto">
       {/* Soldaki içerik (%70) */}
       <div className="w-full lg:w-[70%] space-y-8">
         <h1 className="text-3xl lg:text-4xl font-bold">
-          Periodontology (Gum Diseases and Treatments)
+         {t("header1")}
         </h1>
 
         <p className="text-base leading-relaxed">
-          Periodontology is the branch of dentistry focused on maintaining the health of
-          the supporting structures around the teeth — especially the gums and jawbone —
-          and treating diseases affecting these tissues. Gum diseases often progress
-          silently, and without early diagnosis, they can eventually lead to tooth loss.
+         {t("text1")}
         </p>
 
         <p className="text-base leading-relaxed">
-          The most common periodontal conditions include <em>gingivitis</em> (gum inflammation)
-          and <em>periodontitis</em> (advanced gum disease). Symptoms such as bleeding gums,
-          persistent bad breath, swelling, gum recession, and loose teeth may all be warning
-          signs of these issues.
+         {t("text2")}
         </p>
 
-        <h2 className="text-2xl font-semibold">Our Periodontal Treatments:</h2>
+        <h2 className="text-2xl font-semibold">{t("header2")}</h2>
         <ul className="list-disc list-inside space-y-2">
           <li>
-            <strong>Scaling and Root Planing (Deep Cleaning):</strong> Removal of plaque and
-            tartar buildup on the teeth and below the gumline to prevent inflammation.
+           {t("list1")}
           </li>
           <li>
-            <strong>Root Surface Smoothing (Curettage):</strong> Deep cleaning of gum pockets
-            to remove harmful bacteria and promote healing of the gums.
+              {t("list2")}
           </li>
           <li>
-            <strong>Laser Gum Therapy:</strong> A minimally invasive, painless treatment with
-            faster healing and no bleeding.
+              {t("list3")}
           </li>
           <li>
-            <strong>Gum Surgery:</strong> In advanced cases, procedures such as gum contouring,
-            bone grafting, or flap surgery may be necessary.
+               {t("list4")}
           </li>
           <li>
-            <strong>Aesthetic Gum Treatments (Gummy Smile Correction):</strong> Reshaping
-            excessive gum tissue to achieve a more balanced and attractive smile.
+              {t("list5")}
           </li>
         </ul>
 
         <p className="text-base leading-relaxed">
-          Throughout all treatments, we use pain-free techniques, state-of-the-art technology,
-          and personalized planning to ensure the highest level of comfort for our patients.
-          During your stay in Antalya, we provide luxury hotel accommodation and VIP transfer
-          services between the airport and the clinic for a smooth and worry-free experience.
+            {t("text3")}
         </p>
 
         <p className="mt-4 text-base leading-relaxed">
-          Thanks to our experienced periodontology specialists, we don’t just treat your gums —
-          we help restore and protect your overall oral health. Because a healthy smile starts
-          with healthy gums.
+            {t("text4")}
         </p>
       </div>
 
