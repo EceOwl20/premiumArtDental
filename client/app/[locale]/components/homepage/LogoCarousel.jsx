@@ -43,7 +43,7 @@ export default function LogoCarousel() {
   const scrollNext = useCallback(() => emblaApi && emblaApi.scrollNext(), [emblaApi]);
 
   return (
-    <section className="relative bg-gradient-to-r from-[#4ef8f0] to-[#259df9] py-4 lg:py-10 flex items-center justify-center w-screen">
+    <section className="relative bg-gradient-to-r from-[#1f84d2] to-[#ffffff] py-4 lg:py-10 flex items-center justify-center w-screen">
       {/* Carousel viewport */}
       <div className="embla overflow-hidden w-[90%] rounded-lg max-w-[1500px]" ref={emblaRef}>
         <div className="embla__container flex items-center gap-0 lg:gap-8 px-8">

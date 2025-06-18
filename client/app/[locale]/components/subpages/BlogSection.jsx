@@ -5,17 +5,17 @@ import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
-import img1 from "../../../../public/images/tedaviler/Allon4.png"
-import img2 from "../../../../public/images/tedaviler/Allon6.png"
-import img3 from "../../../../public/images/tedaviler/beyazlatma.png"
-import img4 from "../../../../public/images/tedaviler/digitaldentistry.png"
-import img5 from "../../../../public/images/tedaviler/disimplant.png"
-import img6 from "../../../../public/images/tedaviler/emaxkaplama.png"
-import img7 from "../../../../public/images/tedaviler/invisalign.png"
-import img8 from "../../../../public/images/tedaviler/laminakaplama.png"
-import img9 from "../../../../public/images/tedaviler/periodontoloji.png"
-import img10 from "../../../../public/images/tedaviler/porselenkaplama.png"
-import img11 from "../../../../public/images/tedaviler/zirkonyumkaplama.png"
+import img1 from "../../../../public/images/stock/dental-implant-and-x-ray-picture-as-background-2025-01-09-05-46-02-utc.jpg"
+import img2 from "../../../../public/images/stock/close-up-of-dental-model-with-implant-patient-of-2024-11-27-17-58-45-utc.jpg"
+import img3 from "../../../../public/images/stock/top-view-of-dentist-with-veneers-palette-stock-pho-2025-03-05-20-15-40-utc.jpg"
+import img4 from "../../../../public/images/stock/dental-prosthetics-concept-showing-the-installati-2025-04-22-03-27-19-utc.jpg"
+import img5 from "../../../../public/images/stock/dental-teeth-model-with-dentist-tool-for-dentistry-2025-02-25-14-54-52-utc.jpg"
+import img6 from "../../../../public/images/stock/the-dentist-shines-on-the-patient-s-teeth-with-an-2025-01-08-23-24-01-utc.jpg"
+import img7 from "../../../../public/images/stock/ceramic-braces-installation-process-2025-01-16-22-13-46-utc.jpg"
+import img8 from "../../../../public/images/stock/the-dentist-shines-on-the-patient-s-teeth-with-an-2025-01-08-23-24-01-utc.jpg"
+import img9 from "../../../../public/images/stock/close-up-dental-office-girl-dentist-applies-protec-2024-12-04-04-55-22-utc.jpg"
+import img10 from "../../../../public/images/stock/top-view-of-dentist-with-veneers-palette-stock-pho-2025-03-05-20-15-40-utc.jpg"
+import img11 from "../../../../public/images/stock/zirconium-porcelain-tooth-plate-in-dentist-store-2025-04-02-16-12-49-utc.jpg"
 
 export default function BlogSection() {
   const t1 = useTranslations("Blog1");
@@ -80,6 +80,13 @@ export default function BlogSection() {
  t10("header"),
 ];
 
+  const sidebarImage = [
+ img4,
+ img6,
+ img7,
+ img10
+];
+
   return (
     <section className="text-[#050a30] py-8 lg:py-16 px-4 lg:px-20">
       <div className="max-w-[1200px] mx-auto flex flex-col lg:flex-row gap-10">
@@ -90,7 +97,7 @@ export default function BlogSection() {
               key={post.slug}
               className="border border-[#e29c2d] rounded-xl overflow-hidden flex flex-col lg:flex-row"
             >
-              <div className="w-full lg:w-[95%] h-[140px] lg:h-[280px] relative">
+              <div className="w-full lg:min-w-[200px] h-[140px] lg:h-[280px] relative">
                 <Image
                 width={post.width}
                 height={post.height}
@@ -135,7 +142,7 @@ export default function BlogSection() {
                   >
                     <div className="w-10 h-10 bg-gray-700 rounded-md overflow-hidden flex-shrink-0">
                       <Image
-                        src={img9}
+                        src={sidebarImage[idx]}
                         alt={title}
                         width={50}
                         height={50}

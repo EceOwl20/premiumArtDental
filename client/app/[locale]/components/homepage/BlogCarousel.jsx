@@ -6,46 +6,97 @@ import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
 import Link from "next/link";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
+import { useTranslations } from "next-intl";
+import img1 from "../../../../public/images/stock/dental-implant-and-x-ray-picture-as-background-2025-01-09-05-46-02-utc.jpg"
+import img2 from "../../../../public/images/stock/close-up-of-dental-model-with-implant-patient-of-2024-11-27-17-58-45-utc.jpg"
+import img3 from "../../../../public/images/stock/top-view-of-dentist-with-veneers-palette-stock-pho-2025-03-05-20-15-40-utc.jpg"
+import img4 from "../../../../public/images/stock/dental-prosthetics-concept-showing-the-installati-2025-04-22-03-27-19-utc.jpg"
+import img5 from "../../../../public/images/stock/dental-teeth-model-with-dentist-tool-for-dentistry-2025-02-25-14-54-52-utc.jpg"
+import img6 from "../../../../public/images/stock/the-dentist-shines-on-the-patient-s-teeth-with-an-2025-01-08-23-24-01-utc.jpg"
+import img7 from "../../../../public/images/stock/ceramic-braces-installation-process-2025-01-16-22-13-46-utc.jpg"
+import img8 from "../../../../public/images/stock/the-dentist-shines-on-the-patient-s-teeth-with-an-2025-01-08-23-24-01-utc.jpg"
+import img9 from "../../../../public/images/stock/close-up-dental-office-girl-dentist-applies-protec-2024-12-04-04-55-22-utc.jpg"
+import img10 from "../../../../public/images/stock/top-view-of-dentist-with-veneers-palette-stock-pho-2025-03-05-20-15-40-utc.jpg"
+import img11 from "../../../../public/images/stock/zirconium-porcelain-tooth-plate-in-dentist-store-2025-04-02-16-12-49-utc.jpg"
 
-const blogPosts = [
+
+export default function BlogCarousel() {
+   const t1 = useTranslations("Blog1");
+  const t2 = useTranslations("Blog2");
+  const t3 = useTranslations("Blog3");
+  const t4 = useTranslations("Blog4");
+  const t5 = useTranslations("Blog5");
+  const t6 = useTranslations("Blog6");
+  const t7 = useTranslations("Blog7");
+  const t8 = useTranslations("Blog8");
+  const t9 = useTranslations("Blog9");
+  const t10 = useTranslations("Blog10");
+
+
+
+  const blogPosts = [
   {
-    title: "Lorem Ipsum Dolor Sit Amet",
-    text: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin
-           vehicula sapien nec purus aliquet, vitae suscipit nulla
-           interdum. Integer non purus vitae tortor varius euismod.`,
-    img: "https://placehold.co/400x200?text=Placeholder+Image+1",
+    title: t1("header"),
+     text: t1("text1"),
+     slug: t1("slug"),
+    img: img5,
   },
   {
-    title: "Consectetur Adipiscing Elit",
-    text: `Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-           posuere cubilia curae; Sed vitae orci nec arcu fermentum
-           aliquet. Nulla facilisi. Integer auctor tristique neque.`,
-    img: "https://placehold.co/400x200?text=Placeholder+Image+2",
+    title: t2("header"),
+     text: t2("text1"),
+     slug: t2("slug"),
+    img: img2,
   },
   {
-    title: "Sed Do Eiusmod Tempor",
-    text: `Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-           Ut enim ad minim veniam, quis nostrud exercitation ullamco
-           laboris nisi ut aliquip ex ea commodo consequat.`,
-    img: "https://placehold.co/400x200?text=Placeholder+Image+3",
+    title: t3("header"),
+     text: t3("text1"),
+     slug: t3("slug"),
+    img: img3,
   },
   {
-    title: "Ut Enim Ad Minim Veniam",
-    text: `Duis aute irure dolor in reprehenderit in voluptate velit esse
-           cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-           cupidatat non proident.`,
-    img: "https://placehold.co/400x200?text=Placeholder+Image+4",
+    title: t4("header"),
+     text: t4("text1"),
+     slug: t4("slug"),
+    img: img9,
   },
   {
-    title: "Quis Nostrud Exercitation",
-    text: `Curabitur sit amet mauris quis turpis euismod feugiat. Nulla
-           facilisi. Aliquam erat volutpat. Cras dignissim quam sed
-           risus pellentesque venenatis.`,
-    img: "https://placehold.co/400x200?text=Placeholder+Image+5",
+   title: t5("header"),
+     text: t5("text1"),
+     slug: t5("slug"),
+    img: img8,
+  },
+    {
+    title: t1("header"),
+     text: t1("text1"),
+     slug: t1("slug"),
+    img: img5,
+  },
+  {
+    title: t2("header"),
+     text: t2("text1"),
+     slug: t2("slug"),
+    img: img2,
+  },
+  {
+    title: t3("header"),
+     text: t3("text1"),
+     slug: t3("slug"),
+    img: img3,
+  },
+  {
+    title: t4("header"),
+     text: t4("text1"),
+     slug: t4("slug"),
+    img: img9,
+  },
+  {
+   title: t5("header"),
+     text: t5("text1"),
+     slug: t5("slug"),
+    img: img8,
   },
 ];
 
-export default function BlogCarousel() {
   const [emblaRef, emblaApi] = useEmblaCarousel({
     align: "start",
     containScroll: "trimSnaps",
@@ -106,25 +157,26 @@ export default function BlogCarousel() {
                   <div className="bg-white border border-gray-700 rounded-xl overflow-hidden flex flex-col h-full">
                     {/* Resim */}
                     <div className="relative h-32 md:h-40 overflow-hidden group">
-                      <img
+                      <Image
+                      width={post.img.width}
+                      height={post.img.height}
                         src={post.img}
                         alt={post.title}
-                        layout="fill"
-                        className="transition-transform duration-500 group-hover:scale-110"
+                        className="transition-transform duration-500 group-hover:scale-110 object-cover"
                       />
                       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.3),transparent)] opacity-0 group-hover:opacity-50 transition-opacity duration-500" />
                     </div>
                     {/* İçerik */}
                     <div className="p-3 lg:p-6 flex flex-col flex-grow">
-                      <h3 className="font-raleway font-semibold text-lg mb-1 lg:mb-2">
+                      <h3 className="font-raleway font-semibold text-lg mb-1 lg:mb-2 line-clamp-2 text-[#050a30]">
                         {post.title}
                       </h3>
-                      <p className="font-raleway text-sm text-[#050a30] flex-grow mb-1 lg:mb-4">
+                      <p className="font-raleway text-sm text-[#050a30] flex-grow mb-1 lg:mb-4 line-clamp-3">
                         {post.text}
                       </p>
-                      <Link href={`/blog/${idx + 1}`}>
+                      <Link href={`/blog/${post.slug}`}>
                         <div className="mt-auto inline-block border border-[#2c744b] text-[#2c744b] font-raleway uppercase text-sm py-2 px-4 rounded hover:bg-[#2c744b] hover:text-white transition">
-                          Detaylı Bilgi
+                              Devamını Oku
                         </div>
                       </Link>
                     </div>

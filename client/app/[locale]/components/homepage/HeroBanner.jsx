@@ -2,6 +2,9 @@
 "use client";
 
 import Link from "next/link";
+import imgBanner from "../../../../public/images/stock/close-up-partial-view-of-dentist-comparing-teeth-o-2024-11-17-14-44-27-utc.jpg"
+//close-up-dental-office-girl-dentist-applies-protec-2024-11-28-19-38-16-utc.jpg
+import Image from "next/image";
 
 export default function HeroBanner() {
   return (
@@ -16,14 +19,16 @@ export default function HeroBanner() {
         playsInline
       /> */}
 
-      <img
-      src="https://placehold.co/1900x1000"
+      <Image
+      width={imgBanner.width}
+      height={imgBanner.height}
+      src={imgBanner}
       alt="Hero Banner"
       className="object-cover h-full w-full"
       />
 
       {/* Koyu overlay */}
-      <div className="absolute inset-0 bg-black/30"></div>
+      <div className="absolute inset-0 bg-black/35"></div>
       {/* İçerik */}
       <div className="absolute inset-0 flex items-center mt-[4%]">
         <div className="container w-[80%] ml-[6%] lg:w-[53%] lg:ml-[13%]">

@@ -1,5 +1,5 @@
 import React from 'react'
-import imgBanner from "../../../../public/images/tedaviler/invisalign.png"
+import imgBanner from "../../../../public/images/stock/dental-teeth-model-with-dentist-tool-for-dentistry-2025-02-25-14-54-52-utc.jpg"
 import Image from 'next/image'
 
 const Banner = ({ header, text, img }) => {
@@ -15,21 +15,41 @@ const Banner = ({ header, text, img }) => {
           </p>
         </div>
 
-        <Image
-        width={220}
-        height={250}
-          src={imgBanner}
-          alt='image'
-          className='hidden lg:flex'
-        />
+        {/* LARGE SCREEN IMAGE - fade kenarlı */}
+        <div className='hidden lg:flex relative w-[280px] h-[220px]'>
+          <Image
+            src={imgBanner}
+            alt='image'
+            fill
+            style={{ objectFit: 'cover' }}
+            className='rounded-xl'
+          />
+          {/* Mask için overlay div */}
+          <div className="absolute inset-0 pointer-events-none rounded-xl"
+            style={{
+              WebkitMaskImage: 'linear-gradient(90deg, transparent 0%, black 12%, black 88%, transparent 100%)',
+              maskImage: 'linear-gradient(90deg, transparent 0%, black 12%, black 88%, transparent 100%)'
+            }}
+          />
+        </div>
 
-        <Image
-         width={100}
-        height={150}
-          src={imgBanner}
-          alt='image'
-           className='flex lg:hidden'
-        />
+        {/* MOBILE IMAGE - fade kenarlı */}
+        <div className='flex lg:hidden relative w-[100px] h-[150px]'>
+          <Image
+            src={imgBanner}
+            alt='image'
+            fill
+            style={{ objectFit: 'cover' }}
+            className='rounded-lg'
+          />
+          <div className="absolute inset-0 pointer-events-none rounded-lg"
+            style={{
+              WebkitMaskImage: 'linear-gradient(90deg, transparent 0%, black 18%, black 82%, transparent 100%)',
+              maskImage: 'linear-gradient(90deg, transparent 0%, black 18%, black 82%, transparent 100%)'
+            }}
+          />
+        </div>
+
       </div>
     </div>
   )
