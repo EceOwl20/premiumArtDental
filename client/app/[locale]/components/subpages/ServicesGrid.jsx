@@ -126,7 +126,7 @@ const services = [
 ];
 
   return (
-    <section className="bg-white text-white py-0 pb-12 lg:pb-16 lg:py-16 px-24 xl:px-20 ">
+    <section className="bg-white text-white py-0 pb-12 lg:pb-16 lg:py-16 px-8 lg:px-24 xl:px-20 ">
       <div className="max-w-[1500px] mx-auto">
         <h2 className="text-3xl lg:text-4xl font-roboto font-bold mb-8">
           Kliniğimizin Hizmetleri
