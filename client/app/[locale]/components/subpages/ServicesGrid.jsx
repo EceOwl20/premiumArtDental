@@ -21,16 +21,16 @@ export default function ServicesGrid() {
 
   const t = useTranslations("Treatment")
   const t2 = useTranslations("Allon4")
-   const t3 = useTranslations("Allon6")
-    const t4 = useTranslations("DentalImplants")
-     const t5 = useTranslations("DigitalDentistry")
-      const t6 = useTranslations("TeethWhitening")
-       const t7 = useTranslations("LaminateVeneers")
-          const t8 = useTranslations("Periodontology")
-             const t9 = useTranslations("PorcelainCrowns")
-                const t10 = useTranslations("ZirconiumCrowns")
-                  const t11 = useTranslations("EmaxCrowns")
-                    const t12 = useTranslations("Invisalign")
+  const t3 = useTranslations("Allon6")
+  const t4 = useTranslations("DentalImplants")
+  const t5 = useTranslations("DigitalDentistry")
+  const t6 = useTranslations("TeethWhitening")
+  const t7 = useTranslations("LaminateVeneers")
+  const t8 = useTranslations("Periodontology")
+  const t9 = useTranslations("PorcelainCrowns")
+  const t10 = useTranslations("ZirconiumCrowns")
+  const t11 = useTranslations("EmaxCrowns")
+  const t12 = useTranslations("Invisalign")
   // Hizmet verilerini burada tanımlıyoruz.
 // Resim olarak placehold.co'dan 64x64 boyutunda bir placeholder kullanıldı.
 const services = [
@@ -126,40 +126,40 @@ const services = [
 ];
 
   return (
-    <section className="bg-white text-white py-16 px-4 lg:px-20 ">
+    <section className="bg-white text-white py-0 pb-12 lg:pb-16 lg:py-16 px-24 xl:px-20 ">
       <div className="max-w-[1500px] mx-auto">
         <h2 className="text-3xl lg:text-4xl font-roboto font-bold mb-8">
           Kliniğimizin Hizmetleri
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 ">
           {services.map((item, idx) => (
             <div
               key={idx}
-              className="rounded-xl p-6 flex flex-col h-full transition hover:shadow-lg"
+              className="rounded-xl p-4 xl:p-6 flex flex-col h-full transition hover:shadow-lg items-center justify-center text-center lg:text-start"
               style={{ backgroundColor: item.color }}
             >
               {/* İkon/Görsel */}
-              <div className="w-full h-36 mb-4">
+              <div className="w-full mb-4 items-center justify-center flex">
                 <Image
                 width={150}
                 height={150}
                   src={item.img}
                   alt={item.title}
-                  className="w-full h-full object-cover rounded-sm"
+                  className="w-[90%] lg:.w-full h-full object-cover rounded-sm"
                 />
               </div>
 
               {/* Başlık */}
-              <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
+              <h3 className="text-lg font-semibold lg:mb-2">{item.title}</h3>
 
               {/* Açıklama */}
-              <p className="text-sm text-gray-100 mb-6 flex-grow line-clamp-3">
+              <p className="text-sm text-gray-100 mb-3 lg:mb-6 flex-grow line-clamp-3">
                 {item.description}
               </p>
 
               {/* “Detaylı Bilgi” Butonu */}
-              <Link href={item.link} className="mt-auto inline-block self-start border border-white text-white rounded-md px-2 py-1 lg:px-4 lg:py-2 text-sm hover:bg-white hover:text-black transition">
+              <Link href={item.link} className="mt-auto inline-block self-center lg:self-start border border-white text-white rounded-md px-2 py-1 lg:px-4 lg:py-2 text-sm hover:bg-white hover:text-black transition">
             {t("buttonText")}
               </Link>
             </div>

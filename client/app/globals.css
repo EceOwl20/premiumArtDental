@@ -159,6 +159,11 @@
 .embla__slide {
   position: relative;
 }
+
+.invert {
+  filter: invert(0);
+}
+
   
   
   

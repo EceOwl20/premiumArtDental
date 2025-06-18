@@ -40,13 +40,12 @@ export default function SlideSection() {
           Mükemmel Gülüşler, Kusursuz Dokunuşlar!
         </h2>
         <p className="font-jost">
-         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas mollitia consequuntur voluptate perferendis? Modi, magnam eos molestiae inventore dolorum consequuntur ut nesciunt earum unde amet obcaecati, voluptatem suscipit omnis facilis.
+       Premium Art Dental Clinic'e, güzel Kemer bölgesinde, Antalya'da hoş geldiniz. Kliniğimiz, özverili karı-koca ekibi olan Dt. Kivanc Ozkaral ve Dt. Firuzan Ozkaral tarafından yönetilmektedir. Kliniğimiz, diş hekimliğinde sanatçılık, son teknoloji ve şefkatli bakım ilkeleri üzerine kurulmuştur; tüm bunlar, olağanüstü gülüşler yaratmayı amaçlamaktadır.
+
+
         </p>
         <p className="font-jost">
-         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores delectus odio voluptates dolorum quidem voluptatem animi repudiandae quas! Placeat magni distinctio ex autem veritatis rerum molestias eum obcaecati, laboriosam molestiae?
-        </p>
-        <p className="font-jost">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates a dolore repudiandae temporibus, necessitatibus natus fuga doloribus minima quaerat. Porro, commodi ea aperiam beatae natus quis suscipit odit qui et?
+       Geniş ve modern bir tesiste yer alan kliniğimiz, konforlu ve etkili bir tedavi deneyimi sağlamak için en son teknolojiyle donatılmış çeşitli ileri düzey diş hizmetleri sunmaktadır. On yılı aşkın bir deneyime sahip olan kliniğimiz, Birleşik Krallık ve Almanya da dahil olmak üzere 30'dan fazla ülkeden binlerce hastayı gururla tedavi etmiştir. Her hasta, benzersiz bir birey olarak ele alınmakta ve gelen herkes için sıcak, samimi bir ortam sunmaktayız.
         </p>
         <Link href="/randevu">
           <div className="inline-block bg-[#2c744b] hover:bg-black text-white font-jost capitalize transition px-[12px] py-[6px] lg:px-[24px] lg:py-[10px]">
