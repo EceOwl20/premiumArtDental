@@ -56,10 +56,10 @@ export default function Footer() {
         <div className="hidden md:block h-12 border-l border-gray-700" />
 
         {/* 3) Adres Sütunu */}
-        <div className="flex items-center gap-3">
-           <MdLocationPin className="w-6 h-6 text-[#1f84d2]"/>
-          <p className="font-jost bg-gradient-to-r from-[#1f84d2] via-[#2c744b] via-[#700079] via-[#c1005c] to-[#e46c59] bg-clip-text text-transparent">
-            Yeni mahalle, Akdeniz Cd. 94/A Kemer/Antalya
+        <div className="flex items-center gap-1 lg:gap-3 justify-center text-center">
+           
+          <p className="font-jost bg-gradient-to-r from-[#1f84d2] via-[#2c744b] via-[#700079] via-[#c1005c] to-[#e46c59] bg-clip-text text-transparent flex">
+            <MdLocationPin className="w-6 h-6 text-[#1f84d2]"/> Yeni mahalle, Akdeniz Cd. 94/A Kemer/Antalya
           </p>
         </div>
       </div>

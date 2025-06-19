@@ -136,9 +136,9 @@ export default function BlogCarousel() {
           {/* Sol Ok */}
           <button
             onClick={scrollPrev}
-            className="absolute left-0 top-1/2 z-20 -translate-y-1/2 bg-black hover:bg-black p-2 rounded-md transition"
+            className="absolute -left-4 top-1/2 z-20 -translate-y-1/2 bg-black hover:bg-black  p-1 lg:p-2 rounded-md transition"
           >
-            <FaChevronLeft className="w-6 h-6 text-white" />
+            <FaChevronLeft className="w-5 lg:w-6 h-5 lg:h-6 text-white" />
           </button>
 
           {/* Embla viewport */}
@@ -168,14 +168,14 @@ export default function BlogCarousel() {
                     </div>
                     {/* İçerik */}
                     <div className="p-3 lg:p-6 flex flex-col flex-grow">
-                      <h3 className="font-raleway font-semibold text-lg mb-1 lg:mb-2 line-clamp-2 text-[#050a30]">
+                      <h3 className="font-raleway font-semibold text-[16px] lg:text-lg mb-1 lg:mb-2 line-clamp-2 text-[#050a30]">
                         {post.title}
                       </h3>
-                      <p className="font-raleway text-sm text-[#050a30] flex-grow mb-1 lg:mb-4 line-clamp-3">
+                      <p className="font-raleway text-[12px] lg:text-sm text-[#050a30] flex-grow mb-1 lg:mb-4 line-clamp-3">
                         {post.text}
                       </p>
                       <Link href={`/blog/${post.slug}`}>
-                        <div className="mt-auto inline-block border border-[#2c744b] text-[#2c744b] font-raleway uppercase text-sm py-2 px-4 rounded hover:bg-[#2c744b] hover:text-white transition">
+                        <div className="mt-auto inline-block border border-[#2c744b] text-[#2c744b] font-raleway uppercase text-[13px] lg:text-sm py-1 lg:py-2 px-2 lg:px-4 rounded hover:bg-[#2c744b] hover:text-white transition">
                               Devamını Oku
                         </div>
                       </Link>
@@ -189,9 +189,9 @@ export default function BlogCarousel() {
           {/* Sağ Ok */}
           <button
             onClick={scrollNext}
-            className="absolute right-0 top-1/2 z-20 -translate-y-1/2 bg-black  p-2 rounded-md transition"
+            className="absolute -right-4 top-1/2 z-20 -translate-y-1/2 bg-black  p-1 lg:p-2 rounded-md transition"
           >
-            <FaChevronRight className="w-6 h-6 text-white" />
+            <FaChevronRight className="w-5 lg:w-6 h-5 lg:h-6 text-white" />
           </button>
         </div>
       </div>

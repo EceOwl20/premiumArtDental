@@ -10,22 +10,22 @@ export default function HeroBanner() {
   return (
     <section className="relative w-full h-[92vh] overflow-hidden">
       {/* Video arka plan */}
-      {/* <video
+      <video
         className="absolute top-0 left-0 w-full h-full object-cover"
-        src="/videos/deneme.mp4"     
+        src="/videos/anasayfavideo.mp4"     
         autoPlay
         loop
         muted
         playsInline
-      /> */}
+      />
 
-      <Image
+      {/* <Image
       width={imgBanner.width}
       height={imgBanner.height}
       src={imgBanner}
       alt="Hero Banner"
       className="object-cover h-full w-full"
-      />
+      /> */}
 
       {/* Koyu overlay */}
       <div className="absolute inset-0 bg-black/35"></div>
