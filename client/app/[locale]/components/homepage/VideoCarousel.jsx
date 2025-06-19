@@ -22,8 +22,8 @@ export default function VideoCarousel() {
 
   // Gerçek YouTube embed linkleri (örnek)
   const videos = [
+    "https://youtube.com/embed/qC8QaOE1FNk",
     "https://www.youtube.com/embed/mWcXqI0DHbY",
-    "https://www.youtube.com/embed/RCBn1Car1gk",
     "https://www.youtube.com/embed/RCBn1Car1gk",
   ];
 
@@ -45,7 +45,7 @@ export default function VideoCarousel() {
         {/* Önceki ok */}
         <button
           onClick={scrollPrev}
-          className="absolute -left-12 top-1/2 z-20 -translate-y-1/2 bg-[#2c744b] hover:bg-gray-200 p-2 rounded-md transition"
+          className="absolute -left-4 lg:-left-12 top-1/2 z-20 -translate-y-1/2 bg-[#2c744b] hover:bg-gray-200 p-1 lg:p-2 rounded-md transition"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -64,13 +64,13 @@ export default function VideoCarousel() {
         </button>
 
         {/* Embla viewport */}
-        <div className="embla overflow-hidden h-auto" ref={emblaRef}>
-          <div className="embla__container flex gap-6">
+        <div className="embla overflow-hidden h-auto " ref={emblaRef}>
+          <div className="embla__container flex gap-3 lg:gap-6">
             {videos.map((videoUrl, idx) => (
               <div
                 key={idx}
                 className="embla__slide flex-shrink-0 
-                           w-[65vw] sm:w-[40vw] md:w-[35vw] lg:w-[30vw] xl:w-[25vw] max-w-[480px] min-h-[300px] md:min-h-[400px] xl:min-h-[550px]
+                           w-[55vw] sm:w-[40vw] md:w-[35vw] lg:w-[30vw] xl:w-[20vw] max-w-[480px] min-h-[300px] md:min-h-[400px] xl:min-h-[550px]
                            rounded-xl overflow-hidden"
               >
                 <div className="relative w-full pb-[56.25%]">
@@ -91,7 +91,7 @@ export default function VideoCarousel() {
         {/* Sonraki ok */}
         <button
           onClick={scrollNext}
-          className="absolute -right-12 top-1/2 z-20 -translate-y-1/2 bg-[#2c744b] hover:bg-gray-200 p-2 rounded-md transition"
+          className="absolute -right-4 lg:-right-12 top-1/2 z-20 -translate-y-1/2 bg-[#2c744b] hover:bg-gray-200 p-1 lg:p-2 rounded-md transition"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

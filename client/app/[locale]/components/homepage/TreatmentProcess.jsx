@@ -96,7 +96,7 @@ export default function TreatmentProcess() {
       {/* ---------------------- */}
       <div className="container mx-auto px-4 md:px-8 lg:px-16 mb-12">
         <div className="flex flex-col md:flex-row items-center justify-between mb-8 gap-2 lg:gap-0">
-          <h2 className="text-[32px] md:text-4xl lg:text-[44px] font-bold font-roboto text-[#1f84d2]">Tedavi Süreci</h2>
+          <h2 className="text-[30px] md:text-4xl lg:text-[44px] font-bold font-roboto text-[#1f84d2]">Tedavi Süreci</h2>
           <Link href="/planlama">
             <div className="flex items-center gap-2 border border-[#e29c2d] text-[#e29c2d]  px-2 py-1 lg:px-4 lg:py-2 rounded-md hover:bg-[#e29c2d] hover:text-black transition text-[14px] md:text-[16px] lg:text-[18px] font-lora">
               Tedavinizi Planlayın
