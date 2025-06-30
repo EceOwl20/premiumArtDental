@@ -4,7 +4,97 @@
       "locale": "{locale, select, en {EN} tr {TR} ru {RU} de {DE} other {Bilinmeyen}}"
     },
 
-      "OurTeam":{
+    "Header":{
+       "corporate": "Kurumsal",
+    "treatments": "Tedaviler",
+    "team": "Ekibimiz",
+    "doctors": "Doktorlar",
+    "blog": "Blog",
+    "gallery": "Galeri",
+    "contact": "İletişim"
+    },
+
+    "HeroBanner": {
+    "subtitle": "Premium Art Dental Ağız ve Diş Sağlığı Polikliniği",
+    "title": "En yeni teknolojilerle ağrısız, konforlu ve hızlı çözümler!",
+    "text": "Konfor, hız ve güvenliği bir araya getiriyoruz. Modern cihazlarla desteklenen tedavi süreçlerimizle, gülümsemek artık çok daha kolay.",
+    "buttonLink": "/tedaviler",
+    "buttonText": "Sunduğumuz Hizmetler"
+  },
+
+  "FreeConsultationForm": {
+    "title": "Ücretsiz Danışmanlık Alın!",
+    "description": "Uzman ekibimiz size en kısa sürede ulaşarak merak ettiğiniz her konuda yardımcı olabilir. Formu doldurun, sizi arayalım!",
+    "namePlaceholder": "Adınız & Soyadınız",
+    "phonePlaceholder": "Telefon Numaranız",
+    "buttonText": "Beni Arayın",
+    "alertRequired": "Lütfen hem Ad Soyad hem de Telefon numaranızı girin.",
+    "alertSuccess": "Teşekkürler! Başvurunuz alınmıştır.",
+    "alertError": "Başvuru gönderilirken bir hata oluştu. Lütfen daha sonra tekrar deneyin."
+  },
+
+  "SlideSection": {
+    "title": "Mükemmel Gülüşler, Kusursuz Dokunuşlar!",
+    "paragraph1": "Premium Art Dental Clinic'e, güzel Kemer bölgesinde, Antalya'da hoş geldiniz. Kliniğimiz, özverili karı-koca ekibi olan Dt. Kivanc Ozkaral ve Dt. Firuzan Ozkaral tarafından yönetilmektedir. Kliniğimiz, diş hekimliğinde sanatçılık, son teknoloji ve şefkatli bakım ilkeleri üzerine kurulmuştur; tüm bunlar, olağanüstü gülüşler yaratmayı amaçlamaktadır.",
+    "paragraph2": "Geniş ve modern bir tesiste yer alan kliniğimiz, konforlu ve etkili bir tedavi deneyimi sağlamak için en son teknolojiyle donatılmış çeşitli ileri düzey diş hizmetleri sunmaktadır. On yılı aşkın bir deneyime sahip olan kliniğimiz, Birleşik Krallık ve Almanya da dahil olmak üzere 30'dan fazla ülkeden binlerce hastayı gururla tedavi etmiştir. Her hasta, benzersiz bir birey olarak ele alınmakta ve gelen herkes için sıcak, samimi bir ortam sunmaktayız.",
+    "buttonText": "Hemen Randevu Oluştur"
+  },
+
+   "PatientVideos": {
+    "header": "Hasta Videoları",
+    "description": "Kliniğimizde tedavi gören hastalarımızın deneyimlerini izleyin. Her bir video, sunduğumuz kaliteli hizmetin ve güvenin bir yansımasıdır."
+  },
+
+   "TreatmentProcess": {
+    "header": "Tedavi Süreci",
+    "buttonText": "Tedavinizi Planlayın",
+    "steps": [
+      {
+        "title": "Ücretsiz Ön Görüşme",
+        "text": "Öncelikle online veya telefon üzerinden ücretsiz ön görüşme yaparak diş tedavi ihtiyaçlarınızı belirliyoruz ve size özel tedavi planını hazırlıyoruz."
+      },
+      {
+        "title": "Seyahat ve Konaklama",
+        "text": "Plan onaylandığında seyahat ve konaklama düzenlemelerinizde size yardımcı oluyor, kliniğimize ulaşımınızı en konforlu şekilde sağlıyoruz."
+      },
+      {
+        "title": "Tatilinizin Tadını Çıkarın",
+        "text": "Tedavi süreciniz boyunca Antalya’nın güzelliklerini keşfedebilir, konforlu bir tatil ile sağlıklı bir gülüşe kavuşabilirsiniz."
+      }
+    ],
+    "stats": {
+      "experience": "Yıllık Deneyim",
+      "happyPatients": "Mutlu Hasta",
+      "countries": "Ülkeden Ziyaretçi"
+    }
+  },
+
+  "PatientReviews": {
+    "header": "Hasta Yorumları",
+    "description": "Gerçek hastalarımızın deneyimlerine göz atın. Memnuniyetlerini paylaşan hastalarımızın samimi yorumlarını okuyun!"
+  },
+
+    "WhyUs": {
+    "header": "Neden Premium Art Dental?",
+    "paragraph1": "Premium Art Dental, en son dijital teknolojiyle donatılmış kliniğinde ağrısız ve hızlı tedavi çözümleri sunar. Uzman hekim kadromuz, her hastanın ağız yapısına özel planlama yaparak hem estetik hem de fonksiyonel mükemmelliği hedefler. Hollywood gülüşünden implant rehabilitasyonuna kadar geniş bir yelpazede hizmet verir; her aşamada kalite standartlarımızdan ödün vermeyiz.",
+    "paragraph2": "Sadece tedavi sürecinde değil, sonrasında da profesyonel destekle yanınızdayız. Hijyen protokollerine titizlikle uyar, konforlu bekleme alanlarımızda stresinizi en aza indiririz. Güler yüzlü ekibimiz ve uluslararası akreditasyonlu hizmet anlayışımızla Premium Art Dental bir diş kliniğinden çok daha fazlasıdır — güvenilir bir sağlık ortağıdır.",
+    "features": [
+      "Kişiye Özel Tedavi Planı",
+      "Dijital Görüntüleme Sistemleri",
+      "Ağrısız Sedasyon Seçenekleri",
+      "Hızlı ve Konforlu Operasyon",
+      "Uluslararası Standartlarda Hijyen",
+      "Tedavi Sonrası Uzun Dönem Takip"
+    ]
+  },
+
+   "BlogSection": {
+    "header": "Blog Yazıları",
+    "buttonText": "Tüm Yazılar"
+  },
+
+    "OurTeam":{
+      "buttonText": "Tüm Ekibimiz",
     "header":"Ekibimiz",
     "span":"Anasayfa » Ekibimiz",
     "text1":"Premium Art Dental Clinic’te, 25 yılı aşkın deneyime sahip uzman bir diş hekimi kadrosuna sahip olmaktan gurur duyuyoruz. Disiplinin her alanında uzmanlaşan ekibimiz, her hastanın benzersiz ihtiyaçlarına uygun kapsamlı ve kaliteli bakım sunar.",
@@ -529,6 +619,7 @@
   },
 
   "Treatment":{
+    "header":"Tedavilerimiz",
     "treatment1": "All on 4 İmplantlar",
   "treatment2": "All on 6 İmplantlar",
   "treatment3": "Diş İmplantları (Diş implantlarının avantajları, kullanım alanları, süreç)",

@@ -6,8 +6,10 @@ import { FaClipboardList, FaPlane, FaUmbrellaBeach } from "react-icons/fa";
 import Link from "next/link";
 import { GoArrowUpRight } from "react-icons/go";
 import { MdArrowForwardIos } from "react-icons/md";
+import { useTranslations } from "next-intl";
 
 export default function TreatmentProcess() {
+  const t = useTranslations("TreatmentProcess")
   // ----------------------
   // İSTATİSTİK COUNT-UP LOJİĞİ
   // ----------------------
@@ -96,10 +98,10 @@ export default function TreatmentProcess() {
       {/* ---------------------- */}
       <div className="container mx-auto px-4 md:px-8 lg:px-16 mb-12">
         <div className="flex flex-col md:flex-row items-center justify-between mb-8 gap-2 lg:gap-0">
-          <h2 className="text-[30px] md:text-4xl lg:text-[44px] font-bold font-roboto text-[#1f84d2]">Tedavi Süreci</h2>
+          <h2 className="text-[30px] md:text-4xl lg:text-[44px] font-bold font-roboto text-[#1f84d2]">{t("header")}</h2>
           <Link href="/planlama">
             <div className="flex items-center gap-2 border border-[#e29c2d] text-[#e29c2d]  px-2 py-1 lg:px-4 lg:py-2 rounded-md hover:bg-[#e29c2d] hover:text-black transition text-[14px] md:text-[16px] lg:text-[18px] font-lora">
-              Tedavinizi Planlayın
+              {t("buttonText")}
               <GoArrowUpRight size={20} className="flex lg:hidden"/>
               <GoArrowUpRight size={30} className="hidden lg:flex"/>
             </div>
@@ -116,9 +118,9 @@ export default function TreatmentProcess() {
           {/* Adım 1 */}
           <div className="flex-1 border border-[#242424] hover:border-[#e29c2d] max-h-[300px] rounded-lg px-6 py-6 lg:py-12 flex flex-col items-center text-center font-raleway">
             <FaClipboardList className="text-[#c1005c] w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 mb-4" />
-            <h3 className="font-roboto text-[18px] lg:text-xl mb-2">Ücretsiz Ön Görüşme</h3>
+            <h3 className="font-roboto text-[18px] lg:text-xl mb-2">{t("steps.0.title")}</h3>
             <p className="font-raleway text-[12px] md:text-[14px] lg:text-[16px] line-clamp-6">
-             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto ea molestiae ducimus voluptatem eligendi illum debitis. Officia optio itaque recusandae magni iusto libero, pariatur consectetur voluptate error, sequi reiciendis maiores.
+            {t("steps.0.text")}
             </p>
           </div>
 
@@ -128,9 +130,9 @@ export default function TreatmentProcess() {
           {/* Adım 2 */}
           <div className="flex-1 border border-[#242424] hover:border-[#e29c2d] max-h-[300px] rounded-lg px-6 py-6 lg:py-12 flex flex-col items-center text-center">
             <FaPlane className="text-[#c1005c] w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 mb-4" />
-            <h3 className="font-roboto text-[18px] lg:text-xl mb-2">Seyahat ve Konaklama</h3>
+            <h3 className="font-roboto text-[18px] lg:text-xl mb-2"> {t("steps.1.title")}</h3>
             <p className="font-raleway text-[12px] md:text-[14px] lg:text-[16px] line-clamp-6">
-             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iusto soluta iure ipsa voluptatum. Dolor blanditiis, quibusdam exercitationem iste omnis totam ipsam assumenda repellat consequuntur vitae temporibus accusantium officiis earum neque!
+            {t("steps.1.text")}
             </p>
           </div>
 
@@ -140,9 +142,9 @@ export default function TreatmentProcess() {
           {/* Adım 3 */}
           <div className="flex-1 border border-[#242424] hover:border-[#e29c2d] rounded-lg px-6 py-6 lg:py-12 flex flex-col items-center text-center">
             <FaUmbrellaBeach className="text-[#c1005c] w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12  mb-4" />
-            <h3 className="font-roboto text-[18px] lg:text-xl mb-2">Tatilinizin Tadını Çıkarın</h3>
+            <h3 className="font-roboto text-[18px] lg:text-xl mb-2"> {t("steps.2.title")}</h3>
             <p className="font-raleway   text-sm line-clamp-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo nihil eos aspernatur modi, tempore beatae soluta, ex dicta pariatur nesciunt voluptatum? Laudantium, iste? Placeat magni itaque incidunt. Earum, fuga facere!
+              {t("steps.2.text")}
             </p>
           </div>
         </div>
@@ -163,7 +165,7 @@ export default function TreatmentProcess() {
               {formatNumber(experience)}
             </div>
               <div className="hidden md:block border-l border-[#2c744b] h-16" />
-            <div className="font-raleway text-sm md:text-[18px] lg:text-[24px]">Yıllık Deneyim</div>
+            <div className="font-raleway text-sm md:text-[18px] lg:text-[24px]">{t("stats.experience")}</div>
           </div>  
 
           {/* 2. Kolon */}
@@ -172,7 +174,7 @@ export default function TreatmentProcess() {
               {formatNumber(happyPatients)}
             </div>
                   <div className="hidden md:block border-l border-[#2c744b] h-16" />
-            <div className="font-raleway  text-sm md:text-[18px] lg:text-[24px]">Mutlu Hasta</div>
+            <div className="font-raleway  text-sm md:text-[18px] lg:text-[24px]">{t("stats.happyPatients")}</div>
           </div>
 
           {/* 3. Kolon */}
@@ -181,7 +183,7 @@ export default function TreatmentProcess() {
               {formatNumber(countries)}
             </div>
                   <div className="hidden md:block border-l border-[#2c744b] h-16" />
-            <div className="font-raleway  text-sm md:text-[18px] lg:text-[24px]">Ülkeden Ziyaretçi</div>
+            <div className="font-raleway  text-sm md:text-[18px] lg:text-[24px]">{t("stats.countries")}</div>
           </div>
 
         </div>

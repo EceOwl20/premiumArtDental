@@ -5,8 +5,10 @@ import Link from "next/link";
 import imgBanner from "../../../../public/images/stock/close-up-partial-view-of-dentist-comparing-teeth-o-2024-11-17-14-44-27-utc.jpg"
 //close-up-dental-office-girl-dentist-applies-protec-2024-11-28-19-38-16-utc.jpg
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 export default function HeroBanner() {
+  const t = useTranslations("HeroBanner");
   return (
     <section className="relative w-full h-[92vh] overflow-hidden">
       {/* Video arka plan */}
@@ -36,14 +38,14 @@ export default function HeroBanner() {
           <h4
             className="font-jost text-white text-[12px] lg:text-sm uppercase mb-2
                        opacity-0 animate-slide-down delay-200">
-           Premium Art Dental Ağız ve Diş Sağlığı Polikliniği
+           {t("subtitle")}
           </h4>
 
           {/* Ana başlık */}
           <h1
             className="font-roboto text-white text-[26px] sm:text-[32px] md:text-5xl lg:text-6xl leading-tight mb-4
                        opacity-0 animate-slide-down delay-400">
-            En yeni teknolojilerle ağrısız, konforlu ve hızlı çözümler!
+             {t("title")}
           </h1>
 
           {/* Ayırıcı çizgi */}
@@ -53,11 +55,11 @@ export default function HeroBanner() {
           <p
             className="font-jost text-white max-w-lg mb-6
                        opacity-0 animate-slide-up delay-1200 text-[12px] lg:text-[14px]">
-            Konfor, hız ve güvenliği bir araya getiriyoruz. Modern cihazlarla desteklenen tedavi süreçlerimizle, gülümsemek artık çok daha kolay.
+            {t("text")}
           </p>
 
           {/* Çağrı butonu */}
-          <Link href="/services" className="opacity-0 animate-slide-up delay-1400">
+          <Link href={t("buttonLink")} className="opacity-0 animate-slide-up delay-1400">
             <div className="inline-block  bg-gradient-to-r
     from-[#1f84d2]
     via-[#2c744b]
@@ -69,7 +71,7 @@ export default function HeroBanner() {
 
 
     rounded hover:bg-white  bg hover:text-[#700079] px-[12px] py-[6px] lg:px-[24px] lg:py-[10px] font-jost capitalize text-[14px] lg:text-[17px] transition">
-              Sunduğumuz Hizmetler
+               {t("buttonText")}
             </div>
           </Link>
         </div>

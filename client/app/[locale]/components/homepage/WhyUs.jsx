@@ -4,8 +4,11 @@
 import Image from "next/image";
 import { FaCheck } from "react-icons/fa";
 import img1 from "../../../../public/images/patient.jpg"
+import { useTranslations } from "next-intl";
 
 export default function WhyUs() {
+  const t = useTranslations("WhyUs");
+
   return (
     <section className=" text-[#1f84d2] py-8 lg:py-16">
       <div className="container mx-auto px-4 md:px-8 lg:px-16 flex flex-col lg:flex-row items-center gap-8">
@@ -24,24 +27,16 @@ export default function WhyUs() {
         <div className="w-full lg:w-1/2 space-y-4 lg:space-y-6">
           {/* Başlık */}
           <h2 className="text-[26px] md:text-3xl lg:text-4xl font-roboto">
-            Neden Premium Art Dental&nbsp;?
+           {t("header")}
           </h2>
 
           {/* Paragraflar */}
           <div className="space-y-2 lg:space-y-4 font-raleway text-[14px] lg:text-base text-gray-800">
             <p>
-           Premium Art Dental, en son dijital teknolojiyle donatılmış kliniğinde
-              ağrısız ve hızlı tedavi çözümleri sunar. Uzman hekim kadromuz, her hastanın
-              ağız yapısına özel planlama yaparak hem estetik hem de fonksiyonel mükemmelliği
-              hedefler. Hollywood gülüşünden implant rehabilitasyonuna kadar geniş bir yelpazede
-              hizmet verir; her aşamada kalite standartlarımızdan ödün vermeyiz.
+           {t("paragraph1")}
             </p>
             <p>
-           Sadece tedavi sürecinde değil, sonrasında da profesyonel destekle yanınızdayız.
-              Hijyen protokollerine titizlikle uyar, konforlu bekleme alanlarımızda stresinizi
-              en aza indiririz. Güler yüzlü ekibimiz, uluslararası akreditasyonlu hizmet
-              anlayışımızla Premium Art Dental, bir diş kliniğinden çok daha fazlası—güvenilir
-              bir sağlık ortağıdır.
+       {t("paragraph2")}
             </p>
           </div>
 
@@ -49,27 +44,27 @@ export default function WhyUs() {
            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 lg:gap-4 font-raleway">
             <div className="flex items-start gap-3">
               <FaCheck className="text-[var(--premiumgold)] w-4 h-4 md:w-6 md:h-6 flex-shrink-0 mt-1" />
-              <span className="font-jost font-semibold">Kişiye Özel Tedavi Planı</span>
+              <span className="font-jost font-semibold">{t("features.0")}</span>
             </div>
             <div className="flex items-start gap-3">
               <FaCheck className="text-[var(--premiumgold)]  w-4 h-4 md:w-6 md:h-6 flex-shrink-0 mt-1" />
-              <span className="font-jost font-semibold">Dijital Görüntüleme Sistemleri</span>
+              <span className="font-jost font-semibold">{t("features.1")}</span>
             </div>
             <div className="flex items-start gap-3">
               <FaCheck className="text-[var(--premiumgold)]  w-4 h-4 md:w-6 md:h-6 flex-shrink-0 mt-1" />
-              <span className="font-jost font-semibold">Ağrısız Sedasyon Seçenekleri</span>
+              <span className="font-jost font-semibold">{t("features.2")}</span>
             </div>
             <div className="flex items-start gap-3">
               <FaCheck className="text-[var(--premiumgold)]  w-4 h-4 md:w-6 md:h-6 flex-shrink-0 mt-1" />
-              <span className="font-jost font-semibold">Hızlı ve Konforlu Operasyon</span>
+              <span className="font-jost font-semibold">{t("features.3")}</span>
             </div>
             <div className="flex items-start gap-3">
               <FaCheck className="text-[var(--premiumgold)]  w-4 h-4 md:w-6 md:h-6 flex-shrink-0 mt-1" />
-              <span className="font-jost font-semibold">Uluslararası Standartlarda Hijyen</span>
+              <span className="font-jost font-semibold">{t("features.4")}</span>
             </div>
             <div className="flex items-start gap-3">
               <FaCheck className="text-[var(--premiumgold)] w-4 h-4 md:w-6 md:h-6 flex-shrink-0 mt-1" />
-              <span className="font-jost font-semibold">Tedavi Sonrası Uzun Dönem Takip</span>
+              <span className="font-jost font-semibold">{t("features.5")}</span>
             </div>
           </div>
         </div>

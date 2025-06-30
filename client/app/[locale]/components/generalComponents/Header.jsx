@@ -11,6 +11,7 @@ import logo from "@/public/images/logo/dental1.png";
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
+  const t = useTranslations('Header');
 
   return (
     <header className="fixed inset-x-0 top-0 z-50 ">
@@ -32,7 +33,7 @@ export default function Header() {
 
           {/* Desktop navigasyon */}
           <nav className="hidden lg:flex items-center text-center lg:space-x-3 xl:space-x-7 text-white font-jost uppercase text-sm xl:text-[16px] font-roboto">
-            {["Kurumsal","Tedaviler","Ekibimiz","Doktorlar","Blog","Galeri","Iletisim"].map((item, i) => (
+            {[t("corporate"),t("treatments"),t("team"),t("doctors"),t("blog"),t("gallery"),t("contact")].map((item, i) => (
               <span key={item} className="flex items-center">
                 <Link href={`/${item.toLowerCase()}`}>
                   <div className="px-2 hover:bg-gradient-to-r hover:from-[#1f84d2] via-[#2c744b] via-[#700079] via-[#c1005c] to-[#e46c59] bg-clip-text hover:text-transparent">{item}</div>
@@ -84,7 +85,7 @@ export default function Header() {
       {/* Mobil menü */}
       {mobileOpen && (
         <div className="lg:hidden bg-[#050a30]/90 backdrop-blur-sm px-4 py-4 space-y-4 bg-gradient-to-r from-[#1f84d2] via-[#2c744b] via-[#700079] via-[#c1005c] to-[#e46c59] bg-clip-text text-transparent font-jost uppercase">
-          {["Kurumsal","Tedaviler","Ekibimiz","Doktorlar","Blog","Galeri","Iletisim"].map((item) => (
+          {[t("corporate"),t("treatments"),t("team"),t("doctors"),t("blog"),t("gallery"),t("contact")].map((item) => (
             <Link key={item} href={`/${item.toLowerCase()}`}>
               <div
                 onClick={() => setMobileOpen(false)}

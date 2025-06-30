@@ -2,8 +2,10 @@
 
 import { useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
+import { useTranslations } from "next-intl";
 
 export default function VideoCarousel() {
+  const t = useTranslations("PatientVideos")
   // Embla kurulumu: loop açık, hizalama başlangıç
   const [emblaRef, emblaApi] = useEmblaCarousel({
     align: "start",
@@ -32,11 +34,10 @@ export default function VideoCarousel() {
       {/* Başlık ve açıklama */}
       <div className="container mx-auto px-4 md:px-8 lg:px-16 max-w-[1400px]">
         <h2 className="text-[26px] md:text-3xl lg:text-4xl font-roboto mb-4 text-[#2c744b]">
-          Hasta Videoları
+         {t("header")}
         </h2>
         <p className="font-jost mb-5 lg:mb-8 max-w-2xl text-[12px] md:text-[14px] lg:text-[16px]">
-          Kliniğimizde tedavi gören hastalarımızın deneyimlerini izleyin. <br />
-          Her bir video, sunduğumuz kaliteli hizmetin ve güvenin bir yansımasıdır.
+          {t("description")}
         </p>
       </div>
 

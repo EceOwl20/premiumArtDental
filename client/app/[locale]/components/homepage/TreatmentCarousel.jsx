@@ -145,7 +145,7 @@ const treatments = [
     <section className="flex max-w-screen items-center justify-center py-10">
       <div className="flex flex-col w-[90%] md:w-[85%] lg:w-[90%] max-w-[1400px]">
         <h2 className="text-[26px] md:text-4xl lg:text-[45px] font-roboto text-[#1f84d2] mb-6 lg:mb-8 xl:mb-12">
-          Tedavilerimiz
+          {t("header")}
         </h2>
         <div className="relative">
           {/* Sol ok */}

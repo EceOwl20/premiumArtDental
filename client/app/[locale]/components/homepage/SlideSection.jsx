@@ -4,8 +4,10 @@ import { useRef, useEffect, useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import img from "../../../../public/images/smile.jpg"
+import { useTranslations } from "next-intl";
 
 export default function SlideSection() {
+  const t = useTranslations("SlideSection");
   const ref = useRef(null);
   const [inView, setInView] = useState(false);
 
@@ -37,19 +39,20 @@ export default function SlideSection() {
         style={{ animationDelay: "0.3s" }}
       >
         <h2 className="font-roboto text-[26px] md:text-3xl lg:text-4xl text-[#1f84d2]">
-          Mükemmel Gülüşler, Kusursuz Dokunuşlar!
+         {t("title")}
         </h2>
         <p className="font-jost">
-       Premium Art Dental Clinic'e, güzel Kemer bölgesinde, Antalya'da hoş geldiniz. Kliniğimiz, özverili karı-koca ekibi olan Dt. Kivanc Ozkaral ve Dt. Firuzan Ozkaral tarafından yönetilmektedir. Kliniğimiz, diş hekimliğinde sanatçılık, son teknoloji ve şefkatli bakım ilkeleri üzerine kurulmuştur; tüm bunlar, olağanüstü gülüşler yaratmayı amaçlamaktadır.
+      {t("paragraph1")}
 
 
         </p>
         <p className="font-jost">
-       Geniş ve modern bir tesiste yer alan kliniğimiz, konforlu ve etkili bir tedavi deneyimi sağlamak için en son teknolojiyle donatılmış çeşitli ileri düzey diş hizmetleri sunmaktadır. On yılı aşkın bir deneyime sahip olan kliniğimiz, Birleşik Krallık ve Almanya da dahil olmak üzere 30'dan fazla ülkeden binlerce hastayı gururla tedavi etmiştir. Her hasta, benzersiz bir birey olarak ele alınmakta ve gelen herkes için sıcak, samimi bir ortam sunmaktayız.
+       {t("paragraph2")}
+
         </p>
         <Link href="/randevu">
           <div className="inline-block bg-[#2c744b] hover:bg-black text-white font-jost capitalize transition px-[12px] py-[6px] lg:px-[24px] lg:py-[10px]">
-            Hemen Randevu Oluştur
+           {t("buttonText")}
           </div>
         </Link>
       </div>

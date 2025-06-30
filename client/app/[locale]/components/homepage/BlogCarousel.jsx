@@ -21,6 +21,7 @@ import img11 from "../../../../public/images/stock/zirconium-porcelain-tooth-pla
 
 
 export default function BlogCarousel() {
+    const t = useTranslations("BlogSection");
    const t1 = useTranslations("Blog1");
   const t2 = useTranslations("Blog2");
   const t3 = useTranslations("Blog3");
@@ -121,12 +122,12 @@ export default function BlogCarousel() {
         {/* Başlık ve Tüm Yazılar Butonu */}
         <div className="flex items-center justify-between mb-8">
           <div>
-            <h2 className="text-3xl lg:text-4xl font-roboto">Blog Yazıları</h2>
+            <h2 className="text-3xl lg:text-4xl font-roboto">{t("header")}</h2>
             <div className="h-px bg-white mt-2 w-24" />
           </div>
           <Link href="/blog">
             <div className="border border-white text-white px-2 py-1 lg:px-4 lg:py-2 rounded-md hover:bg-white hover:text-black transition flex items-center gap-1 text-[14px] lg:text-[18px]">
-              Tüm Yazılar <span>→</span>
+             {t("buttonText")} <span>→</span>
             </div>
           </Link>
         </div>

@@ -4,7 +4,96 @@
       "locale": "{locale, select, en {EN} tr {TR} ru {RU} de {DE} other {Unbekannt}}"
     },
 
+    "Header": {
+    "corporate": "Unternehmen",
+    "treatments": "Behandlungen",
+    "team": "Unser Team",
+    "doctors": "Ärzte",
+    "blog": "Blog",
+    "gallery": "Galerie",
+    "contact": "Kontakt"
+  },
+
+  "HeroBanner": {
+    "subtitle": "Premium Art Dental Mund- und Zahngesundheitsklinik",
+    "title": "Schmerzfreie, komfortable und schnelle Lösungen mit modernster Technologie!",
+    "text": "Wir vereinen Komfort, Geschwindigkeit und Sicherheit. Mit unseren modern ausgestatteten Behandlungsabläufen wird Ihr Lächeln noch einfacher.",
+    "buttonLink": "/behandlungen",
+    "buttonText": "Unsere Leistungen"
+  },
+
+  "FreeConsultationForm": {
+    "title": "Kostenlose Beratung erhalten!",
+    "description": "Unser Expertenteam wird sich schnellstmöglich mit Ihnen in Verbindung setzen, um alle Ihre Fragen zu beantworten. Füllen Sie das Formular aus und wir rufen Sie zurück!",
+    "namePlaceholder": "Ihr Name & Nachname",
+    "phonePlaceholder": "Ihre Telefonnummer",
+    "buttonText": "Rufen Sie mich an",
+    "alertRequired": "Bitte geben Sie sowohl Ihren Namen als auch Ihre Telefonnummer ein.",
+    "alertSuccess": "Vielen Dank! Ihre Anfrage wurde erfolgreich übermittelt.",
+    "alertError": "Beim Senden Ihrer Anfrage ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
+  },
+
+  "SlideSection": {
+    "title": "Perfekte Lächeln, makellose Berührungen!",
+    "paragraph1": "Willkommen in der Premium Art Dental Clinic im schönen Kemer-Gebiet von Antalya. Unsere Klinik wird von dem engagierten Ehepaar Dt. Kivanc Ozkaral und Dt. Firuzan Ozkaral geleitet. Die Klinik basiert auf den Prinzipien der Kunstfertigkeit in der Zahnmedizin, modernster Technologie und einfühlsamer Betreuung – mit dem Ziel, außergewöhnliche Lächeln zu schaffen.",
+    "paragraph2": "In unserer großzügigen und modernen Einrichtung bieten wir ein breites Spektrum an fortschrittlichen zahnärztlichen Leistungen, die mit modernster Technologie ausgestattet sind, um eine komfortable und effektive Behandlung zu gewährleisten. Mit über zehn Jahren Erfahrung hat unsere Klinik stolz tausende Patienten aus mehr als 30 Ländern, darunter Großbritannien und Deutschland, behandelt. Jeder Patient wird als einzigartiges Individuum gesehen, und wir bieten eine warme, einladende Atmosphäre für alle unsere Besucher.",
+    "buttonText": "Jetzt Termin vereinbaren"
+  },
+
+    "PatientVideos": {
+    "header": "Patientenvideos",
+    "description": "Sehen Sie sich die Erfahrungen unserer Patienten an, die in unserer Klinik behandelt wurden. Jedes Video spiegelt unseren hochwertigen Service und das Vertrauen wider, das wir bieten."
+  },
+
+  "TreatmentProcess": {
+    "header": "Behandlungsablauf",
+    "buttonText": "Planen Sie Ihre Behandlung",
+    "steps": [
+      {
+        "title": "Kostenlose Erstberatung",
+        "text": "Zuerst führen wir ein kostenloses Beratungsgespräch online oder telefonisch, um Ihre zahnmedizinischen Bedürfnisse zu verstehen und einen individuellen Behandlungsplan zu erstellen."
+      },
+      {
+        "title": "Reise & Unterkunft",
+        "text": "Nach Genehmigung des Plans helfen wir Ihnen bei der Organisation Ihrer Reise und Unterkunft, damit Sie unsere Klinik komfortabel erreichen."
+      },
+      {
+        "title": "Genießen Sie Ihren Urlaub",
+        "text": "Während Ihrer Behandlung können Sie die Schönheit Antalyas entdecken und gleichzeitig einen erholsamen Urlaub genießen, während Sie Ihr neues Lächeln erhalten."
+      }
+    ],
+    "stats": {
+      "experience": "Jahre Erfahrung",
+      "happyPatients": "Glückliche Patienten",
+      "countries": "Besucher aus Ländern"
+    }
+  },
+
+  "PatientReviews": {
+    "header": "Patientenbewertungen",
+    "description": "Werfen Sie einen Blick auf die echten Erfahrungen unserer Patienten. Lesen Sie die ehrlichen Bewertungen unserer zufriedenen Patienten!"
+  },
+
+   "WhyUs": {
+    "header": "Warum Premium Art Dental?",
+    "paragraph1": "Premium Art Dental bietet in einer mit modernster digitaler Technologie ausgestatteten Klinik schmerzfreie und schnelle Behandlungslösungen an. Unser Expertenteam erstellt für jeden Patienten einen individuell abgestimmten Behandlungsplan, um sowohl ästhetische als auch funktionale Perfektion zu erreichen. Von Hollywood-Lächeln bis hin zur Implantat-Rehabilitation bieten wir ein breites Leistungsspektrum an – ohne Kompromisse bei unseren Qualitätsstandards.",
+    "paragraph2": "Wir stehen Ihnen nicht nur während der Behandlung, sondern auch danach mit professioneller Betreuung zur Seite. Wir halten uns strikt an Hygieneprotokolle und minimieren Ihren Stress in unseren komfortablen Wartebereichen. Mit unserem freundlichen Team und unserem international akkreditierten Serviceansatz ist Premium Art Dental weit mehr als eine Zahnklinik – es ist Ihr vertrauenswürdiger Gesundheitspartner.",
+    "features": [
+      "Individueller Behandlungsplan",
+      "Digitale Bildgebungssysteme",
+      "Schmerzfreie Sedierungsmöglichkeiten",
+      "Schnelle und komfortable Behandlung",
+      "Hygiene nach internationalen Standards",
+      "Langfristige Nachsorge nach der Behandlung"
+    ]
+  },
+    "BlogSection": {
+    "header": "Blogbeiträge",
+    "buttonText": "Alle Beiträge"
+  },
+
           "OurTeam":{
+            "buttonText": "Unser gesamtes Team",
     "header":"Unser Team",
     "span":"Startseite » Unser Team",
     "text1":"In der Premium Art Dental Klinik sind wir stolz auf unser hochqualifiziertes Team von Zahnmedizinern mit über 25 Jahren kombinierter Erfahrung. Unser engagiertes Personal ist auf alle Bereiche der Zahnmedizin spezialisiert und stellt sicher, dass wir eine umfassende, erstklassige Versorgung anbieten, die individuell auf die Bedürfnisse jedes Patienten zugeschnitten ist.",
@@ -507,6 +596,7 @@
   },
 
   "Treatment":{
+    "header": "Unsere Behandlungen",
   "treatment1": "All-on-4-Implantate",
   "treatment2": "All-on-6-Implantate",
   "treatment3": "Zahnimplantate (Vorteile, Anwendungsbereiche, Ablauf)",

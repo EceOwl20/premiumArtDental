@@ -7,6 +7,7 @@ import { FaStar, FaChevronLeft, FaChevronRight, FaGoogle, FaStarHalfAlt } from "
 import Link from "next/link";
 import Image from "next/image";
 import trustpilot from "../../../../public/images/trustpilot.png"
+import { useTranslations } from "next-intl";
 
 const trustpilotReviews = [
   {
@@ -79,6 +80,8 @@ const googleReviews = [
 ];
 
 export default function ReviewsCarousel() {
+  const t = useTranslations("PatientReviews")
+
   const [activeTab, setActiveTab] = useState("");
 
   const [emblaRefTrust, emblaApiTrust] = useEmblaCarousel({
@@ -124,10 +127,9 @@ export default function ReviewsCarousel() {
     <section className=" text-[#050a30] py-16 max-w-screen">
       <div className="container mx-auto px-4 md:px-8 lg:px-16">
         {/* Başlık */}
-        <h2 className="text-[26px] md:text-3xl lg:text-4xl font-roboto mb-2 text-[#e29c2d]">Hasta Yorumları</h2>
+        <h2 className="text-[26px] md:text-3xl lg:text-4xl font-roboto mb-2 text-[#e29c2d]">{t("header")}</h2>
         <p className="font-jost text-[14px] text-base mb-8 max-w-2xl">
-          Gerçek hastalar, gerçek sonuçlar. <br />
-          Memnuniyetlerini paylaşan hastalarımızın yorumlarıyla tanışın!
+          {t("description")}
         </p>
 
         {/* Sekmeler */}

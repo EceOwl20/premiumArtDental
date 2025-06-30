@@ -4,7 +4,98 @@
   
   },
 
+      "Header":{
+       "corporate": "Corporate",
+    "treatments": "Treatments",
+    "team": "Our Team",
+    "doctors": "Doctors",
+    "blog": "Blog",
+    "gallery": "Gallery",
+    "contact": "Contact"
+    },
+
+     "HeroBanner": {
+    "subtitle": "Premium Art Dental Oral and Dental Health Clinic",
+    "title": "Painless, comfortable and fast solutions with the latest technologies!",
+    "text": "We combine comfort, speed and safety. With our treatment processes supported by modern devices, smiling is now much easier.",
+    "buttonLink": "/treatments",
+    "buttonText": "Our Services"
+  },
+
+  "FreeConsultationForm": {
+    "title": "Get a Free Consultation!",
+    "description": "Our expert team will reach out to you as soon as possible to assist you with any questions you may have. Fill out the form and we'll call you!",
+    "namePlaceholder": "Your Name & Surname",
+    "phonePlaceholder": "Your Phone Number",
+    "buttonText": "Call Me",
+    "alertRequired": "Please enter both your name and phone number.",
+    "alertSuccess": "Thank you! Your request has been received.",
+    "alertError": "An error occurred while submitting your request. Please try again later."
+  },
+
+  "SlideSection": {
+    "title": "Perfect Smiles, Flawless Touches!",
+    "paragraph1": "Welcome to Premium Art Dental Clinic, located in the beautiful Kemer area of Antalya. Our clinic is led by the dedicated husband and wife team, Dt. Kivanc Ozkaral and Dt. Firuzan Ozkaral. Built on the principles of artistry in dentistry, cutting-edge technology, and compassionate care, our goal is to create extraordinary smiles.",
+    "paragraph2": "Housed in a spacious and modern facility, our clinic offers a wide range of advanced dental services equipped with the latest technology to ensure a comfortable and effective treatment experience. With over a decade of experience, our clinic has proudly treated thousands of patients from over 30 countries, including the UK and Germany. Each patient is treated as a unique individual, and we provide a warm and welcoming atmosphere for everyone who visits.",
+    "buttonText": "Book an Appointment Now"
+  },
+
+    "PatientVideos": {
+    "header": "Patient Videos",
+    "description": "Watch the experiences of our patients treated at our clinic. Each video reflects the high-quality service and trust we provide."
+  },
+
+   "TreatmentProcess": {
+    "header": "Treatment Process",
+    "buttonText": "Plan Your Treatment",
+    "steps": [
+      {
+        "title": "Free Consultation",
+        "text": "First, we conduct a free consultation online or by phone to understand your dental needs and prepare a personalized treatment plan for you."
+      },
+      {
+        "title": "Travel & Accommodation",
+        "text": "Once the plan is approved, we assist you with your travel and accommodation arrangements, ensuring your arrival at our clinic is as comfortable as possible."
+      },
+      {
+        "title": "Enjoy Your Holiday",
+        "text": "During your treatment, you can enjoy the beauty of Antalya and experience a comfortable holiday while achieving a healthy smile."
+      }
+    ],
+    "stats": {
+      "experience": "Years of Experience",
+      "happyPatients": "Happy Patients",
+      "countries": "Visitors From Countries"
+    }
+  },
+
+   "PatientReviews": {
+    "header": "Patient Reviews",
+    "description": "Explore the real experiences of our patients. Read the sincere reviews shared by our satisfied patients!"
+  },
+
+  "WhyUs": {
+    "header": "Why Premium Art Dental?",
+    "paragraph1": "Premium Art Dental offers painless and fast treatment solutions in a clinic equipped with the latest digital technology. Our expert team creates personalized treatment plans for each patient’s oral structure, aiming for both aesthetic and functional perfection. From Hollywood smiles to implant rehabilitation, we provide a wide range of services without compromising our quality standards at any stage.",
+    "paragraph2": "We are with you not only during the treatment process but also afterwards with professional support. We strictly adhere to hygiene protocols and minimize your stress in our comfortable waiting areas. With our friendly team and internationally accredited service approach, Premium Art Dental is more than a dental clinic — it is a reliable healthcare partner.",
+    "features": [
+      "Personalized Treatment Plan",
+      "Digital Imaging Systems",
+      "Painless Sedation Options",
+      "Fast and Comfortable Procedures",
+      "International Hygiene Standards",
+      "Long-Term Post-Treatment Follow-up"
+    ]
+  },
+
+   "BlogSection": {
+    "header": "Blog Posts",
+    "buttonText": "All Posts"
+  },
+
+
   "OurTeam":{
+    "buttonText": "Our Entire Team",
     "header":"Our Team",
      "span":"Home » Our Team",
     "text1":"At Premium Art Dental Clinic, we pride ourselves on our highly skilled team of dental professionals with over 25 years of combined experience. Our dedicated staff specializes in all areas of dentistry, ensuring that we provide comprehensive, top-quality care tailored to each patient's unique needs.",
@@ -528,6 +619,7 @@
   
 
   "Treatment":{
+    "header": "Our Treatments",
   "treatment1": "All-on-4 Implants",
   "treatment2": "All-on-6 Implants",
   "treatment3": "Dental Implants (advantages, application areas, process)",
