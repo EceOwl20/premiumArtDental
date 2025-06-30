@@ -9,78 +9,112 @@ import Image from "next/image";
 import trustpilot from "../../../../public/images/trustpilot.png"
 import { useTranslations } from "next-intl";
 
-const trustpilotReviews = [
-  {
-    name: "Nikki Lorem",
-    date: "17/03/2023",
-    rating: 5,
-    text: `Curabitur sit amet mauris quis turpis euismod feugiat. Nulla
-           facilisi. Aliquam erat volutpat. Cras dignissim quam sed
-           risus pellentesque venenatis.`,
-  },
-  {
-    name: "Mr Colin Lorem",
-    date: "24/03/2024",
-    rating: 5,
-    text: `Curabitur sit amet mauris quis turpis euismod feugiat. Nulla
-           facilisi. Aliquam erat volutpat. Cras dignissim quam sed
-           risus pellentesque venenatis.`,
-  },
-  {
-    name: "Aimee Lorem",
-    date: "01/09/2024",
-    rating: 5,
-    text: `Curabitur sit amet mauris quis turpis euismod feugiat. Nulla
-           facilisi. Aliquam erat volutpat. Cras dignissim quam sed
-           risus pellentesque venenatis.`,
-  },
-  {
-    name: "Krassy Lorem",
-    date: "10/05/2024",
-    rating: 5,
-    text: `Curabitur sit amet mauris quis turpis euismod feugiat. Nulla
-           facilisi. Aliquam erat volutpat. Cras dignissim quam sed
-           risus pellentesque venenatis.`,
-  },
-];
-
-const googleReviews = [
-  {
-    name: "Emma Lorem",
-    date: "05/04/2022",
-    rating: 5,
-    text: `Curabitur sit amet mauris quis turpis euismod feugiat. Nulla
-           facilisi. Aliquam erat volutpat. Cras dignissim quam sed
-           risus pellentesque venenatis.`,
-  },
-  {
-    name: "Liam Lorem",
-    date: "22/012/2023",
-    rating: 4.5,
-    text: `Curabitur sit amet mauris quis turpis euismod feugiat. Nulla
-           facilisi. Aliquam erat volutpat. Cras dignissim quam sed
-           risus pellentesque venenatis.`,
-  },
-  {
-    name: "Sophia Lorem",
-    date: "15/02/2024",
-    rating: 5,
-    text: `Curabitur sit amet mauris quis turpis euismod feugiat. Nulla
-           facilisi. Aliquam erat volutpat. Cras dignissim quam sed
-           risus pellentesque venenatis.`,
-  },
-  {
-    name: "Noah Lorem",
-    date: "30/10/2023",
-    rating: 4,
-    text: `Curabitur sit amet mauris quis turpis euismod feugiat. Nulla
-           facilisi. Aliquam erat volutpat. Cras dignissim quam sed
-           risus pellentesque venenatis.`,
-  },
-];
 
 export default function ReviewsCarousel() {
   const t = useTranslations("PatientReviews")
+
+  const trustpilotReviews = [
+  {
+    name: "Elif Yılmaz",
+    date: "17/03/2023",
+    rating: 5,
+    text: t("text1")
+  },
+  {
+    name: "James Thompson",
+    date: "24/03/2024",
+    rating: 5,
+    text: t("text2")
+  },
+  {
+    name: "Merve Demir",
+    date: "01/09/2024",
+    rating: 5,
+    text: t("text3")
+  },
+  {
+    name: "Sophia Müller",
+    date: "10/05/2024",
+    rating: 5,
+    text: t("text4")
+  },
+  {
+    name: "Ali Kaya",
+    date: "05/06/2024",
+    rating: 5,
+    text: t("text5")
+  },
+  {
+    name: "Anna Petrova",
+    date: "12/06/2024",
+    rating: 5,
+    text: t("text6")
+  },
+  {
+    name: "Ahmet Şahin",
+    date: "22/06/2024",
+    rating: 5,
+    text: t("text7")
+  },
+  {
+    name: "Emily Davis",
+    date: "28/06/2024",
+    rating: 5,
+    text: t("text8")
+  }
+]
+
+
+const googleReviews = [
+   {
+    name: "Elif Yılmaz",
+    date: "17/03/2023",
+    rating: 5,
+    text: t("text1")
+  },
+  {
+    name: "James Thompson",
+    date: "24/03/2024",
+    rating: 5,
+    text: t("text2")
+  },
+  {
+    name: "Merve Demir",
+    date: "01/09/2024",
+    rating: 5,
+    text: t("text3")
+  },
+  {
+    name: "Sophia Müller",
+    date: "10/05/2024",
+    rating: 5,
+    text: t("text4")
+  },
+  {
+    name: "Ali Kaya",
+    date: "05/06/2024",
+    rating: 5,
+    text: t("text5")
+  },
+  {
+    name: "Anna Petrova",
+    date: "12/06/2024",
+    rating: 5,
+    text: t("text6")
+  },
+  {
+    name: "Ahmet Şahin",
+    date: "22/06/2024",
+    rating: 5,
+    text: t("text7")
+  },
+  {
+    name: "Emily Davis",
+    date: "28/06/2024",
+    rating: 5,
+    text: t("text8")
+  }
+]
 
   const [activeTab, setActiveTab] = useState("");
 
@@ -237,11 +271,11 @@ export default function ReviewsCarousel() {
         </div>
 
         {/* Alt not: Toplam puan */}
-        {activeTab === "trust" && (
+        {/* {activeTab === "trust" && (
           <p className="text-center font-jost text-gray-400 mt-8">
             Trustpilot üzerinde {trustCount} değerlendirmeye göre 5 üzerinden 4,9 puan aldı.
           </p>
-        )}
+        )} */}
       </div>
     </section>
   );

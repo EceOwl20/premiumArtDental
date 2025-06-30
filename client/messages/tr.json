@@ -71,7 +71,15 @@
 
   "PatientReviews": {
     "header": "Hasta Yorumları",
-    "description": "Gerçek hastalarımızın deneyimlerine göz atın. Memnuniyetlerini paylaşan hastalarımızın samimi yorumlarını okuyun!"
+    "description": "Gerçek hastalarımızın deneyimlerine göz atın. Memnuniyetlerini paylaşan hastalarımızın samimi yorumlarını okuyun!",
+     "text1": "Uzun zamandır diş tedavilerinden korkuyordum ama Premium Art Dental'deki süreç o kadar profesyonel ve samimiydi ki tüm endişelerim kayboldu. Tedavi planı detaylı anlatıldı ve her aşamada bilgilendirildim. Kesinlikle tavsiye ederim!",
+      "text2": "İngiltere’den kaplama tedavisi için geldim ve beklentimin ötesinde bir sonuç aldım. Klinik modern, ekip çok ilgili ve yeni gülüşüm özgüvenimi artırdı. Harika bir deneyim için teşekkürler!",
+      "text3": "Tedavi öncesi ve sonrası tüm süreçler çok şeffaf ilerledi. Hijyen, ilgi, konfor her şey çok iyiydi. İmplant tedavimi sorunsuz tamamladım ve Antalya’da tatil yapma fırsatı da buldum. Harikasınız!",
+      "text4": "Almanya’dan yüksek kalitede bir diş kliniği arıyordum ve burada buldum! Her şey harika organize edildi, havaalanı transferinden kontrole kadar. Yeni gülüşüm harika görünüyor.",
+      "text5": "Gülüş tasarımı için başvurdum ve sonuç mükemmel. Doktorlarımız çok ilgiliydi, tüm sorularıma yanıt verdiler. Tedavi planına sadık kaldılar ve hiç gecikme olmadı. Gönül rahatlığıyla öneririm.",
+      "text6": "Rusya’dan implant tedavisi için geldim, her şey sorunsuz ilerledi. Konaklamamı bile organize ettiler. Tüm süreç stressiz geçti, klinik tertemizdi. Diş turizmi düşünen herkese tavsiye ederim!",
+      "text7": "Diş çekimi ve köprü tedavisi için geldim. Ekip çok nazik, açıklayıcı ve sabırlıydı. Tedavim kısa sürede tamamlandı, Antalya’nın tadını çıkararak geri döndüm. Teşekkürler Premium Art Dental ailesi!",
+      "text8": "Yeni dişlerimden çok mutluyum! Beyazlatma ve birkaç dolgu işlemi yaptırdım. Doktorlar her adımı anlattı ve hep rahat hissettirdiler. Klinik ortamı bir diş kliniğinden çok lüks bir spa gibi!"
   },
 
     "WhyUs": {

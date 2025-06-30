@@ -71,7 +71,21 @@
 
   "PatientReviews": {
     "header": "Patientenbewertungen",
-    "description": "Werfen Sie einen Blick auf die echten Erfahrungen unserer Patienten. Lesen Sie die ehrlichen Bewertungen unserer zufriedenen Patienten!"
+    "description": "Werfen Sie einen Blick auf die echten Erfahrungen unserer Patienten. Lesen Sie die ehrlichen Bewertungen unserer zufriedenen Patienten!",
+    "text1": "Ich hatte jahrelang Angst vor Zahnbehandlungen, aber bei Premium Art Dental war alles so professionell und herzlich, dass meine Ängste verschwunden sind. Mein Behandlungsplan wurde detailliert erklärt und ich wurde bei jedem Schritt informiert. Absolut empfehlenswert!",
+
+      "text2": "Ich kam aus Großbritannien für Veneers und das Ergebnis hat meine Erwartungen übertroffen. Die Klinik ist modern, das Team sehr aufmerksam und mein neues Lächeln hat mein Selbstvertrauen gestärkt. Vielen Dank für diese tolle Erfahrung!",
+
+      "text3": "Der gesamte Ablauf vor und nach der Behandlung war sehr transparent. Hygiene, Betreuung und Komfort waren ausgezeichnet. Meine Implantatbehandlung verlief problemlos und ich konnte Antalya genießen. Ihr seid großartig!",
+
+      "text4": "Ich suchte nach einer hochwertigen Zahnklinik aus Deutschland und habe sie hier gefunden! Alles war perfekt organisiert, vom Flughafentransfer bis zur Nachkontrolle. Mein neues Lächeln sieht fantastisch aus.",
+      "text5": "Ich habe ein Smile Design machen lassen und das Ergebnis ist perfekt. Die Ärzte waren sehr aufmerksam und haben alle meine Fragen beantwortet. Der Behandlungsplan wurde ohne Verzögerung eingehalten. Sehr empfehlenswert!",
+
+      "text6": "Ich kam aus Russland für eine Implantatbehandlung und alles verlief reibungslos. Sogar meine Unterkunft wurde organisiert. Der ganze Prozess war stressfrei und die Klinik war makellos sauber. Sehr empfehlenswert für Zahntourismus!",
+
+      "text7": "Ich kam für eine Zahnextraktion und eine Brückenbehandlung. Das Team war freundlich, klar und geduldig. Die Behandlung wurde schnell abgeschlossen und ich konnte Antalya genießen. Vielen Dank an das Premium Art Dental Team!",
+
+      "text8": "Ich bin so glücklich mit meinen neuen Zähnen! Ich habe eine Aufhellung und einige Füllungen machen lassen. Die Ärzte haben jeden Schritt erklärt und mich immer wohl fühlen lassen. Die Klinik fühlt sich eher wie ein luxuriöses Spa an als wie eine Zahnarztpraxis!"
   },
 
    "WhyUs": {
@@ -90,6 +104,7 @@
     "BlogSection": {
     "header": "Blogbeiträge",
     "buttonText": "Alle Beiträge"
+     
   },
 
           "OurTeam":{
