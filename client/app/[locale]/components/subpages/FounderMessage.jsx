@@ -4,29 +4,31 @@
 import Image from "next/image";
 import { FaClinicMedical, FaPhoneAlt } from "react-icons/fa";
 import { useTranslations } from 'next-intl';
+import img1 from "@/public/images/stock/a-set-of-tools-used-in-whitening-2025-03-13-19-52-03-utc.jpg"
+import img2 from "@/public/images/logo/PremiumArtBlack.png"
 
 export default function FounderMessage() {
     const t = useTranslations('AboutUs');
   return (
-    <section className=" text-[#050a30] py-16 px-4 lg:px-10 xl:px-16">
+    <section className="flex text-[#050a30] py-16 px-4 lg:px-10 xl:px-16 ">
       <div className="max-w-[1400px] mx-auto flex flex-col lg:flex-row items-center gap-10">
         {/* SOL TARAF: Klinik ve Kurucu Görselleri */}
-        <div className="relative w-full lg:w-[46%] flex justify-between">
+        <div className="relative w-[95%] lg:w-[46%] flex flex-col sm:items-start items-center justify-center sm:justify-start">
           {/* Büyük Klinik Görseli */}
-          <div className="w-full lg:w-[90%] rounded-xl overflow-hidden shadow-lg items-start justify-start">
+          <div className="w-[80%] sm:w-[60%] lg:w-[92%] rounded-xl overflow-hidden shadow-lg bg-red-800 items-start justify-start">
             <Image
-              src="/images/clinic.jpg"           // → Kendi klinik fotoğrafınızın yolu
+              src={img1}          // → Kendi klinik fotoğrafınızın yolu
               alt="Premium Ant Dental Clinic"
               width={800}
               height={600}
-              className="w-full h-auto object-cover"
+              className="w-full object-cover"
             />
           </div>
 
           {/* Küçük Kurucu Görseli (Büyük görselin üzerinde overlap) */}
-          <div className="absolute bottom-0 right-0 lg:right-[-1rem] lg:bottom-[-2rem] w-48 h-64 lg:w-64 lg:h-80 rounded-xl overflow-hidden shadow-2xl">
+          <div className="absolute bottom-0 right-0 hidden sm:flex lg:right-[-1rem] lg:bottom-[-2rem] w-48 h-48 lg:min-w-64 lg:h-40 rounded-xl overflow-hidden shadow-2xl">
             <Image
-              src="/images/founder.jpg"         
+              src={img2}     
               alt="Dr. Lorem Lorem"
               width={400}
               height={500}
@@ -36,9 +38,9 @@ export default function FounderMessage() {
         </div>
 
         {/* SAĞ TARAF: Metin İçerikleri */}
-        <div className="w-full lg:w-[52%] space-y-6">
+        <div className="w-full lg:w-[52%] space-y-6 text-center items-center justify-center lg:items-start lg:justify-start lg:text-start">
           {/* Klinik İsmi + Simge */}
-          <div className="flex items-center space-x-2 text-gray-500">
+          <div className="flex items-center space-x-2 text-gray-500 justify-center lg:items-atrt lg:justify-start">
             <FaClinicMedical className="text-2xl" />
             <span className="font-jost text-sm">Premium Art Dental</span>
           </div>
@@ -73,7 +75,7 @@ export default function FounderMessage() {
             className="mt-4 inline-flex items-center gap-2 border border-[#e29c2d] text-[#e29c2d] hover:bg-[#e29c2d] hover:text-white font-jost font-semibold uppercase px-5 py-2 lg:px-6 lg:py-3 rounded-md transition text-[14px] lg:text-[18px]"
           >
             <FaPhoneAlt />
-            Randevu Oluştur
+           {t("buttonText")}
           </button>
         </div>
       </div>

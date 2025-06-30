@@ -117,7 +117,7 @@ export default function BlogSection() {
                 </div>
                 <Link href={`/blog/${post.slug}`}>
                   <div className="self-start border text-[14px] lg:text-[16px] border-white text-[#1f84d2] pr-5 lg:px-5 py-2 rounded-md hover:bg-white hover:text-gray-300 transition">
-                    Devamını Oku
+                  {t1("buttonText")}
                   </div>
                 </Link>
               </div>

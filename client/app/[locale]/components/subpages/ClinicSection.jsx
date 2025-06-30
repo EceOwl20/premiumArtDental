@@ -15,10 +15,10 @@ export default function ClinicSection() {
 
   // Bilgileri “dizi” olarak tanımladık, map ile render edeceğiz
   const stats = [
-    { value: experienceYears, label: "Yıllık Deneyim" },
-    { value: visitorCountries, label: "Farklı Ülkeden Ziyaretçi" },
-    { value: happyPatients, label: "Mutlu Hasta" },
-    { value: moreExperienceYears, label: "Yıllık Deneyim" },
+    { value: experienceYears, label: t("experience") },
+    { value: visitorCountries, label: t("countries") },
+    { value: happyPatients, label: t("happyPatients") },
+    { value: moreExperienceYears, label: t("experience") },
   ];
 
   return (

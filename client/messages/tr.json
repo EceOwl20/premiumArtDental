@@ -98,7 +98,8 @@
 
    "BlogSection": {
     "header": "Blog Yazıları",
-    "buttonText": "Tüm Yazılar"
+    "buttonText": "Tüm Yazılar",
+    "buttonText2": "Devamını Oku"
   },
 
     "OurTeam":{
@@ -113,10 +114,14 @@
     "header": "Kliniğimiz",
     "text1": "Premium Art Dental Clinic'e hoş geldiniz, güzel Kemer bölgesinde yer alan kliniğimizde olağanüstü bir diş deneyimi sunuyoruz.",
     "text2": "Geniş, konforlu bir ortamda, son teknoloji ile donatılmış tesisimizde hizmet vermekteyiz. 25 yıldan fazla deneyimi olan diş hekimleri ile, ihtiyaçlarınıza göre kişiselleştirilmiş bakım sunuyoruz.",
-    "text3": "Size kolaylık sağlamak için otel transferleri ve konforlu dinlenme alanları sunuyoruz. Klinik konumumuz, Olympos, Çıralı plajları ve Phaselis harabeleri gibi muhteşem yerlere kolay erişim imkânı tanıyor, böylece diş sağlığınızla birlikte rahat bir tatilin tadını çıkarabilirsiniz. Premium Art Dental Clinic'te olağanüstü bakımın ve sizleri bekleyen güzel gülüşlerin keyfini çıkarın!"
+    "text3": "Size kolaylık sağlamak için otel transferleri ve konforlu dinlenme alanları sunuyoruz. Klinik konumumuz, Olympos, Çıralı plajları ve Phaselis harabeleri gibi muhteşem yerlere kolay erişim imkânı tanıyor, böylece diş sağlığınızla birlikte rahat bir tatilin tadını çıkarabilirsiniz. Premium Art Dental Clinic'te olağanüstü bakımın ve sizleri bekleyen güzel gülüşlerin keyfini çıkarın!",
+     "experience": "Yıllık Deneyim",
+      "happyPatients": "Mutlu Hasta",
+      "countries": "Ülkeden Ziyaretçi"
   },
 
     "AboutUs":{
+      "buttonText": "Randevu Oluştur",
     "header": "Hakkımızda",
     "span":"Anasayfa » Kurumsal",
     "text1":"Premium Art Dental Clinic'e, güzel Kemer bölgesinde, Antalya'da hoş geldiniz. Kliniğimiz, özverili karı-koca ekibi olan Dt. Kivanc Ozkaral ve Dt. Firuzan Ozkaral tarafından yönetilmektedir. Kliniğimiz, diş hekimliğinde sanatçılık, son teknoloji ve şefkatli bakım ilkeleri üzerine kurulmuştur; tüm bunlar, olağanüstü gülüşler yaratmayı amaçlamaktadır.",
@@ -128,6 +133,7 @@
 
   
   "Blog1": {
+     "buttonText": "Devamını Oku",
     "header": "Diş İmplantı ve Diş Köprüsü: Sizin İçin Hangi Tedavi Daha Uygun?",
      "slug": "dis-implant-ve-dis-koprusu-sizin-icin-hangi-tedavi-daha-uygun",
     "text1": "Eksik dişlerin yerine yeni diş yaptırmak söz konusu olduğunda, diş implantları ve diş köprüleri en çok tercih edilen iki seçenektir. Her ikisi de etkili çözümler sunar, ancak ihtiyaçlarınıza en uygun olanı seçebilmek için aralarındaki farkları ve avantajları bilmek önemlidir. Premium Art Dental Clinic olarak, bu blog yazısında diş implantları ve diş köprülerini karşılaştırıyor, özelliklerini, avantajlarını ve dikkat edilmesi gereken noktaları sizinle paylaşıyoruz.",

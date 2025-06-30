@@ -172,7 +172,7 @@ const googleReviews = [
             className={`px-4 py-2 font-jost ${
               activeTab === "trust"
                 ? "border-b-2 border-[var(--premiumgold)] text-[var(--premiumgold)]"
-                : "text-gray-400 hover:text-white"
+                : "text-gray-400 hover:text-[#e29c2d]"
             }`}
             onClick={() => setActiveTab("trust")}
           >
@@ -182,7 +182,7 @@ const googleReviews = [
             className={`px-4 py-2 font-jost ${
               activeTab === "google"
                 ? "border-b-2 border-[var(--premiumgold)] text-[var(--premiumgold)]"
-                : "text-gray-400 hover:text-white"
+                : "text-gray-400 hover:text-[#e29c2d]"
             }`}
             onClick={() => setActiveTab("google")}
           >

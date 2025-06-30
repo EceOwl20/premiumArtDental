@@ -177,7 +177,7 @@ export default function BlogCarousel() {
                       </p>
                       <Link href={`/blog/${post.slug}`}>
                         <div className="mt-auto inline-block border border-[#2c744b] text-[#2c744b] font-raleway uppercase text-[13px] lg:text-sm py-1 lg:py-2 px-2 lg:px-4 rounded hover:bg-[#2c744b] hover:text-white transition">
-                              Devamını Oku
+                              {t("buttonText2")}
                         </div>
                       </Link>
                     </div>

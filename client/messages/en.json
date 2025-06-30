@@ -103,7 +103,8 @@
 
    "BlogSection": {
     "header": "Blog Posts",
-    "buttonText": "All Posts"
+    "buttonText": "All Posts",
+    "buttonText2": "Read More"
   },
 
 
@@ -119,10 +120,14 @@
     "header": "Our Clinic",
     "text1": "Welcome to Premium Art Dental Clinic, located in the beautiful Kemer region of Antalya. We offer an exceptional dental experience in a spacious, comfortable environment equipped with state-of-the-art technology.",
     "text2": "With a team of over 25 years of experience dental professionals, we provide personalized care tailored to your needs. To ensure your convenience, we offer hotel transfers and comfortable relaxation areas.",
-    "text3": "Our prime location allows easy access to stunning attractions like Olympos, Çıralı beaches, and Phaselis ruins, making it easy to enjoy both dental care and a relaxing holiday. Experience exceptional care and discover the beautiful smiles that await you at Premium Art Dental Clinic!"
+    "text3": "Our prime location allows easy access to stunning attractions like Olympos, Çıralı beaches, and Phaselis ruins, making it easy to enjoy both dental care and a relaxing holiday. Experience exceptional care and discover the beautiful smiles that await you at Premium Art Dental Clinic!",
+    "experience": "Years of Experience",
+      "happyPatients": "Happy Patients",
+      "countries": "Visitors From Countries"
   },
 
   "AboutUs":{
+    "buttonText": "Book an Appointment",
     "header": "About Us",
      "span":"Home » Corporate",
     "text1":"Welcome to Premium Art Dental Clinic, located in the beautiful Kemer region of Antalya and helmed by the dedicated husband-and-wife team, Dt. Kivanc Ozkaral and Dt. Firuzan Ozkaral. Our clinic was founded on the principles of artistry in dentistry, cutting-edge technology, and compassionate care, all designed to create exceptional smiles.",
@@ -134,6 +139,7 @@
 
 
   "Blog1": {
+    "buttonText": "Read More",
     "slug": "dental-implants-vs-dental-bridges-which-treatment-is-right-for-you",
     "header": "Dental Implants vs Dental Bridges Which Treatment Is Right for You?",
     "text1": "When it comes to replacing missing teeth, dental implants and dental bridges are two of the most popular options. Both offer effective solutions, but understanding their differences and benefits is crucial to choosing the treatment that best meets your needs. At Premium Art Dental Clinic, we compare dental implants and dental bridges in this blog post, sharing their features, advantages, and key considerations.",

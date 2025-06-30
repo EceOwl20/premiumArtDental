@@ -103,7 +103,8 @@
   },
     "BlogSection": {
     "header": "Blogbeiträge",
-    "buttonText": "Alle Beiträge"
+    "buttonText": "Alle Beiträge",
+    "buttonText2": "Mehr erfahren"
      
   },
 
@@ -119,10 +120,14 @@
     "header": "Unsere Klinik",
     "text1": "Willkommen in der Premium Art Dental Clinic, gelegen in der wunderschönen Region Kemer, wo wir Ihnen ein außergewöhnliches Zahnerlebnis bieten.",
     "text2": "In unseren geräumigen, komfortablen Räumlichkeiten, ausgestattet mit modernster Technik, bieten unsere Zahnärzte mit über 25 Jahren Erfahrung individuell auf Ihre Bedürfnisse abgestimmte Behandlungen an.",
-    "text3": "Für Ihre Bequemlichkeit bieten wir Hoteltransfers und komfortable Ruhebereiche. Unsere Lage ermöglicht einfachen Zugang zu atemberaubenden Sehenswürdigkeiten wie Olympos, den Stränden von Çıralı und den Ruinen von Phaselis, sodass Sie neben Ihrer Zahnbehandlung einen entspannten Urlaub genießen können. Erleben Sie herausragende Betreuung und die schönen Lächeln, die Sie in der Premium Art Dental Clinic erwarten!"
+    "text3": "Für Ihre Bequemlichkeit bieten wir Hoteltransfers und komfortable Ruhebereiche. Unsere Lage ermöglicht einfachen Zugang zu atemberaubenden Sehenswürdigkeiten wie Olympos, den Stränden von Çıralı und den Ruinen von Phaselis, sodass Sie neben Ihrer Zahnbehandlung einen entspannten Urlaub genießen können. Erleben Sie herausragende Betreuung und die schönen Lächeln, die Sie in der Premium Art Dental Clinic erwarten!",
+     "experience": "Jahre Erfahrung",
+      "happyPatients": "Glückliche Patienten",
+      "countries": "Besucher aus Ländern"
   },
 
     "AboutUs": {
+      "buttonText": "Termin Buchen",
     "header": "Über uns",
        "span":"Startseite » Unternehmen",
     "text1": "Willkommen in der Premium Art Dental Clinic, gelegen in der wunderschönen Region Kemer in Antalya und geleitet vom engagierten Ehepaar Dr. Kıvanç Özkaral und Dr. Firuzan Özkaral. Unsere Klinik wurde gegründet mit dem Ziel, Zahnmedizin als Kunst zu betrachten, neueste Technologie einzusetzen und mitfühlende Fürsorge zu bieten – alles, um außergewöhnliche Lächeln zu schaffen.",
@@ -133,6 +138,7 @@
   },
 
   "Blog1": {
+    "buttonText": "Mehr erfahren",
     "slug":"zahnimplantate-vs-zahnbrucken-welche-behandlung-ist-die-richtige-fur-sie",
     "header": "Zahnimplantate vs. Zahnbrücken: Welche Behandlung Ist Die Richtige Für Sie?",
     "text1": "Wenn es darum geht, fehlende Zähne zu ersetzen, sind Zahnimplantate und Zahnbrücken zwei der beliebtesten Optionen. Beide bieten effektive Lösungen, doch ist es entscheidend, ihre Unterschiede und Vorzüge zu verstehen, um die Behandlung zu wählen, die am besten zu Ihren Bedürfnissen passt. In diesem Blogbeitrag vergleichen wir bei Premium Art Dental Clinic Zahnimplantate und Zahnbrücken und teilen deren Eigenschaften, Vorteile und wichtige Überlegungen mit Ihnen.",

@@ -188,7 +188,7 @@ const treatments = [
 
                     <Link href={link}>
                       <div className="mt-2 lg:mt-4 inline-block border  font-jost uppercase text-[12px] md:text-sm py-2 px-4 rounded hover:bg-lagoGold hover:text-black hover:bg-white transition" style={{ color: color }}>
-                        Detaylı Bilgi
+                        {t("buttonText")}
                       </div>
                     </Link>
                   </div>
