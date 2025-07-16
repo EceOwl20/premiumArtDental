@@ -13,6 +13,17 @@ export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
   const t = useTranslations('Header');
 
+  const menuItems = [
+  { label: t("corporate"), path: "corporate" },
+  { label: t("treatments"), path: "treatments" },
+  { label: t("team"), path: "team" },
+  { label: t("doctors"), path: "doctors" },
+  { label: t("blog"), path: "blog" },
+  { label: t("gallery"), path: "gallery" },
+  { label: t("contact"), path: "iletisim" }, // Türkçe route!
+];
+
+
   return (
     <header className="fixed inset-x-0 top-0 z-50 ">
       {/* Arka plan resmi */}
@@ -33,14 +44,26 @@ export default function Header() {
 
           {/* Desktop navigasyon */}
           <nav className="hidden lg:flex items-center text-center lg:space-x-3 xl:space-x-7 text-white font-jost uppercase text-sm xl:text-[16px] font-roboto">
-            {[t("corporate"),t("treatments"),t("team"),t("doctors"),t("blog"),t("gallery"),t("contact")].map((item, i) => (
+            {menuItems.map(({ label, path }, i) => (
+  <span key={path} className="flex items-center">
+    <Link href={`/${path}`}>
+      <div className="px-2 hover:bg-gradient-to-r hover:from-[#1f84d2] via-[#2c744b] via-[#700079] via-[#c1005c] to-[#e46c59] bg-clip-text hover:text-transparent">
+        {label}
+      </div>
+    </Link>
+    {i < menuItems.length - 1 && <span className="text-white ml-3 xl:ml-5">|</span>}
+  </span>
+))}
+
+
+            {/* {[t("corporate"),t("treatments"),t("team"),t("doctors"),t("blog"),t("gallery"),t("contact")].map((item, i) => (
               <span key={item} className="flex items-center">
                 <Link href={`/${item.toLowerCase()}`}>
                   <div className="px-2 hover:bg-gradient-to-r hover:from-[#1f84d2] via-[#2c744b] via-[#700079] via-[#c1005c] to-[#e46c59] bg-clip-text hover:text-transparent">{item}</div>
                 </Link>
                 {i < 6 && <span className="text-white ml-3 xl:ml-5">|</span>}
               </span>
-            ))}
+            ))} */}
           </nav>
 
           {/* Sağ taraf: dil seçici + hamburger */}
