@@ -24,14 +24,13 @@ function getLocaleData(locale) {
   }
 }
 
-export default function LocaleSwitcherSelect({ children, label }) {
+export default function LocaleSwitcherSelect({ children }) {
   const [isOpen, setIsOpen] = useState(false);
   const locale = useLocale();
   const router = useRouter();
   const [isPending, startTransition] = useTransition();
   const pathname = usePathname();
 
-  // Sayfa yüklendiğinde scroll konumunu sessionStorage'dan oku
   useEffect(() => {
     const savedScroll = sessionStorage.getItem("scrollPosition");
     if (savedScroll) {
@@ -48,7 +47,6 @@ export default function LocaleSwitcherSelect({ children, label }) {
       const pathSegments = pathname.split("/");
       const currentLocale = pathSegments[1];
 
-      // Blog detay sayfası kontrolü
       if (pathSegments[2] === "blog" && pathSegments[3]) {
         const currentSlug = pathSegments[3];
         const currentData = getLocaleData(currentLocale);

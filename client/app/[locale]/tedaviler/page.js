@@ -3,7 +3,7 @@ import Banner from '../components/subpages/Banner'
 import ServicesGrid from '../components/subpages/ServicesGrid'
 import { useTranslations } from 'next-intl'
 
-const page = () => {
+const Page = () => {
   const t = useTranslations('Header')
   return (
     <div className='flex flex-col max-w-screen'>
@@ -13,4 +13,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page
