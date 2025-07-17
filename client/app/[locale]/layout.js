@@ -36,13 +36,12 @@ export function generateStaticParams() {
 
 export default async function RootLayout({ children, params }) {
    const { locale } = await params;
-  const GTM_ID = process.env.NEXT_PUBLIC_GTM_ID
 
   if (!routing.locales.includes(locale)) {
     notFound();
   }
-      setRequestLocale(locale)
-       const messages = await getMessages();
+     setRequestLocale(locale)
+  const messages = await getMessages();
 
        
 
