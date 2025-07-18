@@ -1,7 +1,7 @@
 // app/[locale]/treatments/digital-dentistry/page.jsx
 "use client";
 
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 import { useTranslations } from "next-intl";
 import React from 'react'
 import Banner from '../../components/subpages/Banner'

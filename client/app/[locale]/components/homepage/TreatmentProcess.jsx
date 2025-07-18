@@ -3,7 +3,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { FaClipboardList, FaPlane, FaUmbrellaBeach } from "react-icons/fa";
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 import { GoArrowUpRight } from "react-icons/go";
 import { MdArrowForwardIos } from "react-icons/md";
 import { useTranslations } from "next-intl";

@@ -4,7 +4,7 @@
 import { useState, useCallback, useEffect } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { FaStar, FaChevronLeft, FaChevronRight, FaGoogle, FaStarHalfAlt } from "react-icons/fa";
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 import Image from "next/image";
 import trustpilot from "../../../../public/images/trustpilot.png"
 import { useTranslations } from "next-intl";

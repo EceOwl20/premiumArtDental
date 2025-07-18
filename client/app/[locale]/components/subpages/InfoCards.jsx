@@ -3,7 +3,7 @@
 
 import { HiLocationMarker, HiPhone, HiClock } from "react-icons/hi";
 import { FiChevronRight } from "react-icons/fi";
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 
 export default function InfoCards() {
   return (

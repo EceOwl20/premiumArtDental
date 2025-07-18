@@ -15,7 +15,7 @@ import img8 from "../../../../public/images/tedaviler/laminakaplama.png"
 import img9 from "../../../../public/images/tedaviler/periodontoloji.png"
 import img10 from "../../../../public/images/tedaviler/porselenkaplama.png"
 import img11 from "../../../../public/images/tedaviler/zirkonyumkaplama.png"
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 
 export default function ServicesGrid() {
 

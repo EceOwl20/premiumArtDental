@@ -1,7 +1,7 @@
 // app/[locale]/treatments/all-on-4/page.jsx
 "use client";
 
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 import Banner from "../../components/subpages/Banner";
 import { useTranslations } from "next-intl";
 

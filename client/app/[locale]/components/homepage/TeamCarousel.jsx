@@ -3,7 +3,7 @@
 
 import { useCallback, useEffect } from "react";
 import useEmblaCarousel from "embla-carousel-react";
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { GoArrowUpRight } from "react-icons/go";
 import { useTranslations } from 'next-intl';

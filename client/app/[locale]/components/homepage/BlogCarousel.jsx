@@ -4,7 +4,7 @@
 import { useCallback, useEffect } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { useTranslations } from "next-intl";
 import img1 from "../../../../public/images/stock/dental-implant-and-x-ray-picture-as-background-2025-01-09-05-46-02-utc.jpg"

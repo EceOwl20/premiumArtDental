@@ -3,7 +3,7 @@
 
 import { useCallback, useEffect } from "react";
 import useEmblaCarousel from "embla-carousel-react";
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 import {useTranslations} from "next-intl"
 
 import {

@@ -1,7 +1,7 @@
 // components/Footer.jsx
 "use client";
 
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 import Image from "next/image";
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import logo from "../../../../public/images/logo/dental1.png"

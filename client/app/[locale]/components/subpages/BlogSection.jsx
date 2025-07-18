@@ -3,7 +3,7 @@
 
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 import { useTranslations } from "next-intl";
 import img1 from "../../../../public/images/stock/dental-implant-and-x-ray-picture-as-background-2025-01-09-05-46-02-utc.jpg"
 import img2 from "../../../../public/images/stock/close-up-of-dental-model-with-implant-patient-of-2024-11-27-17-58-45-utc.jpg"

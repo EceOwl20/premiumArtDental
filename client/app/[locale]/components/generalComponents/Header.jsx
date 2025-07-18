@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 import LangSwitcher from '@/LangSwitcher';
 import { useState } from "react";
 import Image from "next/image";
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 // Proje dizinindeki resimler
 import logo from "@/public/images/logo/dental1.png";       
 // import trFlag from "@/public/flags/tr.png";     // Türk bayrağı

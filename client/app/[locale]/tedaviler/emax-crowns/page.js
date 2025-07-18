@@ -1,7 +1,7 @@
 // app/[locale]/treatments/e-max-veneers/page.jsx
 "use client";
 
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 import React from 'react'
 import Banner from '../../components/subpages/Banner'
 import { useTranslations } from "next-intl";

@@ -1,6 +1,6 @@
 "use client";
 
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 import { FaWhatsapp, FaInstagram, FaFacebookF, FaYoutube } from "react-icons/fa";
 
 export default function SocialSidebar() {

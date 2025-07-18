@@ -1,7 +1,7 @@
 // components/HeroBanner.jsx
 "use client";
 
-import Link from "next/link";
+import { Link } from '@/i18n/navigation';
 import imgBanner from "../../../../public/images/stock/close-up-partial-view-of-dentist-comparing-teeth-o-2024-11-17-14-44-27-utc.jpg"
 //close-up-dental-office-girl-dentist-applies-protec-2024-11-28-19-38-16-utc.jpg
 import Image from "next/image";
