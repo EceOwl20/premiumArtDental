@@ -4,7 +4,7 @@
 import { Link } from '@/i18n/navigation';
 import Image from "next/image";
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
-import logo from "../../../../public/images/logo/dental1.png"
+import logo from "@/public/images/logo/newlogo2.png"; 
 import { MdEmail, MdLocationPin } from "react-icons/md";
 
 export default function Footer() {
@@ -14,7 +14,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 md:px-8 lg:px-16 py-12 flex flex-col md:flex-row items-center justify-between gap-6 lg:gap-[8%]">
         {/* 1) Logo Sütunu */}
         <div className="flex-shrink-0 flex items-center space-x-4">
-          <Image src={logo} alt="Premiumart" width={180} height={140} />
+          <Image src={logo} alt="Premiumart" width={210} height={140} />
           {/* <span className="text-xl lg:text-[24px] font-roboto bg-gradient-to-r from-[#1f84d2] via-[#2c744b] via-[#700079] via-[#c1005c] to-[#e46c59] bg-clip-text text-transparent">
   Premium Art Dental
 </span> */}

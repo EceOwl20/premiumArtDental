@@ -6,7 +6,7 @@ import { useState } from "react";
 import Image from "next/image";
 import { Link } from '@/i18n/navigation';
 // Proje dizinindeki resimler
-import logo from "@/public/images/logo/dental1.png";       
+import logo from "@/public/images/logo/newlogo2.png";       
 // import trFlag from "@/public/flags/tr.png";     // Türk bayrağı
 
 export default function Header() {
@@ -35,7 +35,7 @@ export default function Header() {
           {/* Logo */}
           <Link href="/">
             <div className="flex items-center">
-              <Image src={logo} alt="Dent" width={180} height={80} />
+              <Image src={logo} alt="Dent" width={185} height={150} />
               {/* <span className="ml-2 font-roboto text-md lg:text-lg xl:text-[22px] bg-gradient-to-r from-[#1f84d2] via-[#2c744b] via-[#700079] via-[#c1005c] to-[#e46c59] bg-clip-text text-transparent">
               Premium Art Dental
               </span> */}
