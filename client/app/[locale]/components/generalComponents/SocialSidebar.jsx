@@ -26,7 +26,7 @@ export default function SocialSidebar() {
       <div className="w-[80%] h-[1px] bg-gray-600" />
 
       {/* Facebook */}
-      <Link href="https://facebook.com" target="_blank" aria-label="Facebook">
+      <Link href="https://www.facebook.com/premiumartdental/" target="_blank" aria-label="Facebook">
         <div className="flex items-end justify-center w-8 h-8 lg:w-12 lg:h-12 bg-[#1877F2] rounded-full shadow-lg hover:opacity-90 transition">
           <FaFacebookF className="text-white w-6 h-6 lg:w-9 lg:h-9" />
         </div>
