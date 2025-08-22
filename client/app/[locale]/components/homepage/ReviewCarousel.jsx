@@ -3,159 +3,62 @@
 
 import { useState, useCallback, useEffect } from "react";
 import useEmblaCarousel from "embla-carousel-react";
-import { FaStar, FaChevronLeft, FaChevronRight, FaGoogle, FaStarHalfAlt } from "react-icons/fa";
+import { FaStar, FaChevronLeft, FaChevronRight, /* FaGoogle, */ FaStarHalfAlt } from "react-icons/fa";
 import { Link } from '@/i18n/navigation';
 import Image from "next/image";
-import trustpilot from "../../../../public/images/trustpilot.png"
+// import trustpilot from "../../../../public/images/trustpilot.png"
 import { useTranslations } from "next-intl";
 
-
 export default function ReviewsCarousel() {
-  const t = useTranslations("PatientReviews")
+  const t = useTranslations("PatientReviews");
 
-  const trustpilotReviews = [
-  {
-    name: "Elif Yılmaz",
-    date: "17/03/2023",
-    rating: 5,
-    text: t("text1")
-  },
-  {
-    name: "James Thompson",
-    date: "24/03/2024",
-    rating: 5,
-    text: t("text2")
-  },
-  {
-    name: "Merve Demir",
-    date: "01/09/2024",
-    rating: 5,
-    text: t("text3")
-  },
-  {
-    name: "Sophia Müller",
-    date: "10/05/2024",
-    rating: 5,
-    text: t("text4")
-  },
-  {
-    name: "Ali Kaya",
-    date: "05/06/2024",
-    rating: 5,
-    text: t("text5")
-  },
-  {
-    name: "Anna Petrova",
-    date: "12/06/2024",
-    rating: 5,
-    text: t("text6")
-  },
-  {
-    name: "Ahmet Şahin",
-    date: "22/06/2024",
-    rating: 5,
-    text: t("text7")
-  },
-  {
-    name: "Emily Davis",
-    date: "28/06/2024",
-    rating: 5,
-    text: t("text8")
-  }
-]
+  // doktorsitesi.com (eski trustpilot) – i18n'den 76 kayıt çek
+  const trustpilotReviews = Array.from({ length: 76 }, (_, i) => {
+    const id = i + 1;
+    return {
+      name: t(`name${id}`),
+      date: t(`date${id}`),
+      rating: 5,
+      text: t(`text${id}`)
+    };
+  });
 
+  // --- GOOGLE BLOĞU ŞİMDİLİK KAPALI ---
+  /*
+  const googleReviews = [
+    { name: "Elif Yılmaz", date: "17/03/2023", rating: 5, text: t("text1") },
+    ...
+  ];
+  */
 
-const googleReviews = [
-   {
-    name: "Elif Yılmaz",
-    date: "17/03/2023",
-    rating: 5,
-    text: t("text1")
-  },
-  {
-    name: "James Thompson",
-    date: "24/03/2024",
-    rating: 5,
-    text: t("text2")
-  },
-  {
-    name: "Merve Demir",
-    date: "01/09/2024",
-    rating: 5,
-    text: t("text3")
-  },
-  {
-    name: "Sophia Müller",
-    date: "10/05/2024",
-    rating: 5,
-    text: t("text4")
-  },
-  {
-    name: "Ali Kaya",
-    date: "05/06/2024",
-    rating: 5,
-    text: t("text5")
-  },
-  {
-    name: "Anna Petrova",
-    date: "12/06/2024",
-    rating: 5,
-    text: t("text6")
-  },
-  {
-    name: "Ahmet Şahin",
-    date: "22/06/2024",
-    rating: 5,
-    text: t("text7")
-  },
-  {
-    name: "Emily Davis",
-    date: "28/06/2024",
-    rating: 5,
-    text: t("text8")
-  }
-]
-
-  const [activeTab, setActiveTab] = useState("");
+  // sadece doktorsitesi.com sekmesi
+  const [activeTab, setActiveTab] = useState("trust");
 
   const [emblaRefTrust, emblaApiTrust] = useEmblaCarousel({
     align: "start",
     containScroll: "trimSnaps",
     loop: true,
   });
-  const [emblaRefGoogle, emblaApiGoogle] = useEmblaCarousel({
-    align: "start",
-    containScroll: "trimSnaps",
-    loop: true,
-  });
 
-  // Autoplay her 5 sn bir slayt değişsin
+  // --- GOOGLE CAROUSEL REF'İ KAPALI ---
+  // const [emblaRefGoogle, emblaApiGoogle] = useEmblaCarousel({ ... });
+
+  // Autoplay (yalnızca trust)
   useEffect(() => {
-    let timer;
-
-    if (activeTab === "trust" && emblaApiTrust) {
-      timer = setInterval(() => emblaApiTrust.scrollNext(), 5000);
-    } else if (activeTab === "google" && emblaApiGoogle) {
-      timer = setInterval(() => emblaApiGoogle.scrollNext(), 5000);
-    }
+    const timer = setInterval(() => emblaApiTrust?.scrollNext(), 5000);
     return () => clearInterval(timer);
-  }, [activeTab, emblaApiTrust, emblaApiGoogle]);
+  }, [emblaApiTrust]);
 
   const scrollPrev = useCallback(() => {
-    if (activeTab === "trust" && emblaApiTrust) emblaApiTrust.scrollPrev();
-    else if (activeTab === "google" && emblaApiGoogle) emblaApiGoogle.scrollPrev();
-  }, [activeTab, emblaApiTrust, emblaApiGoogle]);
+    emblaApiTrust?.scrollPrev();
+  }, [emblaApiTrust]);
 
   const scrollNext = useCallback(() => {
-    if (activeTab === "trust" && emblaApiTrust) emblaApiTrust.scrollNext();
-    else if (activeTab === "google" && emblaApiGoogle) emblaApiGoogle.scrollNext();
-  }, [activeTab, emblaApiTrust, emblaApiGoogle]);
+    emblaApiTrust?.scrollNext();
+  }, [emblaApiTrust]);
 
-  // Kaç değerlendirme var bilgisi (Trustpilot için)
-  const trustCount = 95;
-
-  // Aktif sekmeye göre render edilecek liste
-  const currentReviews = activeTab === "trust" ? trustpilotReviews : googleReviews;
+  // Tek liste (doktorsitesi.com)
+  const currentReviews = trustpilotReviews;
 
   return (
     <section className=" text-[#050a30] py-16 max-w-screen">
@@ -176,18 +79,11 @@ const googleReviews = [
             }`}
             onClick={() => setActiveTab("trust")}
           >
-            Trustpilot
+            doktorsitesi.com
           </button>
-          <button
-            className={`px-4 py-2 font-jost ${
-              activeTab === "google"
-                ? "border-b-2 border-[var(--premiumgold)] text-[var(--premiumgold)]"
-                : "text-gray-400 hover:text-[#e29c2d]"
-            }`}
-            onClick={() => setActiveTab("google")}
-          >
-            Google Maps
-          </button>
+          {/* GOOGLE SEKME BUTONU GİZLENDİ
+          <button ... onClick={() => setActiveTab("google")}>Google Maps</button>
+          */}
         </div>
 
         {/* Carousel */}
@@ -200,16 +96,13 @@ const googleReviews = [
             <FaChevronLeft className="w-6 h-6 text-white" />
           </button>
 
-          {/* Embla viewport (trust ya da google ref’i) */}
-          <div
-            className="embla overflow-hidden"
-            ref={activeTab === "trust" ? emblaRefTrust : emblaRefGoogle}
-          >
+          {/* Sadece doktorsitesi.com viewport */}
+          <div className="embla overflow-hidden" ref={emblaRefTrust}>
             <div className="embla__container flex gap-6">
               {currentReviews.map((review, idx) => (
                 <div
                   key={idx}
-                  className="embla__slide flex-shrink-0 w-[calc(62%-24px)] 
+                  className="embla__slide flex-shrink-0 w-[calc(93%-24px)] 
                              sm:w-[calc(50%-24px)] md:w-[calc(40.5%-24px)] lg:w-[calc(33.3%-24px)] xl:w-[calc(25%-24px)]"
                 >
                   <div className="bg-white rounded-xl shadow-lg p-4 lg:p-6 flex flex-col h-full">
@@ -228,32 +121,20 @@ const googleReviews = [
                       </div>
                       <span className="text-sm text-gray-500">{review.date}</span>
                     </div>
+
                     {/* İsim */}
                     <h3 className="font-jost font-semibold text-[16px] lg:text-lg text-black mb-2">
                       {review.name}
                     </h3>
+
                     {/* Yorum metni */}
                     <p className="font-jost text-gray-700 text-[12px] lg:text-sm flex-grow mb-4">
                       {review.text}
                     </p>
-                    {/* Kaynak ikonu + kaynak adı */}
+
+                    {/* Kaynak etiketi (logo yok) */}
                     <div className="mt-auto flex items-center text-sm font-jost text-gray-500">
-                      {activeTab === "trust" ? (
-                        <>
-                          <Image
-                            src={trustpilot}
-                            alt="Trustpilot"
-                            width={80}
-                            height={20}
-                            className="object-contain"
-                          />
-                        </>
-                      ) : (
-                        <>
-                          <FaGoogle className="text-red-500 w-5 h-5 mr-2" />
-                          Google Maps
-                        </>
-                      )}
+                      <span className="font-medium">doktorsitesi.com</span>
                     </div>
                   </div>
                 </div>
@@ -269,13 +150,6 @@ const googleReviews = [
             <FaChevronRight className="w-6 h-6 text-white" />
           </button>
         </div>
-
-        {/* Alt not: Toplam puan */}
-        {/* {activeTab === "trust" && (
-          <p className="text-center font-jost text-gray-400 mt-8">
-            Trustpilot üzerinde {trustCount} değerlendirmeye göre 5 üzerinden 4,9 puan aldı.
-          </p>
-        )} */}
       </div>
     </section>
   );
