@@ -27,6 +27,14 @@ const raleway = Raleway({
 export const metadata = {
   title: "Premium Art Dental",
   description: "Premium Art Dental",
+icons: {
+    icon: [
+      { url: "/favicon.ico?v=4", sizes: "any", type: "image/x-icon" },
+      { url: "/favicon.png?v=4", sizes: "512x512", type: "image/png" },
+      { url: "/favicon.png?v=4", sizes: "512x512", type: "image/png" },
+    ],
+    apple: [{ url: "/favicon.png?v=4", sizes: "512x512", type: "image/png" }],
+  },
 };
 
 export function generateStaticParams() {
