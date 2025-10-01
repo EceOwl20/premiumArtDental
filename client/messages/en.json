@@ -34,10 +34,10 @@
     "alertError": "An error occurred while submitting your request. Please try again later."
   },
 
-  "SlideSection": {
-    "title": "Perfect Smiles, Flawless Touches!",
-    "paragraph1": "Welcome to Premium Art Dental Clinic, located in the beautiful Kemer area of Antalya. Our clinic is led by the dedicated husband and wife team, Dt. Kivanc Ozkaral and Dt. Firuzan Ozkaral. Built on the principles of artistry in dentistry, cutting-edge technology, and compassionate care, our goal is to create extraordinary smiles.",
-    "paragraph2": "Housed in a spacious and modern facility, our clinic offers a wide range of advanced dental services equipped with the latest technology to ensure a comfortable and effective treatment experience. With over a decade of experience, our clinic has proudly treated thousands of patients from over 30 countries, including the UK and Germany. Each patient is treated as a unique individual, and we provide a warm and welcoming atmosphere for everyone who visits.",
+   "SlideSection": {
+    "title": "Welcome to Premium Art Dental Clinic!",
+    "paragraph1": "Our clinic, located in Antalya’s beautiful Kemer district, is led by dentists Kıvanç Özkaral and Firuzan Özkaral. By combining an artistic approach to dentistry with the latest technology and a compassionate mindset, we aim to offer our patients not only treatment, but also confidence and comfort. Our goal is to create natural, healthy, and aesthetic smiles for every patient.",
+    "paragraph2": "Our spacious, modern facility is equipped with cutting-edge technology to ensure a comfortable and effective treatment experience. With over twenty years of experience, our doctors have safely served thousands of patients from more than 30 countries, especially the United Kingdom and Germany. We see each patient as a unique individual and provide personalized treatment plans in a warm and welcoming atmosphere.",
     "buttonText": "Book an Appointment Now"
   },
 
