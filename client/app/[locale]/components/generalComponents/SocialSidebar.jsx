@@ -1,7 +1,7 @@
 "use client";
 
 import { Link } from '@/i18n/navigation';
-import { FaWhatsapp, FaInstagram, FaFacebookF, FaYoutube } from "react-icons/fa";
+import { FaWhatsapp, FaInstagram, FaFacebookF, FaYoutube, FaTiktok } from "react-icons/fa";
 
 export default function SocialSidebar() {
   return (
@@ -37,6 +37,12 @@ export default function SocialSidebar() {
       <Link href="https://www.youtube.com/@premiumartdentalturkey" target="_blank" aria-label="YouTube">
         <div className="flex items-center justify-center w-8 h-8 lg:w-12 lg:h-12 bg-[#FF0000] rounded-full shadow-lg hover:opacity-90 transition">
           <FaYoutube className="text-white w-5 h-5 lg:w-8 lg:h-8" />
+        </div>
+      </Link>
+
+       <Link href="https://www.tiktok.com/@premium.art.denta?_t=ZS-909ulJ3Ftjj&_r=1" target="_blank" aria-label="YouTube">
+        <div className="flex items-center justify-center w-8 h-8 lg:w-12 lg:h-12 bg-[#1e1919] rounded-full shadow-lg hover:opacity-90 transition">
+          <FaTiktok className="text-white w-5 h-5 lg:w-8 lg:h-8" />
         </div>
       </Link>
     </div>
