@@ -115,20 +115,7 @@ export default async function GalleryPage() {
         </h2>
 
         {/* CTA */}
-        <div className="mx-auto mt-6 flex max-w-2xl items-center justify-center gap-3">
-          <a
-            href="#"
-            className="inline-flex items-center rounded-xl border px-4 py-2 text-sm font-medium text-neutral-800 hover:bg-neutral-50"
-          >
-            {t("cta.primary")}
-          </a>
-          <a
-            href="/iletisim"
-            className="inline-flex items-center rounded-xl bg-black px-4 py-2 text-sm font-medium text-white hover:opacity-90"
-          >
-            {t("cta.secondary")}
-          </a>
-        </div>
+        
       </section>
     </main>
   );
