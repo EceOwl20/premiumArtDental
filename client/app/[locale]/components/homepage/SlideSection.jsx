@@ -3,7 +3,9 @@
 import { useRef, useEffect, useState } from "react";
 import Image from "next/image";
 import { Link } from '@/i18n/navigation';
-import img from "../../../../public/images/smile.jpg"
+import img from "../../../../public/images/new/A_O01492.jpg"
+
+
 import { useTranslations } from "next-intl";
 
 export default function SlideSection() {
@@ -29,7 +31,7 @@ export default function SlideSection() {
   return (
     <section
       ref={ref}
-      className=" text-[#050a30] py-10 lg:py-20  flex flex-col md:flex-row items-center gap-4 lg:gap-8 justify-center max-w-[1500px]"
+      className=" text-[#050a30] py-10 lg:py-20  flex flex-col md:flex-row items-center gap-4 lg:gap-8 justify-center max-w-[1520px]"
     >
       {/* SOLDAN KAYAN METİN BLOĞU */}
       <div
@@ -68,8 +70,8 @@ export default function SlideSection() {
           <Image
             src={img}
             alt="Gülüş"
-            width={600}
-            height={600}
+            width={700}
+            height={700}
             className="w-full h-auto object-cover"
           />
         </div>

@@ -4,23 +4,23 @@
 import Image from "next/image";
 import { FaClinicMedical, FaPhoneAlt } from "react-icons/fa";
 import { useTranslations } from 'next-intl';
-import img1 from "@/public/images/stock/a-set-of-tools-used-in-whitening-2025-03-13-19-52-03-utc.jpg"
+import img1 from "@/public/images/new/A_O01756copy.jpg"
 import img2 from "@/public/images/logo/PremiumArtBlack.png"
 
 export default function FounderMessage() {
     const t = useTranslations('AboutUs');
   return (
     <section className="flex text-[#050a30] py-16 px-4 lg:px-10 xl:px-16 ">
-      <div className="max-w-[1400px] mx-auto flex flex-col lg:flex-row items-center gap-10">
+      <div className="max-w-[1500px] mx-auto flex flex-col lg:flex-row items-center gap-10">
         {/* SOL TARAF: Klinik ve Kurucu Görselleri */}
         <div className="relative w-[95%] lg:w-[46%] flex flex-col sm:items-start items-center justify-center sm:justify-start">
           {/* Büyük Klinik Görseli */}
-          <div className="w-[80%] sm:w-[60%] lg:w-[92%] rounded-xl overflow-hidden shadow-lg bg-red-800 items-start justify-start">
+          <div className="w-[80%] sm:w-[60%] lg:w-[96%] rounded-xl overflow-hidden shadow-lg bg-red-800 items-start justify-start">
             <Image
               src={img1}          // → Kendi klinik fotoğrafınızın yolu
               alt="Premium Ant Dental Clinic"
-              width={800}
-              height={600}
+              width={900}
+              height={700}
               className="w-full object-cover"
             />
           </div>

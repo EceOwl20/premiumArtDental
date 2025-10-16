@@ -1183,6 +1183,14 @@
   "list14": "Kontrolltermine: Regelmäßige klinische Kontrollen erfolgen etwa alle 6–8 Wochen",
   "list15": "Behandlungsende: Nach Erreichen des gewünschten Ergebnisses werden Retainer bereitgestellt, um die langfristige Stabilität zu gewährleisten",
   "text2": "Während des gesamten Behandlungsprozesses legen wir Wert auf Ihren Komfort und bieten in unserer Klinik in Antalya Hotelunterkünfte sowie VIP-Transferservices an. Unser Expertenteam hilft Ihnen, ein natürliches und gesundes Lächeln zu gestalten."
+  },
+    "Gallery": {
+    "title": "Galerie",
+    "subtitle": "Eine schlichte, schnelle und moderne Übersicht unserer ausgewählten Projekte",
+    "filter": { "all": "Alle", "recent": "Neu hinzugefügt", "featured": "Highlights" },
+    "section": { "topTitle": "Unsere Fotogalerie", "bottomTitle": "Weitere Momente aus der Klinik" },
+    "cta": { "primary": "Mehr ansehen", "secondary": "Kontakt aufnehmen" },
+    "ui": { "close": "Schließen", "prev": "Zurück", "next": "Weiter" }
   }
  
 

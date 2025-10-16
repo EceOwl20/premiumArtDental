@@ -1206,5 +1206,14 @@
   "list14": "Kontroller: Yaklaşık her 6–8 haftada bir klinik kontroller yapılır",
   "list15": "Tedavi Sonu: İstenen sonuç elde edildiğinde, dişlerin stabilitesini korumak için retainer verilir",
   "text2": "Tedavi süresince konforunuz için Antalya kliniğimizde otel konaklaması ve VIP transfer hizmetleri sunuyoruz. Uzman diş hekimleri ekibimizle doğal ve sağlıklı bir gülüş tasarlamanıza yardımcı oluyoruz."
+  },
+
+     "Gallery": {
+    "title": "Galeri",
+    "subtitle": "Projelerimizden seçkiler: sade, hızlı ve modern bir grid",
+    "filter": { "all": "Tümü", "recent": "Son Eklenenler", "featured": "Öne Çıkanlar" },
+    "section": { "topTitle": "Fotoğraf Galerimiz", "bottomTitle": "Klinikten Daha Fazla An" },
+    "cta": { "primary": "Daha Fazla Gör", "secondary": "İletişime Geç" },
+    "ui": { "close": "Kapat", "prev": "Önceki", "next": "Sonraki" }
   }
 }

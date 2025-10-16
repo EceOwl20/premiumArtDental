@@ -1201,5 +1201,14 @@
   "list14": "Check-ups: Regular clinical check-ups are performed approximately every 6–8 weeks",
   "list15": "End of Treatment: Once the desired result is achieved, retainers are provided to ensure long-term stability",
   "text2": "Throughout the treatment process, we prioritize your comfort by offering hotel accommodation and VIP transfer services at our clinic in Antalya. Our expert dental team is here to help you design a natural and healthy smile."
+  },
+
+   "Gallery": {
+    "title": "Gallery",
+    "subtitle": "A clean, fast and modern grid showcasing our selected projects",
+    "filter": { "all": "All", "recent": "Recently Added", "featured": "Featured" },
+    "section": { "topTitle": "Our Photo Gallery", "bottomTitle": "More Moments from the Clinic" },
+    "cta": { "primary": "View More", "secondary": "Contact Us" },
+    "ui": { "close": "Close", "prev": "Previous", "next": "Next" }
   }
 }
