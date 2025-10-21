@@ -15,6 +15,18 @@
      "homepage": "Home"
     },
 
+    "Contact": {
+    "title1": "Location",
+    "subTitle1": "Show on Google Maps",
+    "text1": "Yeni Mahalle, Akdeniz Cd. 94/A Kemer/Antalya",
+    "title2": "Free Examination",
+    "subTitle2": "+90 242 814 60 10",
+    "text2": "",
+    "title3": "Working Hours",
+    "subTitle3": "Make an Appointment",
+    "text3": "Monday – Saturday: 09:00 – 18:30 Sunday: Closed"
+  },
+
      "HeroBanner": {
     "subtitle": "Premium Art Dental Oral and Dental Health Clinic",
     "title": "Painless, comfortable and fast solutions with the latest technologies!",

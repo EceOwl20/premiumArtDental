@@ -58,21 +58,7 @@ export default function GalleryClient({images = [], i18n = {}}) {
   return (
     <>
       {/* Filtre chipleri */}
-      <div className="mt-6 flex items-center justify-center gap-2">
-        {chips.map((c, i) => (
-          <span
-            key={i}
-            className={[
-              "inline-flex items-center rounded-full border px-3 py-1 text-sm",
-              c.active
-                ? "text-neutral-700 bg-neutral-50"
-                : "text-neutral-400"
-            ].join(" ")}
-          >
-            {c.label}
-          </span>
-        ))}
-      </div>
+      
 
       {/* Grid */}
       <div className="mt-6 grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-4">

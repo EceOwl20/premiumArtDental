@@ -15,6 +15,18 @@
      "homepage": "Anasayfa"
     },
 
+    "Contact":{
+      "title1":"Lokasyon",
+      "subTitle1":"Google Maps ile Göster",
+      "text1":"Yeni mahalle, Akdeniz Cd. 94/A Kemer/Antalya",
+        "title2":"Ücretsiz Muayene",
+      "subTitle2":"+90 242 814 60 10",
+      "text2":"",
+        "title3":"Çalışma Saatleri",
+      "subTitle3":"Randevu Oluştur",
+      "text3":" Pazartesi – Cumartesi: 09:00 – 18:30 Pazar: Kapalı"
+    },
+
     "HeroBanner": {
     "subtitle": "Premium Art Dental Ağız ve Diş Sağlığı Polikliniği",
     "title": "En yeni teknolojilerle ağrısız, konforlu ve hızlı çözümler!",

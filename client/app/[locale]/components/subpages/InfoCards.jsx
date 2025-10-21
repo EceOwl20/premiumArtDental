@@ -4,8 +4,11 @@
 import { HiLocationMarker, HiPhone, HiClock } from "react-icons/hi";
 import { FiChevronRight } from "react-icons/fi";
 import { Link } from '@/i18n/navigation';
+import { useTranslations } from 'next-intl'
 
 export default function InfoCards() {
+  const t = useTranslations('Contact')
+
   return (
     <section className=" text-white px-4 lg:px-20 pb-10 lg:pb-16">
       <div className="max-w-[1400px] mx-auto flex flex-col md:flex-row gap-6">
@@ -17,19 +20,19 @@ export default function InfoCards() {
           </div>
 
           {/* Başlık */}
-          <h3 className="text-xl font-roboto mb-2 text-[#1f84d2]">Lokasyon</h3>
+          <h3 className="text-xl font-roboto mb-2 text-[#1f84d2]">{t("title1")}</h3>
 
           {/* Alt metin / link */}
           <div className="flex items-center text-sm font-jost mb-4 text-[#1f84d2] hover:text-[#c1005c] transition cursor-pointer">
             <FiChevronRight className="mr-1" />
-            Google Maps ile Göster
+            {t("subTitle1")}
           </div>
 
           {/* Bilgi Kutusu */}
           <div className="w-full rounded-md px-4 py-3 mt-auto">
             <p className="text-sm leading-snug text-[#1f84d2] text-center">
               <br />
-             Yeni mahalle, Akdeniz Cd. 94/A Kemer/Antalya
+            {t("text1")}
             </p>
           </div>
         </div>
@@ -42,7 +45,7 @@ export default function InfoCards() {
           </div>
 
           {/* Başlık */}
-          <h3 className="text-xl font-roboto mb-2 text-[#1f84d2]">Ücretsiz Muayene</h3>
+          <h3 className="text-xl font-roboto mb-2 text-[#1f84d2]">{t("title2")}</h3>
 
           {/* Alt metin */}
           <Link href="tel:+902428146010" className="flex items-center text-sm font-jost mb-4 text-[#1f84d2] hover:text-[#c1005c]">
@@ -67,19 +70,18 @@ export default function InfoCards() {
           </div>
 
           {/* Başlık */}
-          <h3 className="text-xl font-roboto mb-2 text-[#1f84d2]">Çalışma Saatleri</h3>
+          <h3 className="text-xl font-roboto mb-2 text-[#1f84d2]">{t("title3")}</h3>
 
           {/* Alt metin / link */}
           <div className="flex items-center text-sm font-jost mb-4 text-[#1f84d2] hover:text-[#c1005c] transition cursor-pointer">
             <FiChevronRight className="mr-1" />
-            Randevu Oluştur
+            {t("subTitle3")}
           </div>
 
           {/* Bilgi Kutusu */}
           <div className="w-full rounded-md px-4 py-3 mt-auto">
             <p className="text-sm leading-snug text-[#1f84d2] text-center">
-              Pazartesi – Cumartesi: 09:00 – 18:30<br />
-              Pazar: Kapalı
+              {t("text3")}
             </p>
           </div>
         </div>
