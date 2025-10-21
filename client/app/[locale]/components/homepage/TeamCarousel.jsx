@@ -7,17 +7,12 @@ import { Link } from '@/i18n/navigation';
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { GoArrowUpRight } from "react-icons/go";
 import { useTranslations } from 'next-intl';
+import dtece from "@/public/images/doctors/DtEceYellice.jpg" 
+import dtfiruzan from "@/public/images/doctors/DtFiruzanKucukozkaral.jpg" 
+import dtkivanc from "@/public/images/doctors/DtKivancozkaral.jpg" 
+import Image from "next/image";
 
-const teamMembers = [
-  { name: "Dr. Lorem Ipsum", role: "Kurucu Diş Hekimi", img: "https://placehold.co/300x400?text=Hello+World" },
-  { name: "Dr. Dolor Sit", role: "Ortodontist",         img: "https://placehold.co/300x400?text=Hello+World" },
-  { name: "Dr. Amet Consectetur", role: "Diş Hekimi",    img: "https://placehold.co/300x400?text=Hello+World" },
-  { name: "Dr. Adipiscing Elit",    role: "Hijyen Personeli", img: "https://placehold.co/300x400?text=Hello+World" },
-  { name: "Dr. Lorem Lorem",        role: "Diş Hekimi",    img: "https://placehold.co/300x400?text=Hello+World" },
-  { name: "Dr. Dolor Dolor",        role: "Ortodontist",   img: "https://placehold.co/300x400?text=Hello+World" },
-  { name: "Dr. Amet Amet",          role: "Diş Hekimi",    img: "https://placehold.co/300x400?text=Hello+World" },
-  { name: "Dr. Adipiscing Adipiscing",role:"Diş Hekimi",  img: "https://placehold.co/300x400?text=Hello+World" },
-];
+
 
 export default function TeamCarousel() {
      const t = useTranslations('OurTeam');
@@ -27,6 +22,18 @@ export default function TeamCarousel() {
     containScroll: "trimSnaps",
     loop: true,
   });
+
+  const teamMembers = [
+  { name: "Dt. Kıvanç Özkaral", role: t("dentist"),    img: dtkivanc },
+  { name: "Dt. Firuzan Küçük Özkaral", role: t("dentist"),         img: dtfiruzan },
+    { name: "Dt. Ece Yellice", role: t("dentist"), img: dtece },
+  
+  // { name: "Dr. Adipiscing Elit",    role: "Hijyen Personeli", img: "https://placehold.co/300x400?text=Hello+World" },
+  // { name: "Dr. Lorem Lorem",        role: "Diş Hekimi",    img: "https://placehold.co/300x400?text=Hello+World" },
+  // { name: "Dr. Dolor Dolor",        role: "Ortodontist",   img: "https://placehold.co/300x400?text=Hello+World" },
+  // { name: "Dr. Amet Amet",          role: "Diş Hekimi",    img: "https://placehold.co/300x400?text=Hello+World" },
+  // { name: "Dr. Adipiscing Adipiscing",role:"Diş Hekimi",  img: "https://placehold.co/300x400?text=Hello+World" },
+];
 
   const scrollPrev = useCallback(() => emblaApi && emblaApi.scrollPrev(), [emblaApi]);
   const scrollNext = useCallback(() => emblaApi && emblaApi.scrollNext(), [emblaApi]);
@@ -95,7 +102,7 @@ export default function TeamCarousel() {
                 >
                   <div className="bg-[var(--lago-gray)] overflow-hidden group">
                     <div className="relative overflow-hidden">
-                      <img
+                      <Image
                         src={member.img}
                         alt={member.name}
                         width={300}

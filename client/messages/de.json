@@ -15,6 +15,18 @@
      "homepage": "Startseite"
   },
 
+  "Contact": {
+  "title1": "Standort",
+  "subTitle1": "In Google Maps anzeigen",
+  "text1": "Yeni Mahalle, Akdeniz Cd. 94/A Kemer/Antalya",
+  "title2": "Kostenlose Untersuchung",
+  "subTitle2": "+90 242 814 60 10",
+  "text2": "",
+  "title3": "Öffnungszeiten",
+  "subTitle3": "Termin vereinbaren",
+  "text3": "Montag – Samstag: 09:00 – 18:30 Sonntag: Geschlossen"
+},
+
   "HeroBanner": {
     "subtitle": "Premium Art Dental Mund- und Zahngesundheitsklinik",
     "title": "Schmerzfreie, komfortable und schnelle Lösungen mit modernster Technologie!",
@@ -473,6 +485,7 @@
           "OurTeam":{
             "buttonText": "Unser gesamtes Team",
     "header":"Unser Team",
+    "dentist":"Zahnarzt",
     "span":"Startseite » Unser Team",
     "text1":"In der Premium Art Dental Klinik sind wir stolz auf unser hochqualifiziertes Team von Zahnmedizinern mit über 25 Jahren kombinierter Erfahrung. Unser engagiertes Personal ist auf alle Bereiche der Zahnmedizin spezialisiert und stellt sicher, dass wir eine umfassende, erstklassige Versorgung anbieten, die individuell auf die Bedürfnisse jedes Patienten zugeschnitten ist.",
     "text2":"Wir haben außerdem mehrsprachige Patientenkoordination, die Sie in Ihrer Sprache unterstützt und so für eine klare Kommunikation und einen reibungslosen Ablauf während Ihrer gesamten Behandlung sorgt. Mit unserem fachkundigen und einfühlsamen Team können Sie sicher sein, dass Sie in den besten Händen sind."
