@@ -13,8 +13,17 @@ export default function HeroBanner() {
     <section className="relative w-full h-[92vh] overflow-hidden">
       {/* Video arka plan */}
       <video
-        className="absolute top-0 left-0 w-full h-full object-cover"
-        src="/videos/anasayfavideo.mp4"     
+        className="hidden md:flex absolute top-0 left-0 w-full h-full object-cover"
+        src="/videos/desktopvideo.mp4"     
+        autoPlay
+        loop
+        muted
+        playsInline
+      />
+
+       <video
+        className="flex md:hidden absolute top-0 left-0 w-full h-full object-cover"
+        src="/videos/mobile.mp4"     
         autoPlay
         loop
         muted
