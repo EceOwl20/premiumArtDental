@@ -9,10 +9,13 @@
     "treatments": "Behandlungen",
     "team": "Unser Team",
     "doctors": "Ärzte",
+    "dental": "ZAHNURLAUB IN ANTALYA",
+    "dentalText":"ZAHNURLAUB IN ANTALYA",
     "blog": "Blog",
     "gallery": "Galerie",
     "contact": "Kontakt",
-     "homepage": "Startseite"
+     "homepage": "Startseite",
+       "text":"Die auf dieser Website enthaltenen Informationen dienen nur zur Unterstützung. Sie ersetzen nicht die ärztliche Untersuchung, Diagnose oder Behandlung des Patienten!"
   },
 
   "Contact": {

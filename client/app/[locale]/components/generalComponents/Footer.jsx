@@ -6,8 +6,10 @@ import Image from "next/image";
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import logo from "@/public/images/logo/newlogo2.png"; 
 import { MdEmail, MdLocationPin } from "react-icons/md";
+import {useTranslations} from "next-intl"
 
 export default function Footer() {
+   const t = useTranslations("Header")
   return (
     <footer className="bg-[#050a30] text-white border-t-[0.5px] border-[#e29c2d]">
       {/* Üst Bölüm: Logo / İletişim / Adres */}
@@ -30,8 +32,8 @@ export default function Footer() {
             <li className="flex items-center gap-3">
               <MdEmail className="w-6 h-6 text-[#2c744b]"/>
               <div className="flex flex-col">
-                <Link href="mailto:info@premiumartdental.com">
-                  <div className="hover:underline font-jost text-[16px] bg-gradient-to-r from-[#1f84d2] via-[#2c744b] via-[#700079] via-[#c1005c] to-[#e46c59] bg-clip-text text-transparent">info@premiumartdental.com</div>
+                <Link href="mailto:info@premiumartdentalturkey.com">
+                  <div className="hover:underline font-jost text-[16px] bg-gradient-to-r from-[#1f84d2] via-[#2c744b] via-[#700079] via-[#c1005c] to-[#e46c59] bg-clip-text text-transparent">info@premiumartdentalturkey.com</div>
                 </Link>
               </div>
             </li>
@@ -71,8 +73,7 @@ export default function Footer() {
       <div className="container mx-auto px-4 md:px-8 lg:px-16 py-6 text-center space-y-4">
         {/* Uyarı Metni */}
         <p className="text-xs font-jost text-gray-400">
-          Site İçeriğinde Bulunan Bilgiler Destek Sağlamak İçindir. Hekimin 
-          Hastasını Tıbbi Amaçla Muayene, Tanı Ve Teşhis Koyması Yerine Geçmez!
+        {t("text")}
         </p>
 
         {/* Telif Hakkı Metni */}

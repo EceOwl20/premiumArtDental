@@ -60,10 +60,15 @@ export const config = {
     en: '/contact',
     de: '/kontakt',
     ru: '/kонтакты',
+  },
+
+       '/dental-holiday': {
+    tr: "/antalya-kemer'de-tatil",
+    en: '/dental-holiday',
+    de: '/Zahnarzturlaub-in-Antalya-Kemer',
+    ru: '/Дентальный-туризм-в-Анталье-Кемере',
   }
-
 }
-
 };
 
 export const routing = defineRouting(config);

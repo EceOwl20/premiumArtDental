@@ -9,10 +9,13 @@
     "treatments": "Tedaviler",
     "team": "Ekibimiz",
     "doctors": "Doktorlar",
+    "dental": "Antalya Kemer'de Tatil",
+    "dentalText":"Antalya Kemer'de Tatil",
     "blog": "Blog",
     "gallery": "Galeri",
     "contact": "İletişim",
-     "homepage": "Anasayfa"
+     "homepage": "Anasayfa",
+       "text":" Site İçeriğinde Bulunan Bilgiler Destek Sağlamak İçindir. Hekimin Hastasını Tıbbi Amaçla Muayene, Tanı Ve Teşhis Koyması Yerine Geçmez!"
     },
 
     "Contact":{

@@ -1,15 +1,15 @@
 import React from 'react'
 import Banner from '../components/subpages/Banner'
-import TeamCarousel from '../components/homepage/TeamCarousel'
+
 import { useTranslations } from 'next-intl'
 
 const Page = () => {
     const t = useTranslations('Header')
 
   return (
-    <div className='overflow-x-hidden'>
-      <Banner header={t("doctors")} text={t("homepage") + " » " + t("doctors")}  />
-      <TeamCarousel/>
+    <div className='overflow-x-hidden h-[80vh]'>
+      <Banner header={t("dental")} text={t("homepage") + " » " + t("doctors")}  />
+      
     </div>
   )
 }

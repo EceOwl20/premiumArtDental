@@ -106,8 +106,8 @@ export default function TeamCarousel() {
                         src={member.img}
                         alt={member.name}
                         width={300}
-                        height={400}
-                        className="w-full h-auto max-h-[400px] object-cover transition-transform duration-500 group-hover:scale-110"
+                        height={300}
+                        className="w-full h-auto max-h-[300px] object-cover transition-transform duration-500 group-hover:scale-110"
                       />
                       {/* Hover efekti: ortadan başlayıp kenarlara açılan yarı saydam beyaz gradient */}
                       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.3),transparent)] opacity-0 group-hover:opacity-60 transition-opacity duration-500" />

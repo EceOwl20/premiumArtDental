@@ -58,7 +58,7 @@ export default function InfoCards() {
             <p className="text-sm text-[#1f84d2]">
               Whatsapp +90 553 814 60 10
             </p>
-            <p className="text-sm text-[#1f84d2]">Mail: info@premiumartdental.com</p>
+            <p className="text-sm text-[#1f84d2]">Mail: info@premiumartdentalturkey.com</p>
           </div>
         </div>
 

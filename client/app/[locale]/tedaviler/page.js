@@ -6,7 +6,7 @@ import { useTranslations } from 'next-intl'
 const Page = () => {
   const t = useTranslations('Header')
   return (
-    <div className='flex flex-col max-w-screen'>
+    <div className='flex flex-col max-w-screen overflow-x-hidden'>
       <Banner header={t("treatments")} text={t("homepage") + " » " + t("treatments")}  /> 
       <ServicesGrid/>
     </div>

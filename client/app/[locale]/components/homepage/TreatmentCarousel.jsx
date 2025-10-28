@@ -6,16 +6,19 @@ import useEmblaCarousel from "embla-carousel-react";
 import { Link } from '@/i18n/navigation';
 import {useTranslations} from "next-intl"
 
-import {
-  FaTooth,
-  FaTeethOpen,
-  FaSmileBeam,
-  FaChild,
-  FaBone,
-  FaStethoscope,
-  FaPaintBrush,
-  FaMagic,
-} from "react-icons/fa";
+
+import implant from "@/public/images/icons/implant.png"
+import implant2 from "@/public/images/icons/implant2.png"
+import implant3 from "@/public/images/icons/implant3.png"
+import beyazlatma from "@/public/images/icons/beyazlatma.png"
+import doctor from "@/public/images/icons/doctor.png"
+import emaxkaplama from "@/public/images/icons/emaxkaplama.png"
+import invisalign from "@/public/images/icons/invisalign.png"
+import laminekaplama from "@/public/images/icons/laminekaplama.png"
+import periodontoloji from "@/public/images/icons/periodontoloji.png"
+import porselenkaplama from "@/public/images/icons/porselenkaplama.png"
+import zirkonyumkaplama from "@/public/images/icons/zirkonyumkaplama.png"
+import Image from "next/image";
 
 export default function TreatmentCarousel() {
    const t = useTranslations("Treatment")
@@ -37,7 +40,7 @@ const treatments = [
      title: t("treatment1"),
      description:
        t2("text1"),
-      Icon: FaTooth,
+      Icon: implant,
      color: "#e29c2d",
      link:"/tedaviler/all-on-4"
    },
@@ -45,7 +48,7 @@ const treatments = [
      title: t("treatment2"),
      description:
         t3("text1"),
-        Icon: FaTooth,
+        Icon: implant2,
      color: "#1f84d2",
        link:"/tedaviler/all-on-6"
    },
@@ -53,7 +56,7 @@ const treatments = [
      title: t("treatment3"),
      description:
         t4("text1"),
-         Icon: FaBone,
+         Icon: implant3,
      color: "#50a14f",
        link:"/tedaviler/dental-implants"
    },
@@ -61,7 +64,7 @@ const treatments = [
     title: t("treatment4"),
      description:
         t5("text1"),
-        Icon: FaStethoscope,  
+        Icon: doctor,  
      color: "#be231d",
        link:"/tedaviler/digital-dentistry"
    },
@@ -69,7 +72,7 @@ const treatments = [
      title: t("treatment5"),
      description:
          t6("text1"),
-        Icon: FaSmileBeam,
+        Icon: beyazlatma,
      color: "#b8915e",
        link:"/tedaviler/teeth-whitening"
    },
@@ -77,7 +80,7 @@ const treatments = [
      title: t("treatment6"),
      description:
        t7("text1"),
-         Icon: FaTooth,
+         Icon: laminekaplama,
      color: "#c1005c",
        link:"/tedaviler/laminate-veneers"
    },
@@ -85,7 +88,7 @@ const treatments = [
       title: t("treatment7"),
      description:
          t8("text1"),
-         Icon: FaTeethOpen,
+         Icon: periodontoloji,
      color: "#700079",
        link:"/tedaviler/periodontology"
    },
@@ -93,7 +96,7 @@ const treatments = [
       title: t("treatment8"),
      description:
       t9("text1"),
-         Icon: FaPaintBrush,
+         Icon: porselenkaplama,
      color: "#38b2ac",
        link:"/tedaviler/porcelain-crowns"
    },
@@ -101,7 +104,7 @@ const treatments = [
       title: t("treatment9"),
      description:
         t10("text1"),
-         Icon: FaPaintBrush,
+         Icon: zirkonyumkaplama,
      color: "#e46c59",
        link:"/tedaviler/zirconium-crowns"
    },
@@ -109,7 +112,7 @@ const treatments = [
       title: t("treatment10"),
      description:
          t11("text1"),
-         Icon: FaTooth,
+         Icon: emaxkaplama,
      color: "#2c012f",
        link:"/tedaviler/emax-crowns"
    },
@@ -118,7 +121,7 @@ const treatments = [
       title: "Invisalign",
      description:
        t12("text1"),
-         Icon: FaMagic,
+         Icon: invisalign,
      color: "#e6d113",
        link:"/tedaviler/invisalign"
    },
@@ -174,12 +177,19 @@ const treatments = [
                 >
                   <div className="h-full bg-lagoGray/10 border  hover:border-[#e29c2d] rounded-xl shadow-xl p-4 md:p-6 flex flex-col" style={{ color: color }}>
                     {/* İkonu dinamik renkte gösteriyoruz */}
-                    <Icon className="w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 mb-4 flex " style={{ color: color }} />
-
-                    {/* Başlığı dinamik renkte gösteriyoruz */}
-                    <h3 className="font-jost text-[18px] md:text-xl mb-2 line-clamp-1" style={{ color: color }}>
-                      {title}
-                    </h3>
+            <Image
+    src={Icon}
+    alt={title}
+    width={45}
+    height={45}
+    className="object-contain flex-shrink-0 mb-3"
+  />
+  <h3
+    className="font-jost text-[18px] md:text-xl leading-tight line-clamp-2"
+    style={{ color: color }}
+  >
+    {title}
+  </h3>
 
                     {/* Açıklama */}
                     <p className="font-jost text-[#050a30] text-[12px] md:text-sm flex-grow line-clamp-3 lg:line-clamp-4">

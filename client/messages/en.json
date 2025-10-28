@@ -8,11 +8,14 @@
        "corporate": "Corporate",
     "treatments": "Treatments",
     "team": "Our Team",
-    "doctors": "Doctors",
+    "doctors":"Doctors",
+    "dental": "DENTAL HOLIDAY",
+    "dentalText":"DENTAL HOLIDAY",
     "blog": "Blog",
     "gallery": "Gallery",
     "contact": "Contact",
-     "homepage": "Home"
+     "homepage": "Home",
+     "text":"The information on this site is provided for support purposes only. It does not replace a doctor's medical examination, diagnosis, or treatment of their patient!"
     },
 
     "Contact": {

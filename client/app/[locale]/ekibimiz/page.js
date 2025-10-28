@@ -7,7 +7,7 @@ const Page = () => {
     const t = useTranslations('OurTeam');
 
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <Banner header={t("header")} text={t("span")}/>
       <TeamCarousel/>
     </div>

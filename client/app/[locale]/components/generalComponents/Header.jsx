@@ -5,9 +5,7 @@ import LangSwitcher from '@/LangSwitcher';
 import { useState } from "react";
 import Image from "next/image";
 import { Link } from '@/i18n/navigation';
-// Proje dizinindeki resimler
 import logo from "@/public/images/logo/newlogo2.png";       
-// import trFlag from "@/public/flags/tr.png";     // Türk bayrağı
 
 export default function Header() {
   const [mobileOpen, setMobileOpen] = useState(false);
@@ -17,10 +15,10 @@ export default function Header() {
   { label: t("corporate"), path: "corporate" },
   { label: t("treatments"), path: "treatments" },
   { label: t("team"), path: "team" },
-  { label: t("doctors"), path: "doctors" },
+  { label: t("dental"), path: "dental-holiday" },
   { label: t("blog"), path: "blog" },
   { label: t("gallery"), path: "gallery" },
-  { label: t("contact"), path: "iletisim" }, // Türkçe route!
+  { label: t("contact"), path: "iletisim" }, 
 ];
 
 
@@ -43,11 +41,11 @@ export default function Header() {
           </Link>
 
           {/* Desktop navigasyon */}
-          <nav className="hidden lg:flex items-center text-center lg:space-x-3 xl:space-x-7 text-white font-jost uppercase text-sm xl:text-[16px] font-roboto">
+          <nav className="hidden lg:flex items-center text-center lg:space-x-3 xl:space-x-7 text-white font-jost uppercase text-[13px] xl:text-[15px] font-roboto">
             {menuItems.map(({ label, path }, i) => (
   <span key={path} className="flex items-center">
     <Link href={`/${path}`}>
-      <div className="px-2 hover:bg-gradient-to-r hover:from-[#1f84d2] via-[#2c744b] via-[#700079] via-[#c1005c] to-[#e46c59] bg-clip-text hover:text-transparent">
+      <div className="px-[5px] hover:bg-gradient-to-r hover:from-[#1f84d2] via-[#2c744b] via-[#700079] via-[#c1005c] to-[#e46c59] bg-clip-text hover:text-transparent">
         {label}
       </div>
     </Link>
