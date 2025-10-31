@@ -27,6 +27,9 @@ const raleway = Raleway({
 export const metadata = {
   title: "Premium Art Dental",
   description: "Premium Art Dental",
+   other: {
+    "facebook-domain-verification": "ymrl8538ch71mha0t07xoiv9x1wjtw",
+  },
 icons: {
     icon: [
       { url: "/favicon.ico?v=4", sizes: "any", type: "image/x-icon" },
