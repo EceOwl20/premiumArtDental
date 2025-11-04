@@ -15,7 +15,9 @@
     "gallery": "Gallery",
     "contact": "Contact",
      "homepage": "Home",
-     "text":"The information on this site is provided for support purposes only. It does not replace a doctor's medical examination, diagnosis, or treatment of their patient!"
+    "dentaltatil":"Places to Visit and Activities to Do in Antalya Kemer",
+     "text":"The information on this site is provided for support purposes only. It does not replace a doctor's medical examination, diagnosis, or treatment of their patient!",
+     "dentalparagraf":"Kemer, one of the most popular holiday destinations in Antalya, is a paradise corner of Turkey with its stunning nature, crystal-clear sea, and sunny weather all year round. When you visit Premium Art Dental Clinic for your treatment, you can regain your dental health and enjoy an unforgettable holiday experience in Kemer. Here are some of the places to visit and activities to do in Kemer:"
     },
 
     "Contact": {
@@ -1221,10 +1223,78 @@
 
    "Gallery": {
     "title": "Gallery",
-    "subtitle": "A clean, fast and modern grid showcasing our selected projects",
+    "subtitle": "Our fully eqquipped dental clinic in Antalya / Kemer",
     "filter": { "all": "All", "recent": "Recently Added", "featured": "Featured" },
     "section": { "topTitle": "Our Photo Gallery", "bottomTitle": "More Moments from the Clinic" },
     "cta": { "primary": "View More", "secondary": "Contact Us" },
     "ui": { "close": "Close", "prev": "Previous", "next": "Next" }
+  },
+
+  "dentaltatil":{
+  "kemer_beaches": {
+  "title": "The Most Beautiful Beaches of Kemer",
+  "intro": "Kemer is a seaside paradise surrounded by the crystal-clear waters of the Mediterranean.",
+  "sections": [
+    {
+      "heading": "Moonlight Beach (Ayışığı Plajı)",
+      "text": "Just a few minutes’ walk from Kemer town center, this is one of the most popular spots thanks to its shallow, clear sea and nearby cafes and restaurants. Nestled among pine trees and lush greenery, it offers a clean and deep sea, a pebbly beach, and reasonably priced beach clubs. It’s located right in the center of Kemer, just behind the Marina — a truly beautiful place."
+    },
+    {
+      "heading": "Turkey’s Hidden Paradise: Phaselis Bay",
+      "text": "Where history meets nature! You can swim here, stroll among ancient ruins, and capture stunning photos. Its pristine waters always delight visitors, turning Phaselis into not just an ancient city but a true summer paradise. To reach Phaselis Bay, you must pass through the ancient city itself. The bay stands out with its turquoise and crystal-clear waters, offering visitors the chance to spot various fish species. The ancient city covers a large area with three separate bays — north, south, and central — each offering a unique experience."
+    },
+    {
+      "heading": "Olympos and Çıralı Beaches",
+      "text": "These natural beaches are famous as nesting grounds for caretta caretta sea turtles — perfect for those seeking peace and tranquility. To reach Olympos Beach, you need to walk through the ancient city of Olympos."
+    }
+  ],
+  "recommendation": "💡 Our Recommendation from Premium Art Dental Clinic: One of the best spots to watch the sunset in Kemer is the Marina or Moonlight Beach."
+},
+"goynuk_canyon": {
+      "title": "Göynük Canyon",
+      "intro": "Located about 10 km from Kemer, Göynük Canyon is a paradise for nature lovers and adventure seekers. It’s one of the best places to escape the summer heat while enjoying outdoor activities surrounded by lush greenery.",
+      "paragraphs": [
+        "Here you can swim in crystal-clear waters, walk through the canyon, or try ziplining and canyoning for an adrenaline rush. Equipment rental and guided tours are available at the entrance.",
+        "The walking trails are suitable for all fitness levels, making it an ideal place for families as well. Visiting early in the morning is recommended if you want to experience the peaceful atmosphere and the sound of flowing water without crowds."
+      ]
+    },
+
+    "boat_tours": {
+      "title": "Boat Tours – Discover Kemer’s Hidden Bays",
+      "intro": "Daily boat trips departing from Kemer Marina are among the most popular activities for visitors and one of the best ways to explore the region’s hidden bays.",
+      "paragraphs": [
+        "Along the route, you’ll stop for swimming breaks at stunning spots such as Paradise Bay, Sazak Bay, Cleopatra Bay, and Alacasu (Paradise) Bay. Don’t forget to bring your snorkel – the underwater scenery is truly breathtaking.",
+        "You can swim in turquoise waters, snorkel to explore the underwater world, or simply sunbathe on deck while enjoying the refreshing Mediterranean breeze.",
+        "Some boat tours offer lively entertainment with music and lunch on board, while others provide a calmer and more romantic atmosphere – perfect for couples looking for a peaceful day at sea."
+      ]
+    },
+
+     "idyros_ancient_city": {
+      "title": "Idyros Ancient City",
+      "intro": "If you’re interested in history, Idyros Ancient City is a hidden gem located just a short walk from Kemer center. The site dates back to the Roman period and features the remains of temples, mosaic floors, and stone walls.",
+      "paragraphs": [
+        "Although it is not as large as Phaselis, Idyros offers a tranquil and authentic experience for those who love ancient ruins.",
+        "It’s a great spot for a short historical walk, and the entrance is completely free."
+      ]
+    },
+    "yanartas_chimera": {
+      "title": "Yanartaş (Chimera) – The Land of Eternal Flames",
+      "intro": "About 35 km from Kemer lies Yanartaş, one of the most fascinating natural wonders of Antalya.",
+      "paragraphs": [
+        "Known as the Land of Eternal Flames, this area is famous for the natural gas vents that have been burning for thousands of years.",
+        "According to ancient Greek mythology, these flames were created after the hero Bellerophon defeated the monster Chimera.",
+        "The best time to visit is after sunset, when the flames shine brightly against the dark mountainside, creating a mystical and unforgettable atmosphere.",
+        "Make sure to wear comfortable shoes, as reaching the site requires a short uphill walk."
+      ]
+    },
+    "kemer_nightlife": {
+      "title": "Kemer Nightlife",
+      "intro": "Kemer is one of the most vibrant nightlife destinations on the Mediterranean coast.",
+      "paragraphs": [
+        "Bars around the marina, beach clubs, and open-air discos offer entertainment until the early hours of the morning. Especially in summer, DJ performances, live music nights, and themed parties are extremely popular.",
+        "If you prefer a quieter evening, taking a walk along the seafront or enjoying Mediterranean cuisine at a seaside restaurant is also a wonderful option."
+      ],
+      "recommendation": "💡 Premium Art Dental Clinic Recommendation: During your post-treatment recovery period, tranquility and nature are always the best medicine. During your stay in Kemer, you can enjoy breathtaking views with a cable car experience, refresh both your body and mind with a walk in Göynük Canyon, and end the day in peace with a sunset boat tour."
+    }
   }
 }

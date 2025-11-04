@@ -15,7 +15,10 @@
     "gallery": "Galeri",
     "contact": "İletişim",
      "homepage": "Anasayfa",
-       "text":" Site İçeriğinde Bulunan Bilgiler Destek Sağlamak İçindir. Hekimin Hastasını Tıbbi Amaçla Muayene, Tanı Ve Teşhis Koyması Yerine Geçmez!"
+     "dentaltatil":"Antalya Kemer'de Gezilecek Yerler ve Yapılacak Aktiviteler",
+      "text":" Site İçeriğinde Bulunan Bilgiler Destek Sağlamak İçindir. Hekimin Hastasını Tıbbi Amaçla Muayene, Tanı Ve Teşhis Koyması Yerine Geçmez!",
+      "dentalparagraf":"Antalya'nın en gözde tatil bölgelerinden biri olan Kemer, muhteşem doğası, masmavi denizi ve yıl boyunca süren güneşli havasıyla Türkiye'nin cennet köşelerindendir. Premium Art Dental Clinic'e tedavi için geldiğinizde, Kemer'de hem diş sağlığınıza kavuşabilir hem de unutulmaz bir tatil deneyimi yaşayabilirsiniz. İşte Kemer'de gezilecek yerler ve yapılacak aktivitelerden bazıları:"
+  
     },
 
     "Contact":{
@@ -1226,10 +1229,80 @@
 
      "Gallery": {
     "title": "Galeri",
-    "subtitle": "Projelerimizden seçkiler: sade, hızlı ve modern bir grid",
+    "subtitle": "Kliniğimizden Görüntüler",
     "filter": { "all": "Tümü", "recent": "Son Eklenenler", "featured": "Öne Çıkanlar" },
     "section": { "topTitle": "Fotoğraf Galerimiz", "bottomTitle": "Klinikten Daha Fazla An" },
     "cta": { "primary": "Daha Fazla Gör", "secondary": "İletişime Geç" },
     "ui": { "close": "Kapat", "prev": "Önceki", "next": "Sonraki" }
-  }
+  },
+
+"dentaltatil":{
+    "kemer_beaches": {
+  "title": "Kemer’in En Güzel Plajları",
+  "intro": "Kemer, Akdeniz’in berrak sularıyla çevrili bir sahil cennetidir.",
+  "sections": [
+    {
+      "heading": "Ayışığı Plajı (Moonlight Beach)",
+      "text": "Kemer merkezine yalnızca birkaç dakikalık yürüme mesafesinde. Sığ, tertemiz denizi ve çevresindeki kafe/restoranlarla en popüler duraklardan biridir. Çam ağaçlarının altında, yeşillikler içerisinde, temiz ve derin denizi, çakıllı kumsalı, makul fiyatlı beach clubları ile Kemer merkezde, hemen Marina’nın arkasında yer alan güzel bir yerdir."
+    },
+    {
+      "heading": "Türkiye’nin Cennet Köşesi: Phaselis Koyu",
+      "text": "Tarih ve doğa iç içe! Burada yüzebilir, antik kalıntılar arasında yürüyüş yapabilir ve benzersiz fotoğraflar çekebilirsiniz. Temiz denizi her zaman ziyaretçilerini memnun ederken, Phaselis’i sadece bir antik kent olmaktan çıkararak, yaz mevsimini doyasıya yaşanacak bir cennet haline getirir. Antik kentteki ihtişamı hayranlıkla karşılarken, Antalya Phaselis Koyu’na ulaşmak için antik kent içinden geçmeniz gerekir. Bu koy masmavi ve berrak sularıyla dikkat çeker ve ziyaretçilere birçok balık türünü gözlemleme fırsatı sunar. Geniş bir alana yayılan antik kentte kuzey, güney ve merkez olmak üzere üç farklı koy bulunur; her biri size benzersiz deneyimler sağlar."
+    },
+    {
+      "heading": "Olympos (Olimpos) ve Çıralı Plajları",
+      "text": "Caretta caretta deniz kaplumbağalarının yumurtladığı bu doğal plajlar, sakinlik arayanlar için mükemmeldir. Olimpos Plajı’na girmek için Olympos Antik Kenti’nin içerisinden yürüyerek geçmeniz gerekiyor."
+    }
+  ],
+  "recommendation": "💡 Premium Art Dental Clinic olarak tavsiyemiz: Güneşin batışını izlemek için en güzel noktalardan biri Kemer Marina ya da Ayışığı Plajıdır."
+},
+
+"goynuk_canyon": {
+      "title": "Göynük Kanyonu",
+      "intro": "Kemer merkeze yaklaşık 10 km uzaklıkta yer alan Göynük Kanyonu, doğayla iç içe vakit geçirmek isteyenler için ideal bir duraktır. Serin sular, yüksek kayalıklar, yürüyüş yolları ve macera parkurlarıyla doğaseverlerin gözdesidir.",
+      "paragraphs": [
+        "Yaz aylarında burada yüzebilir, suyun içinden yürüyüş yapabilir veya adrenalin sevenler için zipline ve canyoning (kanyon geçişi) aktivitelerine katılabilirsiniz. Girişte ekipman kiralama ve rehber desteği de mevcut.",
+        "Kanyondaki doğa yürüyüşü parkurları hem kolay hem de manzaralıdır; bu yüzden aileler ve çocuklu ziyaretçiler için de uygundur. Özellikle sabah erken saatlerde gitmek, kalabalık olmadan doğanın sesini duymanız için idealdir."
+      ]
+    },
+
+     "boat_tours": {
+      "title": "Tekne Turu – Kemer’in Gizli Koylarını Keşfedin",
+      "intro": "Kemer Marina’dan her sabah kalkan tekne turları, bölgenin en özel koylarını keşfetmenin en keyifli yollarından biridir.",
+      "paragraphs": [
+        "Güzergâh boyunca Cennet Koyu, Sazak Koyu, Kleopatra Koyu ve Alacasu (Paradise) Koyu gibi duraklarda yüzme molası verilir. Şnorkel getirmeyi unutmayın; su altı manzarası gerçekten nefes kesicidir.",
+        "Tur boyunca turkuaz sularda yüzebilir, şnorkelle su altı dünyasını keşfedebilir veya sadece güvertede güneşlenerek Akdeniz esintisinin tadını çıkarabilirsiniz.",
+        "Bazı tekne turları müzik ve teknede öğle yemeği eşliğinde eğlenceli bir atmosfer sunarken, bazıları daha sakin ve romantik bir ortam sağlar. Özellikle denizde huzurlu ve keyifli bir gün geçirmek isteyen çiftler için harika bir seçenektir."
+      ]
+    },
+    "idyros_ancient_city": {
+      "title": "Idyros Antik Kenti",
+      "intro": "Kemer merkezine oldukça yakın olan Idyros Antik Kenti, Roma dönemine ait kalıntılarıyla kısa ama etkileyici bir keşif rotasıdır.",
+      "paragraphs": [
+        "Antik tapınak kalıntıları, mozaik parçaları ve taş duvarlar arasında yürüyüş yaparken tarihle doğayı aynı anda hissedebilirsiniz.",
+        "Giriş ücretsizdir, bu da kısa bir keşif molası için mükemmel bir fırsat yaratır."
+      ]
+    },
+     "yanartas_chimera": {
+      "title": "Yanartaş (Chimera) – Sönmeyen Ateşlerin Diyarı",
+      "intro": "Kemer’e yaklaşık 35 km mesafede bulunan Yanartaş, hem doğal hem de mitolojik açıdan büyüleyici bir yerdir.",
+      "paragraphs": [
+        "Kayaların arasından çıkan doğal gazlar, binlerce yıldır sönmeden yanmaya devam ediyor.",
+        "Antik dönem efsanelerine göre bu ateşler, Bellerophon adlı kahramanın Chimera adlı canavarı öldürmesiyle ortaya çıkmıştır.",
+        "Gece saatlerinde yapılan ziyaretler, karanlıkta parlayan bu ateşlerle bambaşka bir atmosfer yaratır.",
+        "Yanartaş’a ulaşmak için kısa bir tırmanış gerekir; rahat ayakkabı giymeyi unutmayın."
+      ]
+    },
+    "kemer_nightlife": {
+      "title": "Kemer Gece Hayatı",
+      "intro": "Kemer, Akdeniz’in en canlı gece hayatına sahip bölgelerinden biridir.",
+      "paragraphs": [
+        "Marina çevresindeki barlar, sahil kulüpleri ve açık hava diskoları sabaha kadar eğlence sunar. Özellikle yaz aylarında DJ performansları, canlı müzik geceleri ve temalı partiler oldukça popülerdir.",
+        "Eğer daha sakin bir akşam tercih ediyorsanız, sahil boyunca yürüyüş yapmak veya deniz kenarındaki restoranlarda Akdeniz mutfağının lezzetlerini tatmak da harika bir seçenektir."
+      ],
+      "recommendation": "💡 Premium Art Dental Clinic Tavsiyesi: Tedavi sonrası iyileşme döneminde sakinlik ve doğa her zaman en iyi ilaçtır. Kemer’de geçireceğiniz birkaç gün boyunca teleferik deneyimiyle manzaranın tadını çıkarabilir, Göynük Kanyonu’nda yürüyüş yaparak hem bedeninizi hem zihninizi yenileyebilirsiniz. Akşamları ise gün batımını izleyebileceğiniz bir tekne turu ile günü huzur içinde sonlandırabilirsiniz."
+    }
+    
+}
+
 }

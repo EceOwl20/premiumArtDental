@@ -15,7 +15,9 @@
     "gallery": "Galerie",
     "contact": "Kontakt",
      "homepage": "Startseite",
-       "text":"Die auf dieser Website enthaltenen Informationen dienen nur zur Unterstützung. Sie ersetzen nicht die ärztliche Untersuchung, Diagnose oder Behandlung des Patienten!"
+     "dentaltatil":"Sehenswürdigkeiten und Aktivitäten in Antalya Kemer",
+       "text":"Die auf dieser Website enthaltenen Informationen dienen nur zur Unterstützung. Sie ersetzen nicht die ärztliche Untersuchung, Diagnose oder Behandlung des Patienten!",
+        "dentalparagraf":"Kemer, eines der beliebtesten Urlaubsziele in Antalya, ist mit seiner atemberaubenden Natur, dem türkisblauen Meer und dem ganzjährig sonnigen Wetter ein wahres Paradies in der Türkei. Wenn Sie zur Behandlung in die Premium Art Dental Clinic kommen, können Sie in Kemer nicht nur Ihre Zahngesundheit wiedererlangen, sondern auch einen unvergesslichen Urlaub erleben. Hier sind einige Sehenswürdigkeiten und Aktivitäten, die Sie in Kemer unternehmen können:"
   },
 
   "Contact": {
@@ -1202,12 +1204,81 @@
   },
     "Gallery": {
     "title": "Galerie",
-    "subtitle": "Eine schlichte, schnelle und moderne Übersicht unserer ausgewählten Projekte",
+    "subtitle": "Bilder aus unserer Klinik",
     "filter": { "all": "Alle", "recent": "Neu hinzugefügt", "featured": "Highlights" },
     "section": { "topTitle": "Unsere Fotogalerie", "bottomTitle": "Weitere Momente aus der Klinik" },
     "cta": { "primary": "Mehr ansehen", "secondary": "Kontakt aufnehmen" },
     "ui": { "close": "Schließen", "prev": "Zurück", "next": "Weiter" }
-  }
- 
+  },
+
+
+  "dentaltatil":{
+  "kemer_beaches": {
+  "title": "Die schönsten Strände von Kemer",
+  "intro": "Kemer ist ein Paradies am Mittelmeer, umgeben von kristallklarem Wasser.",
+  "sections": [
+    {
+      "heading": "Moonlight Beach (Ayışığı Plajı)",
+      "text": "Nur wenige Minuten zu Fuß vom Stadtzentrum von Kemer entfernt. Mit seinem seichten, klaren Wasser und den umliegenden Cafés und Restaurants ist er einer der beliebtesten Orte. Zwischen Pinien und viel Grün gelegen, bietet er ein sauberes, tiefes Meer, einen Kieselstrand und erschwingliche Beachclubs. Direkt hinter dem Yachthafen im Zentrum von Kemer gelegen – ein wirklich schöner Ort."
+    },
+    {
+      "heading": "Das versteckte Paradies der Türkei: Phaselis-Bucht",
+      "text": "Hier treffen Geschichte und Natur aufeinander! Sie können hier schwimmen, zwischen antiken Ruinen spazieren und wunderschöne Fotos machen. Das klare Wasser begeistert Besucher immer wieder und macht Phaselis zu einem echten Sommerparadies. Um die Phaselis-Bucht zu erreichen, müssen Sie durch die antike Stadt gehen. Die Bucht beeindruckt mit türkisfarbenem, kristallklarem Wasser und bietet die Möglichkeit, viele Fischarten zu beobachten. Die antike Stadt erstreckt sich über ein großes Gebiet mit drei verschiedenen Buchten – Nord, Süd und Zentral – jede mit einem einzigartigen Erlebnis."
+    },
+    {
+      "heading": "Olympos- und Çıralı-Strände",
+      "text": "Diese natürlichen Strände sind als Nistplätze der Caretta-Caretta-Meeresschildkröten bekannt – ideal für alle, die Ruhe und Erholung suchen. Um den Olympos-Strand zu erreichen, müssen Sie durch die antike Stadt Olympos gehen."
+    }
+  ],
+  "recommendation": "💡 Empfehlung der Premium Art Dental Clinic: Einer der schönsten Orte, um den Sonnenuntergang zu beobachten, ist der Yachthafen von Kemer oder der Moonlight Beach."
+},
+"goynuk_canyon": {
+      "title": "Göynük-Canyon",
+      "intro": "Der Göynük-Canyon liegt etwa 10 km vom Zentrum von Kemer entfernt und ist ein Paradies für Naturliebhaber und Abenteuerlustige. Er ist einer der besten Orte, um der Sommerhitze zu entfliehen und gleichzeitig inmitten üppiger Natur Zeit im Freien zu verbringen.",
+      "paragraphs": [
+        "Im Sommer können Sie hier im kristallklaren Wasser schwimmen, durch die Schlucht waten oder für einen zusätzlichen Adrenalinkick Ziplining und Canyoning ausprobieren. Am Eingang stehen Ausrüstungsverleih und geführte Touren zur Verfügung.",
+        "Die Wanderwege im Canyon sind leicht begehbar und gleichzeitig sehr aussichtsreich, weshalb der Ort sich auch ideal für Familien mit Kindern eignet. Besonders die frühen Morgenstunden sind zu empfehlen, wenn Sie die Ruhe der Natur und das Rauschen des Wassers ohne Menschenmengen erleben möchten."
+      ]
+    },
+
+    "boat_tours": {
+      "title": "Bootstouren – Entdecken Sie die versteckten Buchten von Kemer",
+      "intro": "Tägliche Bootstouren, die vom Hafen von Kemer ablegen, gehören zu den beliebtesten Aktivitäten für Besucher und sind eine der schönsten Möglichkeiten, die versteckten Buchten der Region zu entdecken.",
+      "paragraphs": [
+        "Auf der Route werden Badestopps in traumhaften Buchten wie der Paradise Bay (Cennet Koyu), Sazak Bay, Cleopatra Bay und Alacasu (Paradise) Bay eingelegt. Vergessen Sie Ihre Schnorchelausrüstung nicht – die Unterwasserwelt ist einfach atemberaubend.",
+        "Sie können im türkisfarbenen Wasser schwimmen, beim Schnorcheln die Unterwasserwelt erkunden oder sich einfach an Deck sonnen und die frische Mittelmeerbrise genießen.",
+        "Einige Bootstouren bieten mit Musik und Mittagessen an Bord eine lebhafte Atmosphäre, während andere eine ruhigere und romantischere Stimmung schaffen – ideal für Paare, die einen entspannten Tag auf dem Meer verbringen möchten."
+      ]
+    },
+
+      "idyros_ancient_city": {
+      "title": "Die antike Stadt Idyros",
+      "intro": "Die antike Stadt Idyros liegt nur einen kurzen Spaziergang vom Zentrum von Kemer entfernt und stammt aus der Römerzeit. Auf dem Gelände finden sich Überreste von Tempeln, Mosaikböden und Steinmauern.",
+      "paragraphs": [
+        "Auch wenn Idyros nicht so groß ist wie Phaselis, bietet die Stätte eine ruhige und authentische Atmosphäre für alle, die antike Ruinen lieben.",
+        "Sie eignet sich perfekt für einen kurzen geschichtlichen Spaziergang – und der Eintritt ist komplett kostenlos."
+      ]
+    },
+    "yanartas_chimera": {
+      "title": "Yanartaş (Chimera) – Das Land der ewigen Flammen",
+      "intro": "Yanartaş liegt etwa 35 km von Kemer entfernt und ist sowohl aus natürlicher als auch aus mythologischer Sicht einer der faszinierendsten Orte in der Region Antalya.",
+      "paragraphs": [
+        "Zwischen den Felsen austretende Erdgasquellen brennen hier seit Tausenden von Jahren ununterbrochen.",
+        "Einer Legende nach entstanden diese Flammen, nachdem der Held Bellerophon das Ungeheuer Chimära besiegt hatte.",
+        "Ein Besuch nach Sonnenuntergang ist besonders eindrucksvoll, wenn die Flammen in der Dunkelheit am Berghang leuchten und eine mystische, unvergessliche Atmosphäre schaffen.",
+        "Um Yanartaş zu erreichen, ist ein kurzer Aufstieg notwendig – denken Sie daher an bequeme Schuhe."
+      ]
+    },
+     "kemer_nightlife": {
+      "title": "Das Nachtleben in Kemer",
+      "intro": "Kemer gehört zu den lebhaftesten Regionen an der türkischen Mittelmeerküste, wenn es um das Nachtleben geht.",
+      "paragraphs": [
+        "Bars rund um den Yachthafen, Strandclubs und Open-Air-Diskotheken bieten Unterhaltung bis in die frühen Morgenstunden. Besonders in den Sommermonaten sind DJ-Auftritte, Livemusik-Abende und Themenpartys sehr beliebt.",
+        "Wenn Sie einen ruhigeren Abend bevorzugen, können Sie einen Spaziergang entlang der Strandpromenade machen oder in einem Restaurant direkt am Meer die Köstlichkeiten der mediterranen Küche genießen – ebenfalls eine hervorragende Wahl."
+      ],
+      "recommendation": "💡 Empfehlung der Premium Art Dental Clinic: In der Erholungsphase nach einer Behandlung sind Ruhe und Natur oft die beste Medizin. Während Ihres Aufenthalts in Kemer können Sie mit einer Seilbahnfahrt die Aussicht genießen, bei einem Spaziergang im Göynük-Canyon Körper und Geist erneuern und den Tag mit einer Bootstour zum Sonnenuntergang ganz entspannt ausklingen lassen."
+    }
+
+}
 
 }
