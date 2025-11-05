@@ -30,7 +30,7 @@ const Page = () => {
   return (
     <div className='overflow-x-hidden items-center text-center justify-start w-full flex flex-col'>
       <Banner header={t2("dental")} text={t2("homepage") + " » " + t2("dental")}  />
-      <div className='flex flex-col max-w-[1550px] mt-10 items-center lg:items-start text-center lg:text-start text-[14px] lg:text-[16px]'>
+      <div className='flex flex-col max-w-[1300px] mt-10 items-center lg:items-start text-center lg:text-start text-[14px] lg:text-[16px]'>
         <p className='mb-8'>{t2("dentalparagraf")}</p>
 
        <div className="flex w-full flex-col md:flex-row gap-8 justify-center md:justify-around items-center">
@@ -48,11 +48,11 @@ const Page = () => {
 
         {/* Alt başlıklar + paragraflar */}
         {kemerBeaches.sections?.map((section, index) => (
-          <div key={index} className="space-y-1">
+          <div key={index} className="">
             <h3 className="font-semibold text-base md:text-lg">
               {section.heading}
             </h3>
-            <p className="text-sm md:text-base text-gray-600 leading-relaxed">
+            <p className="text-sm md:text-base text-gray-600 leading-normal">
               {section.text}
             </p>
           </div>
@@ -70,7 +70,7 @@ const Page = () => {
         alt="Kemer Plajlar"
         width={kemerplajlar.width}
         height={kemerplajlar.height}
-        className="w-full md:w-1/2 h-auto rounded-xl object-cover"
+        className="w-full md:w-1/2 h-auto rounded-xl object-cover max-h-[450px]"
       />
     </div>
 
@@ -85,7 +85,7 @@ const Page = () => {
         </h2>
 
         {/* İlk paragraf (intro) */}
-        <p className="text-sm md:text-base text-gray-600 leading-relaxed">
+        <p className="text-sm md:text-base text-gray-600 leading-normal">
           {canyon.intro}
         </p>
 
@@ -93,7 +93,7 @@ const Page = () => {
         {canyon.paragraphs?.map((p, idx) => (
           <p
             key={idx}
-            className="text-sm md:text-base text-gray-600 leading-relaxed"
+            className="text-sm md:text-base text-gray-600 leading-normal"
           >
             {p}
           </p>
@@ -106,7 +106,7 @@ const Page = () => {
         alt="Göynük kanyonu"
         width={kanyon.width}
         height={kanyon.height}
-        className="w-full md:w-[45%] h-auto rounded-xl object-cover"
+        className="w-full md:w-[45%] h-auto rounded-xl object-cover max-h-[450px]"
       />
     </div>
 
@@ -121,7 +121,7 @@ const Page = () => {
         </h2>
 
         {/* Intro */}
-        <p className="text-sm md:text-base text-gray-600 leading-relaxed">
+        <p className="text-sm md:text-base text-gray-600 leading-normal">
           {boatTours.intro}
         </p>
 
@@ -129,7 +129,7 @@ const Page = () => {
         {boatTours.paragraphs?.map((p, idx) => (
           <p
             key={idx}
-            className="text-sm md:text-base text-gray-600 leading-relaxed"
+            className="text-sm md:text-base text-gray-600 leading-normal"
           >
             {p}
           </p>
@@ -142,7 +142,7 @@ const Page = () => {
         alt="Kemer tekne turu"
         width={tekne.width}
         height={tekne.height}
-        className="w-full md:w-1/2 h-auto rounded-xl object-cover"
+        className="w-full md:w-1/2 h-auto rounded-xl object-cover max-h-[450px]"
       />
     </div>
 
@@ -156,7 +156,7 @@ const Page = () => {
         </h2>
 
         {/* Intro */}
-        <p className="text-sm md:text-base text-gray-600 leading-relaxed">
+        <p className="text-sm md:text-base text-gray-600 leading-normal">
           {idyrosData.intro}
         </p>
 
@@ -164,7 +164,7 @@ const Page = () => {
         {idyrosData.paragraphs?.map((p, idx) => (
           <p
             key={idx}
-            className="text-sm md:text-base text-gray-600 leading-relaxed"
+            className="text-sm md:text-base text-gray-600 leading-normal"
           >
             {p}
           </p>
@@ -176,7 +176,7 @@ const Page = () => {
         alt="Idyros Antik Kenti"
         width={idyrosantik.width}
         height={idyrosantik.height}
-        className="w-full md:w-1/2 h-auto rounded-xl object-cover"
+        className="w-full md:w-1/2 h-auto rounded-xl object-cover max-h-[450px]"
       />
     </div>
 
@@ -188,14 +188,14 @@ const Page = () => {
           {data.title}
         </h2>
 
-        <p className="text-sm md:text-base text-gray-600 leading-relaxed">
+        <p className="text-sm md:text-base text-gray-600 leading-normal">
           {data.intro}
         </p>
 
         {data.paragraphs?.map((p, idx) => (
           <p
             key={idx}
-            className="text-sm md:text-base text-gray-600 leading-relaxed"
+            className="text-sm md:text-base text-gray-600 leading-normal"
           >
             {p}
           </p>
@@ -208,33 +208,33 @@ const Page = () => {
         alt="Yanartaş (Chimera)"
         width={yanartas.width}
         height={yanartas.height}
-        className="w-full md:w-1/2 h-auto rounded-xl object-cover"
+        className="w-full md:w-1/2 h-auto rounded-xl object-cover max-h-[450px]"
       />
     </div>
 
 
-     <div className="flex w-full flex-col md:flex-row-reverse gap-8 justify-center md:justify-around items-center mt-10 mb-16">
+     <div className="flex w-full flex-col md:flex-row-reverse gap-8 justify-center md:justify-around items-center mt-10 mb-16 ">
       {/* METİN ALANI */}
       <div className="w-full md:w-1/2 max-w-xl space-y-4">
         <h2 className="text-2xl md:text-3xl font-semibold">
           {data2.title}
         </h2>
 
-        <p className="text-sm md:text-base text-gray-600 leading-relaxed">
+        <p className="text-sm md:text-base text-gray-600 leading-normal">
           {data2.intro}
         </p>
 
         {data2.paragraphs?.map((p, idx) => (
           <p
             key={idx}
-            className="text-sm md:text-base text-gray-600 leading-relaxed"
+            className="text-sm md:text-base text-gray-600 leading-normal"
           >
             {p}
           </p>
         ))}
 
         {/* Tavsiye kısmı biraz öne çıksın */}
-        <p className="text-sm md:text-base leading-relaxed font-medium italic mt-2">
+        <p className="text-sm md:text-base leading-normal font-medium italic mt-2">
           {data2.recommendation}
         </p>
       </div>
@@ -245,7 +245,7 @@ const Page = () => {
         alt="Kemer gece hayatı"
         width={kemergecehayat.width}
         height={kemergecehayat.height}
-        className="w-full md:w-1/2 h-auto rounded-xl object-cover"
+        className="w-full md:w-1/2 h-auto rounded-xl object-cover max-h-[450px]"
       />
     </div>
 

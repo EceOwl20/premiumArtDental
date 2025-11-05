@@ -9,7 +9,7 @@ export default function SocialSidebar() {
       {/* WhatsApp */}
       <Link href="/"
       // href="https://wa.me/901234567890"
-       target="_blank" aria-label="WhatsApp">
+       target="_blank" rel="norefferer nofollower" aria-label="WhatsApp">
         <div className="flex items-center justify-center w-8 h-8 lg:w-12 lg:h-12 bg-[#25D366] rounded-md shadow-lg hover:opacity-90 transition">
           <FaWhatsapp className="text-white w-5 h-5 lg:w-8 lg:h-8" />
         </div>
@@ -18,7 +18,7 @@ export default function SocialSidebar() {
       <div className="w-[80%] h-[1px] bg-gray-600" />
 
       {/* Instagram */}
-      <Link href="https://www.instagram.com/premiumartdentalturkey/" target="_blank" aria-label="Instagram">
+      <Link href="https://www.instagram.com/premiumartdentalturkey/" target="_blank" rel="norefferer nofollower" aria-label="Instagram">
         <div className="flex items-center justify-center w-8 h-8 lg:w-12 lg:h-12 bg-gradient-to-br from-pink-500 to-yellow-500 rounded-md shadow-lg hover:opacity-90 transition">
           <FaInstagram className="text-white w-5 h-5 lg:w-8 lg:h-8" />
         </div>
@@ -26,7 +26,7 @@ export default function SocialSidebar() {
       <div className="w-[80%] h-[1px] bg-gray-600" />
 
       {/* Facebook */}
-      <Link href="https://www.facebook.com/premiumartdental/" target="_blank" aria-label="Facebook">
+      <Link href="https://www.facebook.com/premiumartdental/" target="_blank" rel="norefferer nofollower" aria-label="Facebook">
         <div className="flex items-end justify-center w-8 h-8 lg:w-12 lg:h-12 bg-[#1877F2] rounded-full shadow-lg hover:opacity-90 transition">
           <FaFacebookF className="text-white w-6 h-6 lg:w-9 lg:h-9" />
         </div>
@@ -34,13 +34,13 @@ export default function SocialSidebar() {
       <div className="w-[80%] h-[1px] bg-gray-600" />
 
       {/* YouTube */}
-      <Link href="https://www.youtube.com/@premiumartdentalturkey" target="_blank" aria-label="YouTube">
+      <Link href="https://www.youtube.com/@premiumartdentalturkey" target="_blank" rel="norefferer nofollower" aria-label="YouTube">
         <div className="flex items-center justify-center w-8 h-8 lg:w-12 lg:h-12 bg-[#FF0000] rounded-full shadow-lg hover:opacity-90 transition">
           <FaYoutube className="text-white w-5 h-5 lg:w-8 lg:h-8" />
         </div>
       </Link>
 
-       <Link href="https://www.tiktok.com/@premium.art.denta?_t=ZS-909ulJ3Ftjj&_r=1" target="_blank" aria-label="YouTube">
+       <Link href="https://www.tiktok.com/@premium.art.denta?_t=ZS-909ulJ3Ftjj&_r=1" rel="norefferer nofollower" target="_blank" aria-label="YouTube">
         <div className="flex items-center justify-center w-8 h-8 lg:w-12 lg:h-12 bg-[#1e1919] rounded-full shadow-lg hover:opacity-90 transition">
           <FaTiktok className="text-white w-5 h-5 lg:w-8 lg:h-8" />
         </div>

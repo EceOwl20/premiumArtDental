@@ -7,13 +7,15 @@ import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import logo from "@/public/images/logo/newlogo2.png"; 
 import { MdEmail, MdLocationPin } from "react-icons/md";
 import {useTranslations} from "next-intl"
+import trustpilot from "@/public/images/trustpilotwhite.webp"
+import googlereview from "@/public/images/googlereview.png"
 
 export default function Footer() {
    const t = useTranslations("Header")
   return (
     <footer className="bg-[#050a30] text-white border-t-[0.5px] border-[#e29c2d]">
       {/* Üst Bölüm: Logo / İletişim / Adres */}
-      <div className="container mx-auto px-4 md:px-8 lg:px-16 py-12 flex flex-col md:flex-row items-center justify-between gap-6 lg:gap-[8%]">
+      <div className="container mx-auto px-4 md:px-8 lg:px-10 py-12 flex flex-col md:flex-row items-center justify-between gap-6 lg:gap-[6%]">
         {/* 1) Logo Sütunu */}
         <div className="flex-shrink-0 flex items-center space-x-4">
           <Image src={logo} alt="Premiumart" width={210} height={140} />
@@ -58,11 +60,16 @@ export default function Footer() {
         <div className="hidden md:block h-12 border-l border-gray-700" />
 
         {/* 3) Adres Sütunu */}
-        <div className="flex items-center gap-1 lg:gap-3 justify-center text-center">
+        <div className="flex flex-col items-center gap-1 lg:gap-3 justify-center text-center">
            
           <p className="font-jost bg-gradient-to-r from-[#1f84d2] via-[#2c744b] via-[#700079] via-[#c1005c] to-[#e46c59] bg-clip-text text-transparent flex">
             <MdLocationPin className="w-6 h-6 text-[#1f84d2]"/> Yeni mahalle, Akdeniz Cd. 94/A Kemer/Antalya
           </p>
+         <div className='flex gap-4 h-[90px] items-center justify-center'>
+           <Link href="https://www.trustpilot.com/review/premiumartdentalturkey.com" target="_blank" rel="norefferer nofollower"><Image alt='trustpilot' src={trustpilot} width={100} height={100}/></Link>
+           <Link href="https://share.google/QcD8WMo5UOgHapsmx" target="_blank" rel="norefferer nofollower"><Image alt='google review' src={googlereview} width={100} height={80} className='h-[60%]'/></Link>
+         </div>
+          
         </div>
       </div>
 
