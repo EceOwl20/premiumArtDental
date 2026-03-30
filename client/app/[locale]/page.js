@@ -3,9 +3,9 @@ import HeroBanner from "./components/homepage/HeroBanner";
 import SlideSection from "./components/homepage/SlideSection";
 import TreatmentCarousel from "./components/homepage/TreatmentCarousel";
 import LogoCarousel from "./components/homepage/LogoCarousel";
-import VideoCarousel from "./components/homepage/VideoCarousel";
+// import VideoCarousel from "./components/homepage/VideoCarousel";
 import TreatmentProcess from "./components/homepage/TreatmentProcess";
-import ReviewsCarousel from "./components/homepage/ReviewCarousel";
+// import ReviewsCarousel from "./components/homepage/ReviewCarousel";
 import WhyUs from "./components/homepage/WhyUs";
 import VirtualTour from "./components/homepage/VirtualTour";
 import TeamCarousel from "./components/homepage/TeamCarousel";
@@ -23,9 +23,11 @@ export default function Home() {
      <SlideSection/>
      <TreatmentCarousel/>
      <LogoCarousel/>
-     <VideoCarousel/>
+     {/* Hasta videolari talebe gore simdilik kapatildi. */}
+     {/* <VideoCarousel/> */}
      <TreatmentProcess/>
-     <ReviewsCarousel/>
+     {/* Hasta yorumlari talebe gore simdilik kapatildi. */}
+     {/* <ReviewsCarousel/> */}
      <WhyUs/>
      <TeamCarousel/>
      <BlogCarousel/>

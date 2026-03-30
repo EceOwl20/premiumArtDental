@@ -7,9 +7,11 @@ import { Link } from '@/i18n/navigation';
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import { GoArrowUpRight } from "react-icons/go";
 import { useTranslations } from 'next-intl';
-import dtece from "@/public/images/doctors/DtEceYellice.jpg" 
+// import dtece from "@/public/images/doctors/DtEceYellice.jpg" 
+import dteceSolo from "@/public/images/doctors/DtEceYelliceSolo.jpg" 
 import dtfiruzan from "@/public/images/doctors/DtFiruzanKucukozkaral.jpg" 
-import dtkivanc from "@/public/images/doctors/DtKivancozkaral.jpg" 
+// import dtkivanc from "@/public/images/doctors/DtKivancozkaral.jpg" 
+import dtkivancSolo from "@/public/images/new/A_O01597 copy.jpg"
 import Image from "next/image";
 
 
@@ -24,9 +26,9 @@ export default function TeamCarousel() {
   });
 
   const teamMembers = [
-  { name: "Dt. Kıvanç Özkaral", role: t("dentist"),    img: dtkivanc },
-  { name: "Dt. Firuzan Küçük Özkaral", role: t("dentist"),         img: dtfiruzan },
-    { name: "Dt. Ece Yellice", role: t("dentist"), img: dtece },
+  { name: "Dt. Kıvanç Özkaral", role: t("dentist"), img: dtkivancSolo, imageClassName: "object-[70%_center]" },
+  { name: "Dt. Firuzan Küçük Özkaral", role: t("dentist"), img: dtfiruzan, imageClassName: "object-center" },
+    { name: "Dt. Ece Yellice", role: t("dentist"), img: dteceSolo, imageClassName: "object-center" },
   
   // { name: "Dr. Adipiscing Elit",    role: "Hijyen Personeli", img: "https://placehold.co/300x400?text=Hello+World" },
   // { name: "Dr. Lorem Lorem",        role: "Diş Hekimi",    img: "https://placehold.co/300x400?text=Hello+World" },
@@ -101,13 +103,13 @@ export default function TeamCarousel() {
                   "
                 >
                   <div className="bg-[var(--lago-gray)] overflow-hidden group">
-                    <div className="relative overflow-hidden">
+                    <div className="relative overflow-hidden aspect-[4/5]">
                       <Image
                         src={member.img}
                         alt={member.name}
-                        width={300}
-                        height={300}
-                        className="w-full h-auto max-h-[300px] object-cover transition-transform duration-500 group-hover:scale-110"
+                        fill
+                        sizes="(min-width: 1024px) 24vw, (min-width: 768px) 32vw, 72vw"
+                        className={`object-cover transition-transform duration-500 group-hover:scale-110 ${member.imageClassName ?? "object-center"}`}
                       />
                       {/* Hover efekti: ortadan başlayıp kenarlara açılan yarı saydam beyaz gradient */}
                       <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(255,255,255,0.3),transparent)] opacity-0 group-hover:opacity-60 transition-opacity duration-500" />
