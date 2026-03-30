@@ -2,7 +2,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
-import { FaClipboardList, FaPlane, FaUmbrellaBeach } from "react-icons/fa";
+import { FaClipboardList, FaTooth, FaUserMd } from "react-icons/fa";
 import { Link } from '@/i18n/navigation';
 import { GoArrowUpRight } from "react-icons/go";
 import { MdArrowForwardIos } from "react-icons/md";
@@ -129,7 +129,7 @@ export default function TreatmentProcess() {
 
           {/* Adım 2 */}
           <div className="flex-1 border border-[#242424] hover:border-[#e29c2d] max-h-[300px] rounded-lg px-6 py-6 lg:py-12 flex flex-col items-center text-center">
-            <FaPlane className="text-[#c1005c] w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 mb-4" />
+            <FaUserMd className="text-[#c1005c] w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12 mb-4" />
             <h3 className="font-roboto text-[18px] lg:text-xl mb-2"> {t("steps.1.title")}</h3>
             <p className="font-raleway text-[12px] md:text-[14px] lg:text-[16px] line-clamp-6">
             {t("steps.1.text")}
@@ -141,7 +141,7 @@ export default function TreatmentProcess() {
 
           {/* Adım 3 */}
           <div className="flex-1 border border-[#242424] hover:border-[#e29c2d] rounded-lg px-6 py-6 lg:py-12 flex flex-col items-center text-center">
-            <FaUmbrellaBeach className="text-[#c1005c] w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12  mb-4" />
+            <FaTooth className="text-[#c1005c] w-8 h-8 md:w-10 md:h-10 lg:w-12 lg:h-12  mb-4" />
             <h3 className="font-roboto text-[18px] lg:text-xl mb-2"> {t("steps.2.title")}</h3>
             <p className="font-raleway   text-sm line-clamp-6">
               {t("steps.2.text")}

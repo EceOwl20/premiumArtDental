@@ -74,18 +74,18 @@ const Page = () => {
             <strong>Ücretsiz Online Danışmanlık:</strong> Size özel detaylı tedavi planı hazırlanır. 3D çene tomografisi ile analiz yapılır.
           </li>
           <li>
-            <strong>İlk Antalya Ziyareti (5–7 Gün):</strong> 6 adet implant çeneye yerleştirilir; geçici sabit diş takılır; iyileşme süreci başlatılır.
+            <strong>İlk Aşama (5–7 Gün):</strong> 6 adet implant çeneye yerleştirilir; geçici sabit diş takılır; iyileşme süreci başlatılır.
           </li>
           <li>
             <strong>İyileşme Süreci (3–6 Ay):</strong> İmplantlar kemikle tamamen kaynaşır.
           </li>
           <li>
-            <strong>İkinci Ziyaret (4–5 Gün):</strong> Kalıcı zirkonyum dişler takılır; son kontroller yapılır.
+            <strong>İkinci Aşama (4–5 Gün):</strong> Kalıcı zirkonyum dişler takılır; son kontroller yapılır.
           </li>
         </ol>
 
         <p className="mt-4 text-base">
-          Kendi tedavi planınızı öğrenmek için bizimle iletişime geçin. Antalya’da hem sağlığınıza kavuşun hem tatilin keyfini çıkarın!
+          Kendi tedavi planınızı öğrenmek için bizimle iletişime geçin. Size en uygun süreci birlikte planlayalım.
         </p>
       </div>
 

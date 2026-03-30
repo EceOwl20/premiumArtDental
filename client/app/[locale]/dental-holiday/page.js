@@ -1,5 +1,4 @@
 import React from 'react'
-import Banner from '../components/subpages/Banner'
 import kanyon from "@/public/images/travel/goynukkanyonu.jpg"
 import idyrosantik from "@/public/images/travel/idyrosantik.jpg"
 import tekne from "@/public/images/travel/kemer-tekne.jpg"
@@ -28,8 +27,7 @@ const Page = () => {
 
 
   return (
-    <div className='overflow-x-hidden items-center text-center justify-start w-full flex flex-col'>
-      <Banner header={t2("dental")} text={t2("homepage") + " » " + t2("dental")}  />
+    <div className='overflow-x-hidden items-center text-center justify-start w-full flex flex-col pt-28 lg:pt-40'>
       <div className='flex flex-col max-w-[1300px] mt-10 items-center lg:items-start text-center lg:text-start text-[14px] lg:text-[16px]'>
         <p className='mb-8'>{t2("dentalparagraf")}</p>
 

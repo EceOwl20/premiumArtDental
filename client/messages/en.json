@@ -9,15 +9,15 @@
     "treatments": "Treatments",
     "team": "Our Team",
     "doctors":"Doctors",
-    "dental": "DENTAL HOLIDAY",
-    "dentalText":"DENTAL HOLIDAY",
+    "dental": "Kemer Guide",
+    "dentalText":"Kemer Guide",
     "blog": "Blog",
     "gallery": "Gallery",
     "contact": "Contact",
      "homepage": "Home",
-    "dentaltatil":"Places to Visit and Activities to Do in Antalya Kemer",
+    "dentaltatil":"Highlights in Kemer",
      "text":"The information on this site is provided for support purposes only. It does not replace a doctor's medical examination, diagnosis, or treatment of their patient!",
-     "dentalparagraf":"Kemer, one of the most popular holiday destinations in Antalya, is a paradise corner of Turkey with its stunning nature, crystal-clear sea, and sunny weather all year round. When you visit Premium Art Dental Clinic for your treatment, you can regain your dental health and enjoy an unforgettable holiday experience in Kemer. Here are some of the places to visit and activities to do in Kemer:"
+     "dentalparagraf":"The Kemer area, where our clinic is located, stands out with its natural setting and notable spots. You can find a few highlights from the region below:"
     },
 
     "Contact": {
@@ -72,12 +72,12 @@
         "text": "First, we conduct a free consultation online or by phone to understand your dental needs and prepare a personalized treatment plan for you."
       },
       {
-        "title": "Travel & Accommodation",
-        "text": "Once the plan is approved, we assist you with your travel and accommodation arrangements, ensuring your arrival at our clinic is as comfortable as possible."
+        "title": "Planning & Preparation",
+        "text": "Once the plan is approved, we confirm your appointments, complete the necessary evaluations, and plan your treatment in the most suitable way for you."
       },
       {
-        "title": "Enjoy Your Holiday",
-        "text": "During your treatment, you can enjoy the beauty of Antalya and experience a comfortable holiday while achieving a healthy smile."
+        "title": "Treatment & Follow-Up",
+        "text": "Throughout your treatment, we monitor your oral health closely and prioritize your comfort and treatment success at every stage."
       }
     ],
     "stats": {
@@ -499,8 +499,8 @@
    "OurClinic": {
     "header": "Our Clinic",
     "text1": "Welcome to Premium Art Dental Clinic, located in the beautiful Kemer region of Antalya. We offer an exceptional dental experience in a spacious, comfortable environment equipped with state-of-the-art technology.",
-    "text2": "With a team of over 25 years of experience dental professionals, we provide personalized care tailored to your needs. To ensure your convenience, we offer hotel transfers and comfortable relaxation areas.",
-    "text3": "Our prime location allows easy access to stunning attractions like Olympos, Çıralı beaches, and Phaselis ruins, making it easy to enjoy both dental care and a relaxing holiday. Experience exceptional care and discover the beautiful smiles that await you at Premium Art Dental Clinic!",
+    "text2": "In our spacious and comfortable facility, equipped with advanced technology, our dental team with more than 25 years of experience provides personalized care tailored to your needs.",
+    "text3": "We offer comfortable relaxation areas and a well-organized treatment environment for our patients. Thanks to our modern infrastructure, your process moves forward in a calm, safe, and planned way.",
     "experience": "Years of Experience",
       "happyPatients": "Happy Patients",
       "countries": "Visitors From Countries"
@@ -513,7 +513,7 @@
     "text1":"Welcome to Premium Art Dental Clinic, located in the beautiful Kemer region of Antalya and helmed by the dedicated husband-and-wife team, Dt. Kivanc Ozkaral and Dt. Firuzan Ozkaral. Our clinic was founded on the principles of artistry in dentistry, cutting-edge technology, and compassionate care, all designed to create exceptional smiles.",
     "text2":"Nestled in a spacious and modern facility, we offer an array of advanced dental services equipped with the latest technology to ensure a comfortable and effective treatment experience. With more than a decade of experience in the dental field, we have proudly treated thousands of patients from over 30 countries. Each patient is treated as a unique individual, and we are committed to ensuring a warm, welcoming environment for everyone who visits us.",
     "text3":"Choosing dental care abroad can feel overwhelming, which is why we prioritize transparency and open communication. Our clinic operates under the highest international standards to guarantee your safety and satisfaction. Whether you are interested in cosmetic enhancements or complete dental restorations, we meticulously plan each treatment tailored to your specific needs and desires.",
-    "text4":"Situated in a region rich in natural beauty and history, our clinic is perfectly positioned for those seeking both relaxation and dental care. With stunning destinations like Olympos, Çıralı, and Phaselis nearby, you can enjoy a variety of activities while you enhance your smile. ",
+    "text4":"Our clinic provides comprehensive dental care in a calm and accessible setting. With our modern infrastructure and attentive approach, we aim to deliver a reassuring treatment experience at every stage.",
     "text5":"At Premium Art Dental Clinic, our goal is not only to provide you with a stunning smile but also to ensure you feel valued and cared for throughout your journey with us. We invite you to join our family of happy and healthy smiles—because you deserve nothing but the best. Rediscover your confidence and let us help you achieve the smile you've always dreamed of. Remember, 'Art you can wear: your smile.'"
   },
 
@@ -588,13 +588,13 @@
   },
   "ListSec2": {
     "header": "Why Choose Dental Implants in Turkey?",
-    "text": "Our clinic in Antalya has become a leading dental tourism center thanks to our expert dentists offering affordable and high-quality treatments. Here are some reasons to choose Turkey:",
+    "text": "Our clinic in Antalya stands out with expert dentists, up-to-date technology, and a structured treatment approach. Here are some reasons to choose Turkey:",
     "list1_header": "Expertise and Technology",
     "list1": "The dentists at our clinic provide services in accordance with international standards. Our facility is equipped with the latest technology, maximizing quality and success rates in treatment.",
     "list2_header": "Affordable Treatment Options",
-    "list2": "Implant treatment in Turkey is significantly more economical compared to many other countries. You can save considerably without compromising on quality. Additionally, we offer free hotel accommodation and VIP transfer services for our patients. Contact us now to book your treatment and save up to 70%.",
-    "list3_header": "Vacation Opportunity",
-    "list3": "Getting dental treatment in Turkey can also be combined with a wonderful vacation experience. With its rich history, cultural heritage, and natural beauty, Turkey offers countless experiences to explore. Combine your dental treatment with an unforgettable holiday!"
+    "list2": "Implant treatment in Turkey is significantly more economical compared to many other countries. You can save considerably without compromising on quality and move forward with confidence thanks to expert clinicians and structured treatment planning.",
+    "list3_header": "Structured Process",
+    "list3": "Receiving dental treatment in Turkey can offer a clear and organized process with transparent information and well-defined steps. You can stay informed at every stage of your treatment."
   },
   "ListSec3": {
     "header": "How Dental Implants Improve Quality of Life?",
@@ -614,7 +614,7 @@
   "Blog3": {
     "slug": "step-by-step-dental-treatment-process-for-international-patients-turkey-guide",
     "header": "Step-by-Step Dental Treatment Process for International Patients (Turkey Guide)",
-    "text1": "Would you like to combine your dental treatment with affordable pricing, high quality, and a holiday opportunity? In recent years, Turkey has become one of the most preferred destinations for dental tourism worldwide. At our Premium Art Dental Clinic in Antalya/Kemer, we offer a VIP-tailored process for patients coming from abroad. In this article, we describe the step-by-step process for foreign patients seeking dental care in Turkey, so that all your questions will be answered.",
+    "text1": "Would you like to plan your dental treatment with affordable pricing and high quality standards? In recent years, Turkey has become one of the commonly preferred countries for dental care. At our Premium Art Dental Clinic in Antalya/Kemer, we offer a step-by-step treatment process for patients coming from abroad. In this article, we explain the process for international patients seeking dental treatment in Turkey in a clear and simple way.",
     "ListSec1": {
       "header": "1. Free Initial Consultation and Treatment Planning",
       "text": "Your treatment journey begins the moment you contact us. When you reach out via WhatsApp, email, or our website:",
@@ -628,20 +628,20 @@
       "list4": "This process is completely free. Contact us right away with any questions."
     },
     "ListSec2": {
-      "header": "2. Flight and Accommodation Arrangements",
-      "text": "Once you decide on your treatment, we schedule your dates according to your availability. At Premium Art Dental Clinic:",
+      "header": "2. Appointment Planning and Pre-Treatment Information",
+      "text": "Once you decide on your treatment, we plan suitable dates together and share the necessary pre-treatment information with you. At Premium Art Dental Clinic:",
       "list1_header": "",
-      "list1": "Free hotel accommodation (including breakfast).",
+      "list1": "Appointment and examination dates are planned according to your availability.",
       "list2_header": "",
-      "list2": "VIP airport transfers (between hotel and clinic).",
+      "list2": "The necessary information and preparation details are shared with you before treatment.",
       "list3_header": "",
-      "list3": "Our reservation department provides guidance, 24/7 Patient Advisor Service, and constant communication throughout this process. Confirmations are sent to you.",
+      "list3": "Throughout the process, our patient support team answers your questions and keeps in regular contact.",
       "list4_header": "",
-      "list4": "You just book your flight ticket; we handle the rest!"
+      "list4": "All stages are clarified in advance and your treatment plan is communicated to you clearly."
     },
     "ListSec3": {
       "header": "3. Arrival at the Clinic and Examination",
-      "text": "After you arrive in Antalya, we pick you up from the airport and settle you in your hotel. On the appointment day:",
+      "text": "On your appointment day, at our clinic:",
       "list1_header": "",
       "list1": "In our fully equipped dental clinic, a panoramic X-ray, 3D tomography, and a detailed examination are performed.",
       "list2_header": "",
@@ -660,11 +660,11 @@
       "list3": "All-on-4 / All-on-6 implants / Full Mouth Implant Treatments: 4–6 days.",
       "list4_header": "",
       "list4": "Second phase of implant (after 3 months): 5–7 days.",
-      "extra": "We provide a comfortable environment during your treatment, allowing you time to explore the beauties of Antalya while your oral health is in our care."
+      "extra": "We offer a comfortable clinical environment and a structured process throughout your treatment."
     },
     "ListSec5": {
       "header": "5. Post-Treatment and Support",
-      "text": "After your treatment is completed, your personalized care instructions, warranty documents, invoice, and before/after panoramic X-ray images are delivered to you. Additionally:",
+      "text": "After your treatment is completed, your personalized care instructions, warranty documents, invoice, and panoramic X-ray records are delivered to you. Additionally:",
       "list1_header": "",
       "list1": "We provide support with online and international follow-up meetings for post-treatment check-ups.",
       "list2_header": "",
@@ -673,7 +673,7 @@
       "list3": "All implants and materials are original, CE-certified, and covered by warranty."
     },
     "BlogConclusion": {
-      "text": "A New Journey to a Smile with Premium Art Dental Clinic\nThanks to this special process we offer to our international patients, you can receive your treatment safely, comfortably, and at an affordable price. Dental care in Turkey is not only about health but also an enjoyable experience!\nContact us now – Learn your free treatment plan and start your journey today!"
+      "text": "A New Smile Journey with Premium Art Dental Clinic\nThanks to the structured process we offer to our international patients, you can receive your treatment safely, comfortably, and at an affordable price.\nContact us now – Learn your free treatment plan and start your process today!"
     }
   },
 
@@ -716,14 +716,14 @@
       "text": "Affordable Prices: You can receive treatment at prices that are 60–70% more economical compared to European countries.",
       "list1": "Expert Staff: Clinics in Turkey work with specialist periodontists.",
       "list2": "Modern Technology: Advanced technologies such as 3D imaging and laser treatment are widely used.",
-      "list3": "Vacation Opportunity: You can enjoy a beautiful vacation in paradise-like Antalya/Kemer while undergoing treatment.",
-      "list4": "VIP Services: Enjoy a comfortable process with perks such as hotel accommodation, airport transfers, and personal patient consultancy."
+      "list3": "Individual Planning: Your treatment is planned in detail and tailored to your needs.",
+      "list4": "Regular Follow-Up: Information and check-up steps are carried out clearly throughout the process."
     },
     "ListSec5": {
       "header": "The Premium Art Dental Clinic Difference",
       "text": "At our clinic in Antalya/Kemer, specially for our international patients:",
       "list1": "Free online preliminary examination and treatment planning",
-      "list2": "Free accommodation and VIP transfer services",
+      "list2": "Transparent information and process support",
       "list3": "Patient coordinators who speak your language",
       "list4": "CE-certified materials and guaranteed treatments"
     },
@@ -748,7 +748,7 @@
       "list2_header": "Affordable Prices",
       "list2": "Smile makeover prices in Turkey are significantly lower than in Europe and the U.S., without compromising on quality. Materials are sourced from leading global brands.",
       "list3_header": "Fast and Effective Results",
-      "list3": "Clinics in Turkey complete the treatment process quickly, allowing you to enhance your smile and enjoy a vacation simultaneously."
+      "list3": "Clinics in Turkey complete the treatment process efficiently, helping you improve your smile with a clear and well-planned timeline."
     },
     "ListSec3": {
       "header": "The Smile Makeover Process",
@@ -850,7 +850,7 @@
       "text": "At Premium Art Dental Clinic, we offer both treatment options with high-quality care:",
       "list1": "Expert Team: Our experienced dental specialists ensure safe and aesthetic results with both All-on-4 and All-on-6 treatments.",
       "list2": "Fixed Temporary Teeth: We provide fixed temporary teeth to ensure that you have an aesthetic smile throughout your treatment process.",
-      "list3": "Hotel Transfer Services: We provide hotel transfer services before and after treatment, ensuring that you won't experience any transportation issues during your journey.",
+      "list3": "Process Support: We share the necessary information before and after treatment to keep the process organized.",
       "list4": "High Patient Satisfaction: We prioritize our patients' comfort throughout their treatment with comprehensive support and information."
     },
     "BlogConclusion": {
@@ -861,7 +861,7 @@
   "Blog8": {
     "slug": "5-reasons-why-antalya-best-destination-dental-treatment",
     "header": "5 Reasons Why Antalya is the Best Destination for Your Dental Treatment",
-    "text1": "In recent years, Antalya has become one of the top destinations in the world for dental tourism. Combining high-quality dental care with stunning natural beauty, this Mediterranean city offers the perfect option for those looking to improve their health while enjoying a relaxing holiday. Whether you're coming for dental implants, smile design, or another treatment, Antalya allows you to restore your oral health and enjoy a memorable getaway at the same time. Here are 5 reasons why Antalya is the ideal choice for your dental treatment:",
+    "text1": "In recent years, Antalya has become one of the standout cities for dental treatment thanks to its modern clinics, high quality standards, and accessible costs. With advanced clinical infrastructure, structured treatment planning, and a setting that supports patient comfort, Antalya offers a strong option for people seeking reliable dental care. Whether you are coming for dental implants, smile design, or another treatment, Antalya can help you complete your care in a well-organized and comfortable way. Here are 5 reasons why Antalya is an ideal choice for your dental treatment:",
     "ListSec1": {
       "header": "1. World-Class Clinics at Affordable Prices",
       "text": "Antalya is home to many modern dental clinics equipped with the latest technology and meeting European standards. At Premium Art Dental Clinic, we offer:",
@@ -869,46 +869,46 @@
       "list2": "Digital smile design and 3D dental imaging",
       "list3": "Painless and fast implant & aesthetic treatments",
       "list4": "Temporary teeth provided during full mouth restorations",
-      "list5": "VIP transfer services, patient coordination, and all-inclusive treatment packages",
+      "list5": "Patient coordination, transparent information, and structured treatment planning",
       "list_footer": "All these services are offered at 60–70% lower prices compared to the UK and most European countries."
     },
     "ListSec2": {
-      "header": "2. Surrounded by Natural Beauty & Stunning Beaches",
-      "text": "Want to recover from your treatment while relaxing by the turquoise sea or walking through serene natural settings?",
-      "list1": "Kemer offers peaceful beaches, luxury hotels, and a marina atmosphere",
-      "list2": "Olympos lets you stay in cozy treehouses and explore ancient ruins in the forest",
-      "list3": "Çıralı is famous for its silence and the eternal flames of Mount Chimaera (Yanartaş)",
-      "list4": "The Lycian Way is one of the most scenic trekking routes in the world",
-      "list_footer": "Healing in these surroundings feels like a form of therapy on its own."
+      "header": "2. Calm Surroundings and a Recovery-Friendly Setting",
+      "text": "For patients who want to rest in a calm and controlled setting after treatment, the surrounding area offers an important advantage:",
+      "list1": "The Kemer area stands out with its calm atmosphere and easily accessible town center",
+      "list2": "Nearby natural areas are suitable for short walks and quiet breaks",
+      "list3": "The spacious and orderly character of the region helps support a more comfortable treatment experience",
+      "list4": "Outdoor options make it easier for patients to maintain a relaxed daily routine",
+      "list_footer": "Many patients find that a calm environment positively supports the recovery period."
     },
     "ListSec3": {
-      "header": "3. All-Inclusive Dental Care: VIP Transfer, Hotel, Coordination",
-      "text": "At Premium Art Dental Clinic, we take care of everything you need throughout your treatment:",
-      "list1": "VIP airport pickup and hotel-to-clinic transfers",
-      "list2": "Beachfront or boutique hotel recommendations and booking support",
+      "header": "3. Structured Treatment Process and Patient Coordination",
+      "text": "At Premium Art Dental Clinic, we provide the information and coordination support you need throughout your treatment:",
+      "list1": "Clear appointment planning and treatment scheduling",
+      "list2": "Pre-treatment information and preparation details shared in advance",
       "list3": "Bilingual patient coordinators to assist you at every step",
       "list4": "Free consultation and personalized treatment plan",
-      "list_footer": "So, you're not just getting treatment — you're enjoying a comfortable, stress-free experience."
+      "list_footer": "This helps the entire process remain clear, organized, and comfortable from start to finish."
     },
     "ListSec4": {
-      "header": "4. Year-Round Sunshine & Mild Weather",
-      "text": "With over 300 sunny days per year, Antalya has a perfect climate for dental travel. No matter when you visit:",
-      "list1": "You'll enjoy your treatment in warm, sunny weather",
-      "list2": "Your recovery process will be smooth and comfortable",
-      "list3": "Outdoor activities and sightseeing won't be interrupted by bad weather",
-      "list_footer": "This is especially helpful for post-treatment rest and exploration."
+      "header": "4. Mild Climate and a Comfortable Daily Routine",
+      "text": "With more than 300 sunny days per year, Antalya allows for steady treatment planning throughout different seasons. No matter when you visit:",
+      "list1": "You can continue your treatment in a bright and comfortable setting",
+      "list2": "Your recovery routine can remain smooth and practical",
+      "list3": "Daily plans are less likely to be disrupted by weather conditions",
+      "list_footer": "This can be especially helpful for regular rest and recovery after treatment."
     },
     "ListSec5": {
-      "header": "5. History, Culture & Adventure in One Place",
-      "text": "Antalya offers more than just beaches and dental care — it's a cultural and historical hub full of exciting opportunities:",
-      "list1": "Visit Aspendos Theater or Hadrian's Gate for a taste of ancient history",
-      "list2": "Explore the art-filled streets and authentic eateries of Kaleiçi (Old Town)",
-      "list3": "Take a cable car or go paragliding over Mount Tahtalı",
-      "list4": "Join day trips to Pamukkale, Cappadocia, or Manavgat Waterfalls",
-      "list_footer": "It's a rare chance to combine dental treatment with a rich and vibrant holiday."
+      "header": "5. City Amenities and Daily Convenience",
+      "text": "Antalya brings together many practical advantages that support patients during treatment:",
+      "list1": "Access to central locations, pharmacies, and essential services is easy",
+      "list2": "Historic areas such as Kaleici reflect the character of the city",
+      "list3": "Natural areas around Tahtali and the surrounding region are suitable for quiet time",
+      "list4": "There are different options for simple daily routines within the city and nearby areas",
+      "list_footer": "This overall structure can make the treatment period more comfortable in day-to-day life."
     },
     "BlogConclusion": {
-      "text": "At Premium Art Dental Clinic, we aim to give you not just a treatment — but a truly unforgettable experience. You'll leave Antalya not only with a brand-new smile but also feeling renewed and refreshed. Ready to begin your dental journey in Antalya and enjoy a beautiful vacation at the same time? Contact us today for a free consultation and personalized treatment plan."
+      "text": "At Premium Art Dental Clinic, our goal is to offer not only treatment, but also a well-structured, reassuring, and comfortable process. We are here to help you leave Antalya with a renewed smile and a treatment journey completed with clarity and confidence. Contact us today for a free consultation and personalized treatment plan."
     }
   },
 
@@ -942,7 +942,7 @@
       "list4": "Abutment + zirconium or porcelain crown",
       "list5": "Fixed temporary teeth for full-mouth cases",
       "list6": "Local anesthesia and follow-up sessions",
-      "list7": "VIP airport-hotel-clinic transfers",
+      "list7": "Structured appointment planning and treatment coordination",
       "list8": "English-speaking patient coordinator",
       "list9": "Globally recognized, certified, lifetime-guaranteed implant brands",
       "list_footer": "There are no hidden fees – all treatment details are shared with full transparency beforehand."
@@ -958,7 +958,7 @@
       "list_footer": "That's why we recommend a free online consultation to provide you with a personalized treatment plan and clear pricing."
     },
     "BlogConclusion": {
-      "text": "Dental implants in Antalya offer not only an affordable solution but also a chance to combine your treatment with a Mediterranean holiday. Contact Premium Art Dental Clinic for a free initial consultation, custom treatment plan & quotation, and VIP support from arrival to departure. Let us help you smile again — with confidence and comfort. Let your smile be a piece of Art."
+      "text": "Dental implants in Antalya offer an affordable and high-quality solution. Contact Premium Art Dental Clinic for a free initial consultation, a personalized treatment plan and quotation, and clear support throughout the process. Let us help you smile again with confidence and comfort. Let your smile be a piece of Art."
     }
   },
 
@@ -1053,12 +1053,12 @@
   "list11": "Bone Graft Usually Not Required: Angled implant placement reduces or eliminates the need for bone grafting",
   "list12": "Budget-Friendly: A more affordable alternative compared to full-mouth traditional implants",
   "list13": "Natural Look and Function: High aesthetic results and restored chewing ability",
-  "header6": "How Does the Treatment Process Work in Antalya?",
+  "header6": "How Does the Treatment Process Work?",
   "list14": "Free Online Consultation: A personalized treatment plan is prepared after detailed analysis using a 3D jaw scan",
-  "list15": "First Visit to Antalya (5–7 Days): 4 implants are placed in the jawbone; Temporary fixed teeth are fitted the same day; Healing process begins",
+  "list15": "First Phase (5–7 Days): 4 implants are placed in the jawbone; Temporary fixed teeth are fitted the same day; Healing process begins",
   "list16": "Healing Period (3–4 Months): Implants fully integrate with the bone (osseointegration)",
-  "list17": "Second Visit (4–5 Days): Permanent zirconium teeth are placed; Final checks are completed",
-  "text3": "Contact us today for your individual price quote and detailed treatment plan. Enjoy world-class dental care and an unforgettable holiday in Antalya!"
+  "list17": "Second Phase (4–5 Days): Permanent zirconium teeth are placed; Final checks are completed",
+  "text3": "Contact us today for your individual quote and detailed treatment plan. Let's plan the most suitable process together."
   },
 
   "Allon6":{
@@ -1082,10 +1082,10 @@
   "list13": "Safe & Comfortable: Painless procedure under local anesthesia and quick recovery.",
   "header5": "How Does the Treatment Process Work?",
   "list14": "Free Online Consultation: Customized plan after detailed 3D jaw scan analysis.",
-  "list15": "First Visit to Antalya (5–7 Days): 6 implants placed; temporary fixed teeth fitted; healing begins.",
+  "list15": "First Phase (5–7 Days): 6 implants placed; temporary fixed teeth fitted; healing begins.",
   "list16": "Healing Period (3–6 Months): Implants fully integrate with the bone (osseointegration).",
-  "list17": "Second Visit (4–5 Days): Permanent zirconia teeth placed; final checks completed.",
-  "text2": "Contact us today to learn your personalized treatment plan. Experience world-class dental care and an unforgettable holiday in Antalya!"
+  "list17": "Second Phase (4–5 Days): Permanent zirconia teeth placed; final checks completed.",
+  "text2": "Contact us today to learn your personalized treatment plan. Let's plan the most suitable process together."
   },
 
   "DentalImplants":{
@@ -1103,7 +1103,7 @@
   "list7": "Multiple tooth loss.",
   "list8": "Prosthetic stabilization for complete edentulism (lack of teeth).",
   "list9": "Restoration of teeth with decay, fractures, or shape deformities.",
-  "text3": "At Premium Art Dental Clinic, we perform dental implant treatments using state-of-the-art equipment, experienced specialists, and personalized treatment plans. We ensure a smooth and comfortable treatment experience by guiding you through every step of the implant process. Throughout your treatment, we offer hotel accommodation and VIP transfer services in Antalya to guarantee your comfort."
+  "text3": "At Premium Art Dental Clinic, we perform dental implant treatments using state-of-the-art equipment, experienced specialists, and personalized treatment plans. At every step, we prioritize your comfort, safety, and long-term treatment success."
   },
   "DigitalDentistry":{
      "header1": "Digital Dentistry",
@@ -1122,7 +1122,7 @@
   "list10": "Robotic dental procedures",
   "list11": "Laser dental treatments",
   "list12": "Digital prosthetics (designing and manufacturing dental prosthetics digitally)",
-  "text2": "At Premium Art Dental Clinic, we provide high-precision treatment plans tailored to each patient using the latest digital dentistry devices. With digital dentistry, your treatment process will be faster, safer, and more comfortable. Additionally, we support you throughout the entire treatment process with our VIP transfer services and luxury hotel accommodations in our Antalya clinic."
+  "text2": "At Premium Art Dental Clinic, we provide high-precision treatment plans tailored to each patient using the latest digital dentistry devices. With digital dentistry, your treatment process will be faster, safer, and more comfortable."
   },
 
   "TeethWhitening":{
@@ -1149,7 +1149,7 @@
   "text1": "Veneers are one of the most commonly used and effective treatments in the field of dental aesthetics. These thin porcelain shells are specially applied to the front surface of the teeth. Veneers provide an excellent solution for patients concerned with aesthetics, effectively addressing issues such as discoloration, shape irregularities, cracks, and gaps between teeth.",
   "text2": "One of the greatest advantages of veneers is their ability to be applied with minimal enamel removal, preserving the natural structure of the tooth. This makes the treatment process minimally invasive compared to other procedures. Veneers not only enhance the aesthetic appearance of the teeth but also add strength and durability to them.",
   "text3": "At Premium Art Dental Clinic, we offer personalized veneer designs tailored to each patient. Our clinic uses the latest digital measurement devices and 3D design systems, ensuring perfect fit and aesthetic results. With veneers, you can achieve a flawless smile while maintaining the functional health of your teeth.",
-  "text4": "Throughout your treatment process, we prioritize your comfort by offering hotel accommodation and VIP transfer services in Antalya. Our experienced dentists and professional team are here to turn your dream smile into reality."
+  "text4": "Throughout your treatment process, we prioritize your comfort. Our experienced dentists and professional team are here to turn your dream smile into reality."
   },
 
   "Periodontology":{
@@ -1162,7 +1162,7 @@
   "list3": "Laser Gum Therapy: A minimally invasive, painless treatment with faster healing and no bleeding.",
   "list4": "Gum Surgery: In advanced cases, procedures such as gum contouring, bone grafting, or flap surgery may be necessary.",
   "list5": "Aesthetic Gum Treatments (Gummy Smile Correction): Reshaping excessive gum tissue to achieve a more balanced and attractive smile.",
-  "text3": "Throughout all treatments, we use pain-free techniques, state-of-the-art technology, and personalized planning to ensure the highest level of comfort for our patients. During your stay in Antalya, we provide luxury hotel accommodation and VIP transfer services between the airport and the clinic.",
+  "text3": "Throughout all treatments, we use pain-free techniques, state-of-the-art technology, and personalized planning to ensure the highest level of comfort for our patients.",
   "text4": "Thanks to our experienced periodontology specialists, we don’t just treat your gums—we help restore and protect your overall oral health. Because a healthy smile starts with healthy gums."
   },
 
@@ -1171,14 +1171,14 @@
   "text1": "Porcelain crowns with metal substructure are a type of dental restoration where durable and biocompatible metal alloys are used beneath the porcelain layer to provide strength and support. These metal alloys are specifically designed for use in dentistry and are highly compatible with both the teeth and surrounding gum tissues. Metal-based porcelain crowns are among the most widely used and long-lasting crown types. When fabricated with precision, they offer both durability and satisfactory aesthetic results. Additionally, they are considered a cost-effective solution.",
   "text2": "Porcelain crowns are frequently chosen to correct both aesthetic and structural imperfections of teeth. They are ideal for restoring broken, cracked, discolored, or misshapen teeth. The porcelain material is applied to the front surface of the tooth, delivering a natural look while also preserving the tooth's function.",
   "text3": "At Premium Art Dental Clinic, all porcelain crowns are custom-made using advanced 3D design technologies and digital oral scanners. This ensures a perfect fit and a result harmonizing with your natural smile. Throughout the entire treatment process, your comfort is our top priority.",
-  "text4": "During your visit to our clinic in Antalya, we provide luxury hotel accommodation and VIP transfer services between the clinic and the airport. Our experienced team of dentists carefully plans each treatment based on your individual needs and facial features, designing the most suitable smile for you. At Premium Art, we combine aesthetic excellence with dental health to help you smile with confidence."
+  "text4": "Our experienced team of dentists carefully plans each treatment based on your individual needs and facial features, designing the most suitable smile for you. At Premium Art, we combine aesthetic excellence with dental health to help you smile with confidence."
   },
 
   "ZirconiumCrowns":{
      "header1": "Zirconium Crowns",
   "text1": "Zirconium crowns are among the most preferred solutions in modern dentistry, offering both aesthetic appeal and functional durability. Unlike metal-supported crowns, zirconium is biocompatible and integrates seamlessly with the gums, preventing dark lines at the gum margin over time. Thanks to its light-transmitting structure, it closely mimics the appearance of natural teeth, providing a highly aesthetic and lifelike result.",
   "text2": "Zirconium crowns are ideal for restoring discolored, broken, or misshapen teeth, or replacing old fillings. They are highly resistant to wear, offer long-term durability, and do not cause sensitivity thanks to their low thermal conductivity.",
-  "text3": "At Premium Art Dental Clinic, we use the latest digital scanning systems and CAD/CAM technology to design zirconium crowns tailored specifically to your dental structure. Our goal is to ensure a perfect fit, maximum comfort, and a natural look. Throughout your treatment, we prioritize your comfort and convenience by offering hotel accommodation and VIP transfer services during your stay in Antalya.",
+  "text3": "At Premium Art Dental Clinic, we use the latest digital scanning systems and CAD/CAM technology to design zirconium crowns tailored specifically to your dental structure. Our goal is to ensure a perfect fit, maximum comfort, and a natural look.",
   "text4": "With the expertise and experience of our highly skilled dental team, we create a personalized smile design that’s not only beautiful but also healthy and natural. At Premium Art Dental Clinic, we are committed to delivering not just aesthetic results, but long-lasting satisfaction, trust, and exceptional quality."
   },
   "EmaxCrowns":{
@@ -1194,7 +1194,7 @@
   "list6": "Broken teeth caused by trauma or decay",
   "list7": "Crooked teeth",
   "list8": "Yellowed teeth, including smaller molars with less force applied",
-  "text3": "At Premium Art Dental Clinic, we create personalized E-max crowns using state-of-the-art digital measurement devices and 3D design technology. This ensures a perfect fit for each patient, resulting in a natural and aesthetic appearance. Throughout the treatment process, we prioritize your comfort by offering hotel accommodation and VIP transfer services at our clinic in Antalya.",
+  "text3": "At Premium Art Dental Clinic, we create personalized E-max crowns using state-of-the-art digital measurement devices and 3D design technology. This ensures a perfect fit for each patient, resulting in a natural and aesthetic appearance.",
   "text4":" E-max crowns have high light translucency, offering patients a natural appearance in the mouth. They are particularly preferred for front teeth. The types of teeth suitable for this treatment include:"
   },
   "Invisalign":{
@@ -1218,7 +1218,7 @@
   "list13": "Wearing the Aligners: Each aligner is worn for about 1–2 weeks, 20–22 hours a day",
   "list14": "Check-ups: Regular clinical check-ups are performed approximately every 6–8 weeks",
   "list15": "End of Treatment: Once the desired result is achieved, retainers are provided to ensure long-term stability",
-  "text2": "Throughout the treatment process, we prioritize your comfort by offering hotel accommodation and VIP transfer services at our clinic in Antalya. Our expert dental team is here to help you design a natural and healthy smile."
+  "text2": "Throughout the treatment process, we prioritize your comfort. Our expert dental team is here to help you design a natural and healthy smile."
   },
 
    "Gallery": {

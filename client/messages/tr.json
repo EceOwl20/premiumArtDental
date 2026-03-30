@@ -9,15 +9,15 @@
     "treatments": "Tedaviler",
     "team": "Ekibimiz",
     "doctors": "Doktorlar",
-    "dental": "Antalya Kemer'de Tatil",
-    "dentalText":"Antalya Kemer'de Tatil",
+    "dental": "Kemer Rehberi",
+    "dentalText":"Kemer Rehberi",
     "blog": "Blog",
     "gallery": "Galeri",
     "contact": "İletişim",
      "homepage": "Anasayfa",
-     "dentaltatil":"Antalya Kemer'de Gezilecek Yerler ve Yapılacak Aktiviteler",
+     "dentaltatil":"Kemer'de Öne Çıkan Noktalar",
       "text":" Site İçeriğinde Bulunan Bilgiler Destek Sağlamak İçindir. Hekimin Hastasını Tıbbi Amaçla Muayene, Tanı Ve Teşhis Koyması Yerine Geçmez!",
-      "dentalparagraf":"Antalya'nın en gözde tatil bölgelerinden biri olan Kemer, muhteşem doğası, masmavi denizi ve yıl boyunca süren güneşli havasıyla Türkiye'nin cennet köşelerindendir. Premium Art Dental Clinic'e tedavi için geldiğinizde, Kemer'de hem diş sağlığınıza kavuşabilir hem de unutulmaz bir tatil deneyimi yaşayabilirsiniz. İşte Kemer'de gezilecek yerler ve yapılacak aktivitelerden bazıları:"
+      "dentalparagraf":"Kliniğimizin bulunduğu Kemer bölgesi, doğal güzellikleri ve öne çıkan duraklarıyla dikkat çeker. Bölgede merak edilen bazı noktaları aşağıda bulabilirsiniz:"
   
     },
 
@@ -73,12 +73,12 @@
         "text": "Öncelikle online veya telefon üzerinden ücretsiz ön görüşme yaparak diş tedavi ihtiyaçlarınızı belirliyoruz ve size özel tedavi planını hazırlıyoruz."
       },
       {
-        "title": "Seyahat ve Konaklama",
-        "text": "Plan onaylandığında seyahat ve konaklama düzenlemelerinizde size yardımcı oluyor, kliniğimize ulaşımınızı en konforlu şekilde sağlıyoruz."
+        "title": "Planlama ve Hazırlık",
+        "text": "Plan onaylandığında randevu sürecinizi netleştiriyor, gerekli değerlendirmeleri tamamlıyor ve tedavinizi sizin için en uygun şekilde planlıyoruz."
       },
       {
-        "title": "Tatilinizin Tadını Çıkarın",
-        "text": "Tedavi süreciniz boyunca Antalya’nın güzelliklerini keşfedebilir, konforlu bir tatil ile sağlıklı bir gülüşe kavuşabilirsiniz."
+        "title": "Tedavi ve Takip",
+        "text": "Tedavi süreciniz boyunca ağız sağlığınızı yakından takip ediyor, her aşamada konforunuzu ve tedavi başarısını ön planda tutuyoruz."
       }
     ],
     "stats": {
@@ -500,7 +500,7 @@
     "header": "Kliniğimiz",
     "text1": "Premium Art Dental Clinic'e hoş geldiniz, güzel Kemer bölgesinde yer alan kliniğimizde olağanüstü bir diş deneyimi sunuyoruz.",
     "text2": "Geniş, konforlu bir ortamda, son teknoloji ile donatılmış tesisimizde hizmet vermekteyiz. 25 yıldan fazla deneyimi olan diş hekimleri ile, ihtiyaçlarınıza göre kişiselleştirilmiş bakım sunuyoruz.",
-    "text3": "Size kolaylık sağlamak için otel transferleri ve konforlu dinlenme alanları sunuyoruz. Klinik konumumuz, Olympos, Çıralı plajları ve Phaselis harabeleri gibi muhteşem yerlere kolay erişim imkânı tanıyor, böylece diş sağlığınızla birlikte rahat bir tatilin tadını çıkarabilirsiniz. Premium Art Dental Clinic'te olağanüstü bakımın ve sizleri bekleyen güzel gülüşlerin keyfini çıkarın!",
+    "text3": "Hastalarımızın rahat edebileceği konforlu dinlenme alanları ve düzenli bir tedavi ortamı sunuyoruz. Modern altyapımız sayesinde süreciniz sakin, güvenli ve planlı bir şekilde ilerler.",
      "experience": "Yıllık Deneyim",
       "happyPatients": "Mutlu Hasta",
       "countries": "Ülkeden Ziyaretçi"
@@ -513,7 +513,7 @@
     "text1":"Premium Art Dental Clinic'e, güzel Kemer bölgesinde, Antalya'da hoş geldiniz. Kliniğimiz, özverili karı-koca ekibi olan Dt. Kivanc Ozkaral ve Dt. Firuzan Ozkaral tarafından yönetilmektedir. Kliniğimiz, diş hekimliğinde sanatçılık, son teknoloji ve şefkatli bakım ilkeleri üzerine kurulmuştur; tüm bunlar, olağanüstü gülüşler yaratmayı amaçlamaktadır.",
     "text2":"Geniş ve modern bir tesiste yer alan kliniğimiz, konforlu ve etkili bir tedavi deneyimi sağlamak için en son teknolojiyle donatılmış çeşitli ileri düzey diş hizmetleri sunmaktadır. On yılı aşkın bir deneyime sahip olan kliniğimiz, Birleşik Krallık ve Almanya da dahil olmak üzere 30'dan fazla ülkeden binlerce hastayı gururla tedavi etmiştir. Her hasta, benzersiz bir birey olarak ele alınmakta ve gelen herkes için sıcak, samimi bir ortam sunmaktayız.",
     "text3":"Yurt dışında diş bakımını seçmek zorlayıcı olabilir; bu nedenle şeffaflık ve açık iletişimi öncelikli kılıyoruz. Kliniğimiz, güvenliğiniz ve memnuniyetinizin garantisi için en yüksek uluslararası standartlar altında işlemektedir. Estetik diş tedavileri veya tam ağız restorasyonlarıyla ilgileniyorsanız, her tedaviyi bireysel ihtiyaç ve isteklerinize uygun bir şekilde titizlikle planlıyoruz.",
-    "text4":"Doğal güzellikler ve tarihi zenginlikler yönünden zengin bir bölgede yer alan kliniğimiz, hem rahatlama hem de diş bakımı arayanlar için mükemmel bir konumdadır. Olympos, Çıralı ve Phaselis gibi muhteşem destinasyonlarla çevrili olmamız sayesinde, gülüşünüzü geliştirirken çeşitli aktivitelerin tadını çıkarabilirsiniz.",
+    "text4":"Kliniğimiz, hastalarımıza sakin ve erişilebilir bir ortamda kapsamlı diş tedavileri sunar. Modern altyapımız ve özenli yaklaşımımız sayesinde her aşamada güven veren bir tedavi deneyimi hedefliyoruz.",
     "text5":"Premium Art Dental Clinic'te amacımız sadece size muhteşem bir gülüş sunmak değil, aynı zamanda yolculuğunuz boyunca değerli ve önemsenmiş hissetmenizi sağlamaktır. Mutlu ve sağlıklı gülüşler ailesine katılmanızı içtenlikle davet ediyoruz—çünkü siz en iyisini hak ediyorsunuz. Güveninizi yeniden keşfedin ve her zaman hayalini kurduğunuz gülüşe bizimle ulaşın. Unutmayın, 'Gülüşünüz, üzerinizde taşıyacağınız bir sanat.'"
   },
 
@@ -588,13 +588,13 @@
   },
   "ListSec2": {
     "header": "Neden Türkiye’de Diş İmplantı Tercih Etmelisiniz?",
-    "text": "Antalya’daki kliniğimiz, alanında uzman diş hekimleri ile uygun fiyatlı ve kaliteli tedavi sunduğu için diş turizmi konusunda ön plana çıkan bir merkezdir. İşte Türkiye’yi seçmeniz için bazı nedenler:",
+    "text": "Antalya’daki kliniğimiz, alanında uzman diş hekimleri, güncel teknoloji kullanımı ve planlı tedavi yaklaşımıyla öne çıkar. İşte Türkiye’yi seçmeniz için bazı nedenler:",
     "list1_header": "Uzmanlık ve Teknoloji",
     "list1": "Kliniğimizdeki hekimlerimiz, uluslararası standartlara uygun şekilde hizmet vermektedir. Kliniğimiz, en son teknolojiyle donatılmış olup tedavide kalite ve başarı oranını en üst düzeye taşır.",
     "list2_header": "Ekonomik Tedavi Seçenekleri",
-    "list2": "Türkiye’deki implant tedavisi, birçok ülkeye kıyasla çok daha ekonomiktir. Kaliteden ödün vermeden ciddi oranda tasarruf sağlayabilirsiniz. Ayrıca kliniğimize gelen hastalarımıza ücretsiz otel konaklaması ve VIP transfer hizmeti sunmaktayız. Hemen bizimle iletişime geçin, tedavinizi ertelemeyin ve %70’e varan tasarruf fırsatını yakalayın.",
-    "list3_header": "Tatil Fırsatı",
-    "list3": "Türkiye’de diş tedavisi yaptırmak, aynı zamanda harika bir tatil deneyimiyle birleşebilir. Zengin tarihi, kültürel mirası ve doğal güzellikleriyle Türkiye, keşfedilecek sayısız deneyim sunar. Diş tedavinizi unutulmaz bir tatil ile birleştirin!"
+    "list2": "Türkiye’deki implant tedavisi, birçok ülkeye kıyasla çok daha ekonomiktir. Kaliteden ödün vermeden ciddi oranda tasarruf sağlayabilir, uzman hekim kadrosu ve planlı süreç yönetimiyle tedavinizi güvenle ilerletebilirsiniz.",
+    "list3_header": "Planlı Süreç",
+    "list3": "Türkiye’de diş tedavisi yaptırmak, şeffaf bilgilendirme ve önceden netleştirilen adımlarla düzenli bir süreç sunar. Tedavi boyunca her aşama hakkında bilgi sahibi olabilirsiniz."
   },
   "ListSec3": {
     "header": "Diş İmplantları Yaşam Kalitesini Nasıl Artırır?",
@@ -614,7 +614,7 @@
    "Blog3": {
     "slug": "yurt-disindan-gelen-hastalar-icin-adim-adim-dis-tedavisi-sureci-turkiye-rehberi",
     "header": "Yurt Dışından Gelen Hastalar İçin Adım Adım Diş Tedavisi Süreci (Türkiye Rehberi)",
-    "text1": "Diş tedavinizi uygun fiyatlarla, yüksek kaliteyle ve tatil fırsatıyla birleştirmek ister misiniz? Türkiye, son yıllarda dental turizm alanında dünyanın en çok tercih edilen ülkelerinden biri haline geldi. Antalya/Kemer’deki Premium Art Diş Kliniğimiz, yurt dışından gelen hastalarımıza özel planlanmış VIP bir süreç sunuyoruz. Bu yazımızda, Türkiye’de diş tedavisi görmek isteyen yabancı hastalar için adım adım süreci anlatıyoruz. Böylece aklınızdaki tüm soru işaretleri netleşmiş olacak.",
+    "text1": "Diş tedavinizi uygun fiyatlarla ve yüksek kalite standartlarıyla planlamak ister misiniz? Türkiye, son yıllarda diş tedavileri için sık tercih edilen ülkelerden biri haline geldi. Antalya/Kemer’deki Premium Art Diş Kliniğimizde, yurt dışından gelen hastalar için adım adım planlanan bir tedavi süreci sunuyoruz. Bu yazımızda, Türkiye’de diş tedavisi görmek isteyen hastalar için süreci anlaşılır şekilde anlatıyoruz.",
     "ListSec1": {
       "header": "1. Ücretsiz Ön Görüşme ve Tedavi Planlaması",
       "text": "Tedavi süreciniz, bizimle ilk iletişime geçtiğiniz andan itibaren başlar. WhatsApp, e-posta veya web sitemiz aracılığıyla bize ulaştığınızda:",
@@ -628,20 +628,20 @@
       "list4": "Bu süreç tamamen ücretsizdir. Sorularınız için bizlerle hemen iletişime geçin."
     },
     "ListSec2": {
-      "header": "2. Uçuş ve Konaklama Düzenlemeleri",
-      "text": "Tedavinize karar verdiğinizde, size özel tarihleri birlik​te, sizin müsaitliğinize göre belirliyoruz. Premium Art Diş Kliniği olarak:",
+      "header": "2. Randevu Planlaması ve Tedavi Öncesi Bilgilendirme",
+      "text": "Tedavinize karar verdiğinizde, uygun tarihleri birlikte planlıyor ve tedavi öncesi gerekli bilgilendirmeleri sizinle paylaşıyoruz. Premium Art Diş Kliniği olarak:",
       "list1_header": "",
-      "list1": "Ücretsiz otel konaklaması (kahvaltı dahil).",
+      "list1": "Randevu ve muayene tarihleri sizin uygunluğunuza göre planlanır.",
       "list2_header": "",
-      "list2": "VIP havalimanı transferleri (otel-klinik arası dahil).",
+      "list2": "Tedavi öncesi gerekli bilgilendirme ve hazırlık detayları sizinle paylaşılır.",
       "list3_header": "",
-      "list3": "Bu süreçte rezervasyon departmanımız sizlere rehberlik, 7/24 Hasta Danışman Hizmeti ve sürekli iletişim hizmetleri sunmaktadır. Konfirmasyonlar tarafınıza iletilmektedir.",
+      "list3": "Süreç boyunca hasta danışman ekibimiz sorularınızı yanıtlar ve düzenli iletişim sağlar.",
       "list4_header": "",
-      "list4": "Siz sadece uçak biletinizi alıyorsunuz, gerisini biz hallediyoruz!"
+      "list4": "Tüm aşamalar önceden netleştirilir ve tedavi planınız tarafınıza düzenli olarak aktarılır."
     },
     "ListSec3": {
       "header": "3. Kliniğe Geliş ve Muayene",
-      "text": "Antalya’ya geldikten sonra sizi havalimanından karşılıyor ve otele yerleştiriyoruz. Randevu günü:",
+      "text": "Randevu günü kliniğimizde:",
       "list1_header": "",
       "list1": "Tam donanımlı diş kliniğimizde panoramik röntgen, 3D tomografi ve detaylı muayene yapılır.",
       "list2_header": "",
@@ -660,11 +660,11 @@
       "list3": "All-on-4 / All-on-6 implantlar / Full Ağız İmplant Tedavileri: 4–6 gün.",
       "list4_header": "",
       "list4": "İmplantın ikinci aşaması (3 ay sonra): 5–7 gün.",
-      "extra": "Tedavi süresince konforlu bir ortam sunuyoruz, hem kliniğimizde ağız sağlığınızla ilgileniyor hem de Antalya'nın güzelliklerini keşfetmenize zaman tanıyoruz."
+      "extra": "Tedavi süresince konforlu bir klinik ortamı ve planlı bir süreç sunuyoruz."
     },
     "ListSec5": {
       "header": "5. Tedavi Sonrası ve Destek",
-      "text": "Tedaviniz tamamlandıktan sonra, size özel bakım önerileri ve garanti belgeleriniz, tedavi faturanız, önce/sonra panoramik x-ray görüntüsü teslim edilir. Ayrıca:",
+      "text": "Tedaviniz tamamlandıktan sonra, size özel bakım önerileri, garanti belgeleriniz, tedavi faturanız ve panoramik x-ray görüntüleriniz teslim edilir. Ayrıca:",
       "list1_header": "",
       "list1": "Tedavi sonrası kontroller için çevrim içi ve yurt dışı meetinglerimiz ile destek sağlıyoruz.",
       "list2_header": "",
@@ -673,7 +673,7 @@
       "list3": "Tüm implantlar ve malzemeler orijinal, CE belgeli ve garantilidir."
     },
     "BlogConclusion": {
-      "text": "Premium Art Dental Clinic ile Yeni Bir Gülümsemeye Yolculuk\nYurt dışından gelen hastalarımıza sunduğumuz bu özel süreç sayesinde; tedavinizi güvenle, konforla ve uygun fiyatla yaptırabilirsiniz. Türkiye’de diş tedavisi, sadece sağlık değil, aynı zamanda keyifli bir deneyim!\nBizimle hemen iletişime geçin – Ücretsiz tedavi planınızı öğrenin ve yolculuğunuza bugün başlayın!"
+      "text": "Premium Art Dental Clinic ile Yeni Bir Gülümsemeye Yolculuk\nYurt dışından gelen hastalarımıza sunduğumuz planlı süreç sayesinde tedavinizi güvenle, konforla ve uygun fiyatla yaptırabilirsiniz.\nBizimle hemen iletişime geçin – Ücretsiz tedavi planınızı öğrenin ve sürecinizi bugün başlatın!"
     }
   },
 
@@ -716,14 +716,14 @@
       "text": "Uygun Fiyatlar: Avrupa ülkelerine göre %60–70 daha ekonomik fiyatlarla tedavi olabilirsiniz.",
       "list1": "Uzman Kadro: Türkiye’deki klinikler, alanında uzman periodontistlerle çalışmaktadır.",
       "list2": "Modern Teknoloji: 3D görüntüleme, lazer tedavi gibi ileri teknolojiler yaygın olarak kullanılmaktadır.",
-      "list3": "Tatil İmkânı: Tedavinizin yanında Antalya/Kemer gibi bir tatil cennetinde güzel vakit geçirebilirsiniz.",
-      "list4": "VIP Hizmetler: Otel konaklaması, havaalanı transferleri ve kişisel hasta danışmanlığı gibi ayrıcalıklarla konforlu bir süreç yaşarsınız."
+      "list3": "Bireysel Planlama: Tedaviniz ihtiyaçlarınıza göre detaylı ve kişisel olarak planlanır.",
+      "list4": "Düzenli Takip: Süreç boyunca bilgilendirme ve kontrol adımları net şekilde yürütülür."
     },
     "ListSec5": {
       "header": "Premium Art Dental Clinic Farkı",
       "text": "Antalya/Kemer’de bulunan kliniğimizde, yurt dışından gelen hastalarımıza özel olarak:",
       "list1": "Ücretsiz online ön muayene ve tedavi planlaması",
-      "list2": "Ücretsiz konaklama ve VIP transfer hizmeti",
+      "list2": "Şeffaf bilgilendirme ve süreç desteği",
       "list3": "Anadilinizi konuşan hasta danışmanları",
       "list4": "CE belgeli malzemeler ve garantili tedaviler"
     },
@@ -750,7 +750,7 @@
       "list2_header": "Uygun Fiyatlar",
       "list2": "Türkiye’de smile makeover fiyatları, Avrupa ve ABD’ye kıyasla çok daha uygundur. Kullanılan malzemeler dünya markalarından seçilir ve ekonomik çözümler sunulur.",
       "list3_header": "Hızlı ve Etkili Sonuçlar",
-      "list3": "Türkiye’deki klinikler, tedavi sürecini kısa sürede tamamlayarak hastalara tatil fırsatıyla birlikte hızlı sonuçlar sunar."
+      "list3": "Türkiye’deki klinikler, tedavi sürecini kısa sürede tamamlayarak hastalara planlı ve hızlı sonuçlar sunar."
     },
     "ListSec3": {
       "header": "Smile Makeover Süreci",
@@ -852,7 +852,7 @@
       "text": "Premium Art Dental Clinic'te her iki tedavi seçeneğini de yüksek kaliteli bakımla sunuyoruz:",
       "list1": "Uzman Kadro: Deneyimli diş hekimi uzmanlarımız hem All-on-4 hem de All-on-6 tedavileriyle güvenli ve estetik sonuçlar sağlar.",
       "list2": "Sabit Geçici Dişler: Tedavi süreciniz boyunca estetik bir gülümsemeye sahip olmanızı sağlamak için sabit geçici dişler sağlıyoruz.",
-      "list3": "Otel Transfer Hizmetleri: Tedavi öncesi ve sonrası otel transfer hizmetleri sunarak yolculuğunuz sırasında herhangi bir ulaşım sorunu yaşamamanızı sağlıyoruz.",
+      "list3": "Süreç Desteği: Tedavi öncesi ve sonrası gerekli bilgilendirmeleri paylaşarak sürecin düzenli ilerlemesini sağlıyoruz.",
       "list4": "Yüksek Hasta Memnuniyeti: Kapsamlı destek ve bilgilendirme ile tedavi boyunca hastalarımızın konforunu öncelik olarak görüyoruz."
     },
     "BlogConclusion": {
@@ -863,7 +863,7 @@
    "Blog8": {
     "slug": "antalya-dis-tedavisi-icin-en-iyi-destinasyon-5-neden",
     "header": "Antalya'nın Diş Tedaviniz İçin En İyi Destinasyon Olmasının 5 Nedeni",
-    "text1": "Son yıllarda Antalya, diş turizmi için dünyanın en popüler destinasyonlarından biri haline gelmiştir. Yüksek kaliteli diş bakımını büyüleyici doğal güzelliklerle birleştiren bu Akdeniz şehri, sağlığını iyileştirmek isteyen ve aynı zamanda rahatlatıcı bir tatil geçirmek isteyenler için mükemmel bir seçenek sunmaktadır. İster diş implantı, ister gülüş tasarımı ya da başka bir tedavi için geliyor olun, Antalya ağız sağlığınızı restore etmenize ve aynı zamanda unutulmaz bir kaçamak yaşamanıza olanak tanır. Antalya'nın diş tedaviniz için ideal seçim olmasının 5 nedeni:",
+    "text1": "Son yıllarda Antalya, modern klinikleri, yüksek kalite standartları ve erişilebilir maliyetleriyle diş tedavisi için öne çıkan şehirlerden biri haline gelmiştir. Gelişmiş klinik altyapısı, planlı tedavi süreçleri ve hastaların konforunu destekleyen ortamıyla Antalya, güvenilir diş tedavisi arayanlar için güçlü bir seçenektir. İster diş implantı, ister gülüş tasarımı ya da başka bir tedavi için geliyor olun, Antalya tedavinizi planlı ve konforlu bir şekilde sürdürmenize yardımcı olur. İşte Antalya'nın diş tedaviniz için ideal seçim olmasının 5 nedeni:",
     "ListSec1": {
       "header": "1. Uygun Fiyatlarda Dünya Standartlarında Klinikler",
       "text": "Antalya, en son teknoloji ile donatılmış ve Avrupa standartlarını karşılayan birçok modern diş kliniğine ev sahipliği yapmaktadır. Premium Art Dental Clinic'te şunları sunuyoruz:",
@@ -871,46 +871,46 @@
       "list2": "Dijital gülüş tasarımı ve 3D diş görüntüleme",
       "list3": "Ağrısız ve hızlı implant ve estetik tedaviler",
       "list4": "Tam ağız restorasyonları sırasında sağlanan geçici dişler",
-      "list5": "VIP transfer hizmetleri, hasta koordinasyonu ve her şey dahil tedavi paketleri",
+      "list5": "Hasta koordinasyonu, şeffaf bilgilendirme ve planlı tedavi süreçleri",
       "list_footer": "Tüm bu hizmetler İngiltere ve çoğu Avrupa ülkesine kıyasla %60–70 daha düşük fiyatlarla sunulmaktadır."
     },
     "ListSec2": {
-      "header": "2. Doğal Güzellikler ve Muhteşem Plajlarla Çevrili",
-      "text": "Tedavinizden sonra turkuaz denizin kenarında dinlenerek veya sakin doğal ortamlarda yürüyüş yaparak iyileşmek ister misiniz?",
-      "list1": "Kemer huzurlu plajlar, lüks oteller ve marina atmosferi sunar",
-      "list2": "Olympos'ta şirin ağaç evlerde kalabilir ve ormandaki antik kalıntıları keşfedebilirsiniz",
-      "list3": "Çıralı sessizliği ve Yanartaş'ın sonsuz alevleriyle ünlüdür",
-      "list4": "Likya Yolu dünyanın en güzel trekking rotalarından biridir",
-      "list_footer": "Bu ortamlarda iyileşmek kendi başına bir terapi türü gibi hissedilir."
+      "header": "2. Sakin Çevre ve İyileşmeyi Destekleyen Ortam",
+      "text": "Tedavi sonrasında kontrollü ve rahat bir ortamda dinlenmek isteyen hastalar için bölgenin sakin yapısı önemli bir avantaj sağlar:",
+      "list1": "Kemer bölgesi sakin yapısı ve kolay ulaşılabilir merkez noktalarıyla öne çıkar",
+      "list2": "Çevredeki doğal alanlar kısa yürüyüşler ve dingin molalar için uygundur",
+      "list3": "Bölgenin düzenli ve ferah yapısı tedavi sürecinde konfor hissini artırır",
+      "list4": "Açık hava olanakları hastaların günlük rutinlerini daha rahat sürdürmesine yardımcı olur",
+      "list_footer": "Birçok hasta, sakin bir çevrede bulunmanın iyileşme sürecine olumlu katkı sağladığını belirtir."
     },
     "ListSec3": {
-      "header": "3. Her Şey Dahil Diş Bakımı: VIP Transfer, Otel, Koordinasyon",
-      "text": "Premium Art Dental Clinic'te tedaviniz boyunca ihtiyacınız olan her şeyi karşılıyoruz:",
-      "list1": "VIP havaalanı karşılama ve otel-klinik transferleri",
-      "list2": "Deniz kenarı veya butik otel önerileri ve rezervasyon desteği",
+      "header": "3. Planlı Tedavi Süreci ve Hasta Koordinasyonu",
+      "text": "Premium Art Dental Clinic'te tedaviniz boyunca ihtiyaç duyduğunuz bilgilendirme ve koordinasyon desteğini sağlıyoruz:",
+      "list1": "Randevu planlaması ve tedavi takviminin net şekilde hazırlanması",
+      "list2": "Tedavi öncesi bilgilendirme ve gerekli hazırlıkların önceden paylaşılması",
       "list3": "Her adımda size yardımcı olacak iki dilli hasta koordinatörleri",
       "list4": "Ücretsiz konsültasyon ve kişiselleştirilmiş tedavi planı",
-      "list_footer": "Böylece sadece tedavi görmüyor — rahat, stressiz bir deneyim yaşıyorsunuz."
+      "list_footer": "Böylece süreç baştan sona düzenli, anlaşılır ve konforlu şekilde ilerler."
     },
     "ListSec4": {
-      "header": "4. Yıl Boyunca Güneş ve Ilıman Hava",
-      "text": "Yılda 300'den fazla güneşli günü ile Antalya, diş seyahati için mükemmel bir iklime sahiptir. Ne zaman gelirseniz gelin:",
-      "list1": "Tedavinizi sıcak, güneşli havada keyifle geçireceksiniz",
-      "list2": "İyileşme süreciniz sorunsuz ve konforlu olacak",
-      "list3": "Açık hava aktiviteleri ve gezi programınız kötü hava nedeniyle kesintiye uğramayacak",
-      "list_footer": "Bu özellikle tedavi sonrası dinlenme ve keşif için çok yararlıdır."
+      "header": "4. Dengeli İklim ve Konforlu Günlük Rutin",
+      "text": "Yılda 300'den fazla güneşli gün ile Antalya, farklı dönemlerde düzenli tedavi planlaması yapmaya olanak tanır. Ne zaman gelirseniz gelin:",
+      "list1": "Tedavinizi aydınlık ve konforlu bir ortamda sürdürebilirsiniz",
+      "list2": "İyileşme rutininiz daha rahat ve düzenli ilerleyebilir",
+      "list3": "Günlük planlamanız hava koşullarından daha az etkilenir",
+      "list_footer": "Bu durum özellikle tedavi sonrası düzenli dinlenme için avantaj sağlar."
     },
     "ListSec5": {
-      "header": "5. Tarih, Kültür ve Macera Tek Yerde",
-      "text": "Antalya sadece plajlar ve diş bakımı sunmakla kalmaz — heyecan verici fırsatlarla dolu kültürel ve tarihi bir merkezdir:",
-      "list1": "Antik tarihin tadını çıkarmak için Aspendos Tiyatrosu veya Hadrian Kapısı'nı ziyaret edin",
-      "list2": "Kaleiçi'nin sanat dolu sokakları ve otantik yemek mekanlarını keşfedin",
-      "list3": "Tahtalı Dağı üzerinde teleferik ile çıkın veya paraşütle atlayın",
-      "list4": "Pamukkale, Kapadokya veya Manavgat Şelalesi'ne günlük gezilere katılın",
-      "list_footer": "Diş tedavisini zengin ve canlı bir tatille birleştirmenin nadir bir fırsatıdır."
+      "header": "5. Şehir Olanakları ve Günlük Konfor",
+      "text": "Antalya, tedavi süreci boyunca ihtiyaç duyulan birçok şehir olanağını bir arada sunar:",
+      "list1": "Merkez noktalara, eczanelere ve temel hizmetlere erişim kolaydır",
+      "list2": "Kaleiçi gibi tarihi bölgeler şehrin karakterini yansıtır",
+      "list3": "Tahtalı ve çevresindeki doğal alanlar sakin vakit geçirmek isteyenler için uygundur",
+      "list4": "Şehir içi ve yakın çevrede farklı günlük rota seçenekleri bulunur",
+      "list_footer": "Bu yapı, tedavi sürecini günlük yaşam açısından daha rahat hale getirir."
     },
     "BlogConclusion": {
-      "text": "Premium Art Dental Clinic olarak size sadece bir tedavi değil — gerçekten unutulmaz bir deneyim sunmayı hedefliyoruz. Antalya'dan sadece yepyeni bir gülümsemeyle değil, aynı zamanda yenilenmiş ve tazelenmiş hissederek ayrılacaksınız. Antalya'da diş yolculuğunuza başlamaya ve aynı zamanda güzel bir tatil geçirmeye hazır mısınız? Ücretsiz konsültasyon ve kişiselleştirilmiş tedavi planı için bugün bizimle iletişime geçin."
+      "text": "Premium Art Dental Clinic olarak size yalnızca tedavi değil, planlı, güven veren ve konforlu bir süreç sunmayı hedefliyoruz. Antalya'dan yeni bir gülümsemeyle ve tedavi sürecinizi net şekilde tamamlamış olarak ayrılmanız için yanınızdayız. Ücretsiz konsültasyon ve kişiselleştirilmiş tedavi planı için bugün bizimle iletişime geçin."
     }
   },
 
@@ -944,7 +944,7 @@
       "list4": "Abutment + zirkonya veya porselen kron",
       "list5": "Tam ağız vakaları için sabit geçici dişler",
       "list6": "Lokal anestezi ve takip seansları",
-      "list7": "VIP havaalanı-otel-klinik transferleri",
+      "list7": "Randevu planlaması ve tedavi koordinasyonu",
       "list8": "Türkçe konuşan hasta koordinatörü",
       "list9": "Dünya çapında tanınan, sertifikalı, ömür boyu garantili implant markaları",
       "list_footer": "Gizli ücret yoktur – tüm tedavi detayları önceden tam şeffaflıkla paylaşılır."
@@ -960,7 +960,7 @@
       "list_footer": "Bu nedenle size kişiselleştirilmiş bir tedavi planı ve net fiyatlandırma sağlamak için ücretsiz online konsültasyon öneriyoruz."
     },
     "BlogConclusion": {
-      "text": "Antalya'daki diş implantları sadece uygun fiyatlı bir çözüm sunmakla kalmaz, aynı zamanda tedavinizi Akdeniz tatili ile birleştirme şansı da verir. Ücretsiz ilk konsültasyon, özel tedavi planı ve kotasyon, varıştan ayrılışa kadar VIP destek için Premium Art Dental Clinic ile iletişime geçin. Yeniden gülümsemenize yardımcı olmamıza izin verin — güven ve rahatlıkla. Gülümsemeniz bir sanat eseri olsun."
+      "text": "Antalya'daki diş implantları uygun fiyatlı ve yüksek kaliteli bir çözüm sunar. Ücretsiz ilk konsültasyon, kişiselleştirilmiş tedavi planı ve fiyatlandırma ile süreç boyunca net destek için Premium Art Dental Clinic ile iletişime geçin. Yeniden güvenle ve rahatlıkla gülümsemenize yardımcı olmamıza izin verin. Gülümsemeniz bir sanat eseri olsun."
     }
   },
 
@@ -1055,12 +1055,12 @@
   "list11": "Genellikle Kemik Grefti Gerekmez: Açılı implant yerleştirme kemik grefti ihtiyacını azaltır veya ortadan kaldırır",
   "list12": "Bütçe Dostu: Tam ağız geleneksel implantlara kıyasla daha uygun fiyatlı bir alternatiftir",
   "list13": "Doğal Görünüm ve Fonksiyon: Yüksek estetik sonuç ve çiğneme fonksiyonunun geri kazanılması",
-  "header6": "Antalya’da Tedavi Süreci Nasıl İşliyor?",
+  "header6": "Tedavi Süreci Nasıl İşliyor?",
   "list14": "Ücretsiz Online Danışma: 3D çene taramasıyla detaylı analiz sonrası kişiye özel tedavi planı hazırlanır",
-  "list15": "Antalya’ya İlk Ziyaret (5–7 Gün): 4 implant çene kemiğine yerleştirilir; Geçici sabit dişler aynı gün takılır; İyileşme süreci başlar",
+  "list15": "İlk Aşama (5–7 Gün): 4 implant çene kemiğine yerleştirilir; Geçici sabit dişler aynı gün takılır; İyileşme süreci başlar",
   "list16": "İyileşme Dönemi (3–4 Ay): İmplantlar kemikle tamamen bütünleşir (osseointegrasyon)",
-  "list17": "İkinci Ziyaret (4–5 Gün): Kalıcı zirkonyum dişler yerleştirilir; Son kontroller tamamlanır",
-  "text3": "Bireysel fiyat teklifiniz ve detaylı tedavi planınız için bugün bizimle iletişime geçin. Antalya’da dünya standartlarında diş bakımı ve unutulmaz bir tatil sizi bekliyor!"
+  "list17": "İkinci Aşama (4–5 Gün): Kalıcı zirkonyum dişler yerleştirilir; Son kontroller tamamlanır",
+  "text3": "Bireysel fiyat teklifiniz ve detaylı tedavi planınız için bugün bizimle iletişime geçin. Size uygun süreci birlikte planlayalım."
   },
 
   "Allon6":{
@@ -1084,10 +1084,10 @@
   "list13": "Güvenli ve Konforlu Süreç: Lokal anestezi ile ağrısız uygulama, hızlı iyileşme dönemi.",
   "header5": "Tedavi Süreci Nasıl İlerler?",
   "list14": "Ücretsiz Online Danışmanlık: Size özel detaylı tedavi planı hazırlanır. 3D çene tomografisi ile analiz yapılır.",
-  "list15": "İlk Antalya Ziyareti (5–7 Gün): 6 adet implant çeneye yerleştirilir; geçici sabit diş takılır; iyileşme süreci başlatılır.",
+  "list15": "İlk Aşama (5–7 Gün): 6 adet implant çeneye yerleştirilir; geçici sabit diş takılır; iyileşme süreci başlatılır.",
   "list16": "İyileşme Süreci (3–6 Ay): İmplantlar kemikle tamamen kaynaşır.",
-  "list17": "İkinci Ziyaret (4–5 Gün): Kalıcı zirkonyum dişler takılır; son kontroller yapılır.",
-  "text2": "Kendi tedavi planınızı öğrenmek için bizimle iletişime geçin. Antalya’da hem sağlığınıza kavuşun hem tatilin keyfini çıkarın!"
+  "list17": "İkinci Aşama (4–5 Gün): Kalıcı zirkonyum dişler takılır; son kontroller yapılır.",
+  "text2": "Kendi tedavi planınızı öğrenmek için bizimle iletişime geçin. Size en uygun süreci birlikte planlayalım."
   },
 
   "DentalImplants":{
@@ -1105,7 +1105,7 @@
   "list7": "Birden fazla diş kaybı.",
   "list8": "Tam dişsizlik için protez stabilizasyonu.",
   "list9": "Çürüme, kırık veya şekil bozukluğu olan dişlerin restorasyonu.",
-   "text3": "Premium Art Dental Clinic’te, son teknoloji ekipman, deneyimli uzmanlar ve kişiye özel tedavi planlarıyla diş implantı tedavileri gerçekleştiriyoruz. Tedavi süreciniz boyunca konforunuz için Antalya’da otel konaklaması ve VIP transfer hizmetleri sunuyoruz."
+   "text3": "Premium Art Dental Clinic’te, son teknoloji ekipman, deneyimli uzmanlar ve kişiye özel tedavi planlarıyla diş implantı tedavileri gerçekleştiriyoruz. Sürecin her aşamasında konforunuzu, güvenliğinizi ve uzun vadeli başarıyı ön planda tutuyoruz."
   },
 
   "DigitalDentistry":{
@@ -1125,7 +1125,7 @@
   "list10": "Robotik diş tedavileri",
   "list11": "Lazer diş tedavileri",
   "list12": "Dijital protezler (dijital olarak tasarlanan ve üretilen diş protezleri)",
-  "text2": "Premium Art Dental Clinic’te en son dijital diş hekimliği cihazları kullanılarak her hastaya özel yüksek hassasiyetli tedavi planları sunuyoruz. Dijital diş hekimliği ile tedavi süreciniz daha hızlı, daha güvenli ve daha konforlu olacak. Ayrıca Antalya kliniğimizde VIP transfer hizmetleri ve lüks otel konaklama seçeneklerimizle tedavi süreciniz boyunca yanınızdayız."
+  "text2": "Premium Art Dental Clinic’te en son dijital diş hekimliği cihazları kullanılarak her hastaya özel yüksek hassasiyetli tedavi planları sunuyoruz. Dijital diş hekimliği ile tedavi süreciniz daha hızlı, daha güvenli ve daha konforlu olacak."
   },
 
   "TeethWhitening":{
@@ -1153,7 +1153,7 @@
   "text1": "Kaplamalar, diş estetiği alanında en sık kullanılan ve etkili tedavilerden biridir. Bu ince porselen kaplamalar dişlerin ön yüzeyine uygulanır. Kaplamalar, renk bozuklukları, şekil düzensizlikleri, çatlaklar ve dişler arasındaki boşluklar gibi estetik sorunları etkili bir şekilde çözerek mükemmel bir gülüş sağlar.",
   "text2": "Kaplamaların en büyük avantajlarından biri, minimal mine kaldırımı ile uygulanabilmeleri ve böylece dişin doğal yapısının korunmasıdır. Bu sayede tedavi diğer işlemlere kıyasla çok daha az invazivdir. Kaplamalar, dişlerin estetik görünümünü iyileştirirken aynı zamanda güç ve dayanıklılık da kazandırır.",
   "text3": "Premium Art Dental Clinic’te, her hastaya özel lamine kaplama tasarımları sunuyoruz. Kliniğimizde en son dijital ölçüm cihazları ve 3B tasarım sistemleri kullanılarak kusursuz uyum ve estetik sonuçlar elde ediyoruz. Kaplamalar sayesinde hem fonksiyonel diş sağlığınızı korur hem de kusursuz bir gülüşe sahip olabilirsiniz.",
-  "text4": "Tedavi süreciniz boyunca konforunuzu ön planda tutarak Antalya’da otel konaklaması ve VIP transfer hizmetleri sağlıyoruz. Deneyimli diş hekimlerimiz ve profesyonel ekibimiz, hayalinizdeki gülüşü gerçeğe dönüştürmek için yanınızda."
+  "text4": "Tedavi süreciniz boyunca konforunuzu ön planda tutuyoruz. Deneyimli diş hekimlerimiz ve profesyonel ekibimiz, hayalinizdeki gülüşü gerçeğe dönüştürmek için yanınızda."
   },
 
   "Periodontology":{
@@ -1166,7 +1166,7 @@
   "list3": "Lazerli Diş Eti Terapisi: Minimal invaziv, ağrısız bir uygulama olup hızlı iyileşme ve kanama olmamasını sağlar.",
   "list4": "Diş Eti Cerrahisi: İleri vakalarda diş eti şekillendirme, kemik grefti veya flap cerrahisi gerekebilir.",
   "list5": "Estetik Diş Eti Tedavileri (Gummy Smile Düzeltme): Aşırı diş eti dokusunu yeniden şekillendirerek dengeli ve estetik bir gülüş oluşturur.",
-  "text3": "Tüm tedavilerde ağrısız teknikler, son teknoloji ekipman ve kişiye özel planlama kullanarak hastalarımızın konforunu en üst düzeyde tutuyoruz. Antalya’da konaklamanız süresince VIP transfer ve lüks otel imkânları sunuyoruz.",
+  "text3": "Tüm tedavilerde ağrısız teknikler, son teknoloji ekipman ve kişiye özel planlama kullanarak hastalarımızın konforunu en üst düzeyde tutuyoruz.",
   "text4": "Deneyimli periodontoloji uzmanlarımız sayesinde sadece diş etlerinizi değil, genel ağız sağlığınızı da koruyor ve yeniden kazandırıyoruz. Çünkü sağlıklı bir gülüş, sağlıklı diş etleriyle başlar."
   },
 
@@ -1175,14 +1175,14 @@
   "text1": "Metal alt yapılı porselen kaplamalar, porselen tabakasının altına dayanıklılık ve destek sağlamak amacıyla biyouyumlu metal alaşımların yerleştirildiği bir restorasyon türüdür. Diş hekimliğinde özel olarak tasarlanan bu alaşımlar, diş ve çevre dokularla yüksek uyum gösterir. Metal destekli porselen kaplamalar, yaygın kullanılan ve uzun ömürlü en dayanıklı kron tiplerinden biridir. Hassas üretildiklerinde hem dayanıklılık hem de estetik açıdan tatmin edici sonuçlar sunar ve maliyet-etkin bir çözümdür.",
   "text2": "Porselen kaplamalar, dişlerin estetik ve yapısal kusurlarını düzeltmek için sıklıkla tercih edilir. Kırık, çatlak, renk bozukluğu veya şekil bozukluğu olan dişlerin restorasyonunda idealdir. Porselen, dişin ön yüzeyine uygulanarak doğal bir görünüm sunarken işlevselliği de korur.",
   "text3": "Premium Art Dental Clinic’te tüm porselen kaplamalar, gelişmiş 3B tasarım teknolojileri ve dijital ağız içi tarayıcılar kullanılarak kişiye özel üretilir. Bu sayede mükemmel uyum ve doğal gülüşünüzle uyumlu sonuçlar elde edilir. Tedavi süreciniz boyunca konforunuz bizim önceliğimizdir.",
-  "text4": "Antalya kliniğimizdeki ziyaretiniz süresince lüks otel konaklaması ve VIP transfer hizmetleri sunuyoruz. Deneyimli diş hekimlerimiz, yüz hatlarınıza ve beklentilerinize uygun en ideal gülüş tasarımını gerçekleştirir. Premium Art’da estetik mükemmeliyet ve dental sağlığı bir araya getirerek özgüvenle gülümsemenize yardımcı oluyoruz."
+  "text4": "Deneyimli diş hekimlerimiz, yüz hatlarınıza ve beklentilerinize uygun en ideal gülüş tasarımını gerçekleştirir. Premium Art’da estetik mükemmeliyet ve dental sağlığı bir araya getirerek özgüvenle gülümsemenize yardımcı oluyoruz."
   },
 
   "ZirconiumCrowns":{
      "header1": "Zirkonyum Kaplamalar",
   "text1": "Zirkonyum kaplamalar, modern diş hekimliğinde estetik çekicilik ve fonksiyonel dayanıklılığı bir arada sunan en çok tercih edilen çözümler arasındadır. Metal destekli kronların aksine zirkonyum biyo-uyumludur ve zamanla diş eti sınırında kararmayı önleyerek diş etleriyle sorunsuz bütünleşir. Işığı geçiren yapısı sayesinde doğal diş görünümünü yakından taklit eder ve yüksek estetikli, gerçekçi bir sonuç sağlar.",
   "text2": "Zirkonyum kaplamalar, renk bozukluğu, kırık veya şekil bozukluğu olan dişlerin restorasyonunda veya eski dolgu malzemelerinin yerine geçmede idealdir. Yüksek aşınma direncine sahiptir, uzun ömürlüdür ve düşük ısıl iletkenlikleri sayesinde diş hassasiyetine neden olmaz.",
-  "text3": "Premium Art Dental Clinic’te, zirkonyum kaplamaları diş yapınıza özel olarak tasarlamak için en son dijital tarama sistemleri ve CAD/CAM teknolojisi kullanıyoruz. Mükemmel uyum, maksimum konfor ve doğal bir görünüm sağlamayı hedefliyoruz. Tedaviniz boyunca konforunuz ve rahatınız için Antalya’daki konaklamada otel hizmetleri ve VIP transfer imkânları sunuyoruz.",
+  "text3": "Premium Art Dental Clinic’te, zirkonyum kaplamaları diş yapınıza özel olarak tasarlamak için en son dijital tarama sistemleri ve CAD/CAM teknolojisi kullanıyoruz. Mükemmel uyum, maksimum konfor ve doğal bir görünüm sağlamayı hedefliyoruz.",
   "text4": "Yüksek deneyime sahip diş hekimlerimizle, hem estetik açıdan güzel hem de sağlıklı ve doğal bir gülüş tasarlıyoruz. Premium Art Dental Clinic’te, yalnızca estetik sonuçlar değil, uzun süreli memnuniyet, güven ve üstün kalite sunmaya kararlıyız."
   },
 
@@ -1199,7 +1199,7 @@
   "list6": "Travma veya çürük nedeniyle kırılmış dişler",
   "list7": "Çarpık dişler",
   "list8": "Sarılaşmış dişler (küçük azı dişleri dahil)",
-  "text3": "Premium Art Dental Clinic’te her hastaya özel dijital ölçüm cihazları ve 3B tasarım teknolojisi kullanarak kişiye özel E-max kaplamalar oluşturuyoruz. Bu sayede mükemmel uyum, doğal estetik ve uzun ömürlü sonuçlar elde edilir. Tedavi süreciniz boyunca konforunuz için Antalya’da otel konaklaması ve VIP transfer hizmetleri sunuyoruz.",
+  "text3": "Premium Art Dental Clinic’te her hastaya özel dijital ölçüm cihazları ve 3B tasarım teknolojisi kullanarak kişiye özel E-max kaplamalar oluşturuyoruz. Bu sayede mükemmel uyum, doğal estetik ve uzun ömürlü sonuçlar elde edilir.",
   "text4": "E-max kaplamalar yüksek ışık geçirgenliğine sahiptir, bu da hastalara ağız içinde doğal bir görünüm sunar. Özellikle ön dişler için tercih edilir. Bu tedaviye uygun diş tipleri şunlardır:"
   },
 
@@ -1224,7 +1224,7 @@
   "list13": "Aligner Kullanımı: Her aligner 1–2 hafta boyunca günde 20–22 saat takılır",
   "list14": "Kontroller: Yaklaşık her 6–8 haftada bir klinik kontroller yapılır",
   "list15": "Tedavi Sonu: İstenen sonuç elde edildiğinde, dişlerin stabilitesini korumak için retainer verilir",
-  "text2": "Tedavi süresince konforunuz için Antalya kliniğimizde otel konaklaması ve VIP transfer hizmetleri sunuyoruz. Uzman diş hekimleri ekibimizle doğal ve sağlıklı bir gülüş tasarlamanıza yardımcı oluyoruz."
+  "text2": "Tedavi süresince konforunuzu ön planda tutuyoruz. Uzman diş hekimleri ekibimizle doğal ve sağlıklı bir gülüş tasarlamanıza yardımcı oluyoruz."
   },
 
      "Gallery": {
