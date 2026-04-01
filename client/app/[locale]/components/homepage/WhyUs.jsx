@@ -3,7 +3,7 @@
 
 import Image from "next/image";
 import { FaCheck } from "react-icons/fa";
-import img1 from "../../../../public/images/new/A_O01553.jpg"
+import img1 from "../../../../public/images/smile2.jpg"
 import { useTranslations } from "next-intl";
 
 export default function WhyUs() {
