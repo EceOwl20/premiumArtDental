@@ -9,7 +9,7 @@ const Page = () => {
   return (
     <div className='overflow-x-hidden'>
       <Banner header={t("header")} text={t("span")}/>
-      <TeamCarousel/>
+      <TeamCarousel showCvSection />
     </div>
   )
 }

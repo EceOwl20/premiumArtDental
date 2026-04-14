@@ -12,7 +12,7 @@ import { getDoctorProfiles } from "./doctorProfiles";
 
 
 
-export default function TeamCarousel() {
+export default function TeamCarousel({ showCvSection = false }) {
   const t = useTranslations('OurTeam');
   const locale = useLocale();
   const profileContent = useMemo(() => getDoctorProfiles(locale), [locale]);
@@ -300,12 +300,96 @@ export default function TeamCarousel() {
                         {selectedDoctor.biography}
                       </p>
                     </section>
+
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      )}
+
+      {showCvSection && (
+        <section className="pb-10 lg:pb-20">
+          <div className="container mx-auto px-4 md:px-8 lg:px-16">
+            <div className="mb-8 max-w-3xl">
+              <p className="font-jost text-xs uppercase tracking-[0.24em] text-[#1f84d2]/70">
+                {profileContent.ui.cvDocuments}
+              </p>
+              <h3 className="mt-3 font-roboto text-[28px] text-[#c1005c] lg:text-4xl">
+                {profileContent.ui.cvSectionTitle}
+              </h3>
+              <p className="mt-3 font-raleway text-[15px] leading-7 text-[#050a30]/80">
+                {profileContent.ui.cvSectionText}
+              </p>
+            </div>
+
+            <div className="space-y-8">
+              {teamMembers
+                .filter((member) => member.cvImages?.length > 0)
+                .map((member) => (
+                  <article
+                    key={`${member.id}-cv-section`}
+                    className="rounded-[28px] border border-[#e5edf7] bg-white p-5 shadow-[0_18px_60px_rgba(5,10,48,0.06)] lg:p-8"
+                  >
+                    <div className="grid gap-6 xl:grid-cols-[280px_minmax(0,1fr)]">
+                      <div className="flex gap-4 lg:block">
+                        <div className="relative h-28 w-24 flex-shrink-0 overflow-hidden rounded-[20px] bg-[#eef5fb] lg:h-[340px] lg:w-full">
+                          <Image
+                            src={member.image}
+                            alt={member.name}
+                            fill
+                            sizes="(min-width: 1280px) 280px, 96px"
+                            className={`object-cover ${member.imageClassName ?? "object-center"}`}
+                          />
+                        </div>
+
+                        <div className="min-w-0 lg:mt-5">
+                          <h4 className="font-raleway text-xl font-semibold text-[#050a30]">
+                            {member.name}
+                          </h4>
+                          <p className="mt-2 font-jost text-sm text-[#5e6b7f]">
+                            {member.title}
+                          </p>
+                        </div>
+                      </div>
+
+                      <div className="grid gap-5 md:grid-cols-2">
+                        {member.cvImages.map((image, index) => (
+                          <a
+                            key={`${member.id}-inline-cv-${index + 1}`}
+                            href={image.src}
+                            target="_blank"
+                            rel="noreferrer"
+                            className="group block overflow-hidden rounded-[22px] border border-[#e5edf7] bg-[#f8fbff] transition hover:-translate-y-1 hover:shadow-[0_20px_50px_rgba(5,10,48,0.08)]"
+                          >
+                            <div className="relative aspect-[3/4] bg-white">
+                              <Image
+                                src={image}
+                                alt={`${member.name} ${profileContent.ui.cvDocuments} ${index + 1}`}
+                                fill
+                                sizes="(min-width: 1024px) 40vw, 100vw"
+                                className="object-contain p-3 transition-transform duration-300 group-hover:scale-[1.02]"
+                              />
+                            </div>
+
+                            <div className="flex items-center justify-between border-t border-[#e5edf7] px-4 py-3">
+                              <span className="font-jost text-sm text-[#050a30]">
+                                {profileContent.ui.pageLabel} {index + 1}
+                              </span>
+                              <span className="font-jost text-sm text-[#1f84d2]">
+                                {profileContent.ui.openImage}
+                              </span>
+                            </div>
+                          </a>
+                        ))}
+                      </div>
+                    </div>
+                  </article>
+                ))}
+            </div>
+          </div>
+        </section>
       )}
     </>
   );

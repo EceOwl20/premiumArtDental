@@ -1,6 +1,18 @@
 import dteceSolo from "@/public/images/doctors/DtEceYelliceSolo.jpg";
 import dtfiruzan from "@/public/images/doctors/DtFiruzanKucukozkaral.jpg";
+import eceCv1 from "@/public/images/doctors/cv/ece-cv-1.jpg";
+import eceCv2 from "@/public/images/doctors/cv/ece-cv-2.jpg";
+import firuzanCv1 from "@/public/images/doctors/cv/firuzan-cv-1.jpg";
+import firuzanCv2 from "@/public/images/doctors/cv/firuzan-cv-2.jpg";
+import kivancCv1 from "@/public/images/doctors/cv/kivanc-cv-1.jpg";
+import kivancCv2 from "@/public/images/doctors/cv/kivanc-cv-2.jpg";
 import dtkivancSolo from "@/public/images/new/A_O01597 copy.jpg";
+
+const doctorCvImages = {
+  kivanc: [kivancCv1, kivancCv2],
+  firuzan: [firuzanCv1, firuzanCv2],
+  ece: [eceCv1, eceCv2],
+};
 
 const doctorProfilesByLocale = {
   tr: {
@@ -15,6 +27,12 @@ const doctorProfilesByLocale = {
       postgraduate: "Lisansüstü Eğitimler",
       currentPosition: "Mevcut Görev",
       biography: "Biyografi",
+      cvDocuments: "CV / Özgeçmiş",
+      cvSectionTitle: "Doktor Özgeçmişleri",
+      cvSectionText:
+        "Ekibimizde yer alan doktorlarımızın özgeçmiş sayfalarını aşağıdan inceleyebilirsiniz.",
+      pageLabel: "Sayfa",
+      openImage: "Tam boy aç",
     },
     doctors: [
       {
@@ -54,6 +72,7 @@ const doctorProfilesByLocale = {
         currentPosition: "Kurucu & Başhekim – Premium Art Dental Clinic (Antalya)",
         biography:
           "İstanbul doğumlu olan Dt. Kıvanç Özgür Özkaral, ilk ve orta öğrenimini İstanbul ve Erzurum'da tamamlamıştır. 2002 yılında Selçuk Üniversitesi Diş Hekimliği Fakültesi'nden mezun olmuştur. 2003 yılından bu yana Antalya'da çalışmakta olup, ileri cerrahi diş hekimliği ve implantoloji alanlarına odaklanmaktadır. Evli ve iki çocuk babasıdır.",
+        cvImages: doctorCvImages.kivanc,
       },
       {
         id: "firuzan",
@@ -98,6 +117,7 @@ const doctorProfilesByLocale = {
           "Kurucu Ortak & Sorumlu Diş Hekimi – Premium Art Dental Clinic (Antalya)",
         biography:
           "Trabzon doğumlu olan Dt. Firuzan Küçük Özkaral, eğitimini Ankara'da tamamlamış ve 2000 yılında Hacettepe Üniversitesi Diş Hekimliği Fakültesi'nden mezun olmuştur. 2000 yılından bu yana Antalya'da mesleğini sürdürmekte olup, özellikle çocuk hastalara yaklaşımıyla tanınmaktadır. Evli ve iki çocuk annesidir.",
+        cvImages: doctorCvImages.firuzan,
       },
       {
         id: "ece",
@@ -137,6 +157,7 @@ const doctorProfilesByLocale = {
         currentPosition: "Diş Hekimi – Premium Art Dental Clinic (Antalya)",
         biography:
           "Dt. Ece Yellice, Antalya'da doğmuş ve 2023 yılında Kocaeli Üniversitesi Diş Hekimliği Fakültesi'nden mezun olmuştur. Mezuniyetinden bu yana Antalya'da hasta odaklı ve empatik bir yaklaşımla hizmet vermektedir. Mesleki gelişimini sürdürmek amacıyla çeşitli kurs ve eğitim programlarına aktif olarak katılmaktadır. Evli ve bir çocuk annesidir.",
+        cvImages: doctorCvImages.ece,
       },
     ],
   },
@@ -152,6 +173,12 @@ const doctorProfilesByLocale = {
       postgraduate: "Postgraduate Training",
       currentPosition: "Current Position",
       biography: "Biography",
+      cvDocuments: "CV / Resume",
+      cvSectionTitle: "Doctor CVs",
+      cvSectionText:
+        "You can review the CV pages of our doctors below.",
+      pageLabel: "Page",
+      openImage: "Open full size",
     },
     doctors: [
       {
@@ -191,6 +218,7 @@ const doctorProfilesByLocale = {
         currentPosition: "Founder & Chief Dentist – Premium Art Dental Clinic (Antalya)",
         biography:
           "Born in Istanbul, Dt. Kivanc Ozgur Ozkaral completed his primary and secondary education in Istanbul and Erzurum. He graduated from Selcuk University Faculty of Dentistry in 2002. He has been practicing in Antalya since 2003, focusing on advanced surgical dentistry and implantology. He is married and the father of two children.",
+        cvImages: doctorCvImages.kivanc,
       },
       {
         id: "firuzan",
@@ -235,6 +263,7 @@ const doctorProfilesByLocale = {
           "Founding Partner & Responsible Dentist – Premium Art Dental Clinic (Antalya)",
         biography:
           "Born in Trabzon, Dt. Firuzan Kucuk Ozkaral completed her education in Ankara and graduated from Hacettepe University Faculty of Dentistry in 2000. She has been practicing in Antalya since 2000 and is especially recognized for her approach to pediatric patients. She is married and a mother of two.",
+        cvImages: doctorCvImages.firuzan,
       },
       {
         id: "ece",
@@ -274,6 +303,7 @@ const doctorProfilesByLocale = {
         currentPosition: "Dentist – Premium Art Dental Clinic (Antalya)",
         biography:
           "Dt. Ece Yellice was born in Antalya and graduated from Kocaeli University Faculty of Dentistry in 2023. Since graduation, she has been practicing in Antalya with an empathetic and patient-focused approach. She actively participates in various courses and training programs to continue her professional development. She is married and a mother of one.",
+        cvImages: doctorCvImages.ece,
       },
     ],
   },
@@ -289,6 +319,12 @@ const doctorProfilesByLocale = {
       postgraduate: "Weiterführende Ausbildungen",
       currentPosition: "Aktuelle Position",
       biography: "Biografie",
+      cvDocuments: "CV / Lebenslauf",
+      cvSectionTitle: "Lebensläufe der Ärzte",
+      cvSectionText:
+        "Unten können Sie die Lebenslaufseiten unserer Ärzte einsehen.",
+      pageLabel: "Seite",
+      openImage: "In voller Größe öffnen",
     },
     doctors: [
       {
@@ -328,6 +364,7 @@ const doctorProfilesByLocale = {
         currentPosition: "Gründer & Leitender Zahnarzt – Premium Art Dental Clinic (Antalya)",
         biography:
           "Dt. Kivanc Ozgur Ozkaral wurde in Istanbul geboren und absolvierte seine Grund- und Sekundarschulausbildung in Istanbul und Erzurum. Er schloss 2002 sein Studium an der Fakultät für Zahnmedizin der Selcuk Universität ab. Seit 2003 arbeitet er in Antalya und konzentriert sich auf fortgeschrittene chirurgische Zahnheilkunde und Implantologie. Er ist verheiratet und Vater von zwei Kindern.",
+        cvImages: doctorCvImages.kivanc,
       },
       {
         id: "firuzan",
@@ -372,6 +409,7 @@ const doctorProfilesByLocale = {
           "Gründungspartnerin & Verantwortliche Zahnärztin – Premium Art Dental Clinic (Antalya)",
         biography:
           "Dt. Firuzan Kucuk Ozkaral wurde in Trabzon geboren, absolvierte ihre Ausbildung in Ankara und schloss 2000 ihr Studium an der Hacettepe Universität, Fakultät für Zahnmedizin, ab. Seit dem Jahr 2000 arbeitet sie in Antalya und ist besonders für ihren Umgang mit Kindern bekannt. Sie ist verheiratet und Mutter von zwei Kindern.",
+        cvImages: doctorCvImages.firuzan,
       },
       {
         id: "ece",
@@ -411,6 +449,7 @@ const doctorProfilesByLocale = {
         currentPosition: "Zahnärztin – Premium Art Dental Clinic (Antalya)",
         biography:
           "Dt. Ece Yellice wurde in Antalya geboren und schloss 2023 ihr Studium an der Fakultät für Zahnmedizin der Kocaeli Universität ab. Seit ihrem Abschluss arbeitet sie in Antalya mit einem empathischen und patientenorientierten Ansatz. Zur Fortsetzung ihrer beruflichen Entwicklung nimmt sie aktiv an verschiedenen Kursen und Fortbildungsprogrammen teil. Sie ist verheiratet und Mutter eines Kindes.",
+        cvImages: doctorCvImages.ece,
       },
     ],
   },
@@ -426,6 +465,12 @@ const doctorProfilesByLocale = {
       postgraduate: "Дополнительное обучение",
       currentPosition: "Текущая должность",
       biography: "Биография",
+      cvDocuments: "CV / Резюме",
+      cvSectionTitle: "Резюме врачей",
+      cvSectionText:
+        "Ниже вы можете ознакомиться со страницами резюме наших врачей.",
+      pageLabel: "Страница",
+      openImage: "Открыть полностью",
     },
     doctors: [
       {
@@ -465,6 +510,7 @@ const doctorProfilesByLocale = {
         currentPosition: "Основатель и главный врач – Premium Art Dental Clinic (Анталья)",
         biography:
           "Dt. Kivanc Ozgur Ozkaral родился в Стамбуле, а начальное и среднее образование получил в Стамбуле и Эрзуруме. В 2002 году окончил стоматологический факультет Университета Сельчук. С 2003 года работает в Анталье, сосредоточившись на сложной хирургической стоматологии и имплантологии. Женат, отец двоих детей.",
+        cvImages: doctorCvImages.kivanc,
       },
       {
         id: "firuzan",
@@ -509,6 +555,7 @@ const doctorProfilesByLocale = {
           "Сооснователь и ответственный стоматолог – Premium Art Dental Clinic (Анталья)",
         biography:
           "Dt. Firuzan Kucuk Ozkaral родилась в Трабзоне, получила образование в Анкаре и окончила стоматологический факультет Университета Хаджеттепе в 2000 году. С 2000 года работает в Анталье и особенно известна своим подходом к детским пациентам. Замужем, мать двоих детей.",
+        cvImages: doctorCvImages.firuzan,
       },
       {
         id: "ece",
@@ -548,6 +595,7 @@ const doctorProfilesByLocale = {
         currentPosition: "Стоматолог – Premium Art Dental Clinic (Анталья)",
         biography:
           "Dt. Ece Yellice родилась в Анталье и окончила стоматологический факультет Университета Коджаэли в 2023 году. С момента окончания учебы она работает в Анталье, придерживаясь эмпатичного и ориентированного на пациента подхода. Для профессионального развития активно участвует в различных курсах и образовательных программах. Замужем, мать одного ребенка.",
+        cvImages: doctorCvImages.ece,
       },
     ],
   },
